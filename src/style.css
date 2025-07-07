@@ -1,0 +1,63 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=GT+Walpurgis:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body text-neutral-700 leading-relaxed antialiased overflow-x-hidden;
+    letter-spacing: -0.01em;
+    padding-top: 60px;
+  }
+
+  /* Accessibility Classes */
+  .sr-only {
+    @apply absolute w-px h-px p-0 -m-px overflow-hidden whitespace-nowrap border-0;
+  }
+
+  /* Skip Link for Keyboard Navigation */
+  .skip-link {
+    @apply absolute -top-10 left-0 bg-primary text-white p-2 z-50 transition-all duration-300;
+  }
+
+  .skip-link:focus {
+    @apply top-0 outline-none;
+  }
+}
+
+/* Custom components */
+@layer components {
+  /* Glass morphism effects */
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-lg;
+  }
+
+  .glass-nav {
+    @apply bg-white shadow-md border-b border-gray-100;
+  }
+
+  /* Digital art background for hero section */
+  .digital-art-background {
+    @apply absolute inset-0 overflow-hidden pointer-events-none z-[-1] opacity-60;
+  }
+
+  /* Gradients and patterns can be added as needed */
+}
+
+/* Custom utilities */
+@layer utilities {
+  .fade-in {
+    @apply opacity-100 translate-y-0 transition-all duration-700;
+  }
+  
+  .glass-card {
+    @apply bg-white rounded-xl shadow-md border border-primary/10 hover:shadow-lg transition-all duration-300;
+  }
+}
