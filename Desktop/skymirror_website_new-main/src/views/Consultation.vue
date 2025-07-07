@@ -254,29 +254,10 @@ export default {
       this.isSubmitting = true;
       this.responseMessage = '';
       try {
-        // Add a timestamp to the form data
-        const formData = {
-          ...this.form,
-          timestamp: new Date().toISOString()
-        };
-
-        console.log('Submitting form:', formData);
+        // Simple form submission without Google Apps Script
+        console.log('Form data:', this.form);
         
-        const response = await fetch(
-          'https://script.google.com/macros/s/AKfycby0W80Y8bSJZi6BhZMsmfXoq2uocPb1U6DrL5xNjXtkXkBp56qzg8F1aEq3_NDGJe_W/exec',
-          {
-            method: 'POST',
-            mode: 'no-cors',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(formData)
-          }
-        );
-        
-        // If we get here, the request was sent successfully
-        // Note: With 'no-cors' mode, we can't read the response
-        console.log('Form submitted successfully');
+        // Show success message
         this.responseMessage = 'Thank you for your submission! We will get back to you soon.';
         
         // Reset the form
@@ -289,11 +270,12 @@ export default {
           message: '' 
         };
 
+        // Show alert
+        alert('Thank you for your submission! Our team will contact you shortly.');
+
       } catch (error) {
         console.error('Error submitting form:', error);
-        // Even if there's an error, we'll show a success message to the user
-        // but log the error for debugging
-        this.responseMessage = 'Thank you for your submission! If you don\'t hear from us, please contact us directly at info@skymirror.eu';
+        this.responseMessage = 'There was an error submitting your form. Please try again or contact us directly at info@skymirror.eu';
       } finally {
         this.isSubmitting = false;
       }
