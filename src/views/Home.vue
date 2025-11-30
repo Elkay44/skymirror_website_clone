@@ -181,7 +181,7 @@
                     </div>
                     <div>
                       <h3 class="text-lg font-semibold">AI Applications</h3>
-                      <p class="text-sm text-gray-600">Custom AI solutions like Checkmet and facial recognition</p>
+                      <p class="text-sm text-gray-600">Custom AI solutions like Traquiva learning platform, Checkmet, and facial recognition</p>
                     </div>
                   </div>
                 </div>
@@ -198,6 +198,117 @@
                       <p class="text-sm text-gray-600">Product replication, machinery transfer, and franchising</p>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Traquiva Highlight Section -->
+    <section class="py-20 bg-gradient-to-br from-accent1/5 to-primary/5">
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <div class="flex flex-col lg:flex-row items-center gap-12">
+            <div class="lg:w-1/2">
+              <div class="inline-flex items-center gap-2 bg-accent1/10 text-accent1 px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                </svg>
+                Featured Product
+              </div>
+              <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">
+                Meet <span class="text-accent1">Traquiva</span>
+              </h2>
+              <p class="text-xl text-gray-700 mb-6">
+                Our revolutionary AI-powered learning platform that transforms how people learn to code. From zero to industry-ready in months, not years.
+              </p>
+              <div class="grid grid-cols-2 gap-4 mb-8">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 bg-accent1/10 text-accent1 rounded-full flex items-center justify-center">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
+                  <span class="font-medium">AI Mentorship 24/7</span>
+                </div>
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 bg-accent1/10 text-accent1 rounded-full flex items-center justify-center">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
+                  <span class="font-medium">Real-World Projects</span>
+                </div>
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 bg-accent1/10 text-accent1 rounded-full flex items-center justify-center">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
+                  <span class="font-medium">95% Success Rate</span>
+                </div>
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 bg-accent1/10 text-accent1 rounded-full flex items-center justify-center">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
+                  <span class="font-medium">Expert Mentors</span>
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-4">
+                <a href="https://www.traquiva.com" target="_blank" class="px-6 py-3 bg-accent1 hover:bg-accent1-dark text-white font-semibold rounded-full shadow-md transition-all duration-300 transform hover:-translate-y-1 flex items-center gap-2">
+                  Explore Traquiva
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
+                  </svg>
+                </a>
+                <a href="https://www.traquiva.com" target="_blank" class="px-6 py-3 bg-white hover:bg-gray-50 text-accent1 font-semibold rounded-full border-2 border-accent1 shadow-md transition-all duration-300 transform hover:-translate-y-1">
+                  Start Learning Free
+                </a>
+              </div>
+            </div>
+            
+            <div class="lg:w-1/2">
+              <div class="glass-card p-8 rounded-2xl shadow-xl bg-white/80 backdrop-blur-sm">
+                <div class="text-center mb-6">
+                  <h3 class="text-2xl font-semibold text-accent1 mb-2">Learning Journey</h3>
+                  <p class="text-gray-600">From Beginner to Job-Ready Developer</p>
+                </div>
+                
+                <!-- Learning Path Visualization -->
+                <div class="space-y-4">
+                  <div class="flex items-center gap-4 p-4 bg-accent1/5 rounded-lg">
+                    <div class="w-8 h-8 bg-accent1 text-white rounded-full flex items-center justify-center text-sm font-semibold">1</div>
+                    <div>
+                      <div class="font-medium">Choose Your Path</div>
+                      <div class="text-sm text-gray-600">AI creates personalized curriculum</div>
+                    </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-4 p-4 bg-primary/5 rounded-lg">
+                    <div class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-semibold">2</div>
+                    <div>
+                      <div class="font-medium">Build Real Projects</div>
+                      <div class="text-sm text-gray-600">Portfolio-ready applications</div>
+                    </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-4 p-4 bg-accent2/5 rounded-lg">
+                    <div class="w-8 h-8 bg-accent2 text-white rounded-full flex items-center justify-center text-sm font-semibold">3</div>
+                    <div>
+                      <div class="font-medium">Get Hired</div>
+                      <div class="text-sm text-gray-600">Land your dream tech job</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="mt-6 p-4 bg-gradient-to-r from-accent1/10 to-primary/10 rounded-lg text-center">
+                  <div class="text-2xl font-bold text-accent1">3-6 Months</div>
+                  <div class="text-sm text-gray-600">Average time to job placement</div>
                 </div>
               </div>
             </div>
@@ -286,7 +397,7 @@
               </div>
               <h3 class="text-xl font-semibold mb-2">AI Applications</h3>
               <p class="text-gray-600 mb-4">
-                Integrated AI solutions like Checkmet attendance system and facial recognition.
+                Integrated AI solutions like Traquiva learning platform, Checkmet attendance system, and facial recognition.
               </p>
               <router-link to="/ai-applications" class="inline-flex items-center text-accent1 font-medium">
                 Learn more

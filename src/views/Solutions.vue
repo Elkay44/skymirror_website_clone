@@ -83,6 +83,47 @@
             </div>
           </div>
 
+          <!-- Traquiva Card - Featured -->
+          <div class="glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-accent1/30 bg-gradient-to-br from-white to-accent1/5 relative">
+            <div class="absolute top-0 right-0 bg-gradient-to-l from-accent1/20 to-transparent w-24 h-24 rounded-full -translate-y-12 translate-x-12"></div>
+            <div class="p-6 relative z-10">
+              <div class="flex justify-between items-start mb-4">
+                <div class="bg-accent1/10 p-3 rounded-lg text-accent1 shadow-sm">
+                  <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <div class="flex flex-col items-end gap-1">
+                  <span class="bg-accent1/10 text-accent1 text-xs font-semibold px-2 py-1 rounded-full">Featured</span>
+                  <span class="bg-gradient-to-r from-accent1 to-accent1-dark text-white text-xs font-semibold px-2 py-1 rounded-full">AI Learning</span>
+                </div>
+              </div>
+              <h3 class="text-xl font-semibold mb-2 text-gray-900">Traquiva</h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">Revolutionary AI-powered learning platform. Master tech skills with 24/7 AI mentorship, real projects, and expert guidance. From zero to job-ready in months.</p>
+              <div class="flex items-center gap-4 mb-4">
+                <div class="flex items-center gap-1 text-sm text-accent1 font-medium">
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                  95% Success Rate
+                </div>
+                <div class="flex items-center gap-1 text-sm text-gray-600">
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+                  </svg>
+                  3-6 Months
+                </div>
+              </div>
+              <a href="https://www.traquiva.com" target="_blank" class="inline-flex items-center text-accent1 font-medium hover:text-accent1-dark transition-colors group">
+                Visit Platform
+                <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
+                  <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
           <!-- Training Card -->
           <div class="glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
             <div class="p-6">

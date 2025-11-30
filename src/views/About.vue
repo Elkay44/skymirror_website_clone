@@ -66,7 +66,7 @@
               </div>
               <h3 class="text-xl font-semibold mb-3 text-primary">AI Innovation</h3>
               <p class="text-gray-700">
-                Our advanced AI applications, like Checkmet and facial recognition systems, solve real-world challenges with sustainable outcomes.
+                Our advanced AI applications, like Traquiva learning platform, Checkmet, and facial recognition systems, solve real-world challenges with sustainable outcomes.
               </p>
             </div>
             

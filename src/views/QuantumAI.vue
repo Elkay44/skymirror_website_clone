@@ -162,6 +162,45 @@
             </ul>
           </div>
           
+          <!-- Traquiva Card -->
+          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-accent1/30 bg-white relative overflow-hidden">
+            <div class="absolute top-0 right-0 bg-gradient-to-l from-accent1/10 to-transparent w-32 h-32 rounded-full -translate-y-16 translate-x-16"></div>
+            <div class="relative z-10">
+              <div class="w-14 h-14 bg-accent1/10 flex items-center justify-center rounded-lg mb-4">
+                <svg class="w-8 h-8 text-accent1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div class="flex items-center gap-2 mb-2">
+                <h3 class="text-xl font-semibold">Traquiva</h3>
+                <span class="bg-accent1/10 text-accent1 text-xs font-semibold px-2 py-1 rounded-full">Featured</span>
+              </div>
+              <p class="text-gray-600 mb-4">
+                Revolutionary AI-powered learning platform that transforms how people master tech skills with 24/7 AI mentorship and real-world projects. <a href="https://www.traquiva.com/" class="text-accent1 hover:underline font-medium" target="_blank">Visit Traquiva →</a>
+              </p>
+              <ul class="space-y-2 text-gray-600">
+                <li class="flex items-center gap-2">
+                  <svg class="w-5 h-5 text-accent1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                  <span>AI-powered personalized learning</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg class="w-5 h-5 text-accent1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                  <span>Real-world project portfolio</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg class="w-5 h-5 text-accent1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                  <span>95% job placement success rate</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
           <!-- Application Card 2 -->
           <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-accent1/30 bg-white">
             <div class="w-14 h-14 bg-accent1/10 flex items-center justify-center rounded-lg mb-4">
