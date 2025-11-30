@@ -1,32 +1,183 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-16 overflow-hidden">
-      <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto">
-          <div class="text-center mb-8">
-            <span class="text-primary-dark font-semibold inline-block mb-2">About Us</span>
-            <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">Skyrocketing Global Innovation</h1>
-            <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-              Welcome to Skymirror, where we propel global innovation to new heights. Founded with a vision to connect and sustain the world through technology, we specialize in software development, AI application development, software consultancy, technology transfer, and transformative education. Our mission is to empower emerging economies, businesses, and communities with cutting-edge solutions and knowledge.
+    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+      <!-- Dynamic background -->
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-6xl mx-auto">
+          <div class="text-center space-y-8">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
+              <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+              <span class="text-primary font-semibold text-sm tracking-wide uppercase">About Skymirror</span>
+            </div>
+            
+            <!-- Main heading -->
+            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent1">Skyrocketing</span><br/>
+              <span class="text-gray-900">Global</span><br/>
+              <span class="text-accent1">Innovation</span>
+            </h1>
+            
+            <!-- Mission statement -->
+            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+              Welcome to <span class="text-primary font-semibold">Skymirror</span>, where we propel global innovation to new heights. Founded with a vision to <span class="text-accent1 font-semibold">connect and sustain the world</span> through technology.
             </p>
+            
+            <!-- Key stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-12 max-w-5xl mx-auto">
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-primary mb-2">2020</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Founded</div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">Global</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Reach</div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-primary mb-2">50+</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects</div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">∞</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Innovation</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Our Story Section -->
-    <section class="py-16 bg-white">
+    <section class="py-32 bg-gradient-to-b from-white to-gray-50">
       <div class="container mx-auto px-4">
-        <div class="max-w-5xl mx-auto">
-          <div class="glass-card rounded-xl p-8 shadow-xl">
-            <h2 class="text-3xl font-heading font-bold mb-6 text-primary">Our Story</h2>
-            <p class="text-gray-700 mb-6">
-              Born from a passion for technological advancement, Skymirror emerged as a beacon of progress in 2020. What started as a small team of tech enthusiasts has grown into a global force, delivering innovative software, AI-driven tools, and educational programs that shape a sustainable future.
-            </p>
-            <p class="text-gray-700">
-              Today, we proudly serve clients and learners across continents, driven by a commitment to excellence and impact.
-            </p>
+        <div class="max-w-6xl mx-auto">
+          <!-- Section Header -->
+          <div class="text-center mb-20">
+            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-8">
+              <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+              <span class="text-primary font-semibold text-sm tracking-wide uppercase">Our Journey</span>
+            </div>
+            
+            <h2 class="text-4xl md:text-6xl font-heading font-black mb-8">
+              <span class="text-gray-900">Our</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Story</span>
+            </h2>
+          </div>
+          
+          <!-- Story Content -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <!-- Left: Story Text -->
+            <div class="space-y-8">
+              <div class="glass-card rounded-2xl p-8 shadow-xl bg-gradient-to-br from-white to-primary/5 border border-primary/10">
+                <div class="flex items-center gap-4 mb-6">
+                  <div class="w-12 h-12 bg-gradient-to-br from-primary/20 to-accent1/20 rounded-full flex items-center justify-center">
+                    <div class="w-6 h-6 bg-primary rounded-full"></div>
+                  </div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-primary">2020</h3>
+                    <p class="text-sm text-gray-600 uppercase tracking-wide">The Beginning</p>
+                  </div>
+                </div>
+                
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                  Born from a passion for <span class="text-primary font-semibold">technological advancement</span>, Skymirror emerged as a beacon of progress. What started as a small team of tech enthusiasts has grown into a <span class="text-accent1 font-semibold">global force</span>.
+                </p>
+                
+                <div class="grid grid-cols-2 gap-4">
+                  <div class="text-center p-4 bg-white/50 rounded-xl">
+                    <div class="text-2xl font-black text-primary mb-1">AI</div>
+                    <div class="text-xs text-gray-600 uppercase">Innovation</div>
+                  </div>
+                  <div class="text-center p-4 bg-white/50 rounded-xl">
+                    <div class="text-2xl font-black text-accent1 mb-1">Global</div>
+                    <div class="text-xs text-gray-600 uppercase">Impact</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="glass-card rounded-2xl p-8 shadow-xl bg-gradient-to-br from-white to-accent1/5 border border-accent1/10">
+                <div class="flex items-center gap-4 mb-6">
+                  <div class="w-12 h-12 bg-gradient-to-br from-accent1/20 to-primary/20 rounded-full flex items-center justify-center">
+                    <div class="w-6 h-6 bg-accent1 rounded-full"></div>
+                  </div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-accent1">Today</h3>
+                    <p class="text-sm text-gray-600 uppercase tracking-wide">Global Presence</p>
+                  </div>
+                </div>
+                
+                <p class="text-lg text-gray-700 leading-relaxed">
+                  Today, we proudly serve clients and learners across continents, delivering <span class="text-accent1 font-semibold">innovative software</span>, <span class="text-primary font-semibold">AI-driven tools like Traquiva and Checkmet</span>, and educational programs that shape a sustainable future.
+                </p>
+              </div>
+            </div>
+            
+            <!-- Right: Visual Elements -->
+            <div class="relative">
+              <div class="glass-card rounded-3xl p-8 shadow-2xl bg-gradient-to-br from-white via-primary/5 to-accent1/10 relative overflow-hidden">
+                <!-- Background pattern -->
+                <div class="absolute inset-0 opacity-10">
+                  <div class="absolute top-4 right-4 w-32 h-32 bg-gradient-to-br from-primary to-accent1 rounded-full blur-2xl"></div>
+                  <div class="absolute bottom-4 left-4 w-24 h-24 bg-gradient-to-tr from-accent1 to-primary rounded-full blur-xl"></div>
+                </div>
+                
+                <div class="relative z-10 space-y-8">
+                  <div class="text-center">
+                    <h3 class="text-3xl font-bold text-gray-900 mb-4">Mission Driven</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                      Empowering emerging economies, businesses, and communities with cutting-edge solutions and knowledge.
+                    </p>
+                  </div>
+                  
+                  <!-- Mission pillars -->
+                  <div class="grid grid-cols-2 gap-4">
+                    <div class="text-center p-4 bg-white/70 rounded-xl border border-primary/20">
+                      <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                        </svg>
+                      </div>
+                      <h4 class="font-bold text-primary mb-1">Innovation</h4>
+                      <p class="text-xs text-gray-600">Cutting-edge tech</p>
+                    </div>
+                    
+                    <div class="text-center p-4 bg-white/70 rounded-xl border border-accent1/20">
+                      <div class="w-12 h-12 bg-accent1/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <svg class="w-6 h-6 text-accent1" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd"></path>
+                        </svg>
+                      </div>
+                      <h4 class="font-bold text-accent1 mb-1">Global</h4>
+                      <p class="text-xs text-gray-600">Worldwide impact</p>
+                    </div>
+                    
+                    <div class="text-center p-4 bg-white/70 rounded-xl border border-primary/20">
+                      <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"></path>
+                        </svg>
+                      </div>
+                      <h4 class="font-bold text-primary mb-1">Education</h4>
+                      <p class="text-xs text-gray-600">Knowledge transfer</p>
+                    </div>
+                    
+                    <div class="text-center p-4 bg-white/70 rounded-xl border border-accent1/20">
+                      <div class="w-12 h-12 bg-accent1/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <svg class="w-6 h-6 text-accent1" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                      </div>
+                      <h4 class="font-bold text-accent1 mb-1">Excellence</h4>
+                      <p class="text-xs text-gray-600">Quality driven</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

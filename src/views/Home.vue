@@ -1,204 +1,139 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section id="main-content" class="relative pt-20 pb-24 overflow-hidden" role="main" aria-label="Main content">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
-          <div class="lg:w-1/2 space-y-8">
-            <!-- <span class="text-primary font-semibold inline-block mb-3 text-2xl">Skyrocketing Global Innovation</span> -->
-            <h1 class="text-2xl md:text-3xl xl:text-4xl font-heading font-bold leading-tight text-primary">
-              Software, AI, and Education for a Connected, Sustainable World
-            </h1>
-            <p class="text-lg text-gray-800 max-w-xl leading-relaxed">
-              Accelerate your business growth with cutting-edge software development, AI applications, and expert technology transfer
-            </p>
-
-            <!-- Value proposition items -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-              <div class="flex items-start gap-4">
-                <div class="text-primary p-3 bg-primary/5 rounded-lg">
-                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="font-semibold text-lg">Tech Pioneers</h4>
-                  <p class="text-gray-600">Leading-edge software solutions for a global future</p>
-                </div>
-              </div>
-
-
-              <div class="flex items-start gap-4">
-                <div class="text-primary p-3 bg-primary/5 rounded-lg">
-                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="font-semibold text-lg">AI Visionaries</h4>
-                  <p class="text-gray-600">Advanced AI applications driving sustainable impact</p>
-                </div>
-              </div>
-
-
-
-
-
-              
-              <div class="flex items-start gap-4">
-                <div class="text-accent1 p-3 bg-accent1/5 rounded-lg">
-                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z"></path>
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="font-semibold text-lg">Education Leaders</h4>
-                  <p class="text-gray-600">Empowering communities with tech training worldwide</p>
-                </div>
+    <section id="main-content" class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center" role="main" aria-label="Main content">
+      <!-- Animated background elements -->
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
+      <div class="absolute top-20 right-20 w-72 h-72 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
+      <div class="absolute bottom-20 left-20 w-96 h-96 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-16">
+          <div class="lg:w-1/2 space-y-10">
+            <div class="space-y-6">
+              <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
+                <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
+                <span class="text-primary font-semibold text-sm tracking-wide uppercase">Skyrocketing Global Innovation</span>
               </div>
               
-              <div class="flex items-start gap-4">
-                <div class="text-accent2 p-3 bg-accent2/5 rounded-lg">
-                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M3 6a3 3 0 013-3h10a1 1 0 01.8 1.6L14.25 8l2.55 3.4A1 1 0 0116 13H6a1 1 0 00-1 1v3a1 1 0 11-2 0V6z" clip-rule="evenodd"></path>
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="font-semibold text-lg">Transfer Innovators</h4>
-                  <p class="text-gray-600">Bridging global gaps with impactful technology transfers</p>
-                </div>
-              </div>
+              <h1 class="text-4xl md:text-6xl xl:text-7xl font-heading font-black leading-[0.9] text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent1">
+                Software, AI,<br/>
+                <span class="text-accent1">& Education</span><br/>
+                <span class="text-gray-900">for Tomorrow</span>
+              </h1>
+              
+              <p class="text-xl md:text-2xl text-gray-700 max-w-2xl leading-relaxed font-medium">
+                Accelerate your business growth with <span class="text-primary font-semibold">cutting-edge software development</span>, <span class="text-accent1 font-semibold">AI applications</span>, and expert technology transfer
+              </p>
             </div>
-            
-            <div class="flex flex-wrap gap-4 mt-8">
-              <router-link to="/software-solutions" class="px-6 py-3 bg-primary hover:bg-primary-dark text-white font-semibold rounded-full shadow-md transition-all duration-300 transform hover:-translate-y-1">
-                Explore Solutions
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4">
+              <router-link to="/ai-applications" class="group px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
+                Explore Our AI Solutions
+                <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
               </router-link>
-              <router-link to="/consultation" class="px-6 py-3 bg-white hover:bg-gray-100 text-primary font-semibold rounded-full border-2 border-primary shadow-md transition-all duration-300 transform hover:-translate-y-1">
-                Get Started
+              
+              <router-link to="/software-solutions" class="group px-8 py-4 bg-white hover:bg-gray-50 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
+                View Our Work
+                <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                  <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                </svg>
               </router-link>
+            </div>
+
+            <!-- Success Metrics -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 border-t border-gray-200">
+              <div class="text-center">
+                <div class="text-3xl md:text-4xl font-black text-primary mb-2">50+</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects Delivered</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl md:text-4xl font-black text-accent1 mb-2">95%</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Client Satisfaction</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl md:text-4xl font-black text-primary mb-2">24/7</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">AI Support</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl md:text-4xl font-black text-accent1 mb-2">Global</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Reach</div>
+              </div>
             </div>
           </div>
           
           <div class="lg:w-1/2">
             <div class="relative">
-              <!-- Hero Visualization - Bar Chart -->
-              <div class="glass-card p-10 rounded-2xl shadow-xl relative overflow-hidden border border-primary/20">
-                <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent1/5 backdrop-blur-sm"></div>
-                <div class="relative z-10">
-                  <!-- <h3 class="text-2xl font-semibold mb-4 text-primary">Technology Performance Metrics</h3> -->
+              <!-- Modern Hero Visual -->
+              <div class="relative">
+                <!-- Main showcase card -->
+                <div class="glass-card p-8 rounded-3xl shadow-2xl relative overflow-hidden border border-primary/20 bg-gradient-to-br from-white via-primary/5 to-accent1/10">
+                  <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-accent1/20 to-primary/20 rounded-full blur-2xl"></div>
+                  <div class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-primary/20 to-accent1/20 rounded-full blur-xl"></div>
                   
-                  <!-- SVG Bar Chart Visualization -->
-                  <div class="aspect-video bg-white rounded-lg mb-6 p-6 shadow-inner border border-gray-100">
-                    <div class="flex items-end justify-between h-full w-full relative">
-                      <!-- Y-axis label -->
-                      <div class="absolute -left-6 top-1/2 -rotate-90 text-gray-500 text-sm font-medium">Performance</div>
-                      
-                      <!-- X-axis -->
-                      <div class="absolute bottom-0 left-0 w-full h-[1px] bg-gray-200"></div>
-                      
-                      <!-- Vertical grid lines -->
-                      <div class="absolute bottom-0 left-1/4 w-[1px] h-full bg-gray-100"></div>
-                      <div class="absolute bottom-0 left-1/2 w-[1px] h-full bg-gray-100"></div>
-                      <div class="absolute bottom-0 left-3/4 w-[1px] h-full bg-gray-100"></div>
-                      
-                      <!-- Bar 1: Traditional Computing -->
-                      <div class="flex flex-col items-center w-[60px] h-full">
-                        <div class="h-[30%] w-full rounded-t-lg bg-gradient-to-t from-gray-400 to-gray-300 shadow-lg relative overflow-hidden group transition-all duration-500 hover:h-[32%]">
-                          <div class="absolute top-0 left-0 w-full h-1/2 bg-white/20"></div>
-                          <div class="absolute bottom-0 right-0 w-8 h-8 bg-white/10 rounded-full -m-4"></div>
+                  <div class="relative z-10 space-y-6">
+                    <!-- Header -->
+                    <div class="flex items-center justify-between">
+                      <div class="flex items-center gap-3">
+                        <div class="w-3 h-3 bg-accent1 rounded-full animate-pulse"></div>
+                        <span class="text-sm font-semibold text-gray-600 uppercase tracking-wide">Live Innovation</span>
+                      </div>
+                      <div class="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded-full">Real-time</div>
+                    </div>
+                    
+                    <!-- Featured Projects Grid -->
+                    <div class="grid grid-cols-2 gap-4">
+                      <!-- Traquiva Card -->
+                      <div class="bg-gradient-to-br from-accent1/10 to-accent1/20 p-4 rounded-xl border border-accent1/30">
+                        <div class="flex items-center gap-2 mb-2">
+                          <div class="w-2 h-2 bg-accent1 rounded-full"></div>
+                          <span class="text-sm font-bold text-accent1">Traquiva</span>
                         </div>
-                        <span class="mt-3 text-sm text-gray-600 font-medium">Traditional</span>
+                        <div class="text-xs text-gray-600 mb-3">AI Learning Platform</div>
+                        <div class="flex items-center gap-2">
+                          <div class="text-lg font-black text-accent1">95%</div>
+                          <div class="text-xs text-gray-500">Success Rate</div>
+                        </div>
                       </div>
                       
-                      <!-- Bar 2: Cloud Computing -->
-                      <div class="flex flex-col items-center w-[60px] h-full">
-                        <div class="h-[45%] w-full rounded-t-lg bg-gradient-to-t from-blue-400 to-blue-300 shadow-lg relative overflow-hidden group transition-all duration-500 hover:h-[47%]">
-                          <div class="absolute top-0 left-0 w-full h-1/2 bg-white/20"></div>
-                          <div class="absolute bottom-0 right-0 w-8 h-8 bg-white/10 rounded-full -m-4"></div>
+                      <!-- Checkmet Card -->
+                      <div class="bg-gradient-to-br from-primary/10 to-primary/20 p-4 rounded-xl border border-primary/30">
+                        <div class="flex items-center gap-2 mb-2">
+                          <div class="w-2 h-2 bg-primary rounded-full"></div>
+                          <span class="text-sm font-bold text-primary">Checkmet</span>
                         </div>
-                        <span class="mt-3 text-sm text-gray-600 font-medium">Cloud</span>
-                      </div>
-                      
-                      <!-- Bar 3: Quantum AI -->
-                      <div class="flex flex-col items-center w-[60px] h-full">
-                        <div class="h-[80%] w-full rounded-t-lg bg-gradient-to-t from-accent1-dark to-accent1 shadow-lg relative overflow-hidden group transition-all duration-500 hover:h-[82%]">
-                          <div class="absolute top-0 left-0 w-full h-1/2 bg-white/20"></div>
-                          <div class="absolute bottom-0 right-0 w-8 h-8 bg-white/10 rounded-full -m-4"></div>
-                          <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZGVmcz4KICA8cGF0dGVybiBpZD0icGF0dGVybiIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBwYXR0ZXJuVHJhbnNmb3JtPSJyb3RhdGUoNDUpIj4KICAgIDxjaXJjbGUgY3g9IjEiIGN5PSIxIiByPSIxIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIwLjEiLz4KICA8L3BhdHRlcm4+Cjwvc3ZnPg==')]"></div>
+                        <div class="text-xs text-gray-600 mb-3">AI Attendance</div>
+                        <div class="flex items-center gap-2">
+                          <div class="text-lg font-black text-primary">24/7</div>
+                          <div class="text-xs text-gray-500">Monitoring</div>
                         </div>
-                        <span class="mt-3 text-sm text-gray-600 font-medium">AI Solutions</span>
-                      </div>
-                      
-                      <!-- Bar 4: Skymirror -->
-                      <div class="flex flex-col items-center w-[60px] h-full">
-                        <div class="h-[95%] w-full rounded-t-lg bg-gradient-to-t from-primary-dark to-primary shadow-lg relative overflow-hidden group transition-all duration-500 hover:h-[97%]">
-                          <!-- Glowing effect -->
-                          <div class="absolute inset-0 opacity-75 bg-white/10 animate-pulse"></div>
-                          <div class="absolute top-0 left-0 w-full h-1/2 bg-white/20"></div>
-                          <div class="absolute bottom-0 right-0 w-10 h-10 bg-white/10 rounded-full -m-4"></div>
-                          <!-- Particle effect -->
-                          <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZGVmcz4KICA8cGF0dGVybiBpZD0icGF0dGVybiIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBwYXR0ZXJuVHJhbnNmb3JtPSJyb3RhdGUoNDUpIj4KICAgIDxjaXJjbGUgY3g9IjEiIGN5PSIxIiByPSIxIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIwLjIiLz4KICA8L3BhdHRlcm4+Cjwvc3ZnPg==')]"></div>
-                        </div>
-                        <span class="mt-3 text-sm text-gray-600 font-medium">Skymirror</span>
                       </div>
                     </div>
-                  </div>
-                  
-                  <div class="flex gap-4 flex-wrap">
-                    <div class="bg-primary/5 p-3 rounded-lg flex items-center gap-2 border border-primary/10">
-                      <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
-                        <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
-                      </svg>
-                      <span class="font-medium">95% Faster</span>
-                    </div>
-                    <div class="bg-accent1/5 p-3 rounded-lg flex items-center gap-2 border border-accent1/10">
-                      <svg class="w-5 h-5 text-accent1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M12 7a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0V8.414l-4.293 4.293a1 1 0 01-1.414 0L8 10.414l-4.293 4.293a1 1 0 01-1.414-1.414l5-5a1 1 0 011.414 0L11 10.586 14.586 7H12z" clip-rule="evenodd"></path>
-                      </svg>
-                      <span class="font-medium">200x Scaling</span>
-                    </div>
-                    <div class="bg-accent2/5 p-3 rounded-lg flex items-center gap-2 border border-accent2/10">
-                      <svg class="w-5 h-5 text-accent2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                      </svg>
-                      <span class="font-medium">100% Secure</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <!-- Feature Cards -->
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-                <div class="glass-card p-4 rounded-xl">
-                  <div class="flex items-start gap-3">
-                    <div class="bg-white/10 p-2 rounded-lg text-primary">
-                      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13 7H7v6h6V7z"></path>
-                        <path fill-rule="evenodd" d="M7 2a1 1 0 012 0v1h2V2a1 1 0 112 0v1h2a2 2 0 012 2v2h1a1 1 0 110 2h-1v2h1a1 1 0 110 2h-1v2a2 2 0 01-2 2h-2v1a1 1 0 11-2 0v-1H9v1a1 1 0 11-2 0v-1H5a2 2 0 01-2-2v-2H2a1 1 0 110-2h1V9H2a1 1 0 010-2h1V5a2 2 0 012-2h2V2zM5 5h10v10H5V5z" clip-rule="evenodd"></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 class="text-lg font-semibold">AI Applications</h3>
-                      <p class="text-sm text-gray-600">Custom AI solutions like Traquiva learning platform, Checkmet, and facial recognition</p>
+                    
+                    <!-- Performance Indicator -->
+                    <div class="bg-white/50 backdrop-blur-sm p-4 rounded-xl border border-gray-200">
+                      <div class="flex items-center justify-between mb-2">
+                        <span class="text-sm font-semibold text-gray-700">Global Impact</span>
+                        <span class="text-xs text-green-600 font-medium">↗ +127%</span>
+                      </div>
+                      <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div class="bg-gradient-to-r from-primary to-accent1 h-2 rounded-full w-4/5 animate-pulse"></div>
+                      </div>
+                      <div class="flex justify-between text-xs text-gray-500 mt-1">
+                        <span>50+ Projects</span>
+                        <span>Global Reach</span>
+                      </div>
                     </div>
                   </div>
                 </div>
                 
-                <div class="glass-card p-4 rounded-xl">
-                  <div class="flex items-start gap-3">
-                    <div class="bg-white/10 p-2 rounded-lg text-accent1">
-                      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd"></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 class="text-lg font-semibold">Technology Transfer</h3>
-                      <p class="text-sm text-gray-600">Product replication, machinery transfer, and franchising</p>
-                    </div>
-                  </div>
-                </div>
+                <!-- Floating elements -->
+                <div class="absolute -top-4 -right-4 w-8 h-8 bg-accent1 rounded-full opacity-20 animate-bounce"></div>
+                <div class="absolute -bottom-2 -left-2 w-6 h-6 bg-primary rounded-full opacity-30 animate-pulse delay-500"></div>
               </div>
             </div>
           </div>
@@ -436,6 +371,119 @@
 
 
             
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Showcase Gallery -->
+    <section class="py-32 bg-gradient-to-b from-gray-50 to-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-20">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20 mb-6">
+            <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
+            <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Project Showcase</span>
+          </div>
+          
+          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
+            <span class="text-gray-900">Innovation</span><br/>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Gallery</span>
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            From cutting-edge AI platforms to enterprise solutions, explore our world-class projects
+          </p>
+        </div>
+
+        <!-- Project Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          <!-- Traquiva Project -->
+          <div class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+            <div class="aspect-video bg-gradient-to-br from-accent1/20 to-accent1/40 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              <div class="absolute top-4 left-4">
+                <span class="bg-accent1 text-white text-xs font-bold px-3 py-1 rounded-full">AI Platform</span>
+              </div>
+              <div class="absolute bottom-4 left-4 right-4">
+                <h3 class="text-white font-bold text-xl mb-1">Traquiva</h3>
+                <p class="text-white/80 text-sm">AI-Powered Learning Platform</p>
+              </div>
+              <!-- Floating elements -->
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20 group-hover:opacity-40 transition-opacity">
+                <div class="w-16 h-16 border-2 border-white rounded-full animate-pulse"></div>
+              </div>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-4 mb-4">
+                <div class="text-2xl font-black text-accent1">95%</div>
+                <div class="text-sm text-gray-600">Success Rate</div>
+              </div>
+              <a href="https://www.traquiva.com" target="_blank" class="group/link inline-flex items-center text-accent1 font-semibold hover:text-accent1-dark transition-colors">
+                Explore Platform
+                <svg class="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
+                  <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Checkmet Project -->
+          <div class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+            <div class="aspect-video bg-gradient-to-br from-primary/20 to-primary/40 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              <div class="absolute top-4 left-4">
+                <span class="bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">AI System</span>
+              </div>
+              <div class="absolute bottom-4 left-4 right-4">
+                <h3 class="text-white font-bold text-xl mb-1">Checkmet</h3>
+                <p class="text-white/80 text-sm">Smart Attendance Management</p>
+              </div>
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20 group-hover:opacity-40 transition-opacity">
+                <div class="w-12 h-12 border-2 border-white rounded-lg animate-pulse"></div>
+              </div>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-4 mb-4">
+                <div class="text-2xl font-black text-primary">24/7</div>
+                <div class="text-sm text-gray-600">Monitoring</div>
+              </div>
+              <a href="https://checkmet.eu/" target="_blank" class="group/link inline-flex items-center text-primary font-semibold hover:text-primary-dark transition-colors">
+                View System
+                <svg class="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
+                  <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Enterprise Solutions -->
+          <div class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+            <div class="aspect-video bg-gradient-to-br from-accent2/20 to-accent2/40 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              <div class="absolute top-4 left-4">
+                <span class="bg-accent2 text-white text-xs font-bold px-3 py-1 rounded-full">Enterprise</span>
+              </div>
+              <div class="absolute bottom-4 left-4 right-4">
+                <h3 class="text-white font-bold text-xl mb-1">Custom Solutions</h3>
+                <p class="text-white/80 text-sm">Tailored Business Applications</p>
+              </div>
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20 group-hover:opacity-40 transition-opacity">
+                <div class="w-20 h-12 border-2 border-white rounded-md animate-pulse"></div>
+              </div>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-4 mb-4">
+                <div class="text-2xl font-black text-accent2">50+</div>
+                <div class="text-sm text-gray-600">Projects</div>
+              </div>
+              <router-link to="/software-solutions" class="group/link inline-flex items-center text-accent2 font-semibold hover:text-accent2-dark transition-colors">
+                View Portfolio
+                <svg class="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </router-link>
+            </div>
           </div>
         </div>
       </div>

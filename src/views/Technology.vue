@@ -1,24 +1,70 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-36 pb-24 overflow-hidden">
-      <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto">
-          <div class="text-center mb-12">
-            <span class="text-primary font-semibold inline-block mb-3 text-lg">Skymirror Training</span>
-            <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-primary">Professional Tech Bootcamps</h1>
-            <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-              Accelerate your career with our intensive, industry-focused bootcamps designed to develop in-demand technology skills.
+    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+      <!-- Dynamic background -->
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center max-w-6xl mx-auto">
+          <div class="space-y-8">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
+              <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+              <span class="text-primary font-semibold text-sm tracking-wide uppercase">Skymirror Training</span>
+            </div>
+            
+            <!-- Main heading -->
+            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent1">Professional</span><br/>
+              <span class="text-gray-900">Tech</span><br/>
+              <span class="text-accent1">Bootcamps</span>
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+              Accelerate your career with our <span class="text-primary font-semibold">intensive, industry-focused bootcamps</span> designed to develop <span class="text-accent1 font-semibold">in-demand technology skills</span>.
             </p>
-          </div>
-          
-          <div class="flex flex-wrap gap-4 justify-center mt-8">
-            <a href="https://www.skymirror.academy" target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-primary hover:bg-primary-dark text-white font-semibold rounded-full shadow-md transition-all duration-300 transform hover:-translate-y-1">
-              Explore Bootcamps
-            </a>
-            <router-link to="/case-studies" class="px-6 py-3 bg-white hover:bg-gray-100 text-primary font-semibold rounded-full border-2 border-primary shadow-md transition-all duration-300 transform hover:-translate-y-1">
-              Student Success Stories
-            </router-link>
+            
+            <!-- Program Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-12 max-w-5xl mx-auto">
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-primary mb-2">AI/ML</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Engineering</div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">Full-Stack</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Development</div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-primary mb-2">Data</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Analytics</div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">Career</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Ready</div>
+              </div>
+            </div>
+            
+            <!-- CTAs -->
+            <div class="flex flex-col sm:flex-row gap-6 justify-center pt-8">
+              <a href="https://www.skymirror.academy" target="_blank" rel="noopener noreferrer" class="group px-10 py-5 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
+                Explore Bootcamps
+                <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
+                  <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+              
+              <router-link to="/case-studies" class="group px-10 py-5 bg-white hover:bg-gray-50 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
+                Success Stories
+                <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+              </router-link>
+            </div>
           </div>
         </div>
       </div>
