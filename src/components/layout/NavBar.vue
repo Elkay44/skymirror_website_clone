@@ -22,7 +22,7 @@
       </router-link>
 
       <div
-        class="hidden md:flex items-center gap-4"
+        class="hidden md:flex items-center gap-3"
         role="menubar"
         id="navbar-links"
         aria-label="Main menu"

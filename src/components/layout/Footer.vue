@@ -29,17 +29,14 @@
           
           <!-- Enhanced Social Links -->
           <div class="flex gap-3">
-            <a href="#" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/30 hover:to-accent1/30 transition-all duration-300 transform hover:-translate-y-1 border border-white/10" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/company/skymirror-inc" target="_blank" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/30 hover:to-accent1/30 transition-all duration-300 transform hover:-translate-y-1 border border-white/10" aria-label="LinkedIn">
               <i class="fab fa-linkedin-in text-lg group-hover:text-primary transition-colors"></i>
             </a>
-            <a href="#" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/30 hover:to-accent1/30 transition-all duration-300 transform hover:-translate-y-1 border border-white/10" aria-label="Twitter">
-              <i class="fab fa-twitter text-lg group-hover:text-accent1 transition-colors"></i>
-            </a>
-            <a href="#" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/30 hover:to-accent1/30 transition-all duration-300 transform hover:-translate-y-1 border border-white/10" aria-label="GitHub">
-              <i class="fab fa-github text-lg group-hover:text-primary transition-colors"></i>
-            </a>
-            <a href="#" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/30 hover:to-accent1/30 transition-all duration-300 transform hover:-translate-y-1 border border-white/10" aria-label="YouTube">
+            <a href="https://www.youtube.com/@skymirror_inc" target="_blank" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/30 hover:to-accent1/30 transition-all duration-300 transform hover:-translate-y-1 border border-white/10" aria-label="YouTube">
               <i class="fab fa-youtube text-lg group-hover:text-accent1 transition-colors"></i>
+            </a>
+            <a href="https://www.instagram.com/skymirror.eu" target="_blank" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/30 hover:to-accent1/30 transition-all duration-300 transform hover:-translate-y-1 border border-white/10" aria-label="Instagram">
+              <i class="fab fa-instagram text-lg group-hover:text-accent2 transition-colors"></i>
             </a>
           </div>
         </div>

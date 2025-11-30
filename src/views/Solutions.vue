@@ -65,7 +65,7 @@
           </p>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <!-- Full-Stack Development Card -->
           <div class="group relative bg-white rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl transform hover:-translate-y-2 border border-gray-100 hover:border-primary/30">
             <!-- Gradient overlay -->
