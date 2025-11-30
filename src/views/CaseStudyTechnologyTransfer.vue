@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <section class="py-32 bg-gradient-to-br from-accent1/5 via-transparent to-accent2/5 relative overflow-hidden">
+    <section class="py-12 bg-gradient-to-br from-accent1/5 via-transparent to-accent2/5 relative overflow-hidden">
       <!-- Animated background elements -->
       <div class="absolute top-10 right-10 w-64 h-64 bg-gradient-to-br from-accent1/10 to-accent2/10 rounded-full blur-3xl animate-pulse"></div>
       <div class="absolute bottom-10 left-10 w-48 h-48 bg-gradient-to-tr from-accent2/10 to-accent1/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
@@ -9,24 +9,24 @@
       <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-4xl mx-auto text-center">
           <!-- Badge -->
-          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20 mb-8">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20 mb-6">
             <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
             <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Case Study</span>
           </div>
           
           <!-- Main heading -->
-          <h1 class="text-4xl md:text-6xl font-heading font-black leading-tight mb-8">
+          <h1 class="text-4xl md:text-6xl font-heading font-black leading-tight mb-6">
             <span class="text-gray-900">Technology Transfer</span><br/>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent1 to-accent2">Implementation</span>
           </h1>
           
           <!-- Subtitle -->
-          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium mb-8">
+          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium mb-6">
             How we helped a European manufacturer <span class="text-accent1 font-semibold">successfully transfer production technology</span> to a new facility, reducing setup time by <span class="text-accent2 font-semibold">60% and costs by 40%</span>.
           </p>
           
           <!-- Tags -->
-          <div class="flex flex-wrap justify-center gap-3 mb-8">
+          <div class="flex flex-wrap justify-center gap-3 mb-6">
             <span class="bg-accent1/10 text-accent1 text-sm font-semibold px-4 py-2 rounded-full">Manufacturing</span>
             <span class="bg-accent2/10 text-accent2 text-sm font-semibold px-4 py-2 rounded-full">Technology Transfer</span>
             <span class="bg-primary/10 text-primary text-sm font-semibold px-4 py-2 rounded-full">Process Optimization</span>
@@ -62,7 +62,7 @@
 
           <!-- Key Results -->
           <div class="mb-16">
-            <h2 class="text-3xl font-heading font-bold mb-8 text-center">Key Results</h2>
+            <h2 class="text-3xl font-heading font-bold mb-6 text-center">Key Results</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div class="text-center bg-gradient-to-br from-accent1/5 to-accent1/10 rounded-2xl p-8">
                 <div class="text-4xl font-black text-accent1 mb-2">60%</div>
@@ -83,7 +83,7 @@
           <div class="mb-16">
             <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
               <h2 class="text-3xl font-heading font-bold mb-6 text-accent2">Implementation Process</h2>
-              <div class="space-y-8">
+              <div class="space-y-4">
                 <div class="flex gap-6">
                   <div class="w-12 h-12 bg-gradient-to-br from-accent1/10 to-accent1/20 rounded-full flex items-center justify-center flex-shrink-0">
                     <span class="text-accent1 font-bold">1</span>

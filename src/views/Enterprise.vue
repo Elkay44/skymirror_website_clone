@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+    <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-accent2/5 via-transparent to-primary/5"></div>
       <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-accent2/10 to-primary/10 rounded-full blur-3xl animate-pulse"></div>
@@ -9,7 +9,7 @@
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
-          <div class="space-y-8">
+          <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent2/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent2/20">
               <div class="w-2 h-2 bg-accent2 rounded-full animate-pulse"></div>
@@ -29,7 +29,7 @@
             </p>
             
             <!-- Enterprise Stats -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12 max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
               <div class="text-center">
                 <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">Enterprise</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Grade Solutions</div>
@@ -49,7 +49,7 @@
     </section>
 
     <!-- Enterprise Benefits Section -->
-    <section class="py-16 bg-white">
+    <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
           <h2 class="text-3xl font-heading font-bold mb-4">Enterprise-Grade Quantum Solutions</h2>
@@ -103,9 +103,9 @@
     </section>
 
     <!-- Industry Solutions Section -->
-    <section class="py-16 bg-neutral-50">
+    <section class="py-12 bg-neutral-50">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="text-center max-w-3xl mx-auto mb-8">
           <h2 class="text-3xl font-heading font-bold mb-4">Industry-Specific Solutions</h2>
           <p class="text-gray-700">
             Quantum technology tailored to the unique challenges of your industry.
@@ -297,7 +297,7 @@
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">Ready to Transform Your Enterprise?</h2>
-          <p class="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
+          <p class="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
             Schedule a consultation with our quantum experts to discover how Skymirror's solutions can drive your business forward.
           </p>
           <router-link to="/consultation" class="px-8 py-4 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">

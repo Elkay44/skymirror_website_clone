@@ -1,11 +1,11 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-16 overflow-hidden">
+    <section class="relative pt-32 pb-10 overflow-hidden">
         <!-- Global background applied here -->
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
-          <div class="text-center mb-8">
+          <div class="text-center mb-6">
             <span class="text-primary-dark font-semibold inline-block mb-2">Legal Agreement</span>
             <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">Terms of Service</h1>
             <p class="text-lg text-gray-700 max-w-3xl mx-auto">
@@ -17,11 +17,11 @@
     </section>
 
     <!-- Terms of Service Content Section -->
-    <section class="py-16 bg-white">
+    <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <div class="glass-card rounded-xl p-8 shadow-xl">
-            <div class="space-y-8">
+            <div class="space-y-4">
               <!-- Section 1: Acceptance of Terms -->
               <div>
                 <h2 class="text-2xl font-heading font-bold mb-4 text-primary">Acceptance of Terms</h2>

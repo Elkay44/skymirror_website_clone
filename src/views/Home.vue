@@ -1,16 +1,16 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section id="main-content" class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center" role="main" aria-label="Main content">
+    <section id="main-content" class="relative pt-28 pb-12 overflow-hidden" role="main" aria-label="Main content">
       <!-- Animated background elements -->
       <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
       <div class="absolute top-20 right-20 w-72 h-72 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
       <div class="absolute bottom-20 left-20 w-96 h-96 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       
       <div class="container mx-auto px-4 relative z-10">
-        <div class="flex flex-col lg:flex-row items-center justify-between gap-16">
-          <div class="lg:w-1/2 space-y-10">
-            <div class="space-y-6">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div class="lg:w-1/2 space-y-4">
+            <div class="space-y-4">
               <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
                 <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
                 <span class="text-primary font-semibold text-sm tracking-wide uppercase">Skyrocketing Global Innovation</span>
@@ -46,7 +46,7 @@
             </div>
 
             <!-- Success Metrics -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 border-t border-gray-200">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-6 border-t border-gray-200">
               <div class="text-center">
                 <div class="text-3xl md:text-4xl font-black text-primary mb-2">50+</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects Delivered</div>
@@ -75,7 +75,7 @@
                   <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-accent1/20 to-primary/20 rounded-full blur-2xl"></div>
                   <div class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-primary/20 to-accent1/20 rounded-full blur-xl"></div>
                   
-                  <div class="relative z-10 space-y-6">
+                  <div class="relative z-10 space-y-4">
                     <!-- Header -->
                     <div class="flex items-center justify-between">
                       <div class="flex items-center gap-3">
@@ -145,7 +145,7 @@
     <section class="py-20 bg-gradient-to-br from-accent1/5 to-primary/5">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
-          <div class="flex flex-col lg:flex-row items-center gap-12">
+          <div class="flex flex-col lg:flex-row items-center gap-8">
             <div class="lg:w-1/2">
               <div class="inline-flex items-center gap-2 bg-accent1/10 text-accent1 px-4 py-2 rounded-full text-sm font-semibold mb-6">
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -159,7 +159,7 @@
               <p class="text-xl text-gray-700 mb-6">
                 Our revolutionary AI-powered learning platform that transforms how people learn to code. From zero to industry-ready in months, not years.
               </p>
-              <div class="grid grid-cols-2 gap-4 mb-8">
+              <div class="grid grid-cols-2 gap-4 mb-6">
                 <div class="flex items-center gap-3">
                   <div class="w-8 h-8 bg-accent1/10 text-accent1 rounded-full flex items-center justify-center">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -255,7 +255,7 @@
     <!-- Features Section -->
     <section class="py-20 bg-white">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="text-center max-w-3xl mx-auto mb-8">
           <span class="text-primary-dark font-semibold inline-block mb-2">Software Solutions</span>
           <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">
             Transform Your Business with <span class="text-primary">Software Solutions</span>
@@ -377,9 +377,9 @@
     </section>
 
     <!-- Project Showcase Gallery -->
-    <section class="py-32 bg-gradient-to-b from-gray-50 to-white">
+    <section class="py-12 bg-gradient-to-b from-gray-50 to-white">
       <div class="container mx-auto px-4">
-        <div class="text-center mb-20">
+        <div class="text-center mb-8">
           <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20 mb-6">
             <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
             <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Project Showcase</span>
@@ -490,7 +490,7 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-32 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 relative overflow-hidden">
+    <section class="py-12 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 relative overflow-hidden">
       <!-- Animated background elements -->
       <div class="absolute top-10 right-10 w-64 h-64 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
       <div class="absolute bottom-10 left-10 w-48 h-48 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
@@ -498,11 +498,11 @@
       <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-5xl mx-auto text-center">
           <!-- Premium CTA Card -->
-          <div class="bg-white/80 backdrop-blur-lg p-16 rounded-3xl shadow-2xl border border-white/20 relative overflow-hidden">
+          <div class="bg-white/80 backdrop-blur-lg p-10 rounded-3xl shadow-2xl border border-white/20 relative overflow-hidden">
             <!-- Gradient overlay -->
             <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent1/5 rounded-3xl"></div>
             
-            <div class="relative z-10 space-y-8">
+            <div class="relative z-10 space-y-4">
               <!-- Badge -->
               <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
                 <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>

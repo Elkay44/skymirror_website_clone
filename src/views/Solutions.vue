@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+    <section class="relative pt-28 pb-10 overflow-hidden">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
       <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
@@ -9,7 +9,7 @@
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-5xl mx-auto">
-          <div class="space-y-8">
+          <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
               <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
@@ -29,7 +29,7 @@
             </p>
             
             <!-- Stats -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-12 max-w-4xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-4xl mx-auto">
               <div class="text-center">
                 <div class="text-4xl md:text-5xl font-black text-primary mb-2">100%</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Custom Built</div>
@@ -53,10 +53,10 @@
     </section>
 
     <!-- Solutions Grid -->
-    <section class="py-32 bg-gradient-to-b from-white to-gray-50">
+    <section class="py-12 bg-gradient-to-b from-white to-gray-50">
       <div class="container mx-auto px-4">
         <!-- Section Header -->
-        <div class="text-center mb-20">
+        <div class="text-center mb-8">
           <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
             <span class="text-gray-900">Our</span> <span class="text-primary">Expertise</span>
           </h2>
@@ -251,24 +251,24 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-32 bg-gradient-to-br from-primary/5 to-accent1/5 relative overflow-hidden">
+    <section class="py-12 bg-gradient-to-br from-primary/5 to-accent1/5 relative overflow-hidden">
       <!-- Background elements -->
       <div class="absolute top-20 left-20 w-64 h-64 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
       <div class="absolute bottom-20 right-20 w-48 h-48 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-5xl mx-auto text-center">
-          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-8">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
             <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Ready to Start?</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-8">
+          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
             <span class="text-gray-900">Ready to</span><br/>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Elevate Your Business?</span>
           </h2>
           
-          <p class="text-xl md:text-2xl text-gray-700 mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p class="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed">
             Schedule a consultation with our <span class="text-primary font-semibold">software experts</span> to discover how Skymirror's solutions can <span class="text-accent1 font-semibold">drive your business forward</span>.
           </p>
           

@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+    <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent2/5"></div>
       <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent2/10 rounded-full blur-3xl animate-pulse"></div>
@@ -9,7 +9,7 @@
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
-          <div class="space-y-8">
+          <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
               <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
@@ -29,7 +29,7 @@
             </p>
             
             <!-- Success Stats -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-12 max-w-5xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-5xl mx-auto">
               <div class="text-center">
                 <div class="text-4xl md:text-5xl font-black text-primary mb-2">50+</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects</div>
@@ -53,12 +53,12 @@
     </section>
 
     <!-- Case Studies Grid -->
-    <section class="py-16 bg-white">
+    <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <!-- Featured Case Study -->
         <div class="glass-card rounded-2xl overflow-hidden mb-16">
           <div class="grid grid-cols-1 lg:grid-cols-2">
-            <div class="p-8 lg:p-12 flex flex-col justify-center">
+            <div class="p-8 lg:p-8 flex flex-col justify-center">
               <span class="text-primary font-semibold inline-block mb-2">Featured Case Study</span>
               <h2 class="text-3xl font-heading font-bold mb-4">Software Development for a Fintech Startup</h2>
               <p class="text-gray-700 mb-6">
@@ -184,15 +184,15 @@
     </section>
     
     <!-- Why Choose Skymirror Section -->
-    <section class="py-32 bg-gradient-to-b from-gray-50 to-white">
+    <section class="py-12 bg-gradient-to-b from-gray-50 to-white">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-4xl mx-auto mb-20">
-          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-8">
+        <div class="text-center max-w-4xl mx-auto mb-8">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
             <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Why Choose Us</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-8">
+          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
             <span class="text-gray-900">Why Choose</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Skymirror</span>
           </h2>
           
@@ -275,7 +275,7 @@
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">Ready to Transform Your Enterprise?</h2>
-          <p class="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
+          <p class="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
             Schedule a consultation with our quantum experts to discover how Skymirror's solutions can drive your business forward.
           </p>
           <router-link to="/consultation" class="px-8 py-4 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">

@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-24 relative overflow-hidden" role="contentinfo" aria-label="Site footer">
+  <footer class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12 relative overflow-hidden" role="contentinfo" aria-label="Site footer">
     <!-- Premium background elements -->
     <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
     <div class="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
@@ -7,7 +7,7 @@
     
     <div class="container mx-auto px-8 relative z-10">
       <!-- Main Footer Content -->
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
         <!-- Brand Column -->
         <div class="md:col-span-1">
           <router-link to="/" class="inline-block mb-8" aria-label="Skymirror Home">

@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+    <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-accent1/5 via-transparent to-primary/5"></div>
       <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-accent1/10 to-primary/10 rounded-full blur-3xl animate-pulse"></div>
@@ -9,7 +9,7 @@
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
-          <div class="space-y-8">
+          <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20">
               <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
@@ -29,7 +29,7 @@
             </p>
             
             <!-- Featured Products Stats -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12 max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
               <div class="text-center">
                 <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">95%</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Traquiva Success Rate</div>
@@ -49,15 +49,15 @@
     </section>
 
     <!-- Why AI Applications Section -->
-    <section class="py-32 bg-gradient-to-b from-white to-gray-50">
+    <section class="py-12 bg-gradient-to-b from-white to-gray-50">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-4xl mx-auto mb-20">
-          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-8">
+        <div class="text-center max-w-4xl mx-auto mb-8">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
             <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Why Choose Us</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-8">
+          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
             <span class="text-gray-900">Why Choose Our</span><br/>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent1 to-primary">AI Applications?</span>
           </h2>
@@ -67,10 +67,10 @@
           </p>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-16 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <!-- Left Column -->
           <div>
-            <div class="mb-12 relative">
+            <div class="mb-8 relative">
               <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-xl transform -rotate-3"></div>
               <img src="https://checkmet.eu/images/checkmet_dash.JPG" alt="AI Concept" class="relative z-10 rounded-xl shadow-lg w-full object-cover aspect-video" />
             </div>
@@ -111,7 +111,7 @@
           
           <!-- Right Column -->
           <div class="flex flex-col justify-center">
-            <div class="space-y-8">
+            <div class="space-y-4">
               <div class="flex gap-4">
                 <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-lg flex-shrink-0">
                   <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -160,15 +160,15 @@
     </section>
 
     <!-- Applications Section -->
-    <section class="py-32 bg-gradient-to-b from-gray-50 to-white">
+    <section class="py-12 bg-gradient-to-b from-gray-50 to-white">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-4xl mx-auto mb-20">
-          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20 mb-8">
+        <div class="text-center max-w-4xl mx-auto mb-8">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20 mb-6">
             <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
             <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Our Applications</span>
           </div>
           
-          <h3 class="text-4xl md:text-6xl font-heading font-black mb-8">
+          <h3 class="text-4xl md:text-6xl font-heading font-black mb-6">
             <span class="text-gray-900">Our</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent1 to-primary">AI Applications</span>
           </h3>
           
@@ -329,15 +329,15 @@
     </section>
 
     <!-- Technology Stack Section -->
-    <section class="py-32 bg-gradient-to-b from-gray-50 to-white">
+    <section class="py-12 bg-gradient-to-b from-gray-50 to-white">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-4xl mx-auto mb-20">
-          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-8">
+        <div class="text-center max-w-4xl mx-auto mb-8">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
             <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Technology Stack</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-8">
+          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
             <span class="text-gray-900">AI</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Technology Stack</span>
           </h2>
           
@@ -348,7 +348,7 @@
         
         <div class="max-w-5xl mx-auto">
           <!-- Stack Level 1 -->
-          <div class="relative mb-8">
+          <div class="relative mb-6">
             <div class="h-20 bg-primary/10 rounded-xl flex items-center justify-center">
               <h3 class="text-xl font-semibold text-primary">Enterprise Applications</h3>
             </div>
@@ -360,7 +360,7 @@
           </div>
           
           <!-- Stack Level 2 -->
-          <div class="relative mb-8">
+          <div class="relative mb-6">
             <div class="h-20 bg-accent1/10 rounded-xl flex items-center justify-center">
               <h3 class="text-xl font-semibold text-accent1"> AI Models and Algorithms</h3>
             </div>
@@ -372,7 +372,7 @@
           </div>
           
           <!-- Stack Level 3 -->
-          <div class="relative mb-8">
+          <div class="relative mb-6">
             <div class="h-20 bg-accent2/10 rounded-xl flex items-center justify-center">
               <h3 class="text-xl font-semibold text-accent2">Agentic Software Development Kit</h3>
             </div>
@@ -384,7 +384,7 @@
           </div>
           
           <!-- Stack Level 4
-          <div class="relative mb-8">
+          <div class="relative mb-6">
             <div class="h-20 bg-primary/10 rounded-xl flex items-center justify-center">
               <h3 class="text-xl font-semibold text-primary">Quantum Processing Units</h3>
             </div>
@@ -407,7 +407,7 @@
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">Ready to Experience Our AI Solutions ?</h2>
-          <p class="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
+          <p class="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
             Discover how our Quantum AI solutions can transform your business with unprecedented computational power.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">

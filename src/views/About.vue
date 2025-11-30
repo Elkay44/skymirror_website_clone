@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+    <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
       <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
@@ -9,7 +9,7 @@
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-6xl mx-auto">
-          <div class="text-center space-y-8">
+          <div class="text-center space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
               <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
@@ -29,7 +29,7 @@
             </p>
             
             <!-- Key stats -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-12 max-w-5xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-5xl mx-auto">
               <div class="text-center">
                 <div class="text-4xl md:text-5xl font-black text-primary mb-2">2020</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Founded</div>
@@ -53,25 +53,25 @@
     </section>
 
     <!-- Our Story Section -->
-    <section class="py-32 bg-gradient-to-b from-white to-gray-50">
+    <section class="py-12 bg-gradient-to-b from-white to-gray-50">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
           <!-- Section Header -->
-          <div class="text-center mb-20">
-            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-8">
+          <div class="text-center mb-8">
+            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
               <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
               <span class="text-primary font-semibold text-sm tracking-wide uppercase">Our Journey</span>
             </div>
             
-            <h2 class="text-4xl md:text-6xl font-heading font-black mb-8">
+            <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
               <span class="text-gray-900">Our</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Story</span>
             </h2>
           </div>
           
           <!-- Story Content -->
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <!-- Left: Story Text -->
-            <div class="space-y-8">
+            <div class="space-y-4">
               <div class="glass-card rounded-2xl p-8 shadow-xl bg-gradient-to-br from-white to-primary/5 border border-primary/10">
                 <div class="flex items-center gap-4 mb-6">
                   <div class="w-12 h-12 bg-gradient-to-br from-primary/20 to-accent1/20 rounded-full flex items-center justify-center">
@@ -125,7 +125,7 @@
                   <div class="absolute bottom-4 left-4 w-24 h-24 bg-gradient-to-tr from-accent1 to-primary rounded-full blur-xl"></div>
                 </div>
                 
-                <div class="relative z-10 space-y-8">
+                <div class="relative z-10 space-y-4">
                   <div class="text-center">
                     <h3 class="text-3xl font-bold text-gray-900 mb-4">Mission Driven</h3>
                     <p class="text-gray-600 leading-relaxed">
@@ -184,15 +184,15 @@
     </section>
 
     <!-- What We Do Section -->
-    <section class="py-32 bg-gradient-to-b from-gray-50 to-white">
+    <section class="py-12 bg-gradient-to-b from-gray-50 to-white">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-4xl mx-auto mb-20">
-          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-8">
+        <div class="text-center max-w-4xl mx-auto mb-8">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
             <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">What We Do</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-8">
+          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
             <span class="text-gray-900">What</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent2">We Do</span>
           </h2>
           
@@ -260,10 +260,10 @@
     </section>
 
     <!-- Our Impact Section -->
-    <section class="py-16 bg-white">
+    <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div class="order-2 lg:order-1">
               <div class="glass-card rounded-xl p-6 mb-6 transition-all duration-300 hover:shadow-xl">
                 <div class="flex items-center gap-4">
@@ -317,19 +317,19 @@
     </section>
 
     <!-- Vision & Call to Action Section -->
-    <section class="py-16 bg-neutral-50">
+    <section class="py-12 bg-neutral-50">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <div class="text-center mb-12">
+          <div class="text-center mb-8">
             <h2 class="text-3xl font-heading font-bold mb-6 text-primary">Our Vision</h2>
             <p class="text-gray-700 text-lg max-w-3xl mx-auto">
               To skyrocket global innovation by connecting people, businesses, and ideas through technology and education. We envision a world where sustainability and progress go hand in hand, and we're committed to making it a reality—today and tomorrow.
             </p>
           </div>
           
-          <div class="glass-card rounded-xl p-12 text-center shadow-xl bg-white">
+          <div class="glass-card rounded-xl p-8 text-center shadow-xl bg-white">
             <h3 class="text-2xl font-semibold mb-4 text-primary">Join Us</h3>
-            <p class="text-gray-700 mb-8 max-w-2xl mx-auto">
+            <p class="text-gray-700 mb-6 max-w-2xl mx-auto">
               Ready to soar with us? Whether you're a business seeking transformation or an individual eager to learn, Skymirror is your partner in innovation. Contact us to explore how we can shape your future.
             </p>
             <div class="flex flex-wrap justify-center gap-4">
@@ -352,7 +352,5 @@
 </script>
 
 <style scoped>
-.glass-card {
-  /* Let's use the global glass-card styling instead */
-}
+/* Using global glass-card styling */
 </style>

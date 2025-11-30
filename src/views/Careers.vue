@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+    <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-accent1/5 via-transparent to-primary/5"></div>
       <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-accent1/10 to-primary/10 rounded-full blur-3xl animate-pulse"></div>
@@ -9,7 +9,7 @@
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
-          <div class="space-y-8">
+          <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20">
               <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
@@ -29,7 +29,7 @@
             </p>
             
             <!-- Career Stats -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12 max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
               <div class="text-center">
                 <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">Remote</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">First Culture</div>
@@ -49,7 +49,7 @@
     </section>
 
     <!-- Why Skymirror Section -->
-    <section class="py-16 bg-white">
+    <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
           <div class="glass-card rounded-xl p-8 shadow-xl">
@@ -101,7 +101,7 @@
     </section>
 
     <!-- Opportunities Section -->
-    <section class="py-16 bg-neutral-50">
+    <section class="py-12 bg-neutral-50">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
           <div class="glass-card rounded-xl p-8 shadow-xl">
@@ -134,12 +134,12 @@
     </section>
 
     <!-- Call to Action Section -->
-    <section class="py-16 bg-white">
+    <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <div class="glass-card rounded-xl p-12 text-center shadow-xl">
+          <div class="glass-card rounded-xl p-8 text-center shadow-xl">
             <h2 class="text-3xl font-heading font-bold mb-6 text-primary">Stay Connected</h2>
-            <p class="text-gray-700 mb-8 max-w-2xl mx-auto">
+            <p class="text-gray-700 mb-6 max-w-2xl mx-auto">
               Can't wait to soar with us? Reach out to <a href="mailto:careers@skymirror.eu" class="text-primary hover:underline">careers@skymirror.eu</a> to express your interest, and we'll notify you when opportunities open. Together, let's build a sustainable future through innovation.
             </p>
             

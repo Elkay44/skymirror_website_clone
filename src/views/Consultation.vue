@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+    <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
       <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
@@ -9,7 +9,7 @@
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
-          <div class="space-y-8">
+          <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
               <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
@@ -29,7 +29,7 @@
             </p>
             
             <!-- Trust indicators -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12 max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
               <div class="text-center">
                 <div class="text-4xl md:text-5xl font-black text-primary mb-2">Free</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Consultation</div>
@@ -49,16 +49,16 @@
     </section>
 
     <!-- Consultation Form Section -->
-    <section class="py-16 bg-white">
+    <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
               <h2 class="text-3xl font-heading font-bold mb-4">Request a Consultation</h2>
               <p class="text-gray-700 mb-6">
                 Fill out the form to schedule a consultation with our experts. We'll analyze your business needs and recommend the most suitable solutions.
               </p>
-              <div class="space-y-4 mb-8">
+              <div class="space-y-4 mb-6">
                 <div class="flex items-center gap-3">
                   <div class="w-10 h-10 bg-primary/10 flex items-center justify-center rounded-full flex-shrink-0">
                     <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -108,7 +108,7 @@
               </div>
             </div>
             <div class="glass-card rounded-xl p-8">
-              <form class="space-y-6" @submit.prevent="submitForm">
+              <form class="space-y-4" @submit.prevent="submitForm">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First Name</label>

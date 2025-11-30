@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+    <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
       <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
@@ -9,7 +9,7 @@
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
-          <div class="space-y-8">
+          <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
               <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
@@ -29,7 +29,7 @@
             </p>
             
             <!-- Checkmet Stats -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-12 max-w-5xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-5xl mx-auto">
               <div class="text-center">
                 <div class="text-4xl md:text-5xl font-black text-primary mb-2">24/7</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Monitoring</div>
@@ -67,7 +67,7 @@
     <section class="py-20 bg-white border-t border-primary/5">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- Left Column - Text -->
             <div>
               <h2 class="text-3xl font-heading font-bold mb-6">What is Checkmet?</h2>
@@ -248,7 +248,7 @@
         
         <div class="max-w-6xl mx-auto">
           <!-- Use Case 1 -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div class="md:col-span-1">
               <div class="h-full bg-primary/5 rounded-xl p-6 flex flex-col">
                 <div class="w-16 h-16 bg-primary/10 flex items-center justify-center rounded-lg mb-4">
@@ -279,7 +279,7 @@
           </div>
           
           <!-- Use Case 2 -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div class="md:col-span-1">
               <div class="h-full bg-accent1/5 rounded-xl p-6 flex flex-col">
                 <div class="w-16 h-16 bg-accent1/10 flex items-center justify-center rounded-lg mb-4">
@@ -346,7 +346,7 @@
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6 text-primary">Ready to Modernize Your Attendance System?</h2>
-          <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+          <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
             Discover how Checkmet can streamline your attendance management, improve accuracy, and provide valuable workforce insights.
           </p>
           <router-link to="/consultation" class="px-8 py-4 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark">

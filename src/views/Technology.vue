@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+    <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
       <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
@@ -9,7 +9,7 @@
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
-          <div class="space-y-8">
+          <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
               <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
@@ -29,7 +29,7 @@
             </p>
             
             <!-- Program Stats -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-12 max-w-5xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-5xl mx-auto">
               <div class="text-center">
                 <div class="text-4xl md:text-5xl font-black text-primary mb-2">AI/ML</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Engineering</div>
@@ -71,15 +71,15 @@
     </section>
 
     <!-- Bootcamp Programs Section -->
-    <section class="py-32 bg-gradient-to-b from-white to-gray-50">
+    <section class="py-12 bg-gradient-to-b from-white to-gray-50">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-4xl mx-auto mb-20">
-          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-8">
+        <div class="text-center max-w-4xl mx-auto mb-8">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
             <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Our Programs</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-8">
+          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
             <span class="text-gray-900">Our</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Bootcamp Programs</span>
           </h2>
           
@@ -200,7 +200,7 @@
     <!-- Bootcamp Features Section -->
     <section class="py-20 bg-neutral-50">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="text-center max-w-3xl mx-auto mb-8">
           <h2 class="text-3xl font-heading font-bold mb-4">Bootcamp Features & Benefits</h2>
           <p class="text-gray-700">
             What sets Skymirror bootcamps apart from traditional education and other coding schools.
@@ -274,7 +274,7 @@
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6 text-primary">Ready to Advance Your Tech Career?</h2>
-          <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+          <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
             Join our upcoming cohorts and transform your career with in-demand technology skills that employers are actively seeking.
           </p>
           <a href="https://www.skymirror.academy" target="_blank" rel="noopener noreferrer" class="px-8 py-4 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark">

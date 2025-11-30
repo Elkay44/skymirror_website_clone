@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold text-primary mb-8 text-center">
+    <h1 class="text-4xl font-bold text-primary mb-6 text-center">
       Partners
     </h1>
     <div class="prose prose-lg max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
