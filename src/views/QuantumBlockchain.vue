@@ -81,41 +81,72 @@
               </div>
             </div>
           </div>
-          <!-- Right Column - Text -->
+          <!-- Right Column - Enhanced Services -->
           <div class="flex flex-col justify-center">
-            <h3 class="text-2xl font-bold mb-6">Key Services</h3>
-            <div class="space-y-6">
-              <div class="flex gap-4">
-                <div class="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-lg flex-shrink-0">
-                   <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path></svg>
-                </div>
-                <div>
-                  <h4 class="text-lg font-semibold mb-1">Product Replication</h4>
-                  <p class="text-gray-600">
-                    Complete reproduction of your successful products in new markets with full technical documentation and training.
-                  </p>
+            <div class="mb-8">
+              <h3 class="text-3xl md:text-4xl font-heading font-black mb-4">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent2 to-primary">Key Services</span>
+              </h3>
+              <p class="text-lg text-gray-600 leading-relaxed">
+                Comprehensive technology transfer solutions tailored to your business needs.
+              </p>
+            </div>
+            
+            <div class="space-y-8">
+              <!-- Product Replication -->
+              <div class="group p-6 bg-white rounded-2xl border border-gray-100 hover:border-primary/30 hover:shadow-lg transition-all duration-300">
+                <div class="flex gap-6">
+                  <div class="w-16 h-16 bg-gradient-to-br from-primary/10 to-primary/20 flex items-center justify-center rounded-xl flex-shrink-0 group-hover:shadow-md transition-shadow">
+                     <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path></svg>
+                  </div>
+                  <div class="flex-1">
+                    <h4 class="text-xl font-bold mb-3 text-gray-900 group-hover:text-primary transition-colors">Product Replication</h4>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                      Complete reproduction of your successful products in new markets with full technical documentation and training.
+                    </p>
+                    <div class="flex items-center gap-2 text-sm text-primary font-medium">
+                      <div class="w-1.5 h-1.5 bg-primary rounded-full"></div>
+                      <span>Full Documentation & Training Included</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="flex gap-4">
-                <div class="w-12 h-12 bg-accent1/10 flex items-center justify-center rounded-lg flex-shrink-0">
-                  <svg class="w-6 h-6 text-accent1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                </div>
-                <div>
-                  <h4 class="text-lg font-semibold mb-1">Machinery Transfer</h4>
-                  <p class="text-gray-600">
-                    Seamless relocation and installation of manufacturing equipment with minimal downtime and production disruption.
-                  </p>
+              
+              <!-- Machinery Transfer -->
+              <div class="group p-6 bg-white rounded-2xl border border-gray-100 hover:border-accent1/30 hover:shadow-lg transition-all duration-300">
+                <div class="flex gap-6">
+                  <div class="w-16 h-16 bg-gradient-to-br from-accent1/10 to-accent1/20 flex items-center justify-center rounded-xl flex-shrink-0 group-hover:shadow-md transition-shadow">
+                    <svg class="w-8 h-8 text-accent1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                  </div>
+                  <div class="flex-1">
+                    <h4 class="text-xl font-bold mb-3 text-gray-900 group-hover:text-accent1 transition-colors">Machinery Transfer</h4>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                      Seamless relocation and installation of manufacturing equipment with minimal downtime and production disruption.
+                    </p>
+                    <div class="flex items-center gap-2 text-sm text-accent1 font-medium">
+                      <div class="w-1.5 h-1.5 bg-accent1 rounded-full"></div>
+                      <span>Minimal Downtime Guaranteed</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="flex gap-4">
-                <div class="w-12 h-12 bg-accent2/10 flex items-center justify-center rounded-lg flex-shrink-0">
-                  <svg class="w-6 h-6 text-accent2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path></svg>
-                </div>
-                <div>
-                  <h4 class="text-lg font-semibold mb-1">Franchising Solutions</h4>
-                  <p class="text-gray-600">
-                    End-to-end franchising support including business model replication, training programs, and operational guidance.
-                  </p>
+              
+              <!-- Franchising Solutions -->
+              <div class="group p-6 bg-white rounded-2xl border border-gray-100 hover:border-accent2/30 hover:shadow-lg transition-all duration-300">
+                <div class="flex gap-6">
+                  <div class="w-16 h-16 bg-gradient-to-br from-accent2/10 to-accent2/20 flex items-center justify-center rounded-xl flex-shrink-0 group-hover:shadow-md transition-shadow">
+                    <svg class="w-8 h-8 text-accent2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path></svg>
+                  </div>
+                  <div class="flex-1">
+                    <h4 class="text-xl font-bold mb-3 text-gray-900 group-hover:text-accent2 transition-colors">Franchising Solutions</h4>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                      End-to-end franchising support including business model replication, training programs, and operational guidance.
+                    </p>
+                    <div class="flex items-center gap-2 text-sm text-accent2 font-medium">
+                      <div class="w-1.5 h-1.5 bg-accent2 rounded-full"></div>
+                      <span>Complete Business Model Support</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

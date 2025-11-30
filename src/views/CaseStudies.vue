@@ -183,61 +183,88 @@
       </div>
     </section>
     
-    <!-- Testimonials Section -->
-    <section class="py-16 bg-neutral-50">
+    <!-- Why Choose Skymirror Section -->
+    <section class="py-32 bg-gradient-to-b from-gray-50 to-white">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-12">
-          <h2 class="text-3xl font-heading font-bold mb-4">What Our Clients Say</h2>
-          <p class="text-gray-700">
-            Hear from enterprise leaders who have transformed their operations with our quantum solutions.
+        <div class="text-center max-w-4xl mx-auto mb-20">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-8">
+            <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+            <span class="text-primary font-semibold text-sm tracking-wide uppercase">Why Choose Us</span>
+          </div>
+          
+          <h2 class="text-4xl md:text-6xl font-heading font-black mb-8">
+            <span class="text-gray-900">Why Choose</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Skymirror</span>
+          </h2>
+          
+          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium">
+            We deliver <span class="text-primary font-semibold">cutting-edge software solutions</span> and <span class="text-accent1 font-semibold">AI applications</span> that drive real business results.
           </p>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <!-- Testimonial 1 -->
-          <div class="glass-card rounded-xl p-6">
-            <div class="flex flex-col h-full">
-              <div class="mb-4 text-primary">
-                <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M6 2.75a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H6.75A.75.75 0 016 2.75zm0 5a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H6.75A.75.75 0 016 7.75zm0 5a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H6.75a.75.75 0 01-.75-.75zm-4-10a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5h-1.5A.75.75 0 012 2.75zm0 5a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5h-1.5A.75.75 0 012 7.75zm0 5a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5h-1.5a.75.75 0 01-.75-.75z"></path>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          <!-- Proven Products -->
+          <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-primary/30">
+            <div class="mb-6">
+              <div class="w-16 h-16 bg-gradient-to-br from-primary/10 to-primary/20 rounded-xl flex items-center justify-center mb-4 group-hover:shadow-md transition-shadow">
+                <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                 </svg>
               </div>
-              <blockquote class="flex-1 mb-6">
-                <p class="text-gray-700 italic">
-                  "Skymirror's quantum computing solutions have revolutionized our risk modeling capabilities. What used to take days now takes minutes, allowing us to make more informed decisions in real-time."
-                </p>
-              </blockquote>
-              <div class="flex items-center">
-                <img src="https://via.placeholder.com/48x48.png?text=Client1" alt="Client" class="w-12 h-12 rounded-full mr-4" />
-                <div>
-                  <h4 class="font-semibold">Dr. Elena Müller</h4>
-                  <p class="text-sm text-gray-600">Chief Risk Officer, European Banking Group</p>
-                </div>
-              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary transition-colors">Proven Products</h3>
+              <p class="text-gray-600 leading-relaxed">
+                Our live products like <strong>Traquiva</strong> and <strong>Checkmet</strong> are already serving users worldwide, demonstrating our ability to deliver real solutions.
+              </p>
             </div>
           </div>
           
-          <!-- Testimonial 2 -->
-          <div class="glass-card rounded-xl p-6">
-            <div class="flex flex-col h-full">
-              <div class="mb-4 text-accent1">
-                <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M6 2.75a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H6.75A.75.75 0 016 2.75zm0 5a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H6.75A.75.75 0 016 7.75zm0 5a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H6.75a.75.75 0 01-.75-.75zm-4-10a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5h-1.5A.75.75 0 012 2.75zm0 5a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5h-1.5A.75.75 0 012 7.75zm0 5a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5h-1.5a.75.75 0 01-.75-.75z"></path>
+          <!-- Full-Stack Expertise -->
+          <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-accent1/30">
+            <div class="mb-6">
+              <div class="w-16 h-16 bg-gradient-to-br from-accent1/10 to-accent1/20 rounded-xl flex items-center justify-center mb-4 group-hover:shadow-md transition-shadow">
+                <svg class="w-8 h-8 text-accent1" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                 </svg>
               </div>
-              <blockquote class="flex-1 mb-6">
-                <p class="text-gray-700 italic">
-                  "Implementing Skymirror's quantum AI platform accelerated our drug discovery process beyond expectations. The ability to simulate molecular interactions at previously impossible scales has been transformative."
-                </p>
-              </blockquote>
-              <div class="flex items-center">
-                <img src="https://via.placeholder.com/48x48.png?text=Client2" alt="Client" class="w-12 h-12 rounded-full mr-4" />
-                <div>
-                  <h4 class="font-semibold">Prof. James Chen</h4>
-                  <p class="text-sm text-gray-600">Head of Research, Global Pharmaceuticals</p>
-                </div>
-              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-accent1 transition-colors">Full-Stack Expertise</h3>
+              <p class="text-gray-600 leading-relaxed">
+                From frontend to backend, from AI integration to cloud deployment - we handle every aspect of your software development needs.
+              </p>
             </div>
+          </div>
+          
+          <!-- Global Innovation -->
+          <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-accent2/30">
+            <div class="mb-6">
+              <div class="w-16 h-16 bg-gradient-to-br from-accent2/10 to-accent2/20 rounded-xl flex items-center justify-center mb-4 group-hover:shadow-md transition-shadow">
+                <svg class="w-8 h-8 text-accent2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-accent2 transition-colors">Global Innovation</h3>
+              <p class="text-gray-600 leading-relaxed">
+                Based in Budapest with a global perspective, we bring international best practices to every project while understanding local market needs.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Our Commitment Stats -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 max-w-4xl mx-auto">
+          <div class="text-center">
+            <div class="text-3xl md:text-4xl font-black text-primary mb-2">2020</div>
+            <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Founded</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl md:text-4xl font-black text-accent1 mb-2">Live</div>
+            <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Products</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl md:text-4xl font-black text-primary mb-2">24/7</div>
+            <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Support</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl md:text-4xl font-black text-accent1 mb-2">Global</div>
+            <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Reach</div>
           </div>
         </div>
       </div>

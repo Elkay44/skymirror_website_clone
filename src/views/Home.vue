@@ -490,16 +490,69 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-20 border-t border-b border-primary/10">
-      <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto text-center glass-card p-12 rounded-3xl">
-          <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6 text-primary">Ready to Transform Your Business?</h2>
-          <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-            Schedule a consultation with our software and technology experts to discover how Skymirror's solutions can drive your business forward.
-          </p>
-          <router-link to="/consultation" class="px-8 py-4 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark inline-block">
-            Request a Consultation
-          </router-link>
+    <section class="py-32 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 relative overflow-hidden">
+      <!-- Animated background elements -->
+      <div class="absolute top-10 right-10 w-64 h-64 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
+      <div class="absolute bottom-10 left-10 w-48 h-48 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
+      
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-5xl mx-auto text-center">
+          <!-- Premium CTA Card -->
+          <div class="bg-white/80 backdrop-blur-lg p-16 rounded-3xl shadow-2xl border border-white/20 relative overflow-hidden">
+            <!-- Gradient overlay -->
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent1/5 rounded-3xl"></div>
+            
+            <div class="relative z-10 space-y-8">
+              <!-- Badge -->
+              <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
+                <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+                <span class="text-primary font-semibold text-sm tracking-wide uppercase">Get Started</span>
+              </div>
+              
+              <!-- Main heading -->
+              <h2 class="text-4xl md:text-6xl font-heading font-black leading-tight">
+                <span class="text-gray-900">Ready to</span><br/>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Transform Your Business?</span>
+              </h2>
+              
+              <!-- Subtitle -->
+              <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
+                Schedule a consultation with our <span class="text-primary font-semibold">software and technology experts</span> to discover how Skymirror's solutions can <span class="text-accent1 font-semibold">drive your business forward</span>.
+              </p>
+              
+              <!-- Enhanced CTA Button -->
+              <div class="pt-4">
+                <router-link to="/consultation" class="group inline-flex items-center gap-3 px-12 py-6 bg-gradient-to-r from-primary to-primary-dark text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
+                  Request a Consultation
+                  <svg class="w-6 h-6 group-hover:translate-x-2 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                  </svg>
+                </router-link>
+              </div>
+              
+              <!-- Trust indicators -->
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8 max-w-2xl mx-auto">
+                <div class="flex items-center justify-center gap-2 text-sm text-gray-600">
+                  <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                  <span class="font-medium">Free Consultation</span>
+                </div>
+                <div class="flex items-center justify-center gap-2 text-sm text-gray-600">
+                  <svg class="w-5 h-5 text-accent1" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                  <span class="font-medium">24h Response</span>
+                </div>
+                <div class="flex items-center justify-center gap-2 text-sm text-gray-600">
+                  <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                  <span class="font-medium">Expert Team</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
