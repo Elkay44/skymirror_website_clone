@@ -1,15 +1,53 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-36 pb-24 overflow-hidden">
-        <!-- Global background applied here -->
-      <div class="container mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-12">
-          <span class="text-primary font-semibold inline-block mb-3 text-lg">Success Stories</span>
-          <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-primary">Software Solutions in Action</h1>
-          <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-            Explore how our innovative software development and AI applications have transformed business operations across industries.
-          </p>
+    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+      <!-- Dynamic background -->
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent2/5"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent2/10 rounded-full blur-3xl animate-pulse"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent2/10 to-primary/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center max-w-6xl mx-auto">
+          <div class="space-y-8">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
+              <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+              <span class="text-primary font-semibold text-sm tracking-wide uppercase">Success Stories</span>
+            </div>
+            
+            <!-- Main heading -->
+            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent2">Software Solutions</span><br/>
+              <span class="text-gray-900">in</span><br/>
+              <span class="text-accent2">Action</span>
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+              Explore how our <span class="text-primary font-semibold">innovative software development</span> and <span class="text-accent2 font-semibold">AI applications</span> have transformed business operations across industries.
+            </p>
+            
+            <!-- Success Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-12 max-w-5xl mx-auto">
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-primary mb-2">50+</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects</div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">95%</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Success Rate</div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-primary mb-2">Global</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Reach</div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">∞</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Innovation</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

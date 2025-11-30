@@ -1,16 +1,48 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-20 overflow-hidden">
-        <!-- Global background applied here -->
-      <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto">
-          <div class="text-center mb-12">
-            <span class="text-primary-dark font-semibold inline-block mb-2">Enterprise Solutions</span>
-            <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">Quantum Technology for Enterprise Excellence</h1>
-            <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-              Transform your enterprise with sovereign quantum technology solutions tailored to your business challenges.
+    <section class="relative pt-32 pb-32 overflow-hidden min-h-screen flex items-center">
+      <!-- Dynamic background -->
+      <div class="absolute inset-0 bg-gradient-to-br from-accent2/5 via-transparent to-primary/5"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-accent2/10 to-primary/10 rounded-full blur-3xl animate-pulse"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-primary/10 to-accent2/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center max-w-6xl mx-auto">
+          <div class="space-y-8">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent2/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent2/20">
+              <div class="w-2 h-2 bg-accent2 rounded-full animate-pulse"></div>
+              <span class="text-accent2 font-semibold text-sm tracking-wide uppercase">Enterprise Solutions</span>
+            </div>
+            
+            <!-- Main heading -->
+            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent2 via-accent2 to-primary">Enterprise</span><br/>
+              <span class="text-gray-900">Technology</span><br/>
+              <span class="text-primary">Excellence</span>
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+              Transform your enterprise with <span class="text-accent2 font-semibold">cutting-edge technology solutions</span> tailored to your <span class="text-primary font-semibold">business challenges</span>.
             </p>
+            
+            <!-- Enterprise Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12 max-w-4xl mx-auto">
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">Enterprise</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Grade Solutions</div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-primary mb-2">Scalable</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Architecture</div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">24/7</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Support</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

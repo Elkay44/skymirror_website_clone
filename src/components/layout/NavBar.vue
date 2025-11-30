@@ -1,101 +1,113 @@
 <template>
   <nav
-    class="fixed top-0 left-0 w-full z-50 bg-white shadow-md border-b border-gray-100 transition-all duration-300"
-    :class="{ 'py-2': isScrolled, 'py-4': !isScrolled }"
+    class="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-200/50 transition-all duration-300"
+    :class="{ 'py-3': isScrolled, 'py-5': !isScrolled }"
     role="navigation"
     aria-label="Main navigation"
   >
     <div class="container mx-auto px-4 flex items-center justify-between">
       <router-link
         to="/"
-        class="flex items-center gap-2"
+        class="group flex items-center gap-3 transition-all duration-300 hover:scale-105"
         aria-label="Skymirror Home"
       >
-        <img src="/images/logo.png" alt="Skymirror Logo" class="w-7 h-8" />
+        <div class="relative">
+          <img src="/images/logo.png" alt="Skymirror Logo" class="w-8 h-10 relative z-10 transition-all duration-300 group-hover:brightness-110" />
+          <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent1/20 rounded-lg blur-sm opacity-0 group-hover:opacity-100 transition-all duration-300 transform scale-110"></div>
+        </div>
         <div class="flex flex-col justify-center">
-          <span class="text-primary font-medium text-lg md:text-xl leading-tight">Skymirror</span>
-          <p class="text-gray-600 text-[10px] md:text-xs">Skyrocketing Global Innovation</p>
+          <span class="text-primary font-bold text-lg md:text-xl leading-tight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-accent1 transition-all duration-300">Skymirror</span>
+          <p class="text-gray-600 text-[10px] md:text-xs font-medium group-hover:text-gray-700 transition-colors duration-300">Skyrocketing Global Innovation</p>
         </div>
       </router-link>
 
       <div
-        class="hidden md:flex items-center gap-6"
+        class="hidden md:flex items-center gap-4"
         role="menubar"
         id="navbar-links"
         aria-label="Main menu"
       >
         <router-link
           to="/software-solutions"
-          class="font-medium text-primary hover:text-primary-dark relative transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-width after:duration-300 hover:after:w-full"
+          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5"
           role="menuitem"
           tabindex="0"
         >
-          Our Solutions
+          <span class="relative z-10">Our Solutions</span>
+          <div class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-accent1 group-hover:w-full transition-all duration-300"></div>
         </router-link>
 
         <router-link
           to="/ai-applications"
-          class="font-medium text-primary hover:text-primary-dark relative transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-width after:duration-300 hover:after:w-full"
+          class="group font-semibold text-gray-700 hover:text-accent1 relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-accent1/5"
           role="menuitem"
           tabindex="0"
         >
-          AI Applications
+          <span class="relative z-10">AI Applications</span>
+          <div class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-accent1 to-primary group-hover:w-full transition-all duration-300"></div>
         </router-link>
 
         <router-link
           to="/full-stack-development"
-          class="font-medium text-primary hover:text-primary-dark relative transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-width after:duration-300 hover:after:w-full"
+          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5"
           role="menuitem"
           tabindex="0"
         >
-          Software Development
+          <span class="relative z-10">Software Development</span>
+          <div class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-accent2 group-hover:w-full transition-all duration-300"></div>
         </router-link>
 
         <router-link
           to="/technology-transfer"
-          class="font-medium text-primary hover:text-primary-dark relative transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-width after:duration-300 hover:after:w-full"
+          class="group font-semibold text-gray-700 hover:text-accent2 relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-accent2/5"
           role="menuitem"
           tabindex="0"
         >
-          Technology Transfer
+          <span class="relative z-10">Technology Transfer</span>
+          <div class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-accent2 to-primary group-hover:w-full transition-all duration-300"></div>
         </router-link>
-        <!-- <router-link
-          to="/case-studies"
-          class="font-medium text-primary hover:text-primary-dark relative transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-width after:duration-300 hover:after:w-full"
-          role="menuitem"
-          tabindex="0"
-        >
-          Case Studies
-        </router-link> -->
 
         <router-link
           to="/training"
-          class="font-medium text-primary hover:text-primary-dark relative transition-colors duration-300 ease-in-out after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-width after:duration-300 hover:after:w-full"
+          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5"
           role="menuitem"
           tabindex="0"
         >
-          Training
+          <span class="relative z-10">Training</span>
+          <div class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-accent1 group-hover:w-full transition-all duration-300"></div>
         </router-link>
+        <!-- Premium CTA Button -->
         <router-link
           to="/consultation"
-          class="px-6 py-3 bg-primary text-white hover:bg-primary-dark font-semibold rounded-full border-2 border-primary hover:bg-primary transform hover:-translate-y-1 transition-all duration-300 overflow-hidden"
+          class="group relative px-6 py-3 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 overflow-hidden border border-primary/20"
           role="menuitem"
           tabindex="0"
         >
-          <span>Request Consultation</span>
+          <div class="absolute inset-0 bg-gradient-to-r from-accent1/20 to-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <span class="relative z-10 flex items-center gap-2">
+            Request Consultation
+            <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+            </svg>
+          </span>
         </router-link>
       </div>
 
+      <!-- Enhanced Mobile Menu Button -->
       <button
-        class="md:hidden flex items-center justify-center w-10 h-10 text-primary"
-        :class="{ active: isMenuOpen }"
+        class="md:hidden group relative flex items-center justify-center w-12 h-12 bg-gradient-to-br from-primary/10 to-accent1/10 hover:from-primary/20 hover:to-accent1/20 rounded-xl border border-primary/20 transition-all duration-300 transform hover:scale-105"
+        :class="{ 'bg-gradient-to-br from-primary/20 to-accent1/20': isMenuOpen }"
         @click="toggleMenu"
         :aria-expanded="isMenuOpen"
         aria-controls="mobile-menu"
         aria-label="Toggle navigation menu"
         tabindex="0"
       >
-        <i class="fas fa-bars" aria-hidden="true"></i>
+        <div class="relative w-6 h-6 flex flex-col justify-center items-center">
+          <span class="block w-5 h-0.5 bg-primary transition-all duration-300 transform group-hover:bg-accent1" :class="{ 'rotate-45 translate-y-1': isMenuOpen }"></span>
+          <span class="block w-5 h-0.5 bg-primary mt-1 transition-all duration-300 group-hover:bg-accent1" :class="{ 'opacity-0': isMenuOpen }"></span>
+          <span class="block w-5 h-0.5 bg-primary mt-1 transition-all duration-300 transform group-hover:bg-accent1" :class="{ '-rotate-45 -translate-y-2': isMenuOpen }"></span>
+        </div>
         <span class="sr-only">Menu</span>
       </button>
     </div>

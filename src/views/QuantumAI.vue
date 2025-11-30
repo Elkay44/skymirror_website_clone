@@ -160,27 +160,42 @@
     </section>
 
     <!-- Applications Section -->
-    <section class="py-20 bg-white border-t border-primary/5">
+    <section class="py-32 bg-gradient-to-b from-gray-50 to-white">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <h3 class="text-3xl font-heading font-bold mb-4">Our AI Applications</h3>
-          <p class="text-gray-700">
-            Explore our suite of intelligent applications that solve real business challenges.
+        <div class="text-center max-w-4xl mx-auto mb-20">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20 mb-8">
+            <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
+            <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Our Applications</span>
+          </div>
+          
+          <h3 class="text-4xl md:text-6xl font-heading font-black mb-8">
+            <span class="text-gray-900">Our</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent1 to-primary">AI Applications</span>
+          </h3>
+          
+          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium">
+            Explore our suite of <span class="text-accent1 font-semibold">intelligent applications</span> that solve <span class="text-primary font-semibold">real business challenges</span>.
           </p>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <!-- Application Card 1 -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-accent1/30 bg-white">
-            <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-lg mb-4">
-              <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-semibold mb-2">Facial Recognition Agents</h3>
-            <p class="text-gray-600 mb-4">
-              Custom facial recognition solutions for security, access control, and customer analytics with real-time monitoring capabilities.
-            </p>
+          <div class="group relative bg-white rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl transform hover:-translate-y-2 border border-gray-100 hover:border-primary/30">
+            <!-- Gradient overlay -->
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <!-- Floating element -->
+            <div class="absolute top-4 right-4 w-12 h-12 bg-primary/10 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-x-4 group-hover:translate-x-0"></div>
+            
+            <div class="p-8 relative z-10">
+              <div class="w-16 h-16 bg-gradient-to-br from-primary/10 to-primary/20 flex items-center justify-center rounded-xl mb-6 shadow-sm group-hover:shadow-md transition-shadow">
+                <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path>
+                </svg>
+              </div>
+              
+              <h3 class="text-2xl font-bold mb-3 text-gray-900 group-hover:text-primary transition-colors">Facial Recognition Agents</h3>
+              <p class="text-gray-600 mb-6 leading-relaxed">
+                Custom facial recognition solutions for security, access control, and customer analytics with real-time monitoring capabilities.
+              </p>
             <ul class="space-y-2 text-gray-600">
               <li class="flex items-center gap-2">
                 <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

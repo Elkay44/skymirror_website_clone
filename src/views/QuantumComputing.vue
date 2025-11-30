@@ -53,12 +53,20 @@
     </section>
 
     <!-- Full-Stack Advantage Section -->
-    <section class="py-20 bg-white border-t border-primary/5">
+    <section class="py-32 bg-gradient-to-b from-white to-gray-50">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl font-heading font-bold mb-4">The Full-Stack Advantage</h2>
-          <p class="text-gray-700">
-            Our comprehensive approach to software development ensures seamless integration between frontend and backend systems, delivering superior user experiences and business outcomes.
+        <div class="text-center max-w-4xl mx-auto mb-20">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-8">
+            <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+            <span class="text-primary font-semibold text-sm tracking-wide uppercase">Our Advantage</span>
+          </div>
+          
+          <h2 class="text-4xl md:text-6xl font-heading font-black mb-8">
+            <span class="text-gray-900">The</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent2">Full-Stack Advantage</span>
+          </h2>
+          
+          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium">
+            Our <span class="text-primary font-semibold">comprehensive approach</span> to software development ensures <span class="text-accent2 font-semibold">seamless integration</span> between frontend and backend systems, delivering superior user experiences and business outcomes.
           </p>
         </div>
         

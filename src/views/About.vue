@@ -184,12 +184,20 @@
     </section>
 
     <!-- What We Do Section -->
-    <section class="py-16 bg-neutral-50">
+    <section class="py-32 bg-gradient-to-b from-gray-50 to-white">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl font-heading font-bold mb-4 text-primary">What We Do</h2>
-          <p class="text-gray-700">
-            Our comprehensive suite of services addresses modern business challenges through innovation and expertise.
+        <div class="text-center max-w-4xl mx-auto mb-20">
+          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-8">
+            <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+            <span class="text-primary font-semibold text-sm tracking-wide uppercase">What We Do</span>
+          </div>
+          
+          <h2 class="text-4xl md:text-6xl font-heading font-black mb-8">
+            <span class="text-gray-900">What</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent2">We Do</span>
+          </h2>
+          
+          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium">
+            Our <span class="text-primary font-semibold">comprehensive suite of services</span> addresses modern business challenges through <span class="text-accent2 font-semibold">innovation and expertise</span>.
           </p>
         </div>
         
