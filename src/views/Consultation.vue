@@ -17,29 +17,29 @@
             </div>
             
             <!-- Main heading -->
-            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent1">Expert Guidance</span><br/>
               <span class="text-gray-900">for Your</span><br/>
               <span class="text-accent1">Business</span>
             </h1>
             
             <!-- Subtitle -->
-            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
               Discover how <span class="text-primary font-semibold">Skymirror's solutions</span> can address your most <span class="text-accent1 font-semibold">complex business challenges</span>.
             </p>
             
             <!-- Trust indicators -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">Free</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Free</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Consultation</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">24h</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">24h</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Response Time</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">Expert</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Expert</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Guidance</div>
               </div>
             </div>

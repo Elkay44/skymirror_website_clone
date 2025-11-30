@@ -17,29 +17,29 @@
             </div>
             
             <!-- Main heading -->
-            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent2 via-accent2 to-primary">Enterprise</span><br/>
               <span class="text-gray-900">Technology</span><br/>
               <span class="text-primary">Excellence</span>
             </h1>
             
             <!-- Subtitle -->
-            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
               Transform your enterprise with <span class="text-accent2 font-semibold">cutting-edge technology solutions</span> tailored to your <span class="text-primary font-semibold">business challenges</span>.
             </p>
             
             <!-- Enterprise Stats -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">Enterprise</div>
+                <div class="text-2xl md:text-3xl font-black text-accent2 mb-2">Enterprise</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Grade Solutions</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">Scalable</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Scalable</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Architecture</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">24/7</div>
+                <div class="text-2xl md:text-3xl font-black text-accent2 mb-2">24/7</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Support</div>
               </div>
             </div>
@@ -300,7 +300,7 @@
           <p class="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
             Schedule a consultation with our quantum experts to discover how Skymirror's solutions can drive your business forward.
           </p>
-          <router-link to="/consultation" class="px-8 py-4 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <router-link to="/consultation" class="px-6 py-3 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
             Request a Consultation
           </router-link>
         </div>

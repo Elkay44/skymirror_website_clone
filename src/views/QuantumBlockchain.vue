@@ -17,29 +17,29 @@
             </div>
             
             <!-- Main heading -->
-            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent2 via-accent2 to-primary">Strategic</span><br/>
               <span class="text-gray-900">Technology</span><br/>
               <span class="text-primary">Implementation</span>
             </h1>
             
             <!-- Subtitle -->
-            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
               Skymirror specializes in <span class="text-accent2 font-semibold">comprehensive technology transfer services</span> that help businesses <span class="text-primary font-semibold">replicate products, transfer machinery</span>, and implement franchising solutions.
             </p>
             
             <!-- Service Stats -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">Product</div>
+                <div class="text-2xl md:text-3xl font-black text-accent2 mb-2">Product</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Replication</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">Machinery</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Machinery</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Transfer</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">Franchise</div>
+                <div class="text-2xl md:text-3xl font-black text-accent2 mb-2">Franchise</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Solutions</div>
               </div>
             </div>
@@ -57,12 +57,12 @@
             <span class="text-accent2 font-semibold text-sm tracking-wide uppercase">Strategic Advantage</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
+          <h2 class="text-2xl md:text-3xl font-heading font-black mb-6">
             <span class="text-gray-900">The Strategic Advantage of</span><br/>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent2 to-primary">Technology Transfer</span>
           </h2>
           
-          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium">
+          <p class="text-base md:text-lg text-gray-700 leading-relaxed font-medium">
             Leverage our expertise to <span class="text-accent2 font-semibold">seamlessly transfer and implement</span> proven technologies into your business operations, <span class="text-primary font-semibold">reducing risk and accelerating growth</span>.
           </p>
         </div>
@@ -192,7 +192,7 @@
           <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
             Connect with our technology transfer experts to explore how Skymirror can help expand your business into new markets.
           </p>
-          <router-link to="/consultation" class="px-8 py-4 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark">
+          <router-link to="/consultation" class="px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark">
             Schedule a Consultation
           </router-link>
         </div>

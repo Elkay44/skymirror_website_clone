@@ -17,33 +17,33 @@
             </div>
             
             <!-- Main heading -->
-            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent1">Solutions</span><br/>
               <span class="text-gray-900">for Modern</span><br/>
               <span class="text-accent1">Business</span>
             </h1>
             
             <!-- Subtitle -->
-            <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
+            <p class="text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
               Discover our comprehensive suite of <span class="text-primary font-semibold">software development</span> and <span class="text-accent1 font-semibold">AI-powered solutions</span> designed to transform your business.
             </p>
             
             <!-- Stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-4xl mx-auto">
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">100%</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">100%</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Custom Built</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">24/7</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">24/7</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Support</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">50+</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">50+</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">∞</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">∞</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Possibilities</div>
               </div>
             </div>
@@ -57,7 +57,7 @@
       <div class="container mx-auto px-4">
         <!-- Section Header -->
         <div class="text-center mb-8">
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
+          <h2 class="text-2xl md:text-3xl font-heading font-black mb-6">
             <span class="text-gray-900">Our</span> <span class="text-primary">Expertise</span>
           </h2>
           <p class="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -263,12 +263,12 @@
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Ready to Start?</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
+          <h2 class="text-2xl md:text-3xl font-heading font-black mb-6">
             <span class="text-gray-900">Ready to</span><br/>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Elevate Your Business?</span>
           </h2>
           
-          <p class="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p class="text-base md:text-lg text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed">
             Schedule a consultation with our <span class="text-primary font-semibold">software experts</span> to discover how Skymirror's solutions can <span class="text-accent1 font-semibold">drive your business forward</span>.
           </p>
           

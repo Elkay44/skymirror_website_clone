@@ -15,13 +15,13 @@
           </div>
           
           <!-- Main heading -->
-          <h1 class="text-4xl md:text-6xl font-heading font-black leading-tight mb-6">
+          <h1 class="text-2xl md:text-3xl font-heading font-black leading-tight mb-6">
             <span class="text-gray-900">AI-Powered Process</span><br/>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent2 to-primary">Automation</span>
           </h1>
           
           <!-- Subtitle -->
-          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium mb-6">
+          <p class="text-base md:text-lg text-gray-700 leading-relaxed font-medium mb-6">
             How a manufacturing company <span class="text-accent2 font-semibold">increased productivity by 45%</span> using our custom <span class="text-primary font-semibold">AI-powered workflow automation</span> solutions.
           </p>
           
@@ -209,13 +209,13 @@
                 Let's discuss how AI-powered automation can transform your operations and boost productivity.
               </p>
               <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <router-link to="/consultation" class="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-accent2 to-primary text-white font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <router-link to="/consultation" class="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-accent2 to-primary text-white font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   Schedule Consultation
                   <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                   </svg>
                 </router-link>
-                <router-link to="/case-studies" class="inline-flex items-center gap-3 px-8 py-4 bg-white text-accent2 font-bold rounded-full border-2 border-accent2 hover:bg-accent2 hover:text-white transition-all duration-300">
+                <router-link to="/case-studies" class="inline-flex items-center gap-3 px-6 py-3 bg-white text-accent2 font-bold rounded-full border-2 border-accent2 hover:bg-accent2 hover:text-white transition-all duration-300">
                   View More Case Studies
                 </router-link>
               </div>

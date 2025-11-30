@@ -17,33 +17,33 @@
             </div>
             
             <!-- Main heading -->
-            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent1">Checkmet</span><br/>
               <span class="text-gray-900">AI-Powered</span><br/>
               <span class="text-accent1">Attendance System</span>
             </h1>
             
             <!-- Subtitle -->
-            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
               Revolutionize your workplace attendance management with <span class="text-primary font-semibold">advanced facial recognition</span> and <span class="text-accent1 font-semibold">AI technology</span>.
             </p>
             
             <!-- Checkmet Stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-5xl mx-auto">
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">24/7</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">24/7</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Monitoring</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">99%</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">99%</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Accuracy</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">Real-time</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Real-time</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Processing</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">Secure</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">Secure</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Recognition</div>
               </div>
             </div>
@@ -349,7 +349,7 @@
           <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
             Discover how Checkmet can streamline your attendance management, improve accuracy, and provide valuable workforce insights.
           </p>
-          <router-link to="/consultation" class="px-8 py-4 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark">
+          <router-link to="/consultation" class="px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark">
             Request a Demo
           </router-link>
         </div>

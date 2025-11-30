@@ -17,33 +17,33 @@
             </div>
             
             <!-- Main heading -->
-            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent1">Skyrocketing</span><br/>
               <span class="text-gray-900">Global</span><br/>
               <span class="text-accent1">Innovation</span>
             </h1>
             
             <!-- Mission statement -->
-            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
               Welcome to <span class="text-primary font-semibold">Skymirror</span>, where we propel global innovation to new heights. Founded with a vision to <span class="text-accent1 font-semibold">connect and sustain the world</span> through technology.
             </p>
             
             <!-- Key stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-5xl mx-auto">
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">2020</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">2020</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Founded</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">Global</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">Global</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Reach</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">50+</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">50+</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">∞</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">∞</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Innovation</div>
               </div>
             </div>
@@ -63,7 +63,7 @@
               <span class="text-primary font-semibold text-sm tracking-wide uppercase">Our Journey</span>
             </div>
             
-            <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
+            <h2 class="text-2xl md:text-3xl font-heading font-black mb-6">
               <span class="text-gray-900">Our</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Story</span>
             </h2>
           </div>
@@ -192,11 +192,11 @@
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">What We Do</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
+          <h2 class="text-2xl md:text-3xl font-heading font-black mb-6">
             <span class="text-gray-900">What</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent2">We Do</span>
           </h2>
           
-          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium">
+          <p class="text-base md:text-lg text-gray-700 leading-relaxed font-medium">
             Our <span class="text-primary font-semibold">comprehensive suite of services</span> addresses modern business challenges through <span class="text-accent2 font-semibold">innovation and expertise</span>.
           </p>
         </div>

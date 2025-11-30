@@ -17,33 +17,33 @@
             </div>
             
             <!-- Main heading -->
-            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent2">Software Solutions</span><br/>
               <span class="text-gray-900">in</span><br/>
               <span class="text-accent2">Action</span>
             </h1>
             
             <!-- Subtitle -->
-            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
               Explore how our <span class="text-primary font-semibold">innovative software development</span> and <span class="text-accent2 font-semibold">AI applications</span> have transformed business operations across industries.
             </p>
             
             <!-- Success Stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-5xl mx-auto">
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">50+</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">50+</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">95%</div>
+                <div class="text-2xl md:text-3xl font-black text-accent2 mb-2">95%</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Success Rate</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">Global</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Global</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Reach</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">∞</div>
+                <div class="text-2xl md:text-3xl font-black text-accent2 mb-2">∞</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Innovation</div>
               </div>
             </div>
@@ -192,11 +192,11 @@
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Why Choose Us</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
+          <h2 class="text-2xl md:text-3xl font-heading font-black mb-6">
             <span class="text-gray-900">Why Choose</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Skymirror</span>
           </h2>
           
-          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium">
+          <p class="text-base md:text-lg text-gray-700 leading-relaxed font-medium">
             We deliver <span class="text-primary font-semibold">cutting-edge software solutions</span> and <span class="text-accent1 font-semibold">AI applications</span> that drive real business results.
           </p>
         </div>
@@ -278,7 +278,7 @@
           <p class="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
             Schedule a consultation with our quantum experts to discover how Skymirror's solutions can drive your business forward.
           </p>
-          <router-link to="/consultation" class="px-8 py-4 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <router-link to="/consultation" class="px-6 py-3 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
             Request a Consultation
           </router-link>
         </div>

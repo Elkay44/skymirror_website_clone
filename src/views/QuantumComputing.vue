@@ -17,33 +17,33 @@
             </div>
             
             <!-- Main heading -->
-            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent2">End-to-End</span><br/>
               <span class="text-gray-900">Software</span><br/>
               <span class="text-accent2">Solutions</span>
             </h1>
             
             <!-- Subtitle -->
-            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
               Skymirror delivers <span class="text-primary font-semibold">comprehensive full-stack development services</span> from <span class="text-accent2 font-semibold">frontend innovation</span> to robust backend architecture.
             </p>
             
             <!-- Tech Stack Stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-5xl mx-auto">
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">React</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">React</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Frontend</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">Node.js</div>
+                <div class="text-2xl md:text-3xl font-black text-accent2 mb-2">Node.js</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Backend</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">Cloud</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Cloud</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Infrastructure</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent2 mb-2">DevOps</div>
+                <div class="text-2xl md:text-3xl font-black text-accent2 mb-2">DevOps</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Deployment</div>
               </div>
             </div>
@@ -61,11 +61,11 @@
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Our Advantage</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
+          <h2 class="text-2xl md:text-3xl font-heading font-black mb-6">
             <span class="text-gray-900">The</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent2">Full-Stack Advantage</span>
           </h2>
           
-          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium">
+          <p class="text-base md:text-lg text-gray-700 leading-relaxed font-medium">
             Our <span class="text-primary font-semibold">comprehensive approach</span> to software development ensures <span class="text-accent2 font-semibold">seamless integration</span> between frontend and backend systems, delivering superior user experiences and business outcomes.
           </p>
         </div>
@@ -368,7 +368,7 @@
           <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
             Contact our team of full-stack experts to discuss how our development services can transform your business.
           </p>
-          <router-link to="/consultation" class="px-8 py-4 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark">
+          <router-link to="/consultation" class="px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark">
             Start Your Project
           </router-link>
         </div>

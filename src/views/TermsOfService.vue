@@ -7,7 +7,7 @@
         <div class="max-w-4xl mx-auto">
           <div class="text-center mb-6">
             <span class="text-primary-dark font-semibold inline-block mb-2">Legal Agreement</span>
-            <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">Terms of Service</h1>
+            <h1 class="text-2xl md:text-3xl font-heading font-bold mb-6">Terms of Service</h1>
             <p class="text-lg text-gray-700 max-w-3xl mx-auto">
               By using Skymirror's services, you agree to the following terms and conditions that govern our relationship.
             </p>

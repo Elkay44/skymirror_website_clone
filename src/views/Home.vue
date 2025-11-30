@@ -13,30 +13,30 @@
             <div class="space-y-4">
               <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
                 <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
-                <span class="text-primary font-semibold text-sm tracking-wide uppercase">Skyrocketing Global Innovation</span>
+                <span class="text-primary font-semibold text-xs tracking-wide uppercase">Skyrocketing Global Innovation</span>
               </div>
               
-              <h1 class="text-4xl md:text-6xl xl:text-7xl font-heading font-black leading-[0.9] text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent1">
+              <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.95] text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent1">
                 Software, AI,<br/>
                 <span class="text-accent1">& Education</span><br/>
                 <span class="text-gray-900">for Tomorrow</span>
               </h1>
               
-              <p class="text-xl md:text-2xl text-gray-700 max-w-2xl leading-relaxed font-medium">
+              <p class="text-base md:text-lg text-gray-700 max-w-2xl leading-relaxed font-medium">
                 Accelerate your business growth with <span class="text-primary font-semibold">cutting-edge software development</span>, <span class="text-accent1 font-semibold">AI applications</span>, and expert technology transfer
               </p>
             </div>
 
             <!-- CTA Buttons -->
             <div class="flex flex-col sm:flex-row gap-4">
-              <router-link to="/ai-applications" class="group px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
+              <router-link to="/ai-applications" class="group px-6 py-3 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
                 Explore Our AI Solutions
                 <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                 </svg>
               </router-link>
               
-              <router-link to="/software-solutions" class="group px-8 py-4 bg-white hover:bg-gray-50 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
+              <router-link to="/software-solutions" class="group px-6 py-3 bg-white hover:bg-gray-50 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
                 View Our Work
                 <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
@@ -48,19 +48,19 @@
             <!-- Success Metrics -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-6 border-t border-gray-200">
               <div class="text-center">
-                <div class="text-3xl md:text-4xl font-black text-primary mb-2">50+</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">50+</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects Delivered</div>
               </div>
               <div class="text-center">
-                <div class="text-3xl md:text-4xl font-black text-accent1 mb-2">95%</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">95%</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Client Satisfaction</div>
               </div>
               <div class="text-center">
-                <div class="text-3xl md:text-4xl font-black text-primary mb-2">24/7</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">24/7</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">AI Support</div>
               </div>
               <div class="text-center">
-                <div class="text-3xl md:text-4xl font-black text-accent1 mb-2">Global</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">Global</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Reach</div>
               </div>
             </div>
@@ -153,7 +153,7 @@
                 </svg>
                 Featured Product
               </div>
-              <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">
+              <h2 class="text-2xl md:text-3xl font-heading font-bold mb-6">
                 Meet <span class="text-accent1">Traquiva</span>
               </h2>
               <p class="text-xl text-gray-700 mb-6">
@@ -257,7 +257,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-8">
           <span class="text-primary-dark font-semibold inline-block mb-2">Software Solutions</span>
-          <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">
+          <h2 class="text-2xl md:text-3xl font-heading font-bold mb-4">
             Transform Your Business with <span class="text-primary">Software Solutions</span>
           </h2>
           <p class="text-lg text-gray-700">
@@ -385,7 +385,7 @@
             <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Project Showcase</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
+          <h2 class="text-2xl md:text-3xl font-heading font-black mb-6">
             <span class="text-gray-900">Innovation</span><br/>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Gallery</span>
           </h2>
@@ -510,19 +510,19 @@
               </div>
               
               <!-- Main heading -->
-              <h2 class="text-4xl md:text-6xl font-heading font-black leading-tight">
+              <h2 class="text-2xl md:text-3xl font-heading font-black leading-tight">
                 <span class="text-gray-900">Ready to</span><br/>
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Transform Your Business?</span>
               </h2>
               
               <!-- Subtitle -->
-              <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
+              <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
                 Schedule a consultation with our <span class="text-primary font-semibold">software and technology experts</span> to discover how Skymirror's solutions can <span class="text-accent1 font-semibold">drive your business forward</span>.
               </p>
               
               <!-- Enhanced CTA Button -->
               <div class="pt-4">
-                <router-link to="/consultation" class="group inline-flex items-center gap-3 px-12 py-6 bg-gradient-to-r from-primary to-primary-dark text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
+                <router-link to="/consultation" class="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
                   Request a Consultation
                   <svg class="w-6 h-6 group-hover:translate-x-2 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>

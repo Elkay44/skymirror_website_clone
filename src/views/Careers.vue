@@ -17,29 +17,29 @@
             </div>
             
             <!-- Main heading -->
-            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
               <span class="text-gray-900">Join the Journey of</span><br/>
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent1 via-accent1 to-primary">Skyrocketing</span><br/>
               <span class="text-primary">Global Innovation</span>
             </h1>
             
             <!-- Subtitle -->
-            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
               At Skymirror, we're not just building technology—we're <span class="text-accent1 font-semibold">shaping a connected, sustainable world</span>. As leaders in software development, AI applications, and global education, we're looking for <span class="text-primary font-semibold">passionate innovators</span> to join our mission.
             </p>
             
             <!-- Career Stats -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">Remote</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">Remote</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">First Culture</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">Global</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Global</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Opportunities</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">Growth</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">Growth</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Focused</div>
               </div>
             </div>

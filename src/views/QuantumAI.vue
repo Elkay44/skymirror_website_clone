@@ -17,29 +17,29 @@
             </div>
             
             <!-- Main heading -->
-            <h1 class="text-5xl md:text-7xl xl:text-8xl font-heading font-black leading-[0.9]">
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent1 via-accent1 to-primary">Intelligent</span><br/>
               <span class="text-gray-900">Solutions for</span><br/>
               <span class="text-primary">Modern Business</span>
             </h1>
             
             <!-- Subtitle -->
-            <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
               Transforming operations with <span class="text-accent1 font-semibold">advanced AI-powered applications</span> including <span class="text-primary font-semibold">Traquiva learning platform</span>, Checkmet attendance management, and facial recognition.
             </p>
             
             <!-- Featured Products Stats -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">95%</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">95%</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Traquiva Success Rate</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-primary mb-2">24/7</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">24/7</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Checkmet Monitoring</div>
               </div>
               <div class="text-center">
-                <div class="text-4xl md:text-5xl font-black text-accent1 mb-2">AI</div>
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">AI</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Powered Innovation</div>
               </div>
             </div>
@@ -57,12 +57,12 @@
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Why Choose Us</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
+          <h2 class="text-2xl md:text-3xl font-heading font-black mb-6">
             <span class="text-gray-900">Why Choose Our</span><br/>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent1 to-primary">AI Applications?</span>
           </h2>
           
-          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium">
+          <p class="text-base md:text-lg text-gray-700 leading-relaxed font-medium">
             Our <span class="text-accent1 font-semibold">intelligent solutions</span> combine cutting-edge AI technologies with <span class="text-primary font-semibold">practical business applications</span>, creating systems that increase efficiency, reduce costs, and enhance security.
           </p>
         </div>
@@ -168,11 +168,11 @@
             <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Our Applications</span>
           </div>
           
-          <h3 class="text-4xl md:text-6xl font-heading font-black mb-6">
+          <h3 class="text-2xl md:text-3xl font-heading font-black mb-6">
             <span class="text-gray-900">Our</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent1 to-primary">AI Applications</span>
           </h3>
           
-          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium">
+          <p class="text-base md:text-lg text-gray-700 leading-relaxed font-medium">
             Explore our suite of <span class="text-accent1 font-semibold">intelligent applications</span> that solve <span class="text-primary font-semibold">real business challenges</span>.
           </p>
         </div>
@@ -337,11 +337,11 @@
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Technology Stack</span>
           </div>
           
-          <h2 class="text-4xl md:text-6xl font-heading font-black mb-6">
+          <h2 class="text-2xl md:text-3xl font-heading font-black mb-6">
             <span class="text-gray-900">AI</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Technology Stack</span>
           </h2>
           
-          <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium">
+          <p class="text-base md:text-lg text-gray-700 leading-relaxed font-medium">
             Our <span class="text-primary font-semibold">comprehensive technology stack</span> combines cutting-edge AI frameworks with <span class="text-accent1 font-semibold">scalable cloud infrastructure</span>.
           </p>
         </div>
@@ -411,10 +411,10 @@
             Discover how our Quantum AI solutions can transform your business with unprecedented computational power.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <router-link to="/consultation" class="px-8 py-4 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <router-link to="/consultation" class="px-6 py-3 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               Request a Demonstration
             </router-link>
-            <router-link to="/software-solutions" class="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <router-link to="/software-solutions" class="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               Explore Our Solutions
             </router-link>
           </div>
