@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-10 overflow-hidden">
+    <section class="relative pt-32 pb-10 overflow-hidden particles-bg">
         <!-- Global background applied here -->
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
@@ -20,7 +20,7 @@
     <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
-          <div class="glass-card rounded-xl p-8 shadow-xl">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-8 shadow-xl">
             <div class="space-y-4">
               <!-- Section 1: Acceptance of Terms -->
               <div>

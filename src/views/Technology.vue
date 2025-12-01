@@ -3,16 +3,16 @@
     <!-- Hero Section -->
     <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
-      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
-      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 animate-gradient"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-float delay-1000"></div>
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
           <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
-              <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+              <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
               <span class="text-primary font-semibold text-sm tracking-wide uppercase">Skymirror Training</span>
             </div>
             
@@ -50,7 +50,7 @@
             
             <!-- CTAs -->
             <div class="flex flex-col sm:flex-row gap-6 justify-center pt-8">
-              <a href="https://www.skymirror.academy" target="_blank" rel="noopener noreferrer" class="group px-10 py-5 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
+              <a href="https://www.skymirror.academy" target="_blank" rel="noopener noreferrer" class="group px-10 py-5 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl ripple hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-3">
                 Explore Bootcamps
                 <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
@@ -58,7 +58,7 @@
                 </svg>
               </a>
               
-              <router-link to="/case-studies" class="group px-10 py-5 bg-white hover:bg-gray-50 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
+              <router-link to="/case-studies" class="group px-10 py-5 bg-white hover:bg-gray-50 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-3">
                 Success Stories
                 <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
@@ -75,7 +75,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-4xl mx-auto mb-8">
           <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
-            <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+            <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Our Programs</span>
           </div>
           
@@ -90,7 +90,7 @@
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           <!-- Tech Stack Card 1 -->
-          <div class="glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="p-6">
               <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-lg mb-4">
                 <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -125,7 +125,7 @@
           </div>
           
           <!-- Tech Stack Card 2 -->
-          <div class="glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="p-6">
               <div class="w-14 h-14 bg-accent1/10 flex items-center justify-center rounded-lg mb-4">
                 <svg class="w-8 h-8 text-accent1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -160,7 +160,7 @@
           </div>
           
           <!-- Tech Stack Card 3 -->
-          <div class="glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="p-6">
               <div class="w-14 h-14 bg-accent2/10 flex items-center justify-center rounded-lg mb-4">
                 <svg class="w-8 h-8 text-accent2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -277,7 +277,7 @@
           <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
             Join our upcoming cohorts and transform your career with in-demand technology skills that employers are actively seeking.
           </p>
-          <a href="https://www.skymirror.academy" target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark">
+          <a href="https://www.skymirror.academy" target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg ripple hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 hover:bg-primary-dark">
             Apply Now
           </a>
         </div>

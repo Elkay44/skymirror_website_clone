@@ -3,16 +3,16 @@
     <!-- Hero Section -->
     <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
-      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
-      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 animate-gradient"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-float delay-1000"></div>
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
           <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
-              <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+              <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
               <span class="text-primary font-semibold text-sm tracking-wide uppercase">Talk to an Expert</span>
             </div>
             
@@ -107,7 +107,7 @@
                 </ul>
               </div>
             </div>
-            <div class="glass-card rounded-xl p-8">
+            <div class="glass-card interactive-card hover-lift rounded-xl p-8">
               <form class="space-y-4" @submit.prevent="submitForm">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
@@ -221,7 +221,7 @@
         <div class="max-w-5xl mx-auto">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Step 1 -->
-            <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+            <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
               <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-full mb-4">
                 <span class="text-primary font-bold text-xl">01</span>
               </div>
@@ -232,7 +232,7 @@
             </div>
             
             <!-- Step 2 -->
-            <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+            <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
               <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-full mb-4">
                 <span class="text-primary font-bold text-xl">02</span>
               </div>
@@ -243,7 +243,7 @@
             </div>
             
             <!-- Step 3 -->
-            <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+            <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
               <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-full mb-4">
                 <span class="text-primary font-bold text-xl">03</span>
               </div>

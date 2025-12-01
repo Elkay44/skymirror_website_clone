@@ -1,16 +1,16 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <section class="py-12 bg-gradient-to-br from-accent1/5 via-transparent to-accent2/5 relative overflow-hidden">
+    <section class="py-12 bg-gradient-to-br from-accent1/5 via-transparent to-accent2/5 relative overflow-hidden particles-bg">
       <!-- Animated background elements -->
-      <div class="absolute top-10 right-10 w-64 h-64 bg-gradient-to-br from-accent1/10 to-accent2/10 rounded-full blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-10 left-10 w-48 h-48 bg-gradient-to-tr from-accent2/10 to-accent1/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
+      <div class="absolute top-10 right-10 w-64 h-64 bg-gradient-to-br from-accent1/10 to-accent2/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-10 left-10 w-48 h-48 bg-gradient-to-tr from-accent2/10 to-accent1/10 rounded-full blur-2xl animate-float delay-1000"></div>
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-4xl mx-auto text-center">
           <!-- Badge -->
           <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20 mb-6">
-            <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
+            <div class="w-2 h-2 bg-accent1 rounded-full animate-float"></div>
             <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Case Study</span>
           </div>
           
@@ -179,7 +179,7 @@
                 Let's discuss how we can help you successfully transfer and implement your technology solutions.
               </p>
               <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <router-link to="/consultation" class="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-accent1 to-accent2 text-white font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <router-link to="/consultation" class="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-accent1 to-accent2 text-white font-bold rounded-full shadow-lg ripple hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
                   Schedule Consultation
                   <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>

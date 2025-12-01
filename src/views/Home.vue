@@ -6,14 +6,14 @@
       <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 animate-gradient"></div>
       <div class="absolute top-20 right-20 w-72 h-72 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
       <div class="absolute bottom-20 left-20 w-96 h-96 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-float-delayed"></div>
-      <div class="absolute top-1/2 left-1/2 w-64 h-64 bg-gradient-to-br from-accent1/5 to-primary/5 rounded-full blur-2xl animate-pulse"></div>
+      <div class="absolute top-1/2 left-1/2 w-64 h-64 bg-gradient-to-br from-accent1/5 to-primary/5 rounded-full blur-2xl animate-float"></div>
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
           <div class="lg:w-1/2 space-y-4">
             <div class="space-y-4">
               <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
-                <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
+                <div class="w-2 h-2 bg-accent1 rounded-full animate-float"></div>
                 <span class="text-primary font-semibold text-xs tracking-wide uppercase">Skyrocketing Global Innovation</span>
               </div>
               
@@ -30,7 +30,7 @@
 
             <!-- CTA Buttons -->
             <div class="flex flex-col sm:flex-row gap-4">
-              <router-link to="/ai-applications" class="group ripple px-6 py-3 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl hover:shadow-2xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-3">
+              <router-link to="/ai-applications" class="group ripple px-6 py-3 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl ripple hover:shadow-2xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-3">
                 <span class="relative z-10 flex items-center gap-2">
                   Explore Our AI Solutions
                   <svg class="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
@@ -39,7 +39,7 @@
                 </span>
               </router-link>
               
-              <router-link to="/software-solutions" class="group ripple px-6 py-3 bg-white hover:bg-primary/5 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-3">
+              <router-link to="/software-solutions" class="group ripple px-6 py-3 bg-white hover:bg-primary/5 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-3">
                 <span class="relative z-10 flex items-center gap-2">
                   View Our Work
                   <svg class="w-5 h-5 group-hover:rotate-12 group-hover:scale-125 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
@@ -76,7 +76,7 @@
               <!-- Modern Hero Visual -->
               <div class="relative group">
                 <!-- Main showcase card -->
-                <div class="glass-card p-8 rounded-3xl shadow-2xl relative overflow-hidden border border-primary/20 bg-gradient-to-br from-white via-primary/5 to-accent1/10 transition-all duration-500 group-hover:shadow-[0_20px_60px_rgba(0,163,157,0.2)] group-hover:border-primary/40">
+                <div class="glass-card interactive-card hover-lift p-8 rounded-3xl shadow-2xl relative overflow-hidden border border-primary/20 bg-gradient-to-br from-white via-primary/5 to-accent1/10 transition-all duration-500 group-hover:shadow-[0_20px_60px_rgba(0,163,157,0.2)] group-hover:border-primary/40">
                   <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-accent1/20 to-primary/20 rounded-full blur-2xl"></div>
                   <div class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-primary/20 to-accent1/20 rounded-full blur-xl"></div>
                   
@@ -84,7 +84,7 @@
                     <!-- Header -->
                     <div class="flex items-center justify-between">
                       <div class="flex items-center gap-3">
-                        <div class="w-3 h-3 bg-accent1 rounded-full animate-pulse"></div>
+                        <div class="w-3 h-3 bg-accent1 rounded-full animate-float"></div>
                         <span class="text-sm font-semibold text-gray-600 uppercase tracking-wide">Live Innovation</span>
                       </div>
                       <div class="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded-full">Real-time</div>
@@ -126,7 +126,7 @@
                         <span class="text-xs text-green-600 font-medium">↗ +127%</span>
                       </div>
                       <div class="w-full bg-gray-200 rounded-full h-2">
-                        <div class="bg-gradient-to-r from-primary to-accent1 h-2 rounded-full w-4/5 animate-pulse"></div>
+                        <div class="bg-gradient-to-r from-primary to-accent1 h-2 rounded-full w-4/5"></div>
                       </div>
                       <div class="flex justify-between text-xs text-gray-500 mt-1">
                         <span>50+ Projects</span>
@@ -138,7 +138,7 @@
                 
                 <!-- Floating elements -->
                 <div class="absolute -top-4 -right-4 w-8 h-8 bg-accent1 rounded-full opacity-20 animate-bounce"></div>
-                <div class="absolute -bottom-2 -left-2 w-6 h-6 bg-primary rounded-full opacity-30 animate-pulse delay-500"></div>
+                <div class="absolute -bottom-2 -left-2 w-6 h-6 bg-primary rounded-full opacity-30 animate-float delay-500"></div>
               </div>
             </div>
           </div>
@@ -199,21 +199,21 @@
                 </div>
               </div>
               <div class="flex flex-wrap gap-4">
-                <a href="https://www.traquiva.com" target="_blank" class="px-6 py-3 bg-accent1 hover:bg-accent1-dark text-white font-semibold rounded-full shadow-md transition-all duration-300 transform hover:-translate-y-1 flex items-center gap-2">
+                <a href="https://www.traquiva.com" target="_blank" class="px-6 py-3 bg-accent1 hover:bg-accent1-dark text-white font-semibold rounded-full shadow-md transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center gap-2">
                   Explore Traquiva
                   <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
                     <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
                   </svg>
                 </a>
-                <a href="https://www.traquiva.com" target="_blank" class="px-6 py-3 bg-white hover:bg-gray-50 text-accent1 font-semibold rounded-full border-2 border-accent1 shadow-md transition-all duration-300 transform hover:-translate-y-1">
+                <a href="https://www.traquiva.com" target="_blank" class="px-6 py-3 bg-white hover:bg-gray-50 text-accent1 font-semibold rounded-full border-2 border-accent1 shadow-md transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
                   Start Learning Free
                 </a>
               </div>
             </div>
             
             <div class="lg:w-1/2">
-              <div class="glass-card p-8 rounded-2xl shadow-xl bg-white/80 backdrop-blur-sm">
+              <div class="glass-card interactive-card hover-lift p-8 rounded-2xl shadow-xl bg-white/80 backdrop-blur-sm">
                 <div class="text-center mb-6">
                   <h3 class="text-2xl font-semibold text-accent1 mb-2">Learning Journey</h3>
                   <p class="text-gray-600">From Beginner to Job-Ready Developer</p>
@@ -272,7 +272,7 @@
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           <!-- Solution Card 1 -->
-          <div class="glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-accent1/30 bg-white">
+          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105 border border-accent1/30 bg-white">
             <div class="p-6">
               <div class="flex justify-between items-start mb-4">
                 <div class="bg-primary/10 p-3 rounded-lg text-primary">
@@ -325,7 +325,7 @@
           
           
           <!-- Solution Card 2 -->
-          <div class="glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-accent1/30 bg-white">
+          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105 border border-accent1/30 bg-white">
             <div class="p-6">
               <div class="flex justify-between items-start mb-4">
                 <div class="bg-accent1/10 p-3 rounded-lg text-accent1">
@@ -349,7 +349,7 @@
           </div>
           
           <!-- Solution Card 3 -->
-          <div class="glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-accent1/30 bg-white">
+          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105 border border-accent1/30 bg-white">
             <div class="p-6">
               <div class="flex justify-between items-start mb-4">
                 <div class="bg-accent2/10 p-3 rounded-lg text-accent2">
@@ -386,7 +386,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center mb-8">
           <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20 mb-6">
-            <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
+            <div class="w-2 h-2 bg-accent1 rounded-full animate-float"></div>
             <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Project Showcase</span>
           </div>
           
@@ -403,7 +403,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           <!-- Traquiva Project -->
           <div class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-            <div class="aspect-video bg-gradient-to-br from-accent1/20 to-accent1/40 relative overflow-hidden">
+            <div class="aspect-video bg-gradient-to-br from-accent1/20 to-accent1/40 relative overflow-hidden particles-bg">
               <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               <div class="absolute top-4 left-4">
                 <span class="bg-accent1 text-white text-xs font-bold px-3 py-1 rounded-full">AI Platform</span>
@@ -414,7 +414,7 @@
               </div>
               <!-- Floating elements -->
               <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20 group-hover:opacity-40 transition-opacity">
-                <div class="w-16 h-16 border-2 border-white rounded-full animate-pulse"></div>
+                <div class="w-16 h-16 border-2 border-white rounded-full animate-float"></div>
               </div>
             </div>
             <div class="p-6">
@@ -434,7 +434,7 @@
 
           <!-- Checkmet Project -->
           <div class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-            <div class="aspect-video bg-gradient-to-br from-primary/20 to-primary/40 relative overflow-hidden">
+            <div class="aspect-video bg-gradient-to-br from-primary/20 to-primary/40 relative overflow-hidden particles-bg">
               <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               <div class="absolute top-4 left-4">
                 <span class="bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">AI System</span>
@@ -444,7 +444,7 @@
                 <p class="text-white/80 text-sm">Smart Attendance Management</p>
               </div>
               <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20 group-hover:opacity-40 transition-opacity">
-                <div class="w-12 h-12 border-2 border-white rounded-lg animate-pulse"></div>
+                <div class="w-12 h-12 border-2 border-white rounded-lg animate-float"></div>
               </div>
             </div>
             <div class="p-6">
@@ -464,7 +464,7 @@
 
           <!-- Enterprise Solutions -->
           <div class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-            <div class="aspect-video bg-gradient-to-br from-accent2/20 to-accent2/40 relative overflow-hidden">
+            <div class="aspect-video bg-gradient-to-br from-accent2/20 to-accent2/40 relative overflow-hidden particles-bg">
               <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               <div class="absolute top-4 left-4">
                 <span class="bg-accent2 text-white text-xs font-bold px-3 py-1 rounded-full">Enterprise</span>
@@ -474,7 +474,7 @@
                 <p class="text-white/80 text-sm">Tailored Business Applications</p>
               </div>
               <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20 group-hover:opacity-40 transition-opacity">
-                <div class="w-20 h-12 border-2 border-white rounded-md animate-pulse"></div>
+                <div class="w-20 h-12 border-2 border-white rounded-md animate-float"></div>
               </div>
             </div>
             <div class="p-6">
@@ -495,22 +495,22 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="py-12 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 relative overflow-hidden">
+    <section class="py-12 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 relative overflow-hidden particles-bg">
       <!-- Animated background elements -->
-      <div class="absolute top-10 right-10 w-64 h-64 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-10 left-10 w-48 h-48 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
+      <div class="absolute top-10 right-10 w-64 h-64 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-10 left-10 w-48 h-48 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-2xl animate-float delay-1000"></div>
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-5xl mx-auto text-center">
           <!-- Premium CTA Card -->
-          <div class="bg-white/80 backdrop-blur-lg p-10 rounded-3xl shadow-2xl border border-white/20 relative overflow-hidden">
+          <div class="bg-white/80 backdrop-blur-lg p-10 rounded-3xl shadow-2xl border border-white/20 relative overflow-hidden particles-bg">
             <!-- Gradient overlay -->
             <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent1/5 rounded-3xl"></div>
             
             <div class="relative z-10 space-y-4">
               <!-- Badge -->
               <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
-                <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+                <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
                 <span class="text-primary font-semibold text-sm tracking-wide uppercase">Get Started</span>
               </div>
               

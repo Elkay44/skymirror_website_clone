@@ -4,15 +4,15 @@
     <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent2/5"></div>
-      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent2/10 rounded-full blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent2/10 to-primary/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent2/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent2/10 to-primary/10 rounded-full blur-3xl animate-float delay-1000"></div>
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
           <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
-              <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+              <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
               <span class="text-primary font-semibold text-sm tracking-wide uppercase">Full-Stack Development</span>
             </div>
             
@@ -57,7 +57,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-4xl mx-auto mb-8">
           <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
-            <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+            <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Our Advantage</span>
           </div>
           
@@ -152,7 +152,7 @@
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <!-- Application Card 1 -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-lg mb-4">
               <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M3 5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-2.22l.123.489.804.804A1 1 0 0113 18H7a1 1 0 01-.707-1.707l.804-.804L7.22 15H5a2 2 0 01-2-2V5zm5.771 7H5V5h10v7H8.771z" clip-rule="evenodd"></path>
@@ -185,7 +185,7 @@
           </div>
           
           <!-- Application Card 2 -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="w-14 h-14 bg-accent1/10 flex items-center justify-center rounded-lg mb-4">
               <svg class="w-8 h-8 text-accent1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
@@ -218,7 +218,7 @@
           </div>
           
           <!-- Application Card 3 -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="w-14 h-14 bg-accent2/10 flex items-center justify-center rounded-lg mb-4">
               <svg class="w-8 h-8 text-accent2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path d="M13 7H7v6h6V7z"></path>
@@ -368,7 +368,7 @@
           <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
             Contact our team of full-stack experts to discuss how our development services can transform your business.
           </p>
-          <router-link to="/consultation" class="px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark">
+          <router-link to="/consultation" class="px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg ripple hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 hover:bg-primary-dark">
             Start Your Project
           </router-link>
         </div>

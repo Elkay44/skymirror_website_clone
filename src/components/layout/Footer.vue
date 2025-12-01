@@ -1,9 +1,9 @@
 <template>
   <footer class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12 relative overflow-hidden" role="contentinfo" aria-label="Site footer">
     <!-- Premium background elements -->
-    <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
-    <div class="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
-    <div class="absolute bottom-20 left-20 w-48 h-48 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
+    <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 animate-gradient"></div>
+    <div class="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
+    <div class="absolute bottom-20 left-20 w-48 h-48 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-2xl animate-float-delayed"></div>
     
     <div class="container mx-auto px-8 relative z-10">
       <!-- Main Footer Content -->
@@ -29,13 +29,13 @@
           
           <!-- Enhanced Social Links -->
           <div class="flex gap-3">
-            <a href="https://www.linkedin.com/company/skymirror-inc" target="_blank" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/30 hover:to-accent1/30 transition-all duration-300 transform hover:-translate-y-1 border border-white/10" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/company/skymirror-inc" target="_blank" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/40 hover:to-accent1/40 transition-all duration-300 transform hover:-translate-y-2 hover:scale-110 hover:shadow-lg hover:shadow-primary/20 border border-white/10" aria-label="LinkedIn">
               <i class="fab fa-linkedin-in text-lg group-hover:text-primary transition-colors"></i>
             </a>
-            <a href="https://www.youtube.com/@skymirror_inc" target="_blank" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/30 hover:to-accent1/30 transition-all duration-300 transform hover:-translate-y-1 border border-white/10" aria-label="YouTube">
+            <a href="https://www.youtube.com/@skymirror_inc" target="_blank" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/40 hover:to-accent1/40 transition-all duration-300 transform hover:-translate-y-2 hover:scale-110 hover:shadow-lg hover:shadow-primary/20 border border-white/10" aria-label="YouTube">
               <i class="fab fa-youtube text-lg group-hover:text-accent1 transition-colors"></i>
             </a>
-            <a href="https://www.instagram.com/skymirror.eu" target="_blank" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/30 hover:to-accent1/30 transition-all duration-300 transform hover:-translate-y-1 border border-white/10" aria-label="Instagram">
+            <a href="https://www.instagram.com/skymirror.eu" target="_blank" class="group flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent1/20 hover:from-primary/40 hover:to-accent1/40 transition-all duration-300 transform hover:-translate-y-2 hover:scale-110 hover:shadow-lg hover:shadow-primary/20 border border-white/10" aria-label="Instagram">
               <i class="fab fa-instagram text-lg group-hover:text-accent2 transition-colors"></i>
             </a>
           </div>
@@ -45,19 +45,19 @@
         <div class="md:col-span-1">
           <h3 class="text-xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Solutions</h3>
           <ul class="space-y-4">
-            <li><router-link to="/software-solutions" class="group flex items-center gap-2 text-gray-400 hover:text-white transition-all duration-300">
+            <li><router-link to="/software-solutions" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
               <div class="w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               Software Development
             </router-link></li>
-            <li><router-link to="/ai-applications" class="group flex items-center gap-2 text-gray-400 hover:text-white transition-all duration-300">
+            <li><router-link to="/ai-applications" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
               <div class="w-1.5 h-1.5 bg-accent1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               AI Applications
             </router-link></li>
-            <li><router-link to="/technology-transfer" class="group flex items-center gap-2 text-gray-400 hover:text-white transition-all duration-300">
+            <li><router-link to="/technology-transfer" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
               <div class="w-1.5 h-1.5 bg-accent2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               Technology Transfer
             </router-link></li>
-            <li><router-link to="/training" class="group flex items-center gap-2 text-gray-400 hover:text-white transition-all duration-300">
+            <li><router-link to="/training" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
               <div class="w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               Training Programs
             </router-link></li>
@@ -68,7 +68,7 @@
         <div class="md:col-span-1">
           <h3 class="text-xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-accent1 to-primary">Products</h3>
           <ul class="space-y-4">
-            <li><a href="https://www.traquiva.com" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white transition-all duration-300">
+            <li><a href="https://www.traquiva.com" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
               <div class="w-1.5 h-1.5 bg-accent1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               Traquiva Learning Platform
               <svg class="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 20 20">
@@ -76,7 +76,7 @@
                 <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
               </svg>
             </a></li>
-            <li><a href="https://checkmet.eu/" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white transition-all duration-300">
+            <li><a href="https://checkmet.eu/" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
               <div class="w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               Checkmet Attendance System
               <svg class="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 20 20">
@@ -84,11 +84,11 @@
                 <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
               </svg>
             </a></li>
-            <li><router-link to="/about" class="group flex items-center gap-2 text-gray-400 hover:text-white transition-all duration-300">
+            <li><router-link to="/about" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
               <div class="w-1.5 h-1.5 bg-accent2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               About Us
             </router-link></li>
-            <li><router-link to="/case-studies" class="group flex items-center gap-2 text-gray-400 hover:text-white transition-all duration-300">
+            <li><router-link to="/case-studies" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
               <div class="w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               Case Studies
             </router-link></li>

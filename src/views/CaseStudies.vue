@@ -4,15 +4,15 @@
     <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent2/5"></div>
-      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent2/10 rounded-full blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent2/10 to-primary/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent2/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent2/10 to-primary/10 rounded-full blur-3xl animate-float delay-1000"></div>
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
           <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent2/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
-              <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+              <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
               <span class="text-primary font-semibold text-sm tracking-wide uppercase">Success Stories</span>
             </div>
             
@@ -56,7 +56,7 @@
     <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <!-- Featured Case Study -->
-        <div class="glass-card rounded-2xl overflow-hidden mb-16">
+        <div class="glass-card interactive-card hover-lift rounded-2xl overflow-hidden mb-16">
           <div class="grid grid-cols-1 lg:grid-cols-2">
             <div class="p-8 lg:p-8 flex flex-col justify-center">
               <span class="text-primary font-semibold inline-block mb-2">Featured Case Study</span>
@@ -97,7 +97,7 @@
         <!-- Case Studies Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Case Study 1 -->
-          <div class="glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="aspect-video w-full bg-gradient-to-br from-accent1/90 to-accent1-dark/90 relative">
               <img src="https://via.placeholder.com/300x200.png?text=case-study-pharma.jpg" alt="Pharmaceutical Research" class="w-full h-full object-cover mix-blend-overlay" />
               <div class="absolute inset-0 flex items-center justify-center">
@@ -125,7 +125,7 @@
           </div>
           
           <!-- Case Study 2 -->
-          <div class="glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="aspect-video w-full bg-gradient-to-br from-accent2/90 to-accent2-dark/90 relative">
               <img src="https://via.placeholder.com/300x200.png?text=case-study-logistics.jpg" alt="Logistics Optimization" class="w-full h-full object-cover mix-blend-overlay" />
               <div class="absolute inset-0 flex items-center justify-center">
@@ -153,7 +153,7 @@
           </div>
           
           <!-- Case Study 3 -->
-          <div class="glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="aspect-video w-full bg-gradient-to-br from-primary/90 to-primary-dark/90 relative">
               <img src="https://via.placeholder.com/300x200.png?text=case-study-cybersecurity.jpg" alt="Cybersecurity" class="w-full h-full object-cover mix-blend-overlay" />
               <div class="absolute inset-0 flex items-center justify-center">
@@ -188,7 +188,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-4xl mx-auto mb-8">
           <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
-            <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+            <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Why Choose Us</span>
           </div>
           
@@ -203,7 +203,7 @@
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           <!-- Proven Products -->
-          <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-primary/30">
+          <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl hover-glow transition-all duration-300 border border-gray-100 hover:border-primary/30">
             <div class="mb-6">
               <div class="w-16 h-16 bg-gradient-to-br from-primary/10 to-primary/20 rounded-xl flex items-center justify-center mb-4 group-hover:shadow-md transition-shadow">
                 <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20">
@@ -218,7 +218,7 @@
           </div>
           
           <!-- Full-Stack Expertise -->
-          <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-accent1/30">
+          <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl hover-glow transition-all duration-300 border border-gray-100 hover:border-accent1/30">
             <div class="mb-6">
               <div class="w-16 h-16 bg-gradient-to-br from-accent1/10 to-accent1/20 rounded-xl flex items-center justify-center mb-4 group-hover:shadow-md transition-shadow">
                 <svg class="w-8 h-8 text-accent1" fill="currentColor" viewBox="0 0 20 20">
@@ -233,7 +233,7 @@
           </div>
           
           <!-- Global Innovation -->
-          <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-accent2/30">
+          <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl hover-glow transition-all duration-300 border border-gray-100 hover:border-accent2/30">
             <div class="mb-6">
               <div class="w-16 h-16 bg-gradient-to-br from-accent2/10 to-accent2/20 rounded-xl flex items-center justify-center mb-4 group-hover:shadow-md transition-shadow">
                 <svg class="w-8 h-8 text-accent2" fill="currentColor" viewBox="0 0 20 20">
@@ -278,7 +278,7 @@
           <p class="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
             Schedule a consultation with our quantum experts to discover how Skymirror's solutions can drive your business forward.
           </p>
-          <router-link to="/consultation" class="px-6 py-3 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <router-link to="/consultation" class="px-6 py-3 bg-white text-primary font-semibold rounded-full shadow-lg ripple hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
             Request a Consultation
           </router-link>
         </div>

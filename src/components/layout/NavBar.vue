@@ -29,7 +29,7 @@
       >
         <router-link
           to="/software-solutions"
-          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5"
+          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5 hover:scale-105"
           role="menuitem"
           tabindex="0"
         >
@@ -39,7 +39,7 @@
 
         <router-link
           to="/ai-applications"
-          class="group font-semibold text-gray-700 hover:text-accent1 relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-accent1/5"
+          class="group font-semibold text-gray-700 hover:text-accent1 relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-accent1/5 hover:scale-105"
           role="menuitem"
           tabindex="0"
         >
@@ -49,7 +49,7 @@
 
         <router-link
           to="/full-stack-development"
-          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5"
+          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5 hover:scale-105"
           role="menuitem"
           tabindex="0"
         >
@@ -59,7 +59,7 @@
 
         <router-link
           to="/technology-transfer"
-          class="group font-semibold text-gray-700 hover:text-accent2 relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-accent2/5"
+          class="group font-semibold text-gray-700 hover:text-accent2 relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-accent2/5 hover:scale-105"
           role="menuitem"
           tabindex="0"
         >
@@ -69,7 +69,7 @@
 
         <router-link
           to="/training"
-          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5"
+          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5 hover:scale-105"
           role="menuitem"
           tabindex="0"
         >
@@ -79,7 +79,7 @@
         <!-- Premium CTA Button -->
         <router-link
           to="/consultation"
-          class="group relative px-6 py-3 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 overflow-hidden border border-primary/20"
+          class="group relative px-6 py-3 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-lg ripple hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 overflow-hidden border border-primary/20"
           role="menuitem"
           tabindex="0"
         >

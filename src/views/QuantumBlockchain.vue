@@ -4,15 +4,15 @@
     <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-accent2/5 via-transparent to-primary/5"></div>
-      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-accent2/10 to-primary/10 rounded-full blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-primary/10 to-accent2/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-accent2/10 to-primary/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-primary/10 to-accent2/10 rounded-full blur-3xl animate-float delay-1000"></div>
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
           <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent2/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent2/20">
-              <div class="w-2 h-2 bg-accent2 rounded-full animate-pulse"></div>
+              <div class="w-2 h-2 bg-accent2 rounded-full animate-float"></div>
               <span class="text-accent2 font-semibold text-sm tracking-wide uppercase">Technology Transfer</span>
             </div>
             
@@ -53,7 +53,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-4xl mx-auto mb-8">
           <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent2/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent2/20 mb-6">
-            <div class="w-2 h-2 bg-accent2 rounded-full animate-pulse"></div>
+            <div class="w-2 h-2 bg-accent2 rounded-full animate-float"></div>
             <span class="text-accent2 font-semibold text-sm tracking-wide uppercase">Strategic Advantage</span>
           </div>
           
@@ -166,17 +166,17 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <!-- Industry Card 1 -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <h3 class="text-xl font-semibold mb-2">Manufacturing</h3>
             <p class="text-gray-600">Complete production line setup, machinery relocation, and manufacturing process optimization.</p>
           </div>
           <!-- Industry Card 2 -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <h3 class="text-xl font-semibold mb-2">Food & Beverage</h3>
             <p class="text-gray-600">Recipe replication, production scaling, and international market adaptation for food businesses.</p>
           </div>
           <!-- Industry Card 3 -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <h3 class="text-xl font-semibold mb-2">Retail & Services</h3>
             <p class="text-gray-600">Business model replication, franchising systems, and operational methodologies transfer.</p>
           </div>
@@ -192,7 +192,7 @@
           <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
             Connect with our technology transfer experts to explore how Skymirror can help expand your business into new markets.
           </p>
-          <router-link to="/consultation" class="px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:bg-primary-dark">
+          <router-link to="/consultation" class="px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg ripple hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 hover:bg-primary-dark">
             Schedule a Consultation
           </router-link>
         </div>

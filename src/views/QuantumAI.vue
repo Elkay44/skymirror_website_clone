@@ -4,15 +4,15 @@
     <section class="relative pt-28 pb-10 overflow-hidden ">
       <!-- Dynamic background -->
       <div class="absolute inset-0 bg-gradient-to-br from-accent1/5 via-transparent to-primary/5"></div>
-      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-accent1/10 to-primary/10 rounded-full blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-accent1/10 to-primary/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float delay-1000"></div>
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-6xl mx-auto">
           <div class="space-y-4">
             <!-- Badge -->
             <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20">
-              <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
+              <div class="w-2 h-2 bg-accent1 rounded-full animate-float"></div>
               <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">AI Applications</span>
             </div>
             
@@ -53,7 +53,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-4xl mx-auto mb-8">
           <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
-            <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+            <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Why Choose Us</span>
           </div>
           
@@ -164,7 +164,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-4xl mx-auto mb-8">
           <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20 mb-6">
-            <div class="w-2 h-2 bg-accent1 rounded-full animate-pulse"></div>
+            <div class="w-2 h-2 bg-accent1 rounded-full animate-float"></div>
             <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Our Applications</span>
           </div>
           
@@ -179,7 +179,7 @@
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <!-- Facial Recognition Card -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-primary/30 bg-white relative overflow-hidden">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105 border border-primary/30 bg-white relative overflow-hidden particles-bg">
             <div class="absolute top-0 right-0 bg-gradient-to-l from-primary/10 to-transparent w-32 h-32 rounded-full -translate-y-16 translate-x-16"></div>
             <div class="relative z-10">
               <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-lg mb-4">
@@ -215,7 +215,7 @@
           </div>
           
           <!-- Traquiva Card -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-accent1/30 bg-white relative overflow-hidden">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105 border border-accent1/30 bg-white relative overflow-hidden particles-bg">
             <div class="absolute top-0 right-0 bg-gradient-to-l from-accent1/10 to-transparent w-32 h-32 rounded-full -translate-y-16 translate-x-16"></div>
             <div class="relative z-10">
               <div class="w-14 h-14 bg-accent1/10 flex items-center justify-center rounded-lg mb-4">
@@ -254,7 +254,7 @@
           </div>
 
           <!-- Checkmet Card -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-primary/30 bg-white relative overflow-hidden">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105 border border-primary/30 bg-white relative overflow-hidden particles-bg">
             <div class="absolute top-0 right-0 bg-gradient-to-l from-primary/10 to-transparent w-32 h-32 rounded-full -translate-y-16 translate-x-16"></div>
             <div class="relative z-10">
               <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-lg mb-4">
@@ -290,7 +290,7 @@
           </div>
           
           <!-- AI-Powered Automation Card -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-accent2/30 bg-white relative overflow-hidden">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105 border border-accent2/30 bg-white relative overflow-hidden particles-bg">
             <div class="absolute top-0 right-0 bg-gradient-to-l from-accent2/10 to-transparent w-32 h-32 rounded-full -translate-y-16 translate-x-16"></div>
             <div class="relative z-10">
               <div class="w-14 h-14 bg-accent2/10 flex items-center justify-center rounded-lg mb-4">
@@ -333,7 +333,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center max-w-4xl mx-auto mb-8">
           <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20 mb-6">
-            <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+            <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
             <span class="text-primary font-semibold text-sm tracking-wide uppercase">Technology Stack</span>
           </div>
           
@@ -394,7 +394,7 @@
             <p class="text-gray-700 mb-6">
               Our full-stack approach ensures seamless integration from quantum hardware to enterprise applications.
             </p>
-            <router-link to="/software-solutions" class="px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <router-link to="/software-solutions" class="px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg ripple hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
               Explore Our Technology
             </router-link>
           </div>
@@ -411,10 +411,10 @@
             Discover how our Quantum AI solutions can transform your business with unprecedented computational power.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <router-link to="/consultation" class="px-6 py-3 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <router-link to="/consultation" class="px-6 py-3 bg-white text-primary font-semibold rounded-full shadow-lg ripple hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
               Request a Demonstration
             </router-link>
-            <router-link to="/software-solutions" class="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <router-link to="/software-solutions" class="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-full shadow-lg ripple hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
               Explore Our Solutions
             </router-link>
           </div>

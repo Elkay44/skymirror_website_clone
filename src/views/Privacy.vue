@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-10 overflow-hidden">
+    <section class="relative pt-32 pb-10 overflow-hidden particles-bg">
         <!-- Global background applied here -->
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
@@ -20,7 +20,7 @@
     <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
-          <div class="glass-card rounded-xl p-8 shadow-xl">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-8 shadow-xl">
             <div class="space-y-4">
               <!-- Section 1: What We Collect -->
               <div>
@@ -95,12 +95,12 @@
     <section class="py-12 bg-neutral-50">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
-          <div class="glass-card rounded-xl p-8 text-center shadow-xl">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-8 text-center shadow-xl">
             <h2 class="text-2xl font-heading font-bold mb-4 text-primary">Need More Information?</h2>
             <p class="text-gray-700 mb-6">
               If you have any questions about how we handle your data or need assistance with your privacy rights, our team is here to help.
             </p>
-            <a href="mailto:privacy@skymirror.eu" class="inline-block px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg hover:bg-primary-dark transition-all duration-300 transform hover:-translate-y-1">
+            <a href="mailto:privacy@skymirror.eu" class="inline-block px-6 py-3 bg-primary text-white font-semibold rounded-full shadow-lg ripple hover:bg-primary-dark transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
               Contact Privacy Team
             </a>
           </div>
