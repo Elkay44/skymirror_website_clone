@@ -22,14 +22,14 @@
       </router-link>
 
       <div
-        class="hidden md:flex items-center gap-1"
+        class="hidden md:flex items-center gap-3"
         role="menubar"
         id="navbar-links"
         aria-label="Main menu"
       >
         <router-link
           to="/software-solutions"
-          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-2 py-1.5 rounded-lg hover:bg-primary/5"
+          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5"
           role="menuitem"
           tabindex="0"
         >
@@ -39,7 +39,7 @@
 
         <router-link
           to="/ai-applications"
-          class="group font-semibold text-gray-700 hover:text-accent1 relative transition-all duration-300 ease-in-out px-2 py-1.5 rounded-lg hover:bg-accent1/5"
+          class="group font-semibold text-gray-700 hover:text-accent1 relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-accent1/5"
           role="menuitem"
           tabindex="0"
         >
@@ -49,7 +49,7 @@
 
         <router-link
           to="/full-stack-development"
-          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-2 py-1.5 rounded-lg hover:bg-primary/5"
+          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5"
           role="menuitem"
           tabindex="0"
         >
@@ -59,7 +59,7 @@
 
         <router-link
           to="/technology-transfer"
-          class="group font-semibold text-gray-700 hover:text-accent2 relative transition-all duration-300 ease-in-out px-2 py-1.5 rounded-lg hover:bg-accent2/5"
+          class="group font-semibold text-gray-700 hover:text-accent2 relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-accent2/5"
           role="menuitem"
           tabindex="0"
         >
@@ -69,7 +69,7 @@
 
         <router-link
           to="/training"
-          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-2 py-1.5 rounded-lg hover:bg-primary/5"
+          class="group font-semibold text-gray-700 hover:text-primary relative transition-all duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-primary/5"
           role="menuitem"
           tabindex="0"
         >

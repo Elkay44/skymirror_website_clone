@@ -1,11 +1,12 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section id="main-content" class="relative pt-28 pb-12 overflow-hidden" role="main" aria-label="Main content">
+    <section id="main-content" class="relative pt-28 pb-12 overflow-hidden particles-bg" role="main" aria-label="Main content">
       <!-- Animated background elements -->
-      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5"></div>
-      <div class="absolute top-20 right-20 w-72 h-72 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-20 left-20 w-96 h-96 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 animate-gradient"></div>
+      <div class="absolute top-20 right-20 w-72 h-72 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-20 left-20 w-96 h-96 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-float-delayed"></div>
+      <div class="absolute top-1/2 left-1/2 w-64 h-64 bg-gradient-to-br from-accent1/5 to-primary/5 rounded-full blur-2xl animate-pulse"></div>
       
       <div class="container mx-auto px-4 relative z-10">
         <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
@@ -29,49 +30,53 @@
 
             <!-- CTA Buttons -->
             <div class="flex flex-col sm:flex-row gap-4">
-              <router-link to="/ai-applications" class="group px-6 py-3 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
-                Explore Our AI Solutions
-                <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                </svg>
+              <router-link to="/ai-applications" class="group ripple px-6 py-3 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl hover:shadow-2xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-3">
+                <span class="relative z-10 flex items-center gap-2">
+                  Explore Our AI Solutions
+                  <svg class="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                  </svg>
+                </span>
               </router-link>
               
-              <router-link to="/software-solutions" class="group px-6 py-3 bg-white hover:bg-gray-50 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3">
-                View Our Work
-                <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                  <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
-                </svg>
+              <router-link to="/software-solutions" class="group ripple px-6 py-3 bg-white hover:bg-primary/5 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-3">
+                <span class="relative z-10 flex items-center gap-2">
+                  View Our Work
+                  <svg class="w-5 h-5 group-hover:rotate-12 group-hover:scale-125 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </span>
               </router-link>
             </div>
 
-            <!-- Success Metrics -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-6 border-t border-gray-200">
-              <div class="text-center">
-                <div class="text-2xl md:text-3xl font-black text-primary mb-2">50+</div>
-                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects Delivered</div>
+            <!-- Success Metrics - Interactive -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6 border-t border-gray-200">
+              <div class="group text-center p-3 rounded-xl hover:bg-primary/5 transition-all duration-300 cursor-pointer hover-lift">
+                <div class="text-2xl md:text-3xl font-black text-primary mb-1 group-hover:scale-110 transition-transform duration-300">50+</div>
+                <div class="text-xs font-medium text-gray-600 uppercase tracking-wide group-hover:text-primary transition-colors">Projects Delivered</div>
               </div>
-              <div class="text-center">
-                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">95%</div>
-                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Client Satisfaction</div>
+              <div class="group text-center p-3 rounded-xl hover:bg-accent1/5 transition-all duration-300 cursor-pointer hover-lift">
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-1 group-hover:scale-110 transition-transform duration-300">95%</div>
+                <div class="text-xs font-medium text-gray-600 uppercase tracking-wide group-hover:text-accent1 transition-colors">Client Satisfaction</div>
               </div>
-              <div class="text-center">
-                <div class="text-2xl md:text-3xl font-black text-primary mb-2">24/7</div>
-                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">AI Support</div>
+              <div class="group text-center p-3 rounded-xl hover:bg-primary/5 transition-all duration-300 cursor-pointer hover-lift">
+                <div class="text-2xl md:text-3xl font-black text-primary mb-1 group-hover:scale-110 transition-transform duration-300">24/7</div>
+                <div class="text-xs font-medium text-gray-600 uppercase tracking-wide group-hover:text-primary transition-colors">AI Support</div>
               </div>
-              <div class="text-center">
-                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">Global</div>
-                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Reach</div>
+              <div class="group text-center p-3 rounded-xl hover:bg-accent1/5 transition-all duration-300 cursor-pointer hover-lift">
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-1 group-hover:scale-110 transition-transform duration-300">Global</div>
+                <div class="text-xs font-medium text-gray-600 uppercase tracking-wide group-hover:text-accent1 transition-colors">Reach</div>
               </div>
             </div>
           </div>
           
           <div class="lg:w-1/2">
-            <div class="relative">
+            <div class="relative animate-float">
               <!-- Modern Hero Visual -->
-              <div class="relative">
+              <div class="relative group">
                 <!-- Main showcase card -->
-                <div class="glass-card p-8 rounded-3xl shadow-2xl relative overflow-hidden border border-primary/20 bg-gradient-to-br from-white via-primary/5 to-accent1/10">
+                <div class="glass-card p-8 rounded-3xl shadow-2xl relative overflow-hidden border border-primary/20 bg-gradient-to-br from-white via-primary/5 to-accent1/10 transition-all duration-500 group-hover:shadow-[0_20px_60px_rgba(0,163,157,0.2)] group-hover:border-primary/40">
                   <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-accent1/20 to-primary/20 rounded-full blur-2xl"></div>
                   <div class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-primary/20 to-accent1/20 rounded-full blur-xl"></div>
                   
