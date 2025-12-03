@@ -143,7 +143,7 @@ This master roadmap provides a consolidated view of all SkyMirror product and bu
 
 | Round | Amount | Timeline | Use of Funds |
 |-------|--------|----------|--------------|
-| Seed | €1.5M | Q2 2026 | Product, team, market entry |
+| Seed | €500K | Q2 2026 | Product, team, market entry |
 | Bridge (optional) | €500K | Q4 2027 | Scale operations |
 | Series A | €5M | Q2 2028 | International expansion |
 
@@ -254,7 +254,7 @@ This master roadmap provides a consolidated view of all SkyMirror product and bu
 
 - [ ] €1M+ total revenue
 - [ ] 100+ paying customers across all products
-- [ ] Seed funding secured (€1.5M)
+- [ ] Seed funding secured (€500K)
 - [ ] Team scaled to 35+ people
 - [ ] Product-market fit validated for all products
 - [ ] NPS >40 across all products

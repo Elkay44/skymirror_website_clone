@@ -73,10 +73,10 @@ SkyMirror is a pioneering technology enterprise delivering AI-powered solutions,
 - 🚀 44 FTEs by Year 3
 
 ## Investment Opportunity
-- **Seed Round:** €1.5M (Q2 2026)
-- **Series A:** €5M (Q4 2027)
-- **Use of Funds:** Product (40%), Team (25%), Market (20%), Ops (15%)
-- **Path to Profitability:** EBITDA positive by Year 3
+- **Seed Round:** €500K (Q2 2026)
+- **Series A:** €3M (Q4 2027)
+- **Use of Funds:** Product (45%), Team (25%), Marketing (20%), Ops (10%)
+- **Path to Profitability:** EBITDA positive from Year 1 (remote-first model)
 - **Diversified revenue** across 4 product lines
 
 ## Contact

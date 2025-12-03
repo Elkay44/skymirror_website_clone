@@ -51,22 +51,22 @@ To skyrocket global innovation by connecting people, businesses, and ideas throu
 
 ## Financial Highlights
 
-- **Startup Costs:** €500,000 for initial operations, technology infrastructure, and team building
-- **Funding Requirements:** €1.5M seed funding (Q2 2026), with potential Series A of €5M (Q2 2028)
+- **Startup Costs:** €176,500 (remote-first model)
+- **Funding Requirements:** €500K seed funding (Q2 2026), with potential Series A of €3M (Q4 2027)
 - **Revenue Projections (Base Case):** 
-  - Year 1 (2026): €1.07M
-  - Year 2 (2027): €2.51M
-  - Year 3 (2028): €5.94M
-- **Profitability:** Projected breakeven in Year 2, with 32% EBITDA margin by Year 3
+  - Year 1 (2026): €1.06M
+  - Year 2 (2027): €2.50M
+  - Year 3 (2028): €5.93M
+- **Profitability:** Profitable from Year 1 (2% EBITDA), 39% EBITDA margin by Year 3
 - **Valuation:** Estimated €15-20M valuation at Series A funding round
 - **Scenario Analysis:** Comprehensive financial modeling across conservative, base case, and optimistic scenarios
 
 | Metric | Year 1 | Year 2 | Year 3 |
 |--------|--------|--------|--------|
-| Revenue | €1.07M | €2.51M | €5.94M |
-| Gross Margin | 56% | 62% | 70% |
-| EBITDA | -€0.45M | €0.02M | €1.89M |
-| EBITDA Margin | -42% | 1% | 32% |
+| Revenue | €1.06M | €2.50M | €5.93M |
+| Gross Margin | 61% | 63% | 67% |
+| EBITDA | €26K | €528K | €2.32M |
+| EBITDA Margin | 2% | 21% | 39% |
 
 ### Investment Opportunity
 
