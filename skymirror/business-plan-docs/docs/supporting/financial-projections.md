@@ -40,10 +40,10 @@ This document presents financial projections incorporating:
 | Business Unit | Year 1 (2026) | Year 2 (2027) | Year 3 (2028) |
 |---------------|---------------|---------------|---------------|
 | **CheckMet** | | | |
-| - SaaS Subscriptions | €81,780 | €222,750 | €528,750 |
+| - SaaS Subscriptions | €75,000 | €211,500 | €517,500 |
 | - Hardware (Terminals) | €12,250 | €29,750 | €54,000 |
 | - Services | €47,500 | €129,000 | €254,000 |
-| **CheckMet Total** | **€141,530** | **€381,500** | **€836,750** |
+| **CheckMet Total** | **€134,750** | **€370,250** | **€825,500** |
 | **Traquiva** | | | |
 | - B2C Subscriptions | €102,600 | €410,400 | €1,560,000 |
 | - B2B/Enterprise | €47,400 | €189,600 | €840,000 |
@@ -59,14 +59,14 @@ This document presents financial projections incorporating:
 | - Short Courses | €20,000 | €52,500 | €110,000 |
 | - Partnerships | €0 | €48,500 | €160,000 |
 | **Academy Total** | **€240,000** | **€530,000** | **€960,000** |
-| **TOTAL REVENUE** | **€1,071,530** | **€2,511,500** | **€5,936,750** |
+| **TOTAL REVENUE** | **€1,064,750** | **€2,500,250** | **€5,925,500** |
 
 ### Year-over-Year Growth
 
 | Metric | Year 1 | Year 2 | Year 3 |
 |--------|--------|--------|--------|
-| Total Revenue | €1,071,530 | €2,511,500 | €5,936,750 |
-| YoY Growth | - | 134% | 136% |
+| Total Revenue | €1,064,750 | €2,500,250 | €5,925,500 |
+| YoY Growth | - | 135% | 137% |
 
 ---
 
@@ -236,22 +236,22 @@ This document presents financial projections incorporating:
 
 | Line Item | Year 1 | Year 2 | Year 3 |
 |-----------|--------|--------|--------|
-| **Revenue** | €1,071,530 | €2,511,500 | €5,936,750 |
+| **Revenue** | €1,064,750 | €2,500,250 | €5,925,500 |
 | **Cost of Goods Sold** | | | |
-| - CheckMet COGS | €49,535 | €114,450 | €234,290 |
-| - Traquiva COGS | €37,500 | €132,000 | €432,000 |
-| - Software COGS | €243,000 | €420,000 | €696,000 |
-| - Academy COGS | €144,000 | €275,600 | €432,000 |
-| **Total COGS** | €474,035 | €942,050 | €1,794,290 |
-| **Gross Profit** | €597,495 | €1,569,450 | €4,142,460 |
-| **Gross Margin** | 56% | 62% | 70% |
+| - CheckMet COGS (35%) | €47,163 | €129,588 | €288,925 |
+| - Traquiva COGS (25%) | €37,500 | €150,000 | €600,000 |
+| - Software COGS (45%) | €243,000 | €450,000 | €783,000 |
+| - Academy COGS (60%) | €144,000 | €318,000 | €576,000 |
+| **Total COGS** | €471,663 | €1,047,588 | €2,247,925 |
+| **Gross Profit** | €593,087 | €1,452,662 | €3,677,575 |
+| **Gross Margin** | 56% | 58% | 62% |
 | **Operating Expenses** | | | |
-| - Sales & Marketing | €320,000 | €550,000 | €900,000 |
-| - Research & Development | €450,000 | €600,000 | €800,000 |
-| - General & Administrative | €280,000 | €400,000 | €550,000 |
-| **Total OpEx** | €1,050,000 | €1,550,000 | €2,250,000 |
-| **EBITDA** | -€452,505 | €19,450 | €1,892,460 |
-| **EBITDA Margin** | -42% | 1% | 32% |
+| - Sales & Marketing | €320,000 | €500,000 | €800,000 |
+| - Research & Development | €400,000 | €550,000 | €700,000 |
+| - General & Administrative | €250,000 | €350,000 | €500,000 |
+| **Total OpEx** | €970,000 | €1,400,000 | €2,000,000 |
+| **EBITDA** | -€376,913 | €52,662 | €1,677,575 |
+| **EBITDA Margin** | -35% | 2% | 28% |
 
 ---
 
@@ -261,26 +261,26 @@ This document presents financial projections incorporating:
 
 | Item | Year 1 | Year 2 | Year 3 |
 |------|--------|--------|--------|
-| **Beginning Cash** | €1,500,000 | €897,495 | €766,945 |
+| **Beginning Cash** | €1,500,000 | €973,087 | €875,749 |
 | **Operating Activities** | | | |
-| EBITDA | -€452,505 | €19,450 | €1,892,460 |
+| EBITDA | -€376,913 | €52,662 | €1,677,575 |
 | Working Capital Changes | -€50,000 | -€100,000 | -€200,000 |
-| **Cash from Operations** | -€502,505 | -€80,550 | €1,692,460 |
+| **Cash from Operations** | -€426,913 | -€47,338 | €1,477,575 |
 | **Investing Activities** | | | |
 | CapEx | -€100,000 | -€150,000 | -€250,000 |
 | **Cash from Investing** | -€100,000 | -€150,000 | -€250,000 |
 | **Financing Activities** | | | |
 | Equity Raised | €0 | €100,000 | €0 |
 | **Cash from Financing** | €0 | €100,000 | €0 |
-| **Net Cash Flow** | -€602,505 | -€130,550 | €1,442,460 |
-| **Ending Cash** | €897,495 | €766,945 | €2,209,405 |
+| **Net Cash Flow** | -€526,913 | -€97,338 | €1,227,575 |
+| **Ending Cash** | €973,087 | €875,749 | €2,103,324 |
 
 ### Runway Analysis
 
 | Metric | Year 1 | Year 2 | Year 3 |
 |--------|--------|--------|--------|
-| Monthly Burn | €50,209 | €10,879 | - |
-| Runway (months) | 18 | 70+ | Profitable |
+| Monthly Burn | €43,909 | €8,112 | - |
+| Runway (months) | 22 | 108+ | Profitable |
 
 ---
 
@@ -321,17 +321,17 @@ This document presents financial projections incorporating:
 
 | Scenario | Year 1 | Year 2 | Year 3 |
 |----------|--------|--------|--------|
-| **Conservative (-20%)** | €857,224 | €2,009,200 | €4,749,400 |
-| **Base Case** | €1,071,530 | €2,511,500 | €5,936,750 |
-| **Optimistic (+20%)** | €1,285,836 | €3,013,800 | €7,124,100 |
+| **Conservative (-20%)** | €851,800 | €2,000,200 | €4,740,400 |
+| **Base Case** | €1,064,750 | €2,500,250 | €5,925,500 |
+| **Optimistic (+20%)** | €1,277,700 | €3,000,300 | €7,110,600 |
 
 ### EBITDA Scenarios
 
 | Scenario | Year 1 | Year 2 | Year 3 |
 |----------|--------|--------|--------|
-| **Conservative** | -€666,961 | -€481,390 | €1,054,568 |
-| **Base Case** | -€452,505 | €19,450 | €1,892,460 |
-| **Optimistic** | -€238,049 | €520,290 | €2,730,352 |
+| **Conservative** | -€590,130 | -€184,288 | €929,495 |
+| **Base Case** | -€376,913 | €52,662 | €1,677,575 |
+| **Optimistic** | -€163,696 | €289,612 | €2,425,655 |
 
 ---
 

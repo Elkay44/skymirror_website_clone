@@ -75,7 +75,6 @@ const sidebars: SidebarsConfig = {
         'supporting/company-one-pager',
         'supporting/company-pitch',
         'supporting/financial-projections',
-        'supporting/alignment-report',
       ],
     },
     {

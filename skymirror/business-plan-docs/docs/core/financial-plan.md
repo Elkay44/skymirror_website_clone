@@ -50,12 +50,12 @@ title: "Financial Plan"
 
 | Revenue Stream | Year 1 (2026) | Year 2 (2027) | Year 3 (2028) |
 |----------------|---------------|---------------|---------------|
-| CheckMet (SaaS + Hardware + Services) | €141,530 | €381,500 | €836,750 |
+| CheckMet (SaaS + Hardware + Services) | €134,750 | €370,250 | €825,500 |
 | Traquiva (Platform) | €150,000 | €600,000 | €2,400,000 |
 | Software Solutions | €540,000 | €1,000,000 | €1,740,000 |
 | SkyMirror Academy | €240,000 | €530,000 | €960,000 |
-| **Total Revenue** | **€1.07M** | **€2.51M** | **€5.94M** |
-| **YoY Growth** | **-** | **134%** | **136%** |
+| **Total Revenue** | **€1.06M** | **€2.50M** | **€5.93M** |
+| **YoY Growth** | **-** | **135%** | **137%** |
 
 *Note: CheckMet pricing at €1-2/user/month. See [Financial Projections](/docs/supporting/financial-projections) for detailed breakdown.*
 
@@ -63,17 +63,17 @@ title: "Financial Plan"
 
 | Category | Year 1 (2026) | Year 2 (2027) | Year 3 (2028) |
 |----------|---------------|---------------|---------------|
-| **Revenue** | €1.07M | €2.51M | €5.94M |
-| **Cost of Goods Sold** | €474K | €942K | €1.79M |
-| **Gross Profit** | €597K | €1.57M | €4.14M |
-| **Gross Margin** | 56% | 62% | 70% |
+| **Revenue** | €1.06M | €2.50M | €5.93M |
+| **Cost of Goods Sold** | €472K | €1.05M | €2.25M |
+| **Gross Profit** | €593K | €1.45M | €3.68M |
+| **Gross Margin** | 56% | 58% | 62% |
 | **Operating Expenses** |  |  |  |
-| Sales & Marketing | €320,000 | €550,000 | €900,000 |
-| Research & Development | €450,000 | €600,000 | €800,000 |
-| General & Administrative | €280,000 | €400,000 | €550,000 |
-| **Total Operating Expenses** | €1.05M | €1.55M | €2.25M |
-| **EBITDA** | -€453K | €19K | €1.89M |
-| **EBITDA Margin** | -42% | 1% | 32% |
+| Sales & Marketing | €320,000 | €500,000 | €800,000 |
+| Research & Development | €400,000 | €550,000 | €700,000 |
+| General & Administrative | €250,000 | €350,000 | €500,000 |
+| **Total Operating Expenses** | €970K | €1.40M | €2.00M |
+| **EBITDA** | -€377K | €53K | €1.68M |
+| **EBITDA Margin** | -35% | 2% | 28% |
 
 ## Cash Flow Projections (Conservative)
 
