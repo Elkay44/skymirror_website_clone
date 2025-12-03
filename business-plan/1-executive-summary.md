@@ -2,7 +2,14 @@
 
 ## Company Overview
 
-SkyMirror is a technology company specializing in software development, AI applications, and educational services. Founded in 2023 and headquartered in Budapest, Hungary, SkyMirror aims to connect and sustain the world through innovative technology solutions that integrate environmental and social responsibility with cutting-edge technology development.
+SkyMirror is a technology company building an integrated ecosystem for enterprise workforce management and education. Founded in 2023 and headquartered in Budapest, Hungary, SkyMirror delivers:
+
+- **CheckMet** - AI-powered attendance management with facial recognition
+- **Traquiva** - AI-powered learning platform (www.traquiva.com)
+- **Software Solutions** - Custom enterprise software development
+- **SkyMirror Academy** - Technology education and corporate training
+
+Our mission integrates environmental and social responsibility with cutting-edge technology development.
 
 ## Mission Statement
 To propel global innovation to new heights by empowering emerging economies, businesses, and communities with cutting-edge technology solutions and knowledge transfer.
@@ -12,14 +19,16 @@ To skyrocket global innovation by connecting people, businesses, and ideas throu
 
 ## Business Objectives
 1. **Short-term (1-2 years):**
-   - Expand CheckMet's market penetration by 200% across enterprise clients in 10 additional countries
+   - Expand CheckMet's market penetration by 200% across enterprise clients in Europe
+   - Scale Traquiva to 5,000+ active learners with 90%+ completion rates
    - Launch SkyMirror Academy in 5 new emerging markets with 1,000+ students enrolled
    - Achieve 95% client satisfaction rating across all software development projects
 
 2. **Medium-term (3-5 years):**
    - Establish SkyMirror as the leading AI application provider in at least 20 countries
+   - Scale Traquiva to 50,000+ learners with enterprise training partnerships
    - Scale SkyMirror Academy to reach 10,000+ students annually through global partnerships
-   - Develop and launch 3 new AI-powered products complementing the CheckMet ecosystem
+   - Develop and launch 3 new AI-powered products complementing the CheckMet and Traquiva ecosystem
 
 3. **Long-term (5+ years):**
    - Transform 1,000+ businesses through comprehensive technology transfer programs

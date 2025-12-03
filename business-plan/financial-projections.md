@@ -42,24 +42,30 @@ This projection aligns with the revised sales deck: pilot phase, modest targets,
   - Yr1: 120
   - Yr2: 240
   - Yr3: 480
+- Traquiva learners (active subscribers):
+  - Yr1: 500 (launch phase)
+  - Yr2: 2,000
+  - Yr3: 8,000
 
 ## 3) Revenue by Stream (Base Case)
 | Stream | Assumption | Year 1 | Year 2 | Year 3 |
 |---|---|---:|---:|---:|
 | CheckMet (SaaS) | Bundle-based billing per tier mix | €183,000 | €745,200 | €2,527,200 |
+| Traquiva (Platform) | €25/learner/mo avg | €150,000 | €600,000 | €2,400,000 |
 | Enterprise Software | #projects × €90,000 | €540,000 | €900,000 | €1,440,000 |
 | SkyMirror Academy | #participants × €2,000 | €240,000 | €480,000 | €960,000 |
-| Total Revenue |  | €963,000 | €2,125,200 | €4,927,200 |
+| Total Revenue |  | €1,113,000 | €2,725,200 | €7,327,200 |
 
 ## 4) Cost of Goods Sold (COGS)
 | Component | % of Stream | Year 1 | Year 2 | Year 3 |
 |---|---|---:|---:|---:|
 | CheckMet COGS | 45%, 40%, 35% (scale) | €82,350 | €298,080 | €884,520 |
+| Traquiva COGS | 30%, 28%, 25% (high margin) | €45,000 | €168,000 | €600,000 |
 | Software Delivery COGS | 45%, 42%, 40% | €243,000 | €378,000 | €576,000 |
 | Academy Delivery COGS | 35%, 32%, 30% | €84,000 | €153,600 | €288,000 |
-| Total COGS |  | €409,350 | €829,680 | €1,748,520 |
-| Gross Profit |  | €553,650 | €1,295,520 | €3,178,680 |
-| Gross Margin |  | 57% | 61% | 65% |
+| Total COGS |  | €454,350 | €997,680 | €2,348,520 |
+| Gross Profit |  | €658,650 | €1,727,520 | €4,978,680 |
+| Gross Margin |  | 59% | 63% | 68% |
 
 ## 5) Operating Expenses (OpEx)
 | Category | Year 1 | Year 2 | Year 3 | Notes |
@@ -72,11 +78,11 @@ This projection aligns with the revised sales deck: pilot phase, modest targets,
 ## 6) EBITDA Bridge
 | Metric | Year 1 | Year 2 | Year 3 |
 |---|---:|---:|---:|
-| Revenue | €963,000 | €2,125,200 | €4,927,200 |
-| Gross Profit | €553,650 | €1,295,520 | €3,178,680 |
-| OpEx | €1,420,000 | €2,080,000 | €2,970,000 |
-| EBITDA | €-866,350 | €-784,480 | €208,680 |
-| EBITDA Margin | -90% | -37% | 4% |
+| Revenue | €1,113,000 | €2,725,200 | €7,327,200 |
+| Gross Profit | €658,650 | €1,727,520 | €4,978,680 |
+| OpEx | €1,420,000 | €2,280,000 | €3,470,000 |
+| EBITDA | €-761,350 | €-552,480 | €1,508,680 |
+| EBITDA Margin | -68% | -20% | 21% |
 
 Depreciation/Amortization, interest, and taxes excluded here (assume modest non-cash D&A €60–€120k by Yr3 and minimal interest unless debt-financed).
 

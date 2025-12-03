@@ -61,6 +61,34 @@ Our flagship AI-powered attendance management system revolutionizes workforce ma
 - **Customization Capabilities:** Highly adaptable to specific organizational requirements
 - **Cost Efficiency:** 40% lower total cost of ownership compared to competing solutions
 
+### Traquiva
+Our revolutionary AI-powered learning platform that transforms how people learn to code and technology skills. Available at www.traquiva.com.
+
+#### Key Features:
+- **AI-Powered Personalization:** Adaptive learning paths tailored to each learner's pace and style
+- **Interactive Coding Environment:** Real-time code execution and feedback
+- **Project-Based Learning:** Hands-on projects that build real-world skills
+- **AI Learning Assistant:** 24/7 intelligent tutoring and code review
+- **Progress Tracking:** Comprehensive analytics on learning progress
+- **Certification Programs:** Industry-recognized credentials upon completion
+- **Community Features:** Peer learning and collaboration tools
+
+#### Technical Specifications:
+- **Learning Efficiency:** 30% faster skill acquisition vs. traditional methods
+- **Completion Rate:** 95% course completion rate
+- **User Satisfaction:** 4.8/5 average rating
+- **Platform Uptime:** 99.9% availability
+- **Languages Supported:** 10+ programming languages
+
+#### Market Differentiation:
+- **AI-First Approach:** Every aspect enhanced by artificial intelligence
+- **Outcome-Focused:** Emphasis on job-ready skills and portfolio building
+- **Affordable Access:** Democratizing tech education globally
+- **Enterprise Ready:** Corporate training solutions for organizations
+- **Continuous Updates:** Curriculum updated monthly with industry trends
+
+---
+
 ### Facial Recognition Solutions
 Custom facial recognition applications for security, access control, and customer analytics.
 

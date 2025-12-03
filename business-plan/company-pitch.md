@@ -4,29 +4,35 @@
 
 ## The Power Play (30-second version)
 
-In an era where AI drives enterprise value, SkyMirror emerges as the architect of digital transformation. We're revolutionizing how Global 2000 companies operate through our trinity of innovation: enterprise-grade AI solutions, mission-critical software systems, and next-generation technology education. With a $500B+ addressable market and 180% YoY growth, we're not just participating in the future – we're creating it. Our flagship product, CheckMet, is already trusted by Fortune 500 companies across 15 countries, delivering unprecedented 99.9% accuracy in AI-powered attendance management.
+In an era where AI drives enterprise value, SkyMirror emerges as the architect of digital transformation. We're revolutionizing how enterprises operate through our integrated ecosystem: **CheckMet** for AI-powered workforce management, **Traquiva** for AI-powered learning (www.traquiva.com), enterprise software solutions, and SkyMirror Academy. With a $500B+ addressable market and strong growth trajectory, we're not just participating in the future – we're creating it. Our AI products deliver unprecedented results: CheckMet with 99.9% facial recognition accuracy, and Traquiva with 95% course completion rates.
 
 ## The Executive Pitch (2-minute version)
 
 ### Revolutionary Market Position
 In an era defined by AI and digital transformation, SkyMirror stands as the cornerstone of enterprise evolution. While others offer point solutions, we deliver a comprehensive ecosystem that drives exponential value through three synergistic business units. Our unique position at the intersection of AI, enterprise software, and education creates a flywheel effect that's unprecedented in the industry:
 
-1. **AI-Powered Innovation (CheckMet)**
-   - Pioneering facial recognition technology that's revolutionizing attendance management
+1. **CheckMet - AI-Powered Attendance**
+   - Pioneering facial recognition technology revolutionizing workforce management
    - 99.9% accuracy rate in real-world applications
-   - Serving Fortune 500 clients across 15 countries
-   - Protected by 7 pending patents
+   - Serving enterprise clients across Europe
+   - Seamless HRIS/payroll integration
 
-2. **Enterprise Software Solutions**
+2. **Traquiva - AI Learning Platform**
+   - Revolutionary AI-powered coding education (www.traquiva.com)
+   - 30% faster skill acquisition vs. traditional methods
+   - 95% course completion rate
+   - 4.8/5 learner satisfaction rating
+
+3. **Enterprise Software Solutions**
    - Custom-built, scalable solutions for industry leaders
-   - 40% faster deployment than industry standard
-   - 99.99% uptime guarantee
-   - Trusted by major financial institutions and healthcare providers
+   - Full-stack development and consulting
+   - 99.9% uptime guarantee
+   - Agile delivery methodology
 
-3. **SkyMirror Academy**
-   - Next-generation technology education platform
+4. **SkyMirror Academy**
+   - Next-generation technology education programs
    - 94% graduate employment rate
-   - Strategic partnerships with leading tech companies
+   - Corporate training partnerships
    - Innovative hybrid learning approach
 
 ### Market Opportunity
@@ -49,11 +55,15 @@ In an era defined by AI and digital transformation, SkyMirror stands as the corn
 - Efficient capital deployment with 3.2x LTV/CAC ratio
 
 ### Leadership Team
-Led by seasoned executives from Fortune 500 companies:
-- CEO Lukman: Visionary leader with proven track record in scaling tech companies
-- CTO Eric: AI pioneer with multiple successful exits
-- CFO Abdulwahab A: Former investment banker with IPO experience
-- COO Dr Loveday: Operations expert with global scaling experience
+Founder-led with aligned incentives:
+
+| Role | Name | Focus |
+|------|------|-------|
+| CEO | Lukman Ibrahim | Vision & Strategy |
+| CTO | Eric | Technology & Innovation |
+| COO | Dr. Loveday | Operations & Delivery |
+| CFO | Abdulwahab A | Finance & Investor Relations |
+| CMO | Jerone Lebadie | Marketing & Brand |
 
 ### Strategic Advantages
 1. **Network Effect & Ecosystem Power**
@@ -88,7 +98,7 @@ Led by seasoned executives from Fortune 500 companies:
 
 ## The Close
 
-SkyMirror represents a once-in-a-generation opportunity to reshape the enterprise technology landscape. We're not just building another tech company – we're creating an ecosystem that will define how Global 2000 companies operate in the AI era. Our unique trinity of AI innovation, enterprise solutions, and education creates a self-reinforcing flywheel that positions us to become the next technology giant.
+SkyMirror represents a compelling opportunity to reshape the enterprise technology landscape. We're building an integrated ecosystem with CheckMet, Traquiva, enterprise software, and SkyMirror Academy that creates a self-reinforcing flywheel. Our founder-led structure ensures long-term strategic alignment and commitment.
 
 With proven unit economics, industry-leading margins, and a clear path to $100M ARR, we offer a compelling combination of growth and profitability. Our technology moat, network effects, and ecosystem approach create sustainable competitive advantages that will drive long-term value creation.
 
@@ -101,5 +111,5 @@ SkyMirror: Transforming Enterprises, Empowering Innovation.
 **Contact:**
 Lukman Ibrahim
 CEO, SkyMirror
-lukman@skymirror.ai
-+1 (555) 123-4567
+info@skymirror.eu
+www.skymirror.eu

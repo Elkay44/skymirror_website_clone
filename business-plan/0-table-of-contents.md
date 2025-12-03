@@ -221,6 +221,145 @@
     - Security and Privacy Governance
     - AI Ethics and Responsible Data Use
 
+### Operational Playbooks (CheckMet, Traquiva, Software Solutions, Academy)
+
+20. [Gap Analysis and Action Plan](20-gap-analysis-and-action-plan.md)
+    - Executive Summary
+    - Gap Analysis by Category (49 Categories)
+    - Priority Matrix
+    - Implementation Timeline
+    - Success Metrics
+
+21. [OKR & KPI Framework](21-okr-kpi-framework.md)
+    - OKR Methodology
+    - Company-Level OKRs
+    - Business Unit OKRs
+    - KPI Dashboard
+    - OKR Governance
+    - KPI Review Process
+
+22. [Strategic Hiring Playbook](22-strategic-hiring-playbook.md)
+    - Strategic Workforce Planning
+    - Role Definitions & Success Criteria
+    - Recruitment Process
+    - Onboarding Program
+    - Learning & Development
+    - Performance Management
+    - Team Culture
+    - Retention Strategies
+
+23. [Customer Acquisition Playbook](23-customer-acquisition-playbook.md)
+    - Customer Acquisition Strategy
+    - Ideal Customer Profile
+    - Acquisition Channels
+    - Sales Process
+    - Customer Acquisition Metrics
+    - Customer Retention
+    - Growth & Expansion
+
+24. [Investor Relations Guide](24-investor-relations-guide.md)
+    - Investor Story & Narrative
+    - Investor Targeting
+    - Pitch Materials
+    - Data Room
+    - Fundraising Process
+    - Term Sheet Negotiation
+    - Due Diligence Preparation
+    - Post-Fundraise Communication
+
+25. [User Feedback Framework](25-user-feedback-framework.md)
+    - Feedback Collection System
+    - Feedback Analysis
+    - Feature Prioritization
+    - Feedback Loop Closure
+    - User Research Program
+    - Metrics & Reporting
+
+26. [Founder & Legal Framework](26-founder-legal-framework.md)
+    - Founder Roles & Responsibilities
+    - Equity Structure
+    - Legal Compliance Framework
+    - Governance Structure
+    - Risk Management
+
+27. [Customer Discovery Playbook](27-customer-discovery-playbook.md)
+    - Problem Validation
+    - Assumption Testing
+    - Value Proposition
+    - Market Sizing
+    - Competitive Analysis
+    - Willingness to Pay
+    - Messaging & Positioning
+    - Validation Tracking
+
+28. [Operations & Systems Playbook](28-operations-systems-playbook.md)
+    - Company Dashboard
+    - Tool Stack
+    - Meeting Rhythm
+    - Process Documentation
+    - Operational Metrics
+    - Incident Management
+    - Vendor Management
+    - Continuous Improvement
+
+29. [Revenue & Scaling Framework](29-revenue-scaling-framework.md)
+    - Revenue Model Validation
+    - Predictable Revenue Engine
+    - Customer Segmentation
+    - Expansion Revenue
+    - New Revenue Streams
+    - Scaling Operations
+    - Financial Planning
+
+30. [Community & International Guide](30-community-international-guide.md)
+    - Community Building
+    - International Expansion
+    - Leadership & Organizational Scaling
+    - Governance at Scale
+    - Metrics & Reporting
+
+### Implementation Roadmap
+
+31. [Week 1-2: Founder Agreements & Legal](31-implementation-week1-2-legal.md)
+    - Shareholder Agreement
+    - Founder Employment Agreements
+    - IP Assignment Agreements
+    - Corporate Structure & Registration
+    - GDPR Compliance
+    - Contract Templates
+
+32. [Week 3-4: Customer Acquisition & Data Room](32-implementation-week3-4-acquisition.md)
+    - CRM Setup (HubSpot)
+    - Sales Pipeline Configuration
+    - CAC Tracking System
+    - Investor Data Room Structure
+    - Pitch Deck & Financial Model
+    - Investor Targeting
+
+33. [Week 5-6: OKR Framework & Dashboards](33-implementation-week5-6-okr.md)
+    - Company OKRs (Q1 2025)
+    - Business Unit OKRs (CheckMet, Traquiva, Software, Academy)
+    - OKR Tracking System
+    - Executive Dashboard
+    - Product & Customer Dashboards
+    - Financial & Team Dashboards
+
+34. [Week 7-8: Customer Discovery & Validation](34-implementation-week7-8-discovery.md)
+    - Customer Interview Planning
+    - Interview Scripts (CheckMet, Traquiva, Software, Academy)
+    - Assumption Testing
+    - Pricing Validation
+    - Feature Prioritization
+    - Customer Discovery Summary Report
+
+35. [Documentation Alignment Report](35-documentation-alignment-report.md)
+    - Documentation Inventory
+    - Alignment Status
+    - Product Portfolio Consistency
+    - Ownership Structure Verification
+    - Financial Alignment
+    - Remaining Review Items
+
 ### Appendices
 - **Appendix A:** Detailed Financial Projections
   - 5-Year Financial Statements

@@ -7,18 +7,19 @@ SkyMirror employs a matrix organizational structure that balances functional exp
 ### Current Leadership Team
 SkyMirror is led by a lean, agile leadership team based at our Budapest headquarters:
 
-- **Chief Executive Officer (CEO):** Provides overall vision and leadership, serves as the primary external representative, and maintains ultimate accountability for company performance
-- **Chief Technology Officer (CTO) - Eric:** Leads technological innovation, oversees R&D initiatives, and ensures technical excellence across all offerings
-- **Head of Operations:** Manages day-to-day operations, oversees delivery processes, and ensures operational efficiency
-- **Head of Finance:** Directs financial strategy and oversees financial planning and reporting
-- **Head of Marketing & Sales:** Leads brand development, marketing strategy, and customer acquisition initiatives
+| Role | Name | Responsibilities |
+|------|------|------------------|
+| **Chief Executive Officer** | Lukman Ibrahim | Overall vision, leadership, primary external representative, ultimate accountability |
+| **Chief Technology Officer** | Eric | Technological innovation, R&D initiatives, technical excellence |
+| **Chief Operations Officer** | Dr. Loveday | Day-to-day operations, delivery processes, operational efficiency |
+| **Chief Financial Officer** | Abdulwahab A | Financial strategy, planning, reporting, investor relations |
+| **Chief Marketing Officer** | Jerone Lebadie | Brand development, marketing strategy, customer acquisition |
 
 ### Planned Leadership Expansion
 As the company grows, we plan to expand our leadership team to include:
 
-- **Chief Financial Officer (CFO)** - Year 2
-- **Chief Marketing Officer (CMO)** - Year 2
-- **Chief People Officer (CPO)** - Year 3
+- **Chief People Officer (CPO)** - Year 2
+- **Chief Revenue Officer (CRO)** - Year 3
 
 ### Business Unit Structure
 SkyMirror currently organizes its operations into three core business units, with lean teams operating from our Budapest headquarters:
@@ -30,10 +31,11 @@ SkyMirror currently organizes its operations into three core business units, wit
   - Quality Assurance (2-3 specialists)
   - Client Success (1-2 specialists)
 
-#### AI Applications Unit (CheckMet)
+#### AI Applications Unit (CheckMet & Traquiva)
 - **Unit Lead:** Team Lead, AI Applications
 - **Current Team Structure:**
   - CheckMet Development Team (3-5 developers)
+  - Traquiva Platform Team (2-4 developers)
   - AI Research (1-2 specialists)
   - Technical Support (1-2 specialists)
 

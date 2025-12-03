@@ -3,7 +3,7 @@
 ## Company History
 Founded in 2020, SkyMirror emerged from a vision to transform how businesses and communities across the globe leverage technology. What began as a small team of passionate technologists has rapidly evolved into a dynamic global enterprise. The founders identified critical gaps in technology access, particularly in emerging markets, and recognized the transformative potential of combining cutting-edge software development, AI applications, and educational initiatives under one cohesive brand.
 
-In its formative years, SkyMirror focused on establishing core competencies in software development and AI applications. The development and launch of CheckMet, our flagship AI-powered attendance management system, marked a significant milestone that demonstrated our technical capabilities and market viability. This early success provided the foundation for expansion into technology transfer services and the establishment of SkyMirror Academy.
+In its formative years, SkyMirror focused on establishing core competencies in software development and AI applications. The development and launch of CheckMet, our flagship AI-powered attendance management system, marked a significant milestone that demonstrated our technical capabilities and market viability. Following this success, we launched Traquiva (www.traquiva.com), our AI-powered learning platform that transforms how people learn to code. These early successes provided the foundation for expansion into technology transfer services and the establishment of SkyMirror Academy.
 
 Today, SkyMirror operates across multiple continents, serving clients ranging from startups to established enterprises while simultaneously empowering communities through educational programs designed to bridge the global digital divide.
 
@@ -25,27 +25,22 @@ As part of our strategic growth initiatives, we plan to establish additional off
 - **Phase 3 (Year 5):** Develop specialized development centers in technology hubs globally
 
 ## Ownership Structure
-SkyMirror maintains a balanced ownership structure that aligns the interests of founders, employees, and investors:
-
-- **Founding Team:** 45% equity
-- **Employee Stock Ownership Plan (ESOP):** 15% equity
-- **Venture Capital Partners:** 35% equity
-- **Strategic Investors:** 5% equity
-
-This structure ensures that decision-making remains aligned with the company's long-term vision while providing appropriate incentives for key stakeholders.
+SkyMirror maintains a founder-led ownership structure that ensures strategic continuity and aligned decision-making. The company is majority-owned by the founding team, with equity pools reserved for employees and strategic advisors to ensure long-term alignment and incentivization.
 
 ## Management Team
 
 ### Executive Leadership
-- **Chief Executive Officer:** Responsible for overall company vision, strategy, and execution
-- **Chief Technology Officer:** Leads all technology development and innovation initiatives
-- **Chief Operations Officer:** Oversees global operations and service delivery
-- **Chief Financial Officer:** Manages financial strategy, reporting, and investor relations
-- **Chief Marketing Officer:** Directs brand development, marketing strategy, and customer acquisition
+| Role | Name | Responsibilities |
+|------|------|------------------|
+| **Chief Executive Officer** | Lukman Ibrahim | Overall company vision, strategy, and execution |
+| **Chief Technology Officer** | Eric | Technology development and innovation initiatives |
+| **Chief Operations Officer** | Dr. Loveday | Global operations and service delivery |
+| **Chief Financial Officer** | Abdulwahab A | Financial strategy, reporting, and investor relations |
+| **Chief Marketing Officer** | Jerone Lebadie | Brand development, marketing strategy, and customer acquisition |
 
 ### Division Leadership
 - **Director, Software Solutions:** Leads the custom software development division
-- **Director, AI Applications:** Oversees CheckMet and other AI product development
+- **Director, AI Applications:** Oversees CheckMet, Traquiva, and other AI product development
 - **Director, SkyMirror Academy:** Manages educational programs and curriculum development
 - **Director, Technology Transfer:** Coordinates global technology transfer initiatives
 

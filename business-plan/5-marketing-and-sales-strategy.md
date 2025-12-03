@@ -14,11 +14,13 @@ SkyMirror positions itself as a pioneering technology ecosystem that connects an
 ### Value Proposition
 SkyMirror delivers transformative technology solutions through an integrated ecosystem that addresses the complete technology adoption lifecycle:
 
-**For Enterprises:** Accelerate business growth with cutting-edge software development, AI applications like CheckMet, and workforce development programs that deliver measurable ROI.
+**For Enterprises:** Accelerate business growth with cutting-edge software development, AI applications like CheckMet for attendance management and Traquiva for workforce upskilling, delivering measurable ROI.
 
-**For Educational Institutions:** Enhance educational offerings with turnkey technology programs, modern attendance solutions, and pathways to prepare students for the digital economy.
+**For Educational Institutions:** Enhance educational offerings with Traquiva's AI-powered learning platform, turnkey technology programs through SkyMirror Academy, and modern attendance solutions via CheckMet.
 
-**For Emerging Markets:** Access advanced technology through structured transfer programs, develop local talent through SkyMirror Academy, and establish sustainable technology ecosystems.
+**For Individual Learners:** Access world-class coding education through Traquiva (www.traquiva.com), with AI-powered personalization that accelerates skill acquisition by 30%.
+
+**For Emerging Markets:** Access advanced technology through structured transfer programs, develop local talent through SkyMirror Academy and Traquiva, and establish sustainable technology ecosystems.
 
 ### Brand Voice and Messaging
 - **Tone:** Authoritative yet accessible, innovative but practical, global while culturally sensitive
@@ -38,7 +40,7 @@ SkyMirror delivers transformative technology solutions through an integrated eco
 ## Marketing Channels
 
 ### Digital Marketing
-- **Corporate Website:** Comprehensive platform showcasing all business units with dedicated sections for CheckMet and SkyMirror Academy
+- **Corporate Website:** Comprehensive platform showcasing all business units with dedicated sections for CheckMet, Traquiva (www.traquiva.com), and SkyMirror Academy
 - **Search Engine Optimization:** Targeted strategy focusing on industry-specific keywords across all business verticals
 - **Content Marketing:** Thought leadership content demonstrating expertise in AI, software development, and technology education
 - **Email Marketing:** Segmented campaigns tailored to specific customer personas and buying stages
@@ -67,7 +69,7 @@ SkyMirror delivers transformative technology solutions through an integrated eco
 
 ### Website Optimization
 - **Conversion-Focused Design:** User experience optimized for lead generation across all business units
-- **Product Microsites:** Dedicated sites for CheckMet and SkyMirror Academy with specific conversion paths
+- **Product Microsites:** Dedicated sites for CheckMet (checkmet.eu), Traquiva (traquiva.com), and SkyMirror Academy with specific conversion paths
 - **Multilingual Support:** Content localization for key target markets
 - **Interactive Demonstrations:** Virtual product tours and self-guided demos
 - **Resource Center:** Comprehensive library of white papers, case studies, and educational content

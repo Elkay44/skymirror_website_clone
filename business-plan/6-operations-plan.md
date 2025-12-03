@@ -18,6 +18,13 @@ SkyMirror operates through an integrated business model that creates synergies a
 - **Value Creation:** Automated attendance management delivering operational efficiency
 - **Margin Structure:** 65-75% gross margin with high scalability once development costs are covered
 
+### AI Applications (Traquiva)
+- **Revenue Model:** Subscription-based platform with individual and enterprise tiers (www.traquiva.com)
+- **Delivery Approach:** Cloud-based learning platform with AI-powered personalization
+- **Client Engagement:** B2C direct to learners, B2B for corporate training, B2B2C through educational partners
+- **Value Creation:** Accelerated coding skill acquisition (30% faster than traditional methods)
+- **Margin Structure:** 70-75% gross margin with high scalability and low marginal cost per learner
+
 ### SkyMirror Academy
 - **Revenue Model:** Tuition fees, corporate training contracts, and licensing to educational partners
 - **Delivery Approach:** In-person, online, and hybrid educational programs
@@ -47,6 +54,13 @@ SkyMirror operates through an integrated business model that creates synergies a
 - **Software Development:** In-house development of core AI algorithms and user interfaces
 - **Cloud Infrastructure:** Enterprise agreements with major cloud providers for global deployment
 - **Integration Services:** Combination of in-house expertise and certified implementation partners
+
+### Traquiva Platform Chain
+- **Content Development:** In-house curriculum team with industry expert contributors
+- **AI/ML Infrastructure:** Cloud-based AI services for personalization and code execution
+- **Platform Development:** In-house development of learning platform and AI tutor
+- **Cloud Infrastructure:** Scalable cloud deployment for global learner access
+- **Community Features:** User-generated content moderation and peer learning facilitation
 
 ### Educational Resources Supply Chain
 - **Curriculum Development:** In-house instructional design team with subject matter experts
@@ -95,6 +109,22 @@ SkyMirror operates through an integrated business model that creates synergies a
 - Successful integration percentage
 - User adoption metrics
 - Support ticket resolution time
+
+### Traquiva Platform Operations
+1. **Content Development:** Creation and curation of coding courses and projects
+2. **AI Model Training:** Continuous improvement of personalization algorithms
+3. **Platform Enhancement:** Regular feature releases and UX improvements
+4. **Learner Onboarding:** Automated skill assessment and learning path creation
+5. **Learning Delivery:** AI-guided instruction with real-time feedback
+6. **Progress Tracking:** Analytics and certification upon completion
+7. **Community Management:** Peer learning facilitation and mentor matching
+
+#### Key Performance Indicators:
+- Course completion rate (target: 95%)
+- Learner satisfaction (target: 4.8/5)
+- Skill acquisition speed (30% faster than traditional)
+- Monthly active learners
+- Learner-to-paid conversion rate
 
 ### SkyMirror Academy Program Delivery
 1. **Curriculum Design:** Development of learning objectives and content structure

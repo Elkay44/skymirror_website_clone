@@ -14,11 +14,11 @@
 ## Funding Requirements
 - **Initial Seed Funding:** €1.5 million
 - **Funding Stages:**
-  - Seed Round: €1.5 million (Q3 2025)
-  - Series A: €5 million (Q4 2026)
-  - Series B: €12 million (Q2 2028)
+  - Seed Round: €1.5 million (Q2 2026)
+  - Series A: €5 million (Q4 2027)
+  - Series B: €12 million (Q2 2029)
 - **Use of Funds:**
-  - 40% - Product Development (CheckMet enhancement, AI research)
+  - 40% - Product Development (CheckMet enhancement, Traquiva platform, AI research)
   - 25% - Team Expansion (technical and sales talent)
   - 20% - Market Expansion (European growth initiatives)
   - 15% - Operations & Infrastructure
@@ -27,9 +27,9 @@
 | Source | Amount | Percentage | Terms | Timeline |
 |--------|--------|------------|-------|----------|
 | Founder Investment | €300,000 | 20% | Equity | Already secured |
-| Angel Investors | €450,000 | 30% | Equity (15% stake) | Q3 2025 |
+| Angel Investors | €450,000 | 30% | Equity | Q2 2026 |
 | EU Innovation Grants | €250,000 | 16.7% | Non-dilutive | Application in process |
-| Venture Capital | €500,000 | 33.3% | Equity (10% stake) with standard terms | Q4 2025 |
+| Venture Capital | €500,000 | 33.3% | Equity with standard terms | Q4 2026 |
 | **Total Funding** | **€1,500,000** | **100%** | | |
 
 ## Break-even Analysis
@@ -45,11 +45,12 @@
 
 | Revenue Stream | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
 |----------------|--------|--------|--------|--------|--------|
-| Software Solutions | €1.2M | €2.8M | €6.5M | €11.2M | €18.5M |
-| CheckMet & AI Applications | €0.8M | €2.2M | €5.8M | €11.5M | €18.2M |
-| SkyMirror Academy | €0.4M | €0.8M | €1.9M | €3.8M | €6.1M |
-| **Total Revenue** | **€2.4M** | **€5.8M** | **€14.2M** | **€26.5M** | **€42.8M** |
-| **YoY Growth** | **-** | **142%** | **145%** | **87%** | **62%** |
+| Software Solutions | €0.54M | €0.9M | €1.44M | €2.3M | €3.7M |
+| CheckMet (SaaS) | €0.18M | €0.75M | €2.53M | €5.1M | €8.2M |
+| Traquiva (Platform) | €0.15M | €0.6M | €2.4M | €4.8M | €7.7M |
+| SkyMirror Academy | €0.24M | €0.48M | €0.96M | €1.9M | €3.0M |
+| **Total Revenue** | **€1.11M** | **€2.73M** | **€7.33M** | **€14.1M** | **€22.6M** |
+| **YoY Growth** | **-** | **146%** | **168%** | **92%** | **60%** |
 
 ## Profit and Loss Projections
 

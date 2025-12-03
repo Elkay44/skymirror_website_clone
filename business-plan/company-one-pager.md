@@ -1,27 +1,33 @@
 # SkyMirror: The Future of Enterprise Digital Transformation
 
 ## Company Overview
-SkyMirror is a pioneering technology enterprise delivering AI-powered solutions, enterprise software, and technology education to Global 2000 companies. Founded in 2023, we've rapidly emerged as a leader in digital transformation, serving clients across 15 countries with a team of elite technology professionals.
+SkyMirror is a pioneering technology enterprise delivering AI-powered solutions, enterprise software, and technology education. Founded in 2023 and headquartered in Budapest, Hungary, we're building an integrated technology ecosystem for enterprise workforce management and education.
 
 ## Our Solutions
 
-### 🎯 CheckMet - AI-Powered Attendance Revolution
+### 🎯 CheckMet - AI-Powered Attendance
 - Industry-leading facial recognition with 99.9% accuracy
-- Deployed across Fortune 500 companies
-- 7 pending patents
-- 75% gross margin
+- Deployed across enterprise clients in Europe
+- Seamless HRIS/payroll integration
+- 65% gross margin
+
+### 🚀 Traquiva - AI Learning Platform
+- Revolutionary AI-powered coding education (www.traquiva.com)
+- 30% faster skill acquisition vs. traditional learning
+- 95% course completion rate
+- 4.8/5 learner satisfaction
 
 ### 💻 Enterprise Software Solutions
 - Custom, scalable enterprise applications
-- 40% faster deployment
-- 99.99% uptime guarantee
-- Trusted by major financial & healthcare institutions
+- Full-stack development & consulting
+- 99.9% uptime guarantee
+- Agile delivery methodology
 
 ### 🎓 SkyMirror Academy
 - 94% graduate employment rate
 - Industry-aligned curriculum
 - Hybrid learning model
-- Strategic corporate partnerships
+- Corporate training programs
 
 ## Market Opportunity & Traction
 - **TAM:** $500B+ by 2027
@@ -48,10 +54,11 @@ SkyMirror is a pioneering technology enterprise delivering AI-powered solutions,
    - Network effect across units
 
 ## Leadership Team
-- **CEO - Lukman:** Visionary tech leader
-- **CTO - Eric:** AI pioneer
-- **CFO - Abdulwahab A:** IPO veteran
-- **COO - Dr Loveday:** Global ops expert
+- **CEO - Lukman Ibrahim:** Founder, visionary, strategic leadership
+- **CTO - Eric:** AI & technology leadership
+- **CFO - Abdulwahab A:** Financial leadership
+- **COO - Dr. Loveday:** Operations leadership
+- **CMO - Jerone Lebadie:** Marketing & brand leadership
 
 ## Key Metrics
 - 📈 35% CAGR in AI solutions

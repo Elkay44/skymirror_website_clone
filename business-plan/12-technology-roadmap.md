@@ -64,6 +64,17 @@ SkyMirror's technology roadmap outlines our planned evolution across product lin
 | v3.5 | Q1 2028 | Cross-platform deployment automation | Multi-environment orchestration |
 | v4.0 | Q3 2028 | Self-healing infrastructure capabilities | Autonomous operations, predictive maintenance |
 
+### Traquiva Platform (www.traquiva.com)
+| Release | Timeline | Key Features | Technical Foundations |
+|---------|----------|--------------|----------------------|
+| v1.0 | Q1 2025 | AI-powered coding courses, personalized learning paths | LLM integration, adaptive algorithms |
+| v1.5 | Q3 2025 | Interactive coding environment, real-time feedback | Browser-based IDE, code execution sandbox |
+| v2.0 | Q1 2026 | AI tutor with natural language interaction | Conversational AI, knowledge graph |
+| v2.5 | Q3 2026 | Project-based learning, portfolio builder | Project templates, GitHub integration |
+| v3.0 | Q1 2027 | Enterprise training modules, team analytics | B2B dashboard, progress tracking |
+| v3.5 | Q3 2027 | Certification programs, industry partnerships | Credential verification, employer API |
+| v4.0 | Q1 2028 | Career matching, job placement integration | ML-based matching, employer network |
+
 ### SkyMirror Academy Platform
 | Release | Timeline | Key Features | Technical Foundations |
 |---------|----------|--------------|----------------------|
