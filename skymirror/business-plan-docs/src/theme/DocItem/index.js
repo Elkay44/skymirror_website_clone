@@ -1,11 +1,7 @@
 import React from 'react';
 import DocItem from '@theme-original/DocItem';
-import type DocItemType from '@theme/DocItem';
-import type { WrapperProps } from '@docusaurus/types';
 import PasswordProtect from '@site/src/components/PasswordProtect';
 import { useLocation } from '@docusaurus/router';
-
-type Props = WrapperProps<typeof DocItemType>;
 
 // Define which paths require password protection
 const PROTECTED_PATHS = [
@@ -15,7 +11,7 @@ const PROTECTED_PATHS = [
 
 const PASSWORD = 'admin123';
 
-export default function DocItemWrapper(props: Props): React.ReactElement {
+export default function DocItemWrapper(props) {
   const location = useLocation();
   
   // Check if current path is protected
