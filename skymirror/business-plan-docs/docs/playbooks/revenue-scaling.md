@@ -19,7 +19,7 @@ This framework establishes SkyMirror's approach to building sustainable revenue,
 
 | Stream | Model | Pricing | % of Revenue | Margin |
 |--------|-------|---------|--------------|--------|
-| CheckMet SaaS | Subscription | €7-15/user/month | 45% | 65% |
+| CheckMet SaaS | Subscription | €1-2/user/month | 45% | 65% |
 | Traquiva Platform | Subscription + Course Fees | €15-50/learner/month | 15% | 70% |
 | Enterprise Software | Project + T&M | €60-120K/project | 25% | 45% |
 | SkyMirror Academy | Per-participant | €1,800-2,500/person | 15% | 55% |

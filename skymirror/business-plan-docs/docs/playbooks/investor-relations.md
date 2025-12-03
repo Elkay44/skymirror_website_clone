@@ -218,7 +218,7 @@ CheckMet: AI attendance with 99.9% accuracy
 - AI-powered HR solutions
 
 ## Business Model
-- SaaS subscription: €7-15/user/month
+- SaaS subscription: €1-2/user/month
 - 65% gross margin
 - €8K CAC | 3:1 LTV:CAC
 

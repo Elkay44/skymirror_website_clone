@@ -148,7 +148,7 @@ This playbook establishes SkyMirror's approach to customer discovery, problem va
 | 1 | Enterprises lose €200K+/year on attendance issues | HIGH | Customer interviews | ⬜ |
 | 2 | HR Directors are the primary decision makers | HIGH | Sales process analysis | ⬜ |
 | 3 | 99.9% accuracy is a meaningful differentiator | HIGH | Competitive testing | ⬜ |
-| 4 | Customers will pay €10-15/user/month | HIGH | Pricing tests | ⬜ |
+| 4 | Customers will pay €1-2/user/month | HIGH | Pricing tests | ⬜ |
 | 5 | Implementation can be done in 2-4 weeks | MEDIUM | Pilot tracking | ⬜ |
 | 6 | HRIS integration is a must-have | MEDIUM | Feature prioritization | ⬜ |
 | 7 | Mobile check-in is important for hybrid work | MEDIUM | Usage analytics | ⬜ |
@@ -198,25 +198,25 @@ This playbook establishes SkyMirror's approach to customer discovery, problem va
 ## Assumption Test: Pricing
 
 ### Assumption
-Customers will pay €10-15/user/month for CheckMet
+Customers will pay €1-2/user/month for CheckMet
 
 ### Why It Matters
 Pricing directly impacts unit economics and viability
 
 ### Test Method
 1. Van Westendorp price sensitivity survey (n=50)
-2. A/B test pricing pages (€9 vs €12 vs €15)
+2. A/B test pricing pages (€1 vs €1.50 vs €2)
 3. Negotiation tracking in sales process
 
 ### Success Criteria
-- 60%+ find €12/user "acceptable"
+- 60%+ find €1-2/user "acceptable"
 - Conversion rate similar across price points
-- &lt;20% of deals lost on price
+- Under 20% of deals lost on price
 
 ### Failure Criteria
-- &lt;40% find €12/user "acceptable"
+- Under 40% find €1-2/user "acceptable"
 - Significant conversion drop at higher prices
-- >40% of deals lost on price
+- Over 40% of deals lost on price
 
 ### Timeline
 4 weeks
@@ -229,7 +229,7 @@ Pricing directly impacts unit economics and viability
 
 #### Current RAT Priority
 
-**Assumption:** Enterprise customers will pay €10-15/user/month for AI attendance
+**Assumption:** Enterprise customers will pay €1-2/user/month for AI attendance
 
 **Why Riskiest:** 
 - Directly impacts revenue model viability
@@ -480,7 +480,7 @@ Serviceable Obtainable Market (SOM)
 | Integrations | 50+ | 10-20 | 2.5x more |
 | Mobile capability | Full | Limited | Superior |
 | AI/Analytics | Advanced | Basic | Superior |
-| Pricing | €7-15/user | €10-25/user | 20-40% lower |
+| Pricing | €1-2/user | €10-25/user | 20-40% lower |
 
 ### 5.3 Competitive Intelligence
 

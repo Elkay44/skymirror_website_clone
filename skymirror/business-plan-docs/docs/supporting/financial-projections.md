@@ -7,26 +7,26 @@ title: "Financial Projections"
 
 ## Executive Summary
 
-This document presents revised financial projections incorporating:
-- **CheckMet pricing at €1-2 per user/month** (down from €7-11/user)
+This document presents financial projections incorporating:
+- **CheckMet pricing at €1-2 per user/month**
 - **Realistic, achievable growth targets**
 - **Conservative assumptions aligned with startup realities**
 
 ---
 
-## Pricing Strategy Changes
+## Pricing Strategy
 
-### CheckMet Pricing (Revised)
+### CheckMet Pricing
 
-| Tier | Users | Old Price | New Price | Change |
-|------|-------|-----------|-----------|--------|
-| Starter | 1-50 | €11/user | €2.00/user | -82% |
-| Professional | 51-200 | €9/user | €1.50/user | -83% |
-| Enterprise | 201-1000 | €7/user | €1.20/user | -83% |
-| Enterprise Plus | 1000+ | €7/user | €1.00/user | -86% |
+| Tier | Users | Price/User/Month | Min Monthly |
+|------|-------|------------------|-------------|
+| Starter | 1-50 | €2.00 | €50 |
+| Professional | 51-200 | €1.50 | €76.50 |
+| Enterprise | 201-1000 | €1.20 | €241.20 |
+| Enterprise Plus | 1000+ | €1.00 | €1,000 |
 
-**Rationale:**
-- More competitive with market alternatives
+**Value Proposition:**
+- Competitive market positioning
 - Lower barrier to entry for SMBs
 - Volume-based growth strategy
 - Hardware and services provide additional margin
@@ -359,28 +359,7 @@ This document presents revised financial projections incorporating:
 
 ---
 
-## Comparison: Old vs. New Projections
-
-### Revenue Comparison
-
-| Year | Old Projection | New Projection | Difference |
-|------|----------------|----------------|------------|
-| Year 1 | €1,113,000 | €1,071,530 | -4% |
-| Year 2 | €2,725,200 | €2,511,500 | -8% |
-| Year 3 | €7,327,200 | €5,936,750 | -19% |
-
-### Key Changes
-
-| Item | Old | New | Rationale |
-|------|-----|-----|-----------|
-| CheckMet ARPU | €7-11 | €1-2 | Market competitive |
-| CheckMet Revenue Y3 | €2,527,200 | €836,750 | Lower pricing |
-| Software Revenue Y3 | €1,440,000 | €1,740,000 | Increased focus |
-| Total Y3 Revenue | €7,327,200 | €5,936,750 | More achievable |
-
----
-
-*Document Version: 2.0*  
+*Document Version: 1.0*  
 *Last Updated: December 2024*  
 *Owner: CFO (Abdulwahab A)*  
 *Review Cycle: Quarterly*

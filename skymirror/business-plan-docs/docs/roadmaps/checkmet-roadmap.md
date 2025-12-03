@@ -17,7 +17,7 @@ CheckMet is SkyMirror's flagship AI-powered attendance management platform. This
 
 ---
 
-## Pricing Strategy (Revised)
+## Pricing Strategy
 
 ### Tier Structure (€1-2 per user/month)
 

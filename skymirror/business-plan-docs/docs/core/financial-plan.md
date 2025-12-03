@@ -57,7 +57,7 @@ title: "Financial Plan"
 | **Total Revenue** | **€1.07M** | **€2.51M** | **€5.94M** |
 | **YoY Growth** | **-** | **134%** | **136%** |
 
-*Note: CheckMet pricing revised to €1-2/user/month for market competitiveness. See [Financial Projections](/docs/supporting/financial-projections) for detailed breakdown.*
+*Note: CheckMet pricing at €1-2/user/month. See [Financial Projections](/docs/supporting/financial-projections) for detailed breakdown.*
 
 ## Profit and Loss Projections (Conservative)
 

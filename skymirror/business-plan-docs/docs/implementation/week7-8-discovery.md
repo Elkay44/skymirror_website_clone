@@ -233,7 +233,7 @@ looking to improve Traquiva and I'd love to hear about your learning experience.
 | 1 | Enterprises lose €200K+/year on attendance | Customer interviews | | ⬜ |
 | 2 | HR Directors are primary decision makers | Sales process analysis | | ⬜ |
 | 3 | 99.9% accuracy is meaningful differentiator | Competitive testing | | ⬜ |
-| 4 | Customers will pay €10-15/user/month | Pricing interviews | | ⬜ |
+| 4 | Customers will pay €1-2/user/month | Pricing interviews | | ⬜ |
 | 5 | Implementation can be done in 2-4 weeks | Pilot tracking | | ⬜ |
 | 6 | HRIS integration is must-have | Feature prioritization | | ⬜ |
 | 7 | AI learning is 30% faster than traditional | Traquiva data | | ⬜ |
@@ -313,7 +313,7 @@ looking to improve Traquiva and I'd love to hear about your learning experience.
 
 | Product | Proposed Price | Validated | Optimal Price |
 |---------|----------------|-----------|---------------|
-| CheckMet | €10-15/user | ✅/❌ | €[X]/user |
+| CheckMet | €1-2/user | ✅/❌ | €[X]/user |
 | Traquiva | €15-50/learner | ✅/❌ | €[X]/learner |
 
 ### Competitive Insights
