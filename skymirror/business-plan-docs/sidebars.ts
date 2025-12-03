@@ -1,0 +1,122 @@
+import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+
+const sidebars: SidebarsConfig = {
+  businessPlanSidebar: [
+    'intro',
+    {
+      type: 'category',
+      label: '📋 Core Business Plan',
+      collapsed: false,
+      items: [
+        'core/organogram',
+        'core/executive-summary',
+        'core/company-description',
+        'core/market-analysis',
+        'core/products-and-services',
+        'core/marketing-and-sales-strategy',
+        'core/operations-plan',
+        'core/organization-and-management',
+        'core/financial-plan',
+        'core/risk-analysis',
+        'core/implementation-plan',
+      ],
+    },
+    {
+      type: 'category',
+      label: '🎯 Strategic Documents',
+      collapsed: true,
+      items: [
+        'strategic/technology-roadmap',
+        'strategic/sustainability-and-esg',
+        'strategic/competitive-analysis',
+        'strategic/scenario-analysis',
+        'strategic/exit-strategy',
+        'strategic/international-expansion',
+        'strategic/intellectual-property',
+        'strategic/data-security-privacy',
+        'strategic/business-continuity',
+      ],
+    },
+    {
+      type: 'category',
+      label: '📚 Operational Playbooks',
+      collapsed: true,
+      items: [
+        'playbooks/okr-kpi-framework',
+        'playbooks/strategic-hiring',
+        'playbooks/customer-acquisition',
+        'playbooks/investor-relations',
+        'playbooks/user-feedback',
+        'playbooks/founder-legal-framework',
+        'playbooks/customer-discovery',
+        'playbooks/operations-systems',
+        'playbooks/revenue-scaling',
+        'playbooks/community-international',
+        'playbooks/board-materials',
+      ],
+    },
+    {
+      type: 'category',
+      label: '🚀 Implementation Roadmap',
+      collapsed: true,
+      items: [
+        'implementation/week1-2-legal',
+        'implementation/week3-4-acquisition',
+        'implementation/week5-6-okr',
+        'implementation/week7-8-discovery',
+        'implementation/post-launch-milestones',
+      ],
+    },
+    {
+      type: 'category',
+      label: '📄 Supporting Documents',
+      collapsed: true,
+      items: [
+        'supporting/company-one-pager',
+        'supporting/company-pitch',
+        'supporting/financial-projections',
+        'supporting/alignment-report',
+      ],
+    },
+    {
+      type: 'category',
+      label: '🗺️ Product Roadmaps',
+      collapsed: true,
+      items: [
+        'roadmaps/master-roadmap',
+        'roadmaps/checkmet-roadmap',
+        'roadmaps/traquiva-roadmap',
+        'roadmaps/academy-roadmap',
+        'roadmaps/software-solutions-roadmap',
+      ],
+    },
+    {
+      type: 'category',
+      label: '👥 Team Operations',
+      collapsed: true,
+      items: [
+        'team-operations/engineering-playbook',
+        'team-operations/sales-playbook',
+        'team-operations/operations-playbook',
+        'team-operations/finance-playbook',
+      ],
+    },
+    {
+      type: 'category',
+      label: '📝 Contract Templates',
+      collapsed: true,
+      items: [
+        'contracts/saas-subscription-agreement',
+        'contracts/software-development-agreement',
+        'contracts/employment-agreement',
+        'contracts/contractor-agreement',
+        'contracts/nda-template',
+        'contracts/partnership-agreement',
+        'contracts/data-processing-agreement',
+        'contracts/academy-enrollment-agreement',
+      ],
+    },
+  ],
+};
+
+export default sidebars;
