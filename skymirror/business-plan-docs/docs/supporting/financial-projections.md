@@ -349,14 +349,14 @@ This document presents financial projections incorporating:
 
 ### Sources of Funding
 
-| Source | Amount | % | Terms |
-|--------|--------|---|-------|
-| Founder Investment | €50,000 | 10% | Sweat equity + cash |
-| Revenue (Bootstrapping) | €50,000 | 10% | Reinvested profits |
-| Angel Investors | €150,000 | 30% | SAFE notes |
-| EU Innovation Grants | €100,000 | 20% | Non-dilutive |
-| Venture Capital (Seed) | €150,000 | 30% | Equity |
-| **Total** | **€500,000** | **100%** | |
+| Source | Amount | Terms |
+|--------|--------|-------|
+| Founder Investment | €50,000 | Sweat equity + cash |
+| Revenue (Bootstrapping) | €50,000 | Reinvested profits |
+| Angel Investors | €150,000 | SAFE notes |
+| EU Innovation Grants | €100,000 | Non-dilutive |
+| Venture Capital (Seed) | €150,000 | Equity |
+| **Total** | **€500,000** | |
 
 ### Milestones for Series A
 

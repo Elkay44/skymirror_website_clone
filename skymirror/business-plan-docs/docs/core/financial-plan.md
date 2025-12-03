@@ -33,14 +33,14 @@ SkyMirror operates as a remote-first company, significantly reducing overhead co
   - 10% - Operations & Contingency
 
 ## Sources of Funding
-| Source | Amount | Percentage | Terms | Timeline |
-|--------|--------|------------|-------|----------|
-| Founder Investment | €50,000 | 10% | Sweat equity + cash | Already invested |
-| Revenue (Bootstrapping) | €50,000 | 10% | Reinvested profits | Ongoing |
-| Angel Investors | €150,000 | 30% | Equity (SAFE notes) | Q2 2026 |
-| EU Innovation Grants | €100,000 | 20% | Non-dilutive | Application submitted |
-| Venture Capital (Seed) | €150,000 | 30% | Equity | Q3 2026 |
-| **Total Funding** | **€500,000** | **100%** | | |
+| Source | Amount | Terms | Timeline |
+|--------|--------|-------|----------|
+| Founder Investment | €50,000 | Sweat equity + cash | Already invested |
+| Revenue (Bootstrapping) | €50,000 | Reinvested profits | Ongoing |
+| Angel Investors | €150,000 | Equity (SAFE notes) | Q2 2026 |
+| EU Innovation Grants | €100,000 | Non-dilutive | Application submitted |
+| Venture Capital (Seed) | €150,000 | Equity | Q3 2026 |
+| **Total Funding** | **€500,000** | | |
 
 ## Break-even Analysis
 - **Monthly Fixed Costs:** €45,000 (remote-first model)
