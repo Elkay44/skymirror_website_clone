@@ -5,46 +5,51 @@ title: "Financial Plan"
 
 # Financial Plan
 
-## Startup Costs
+## Startup Costs (Remote-First Model)
+
+SkyMirror operates as a remote-first company, significantly reducing overhead costs while attracting global talent.
+
 | Category | Description | Amount |
 |----------|-------------|--------|
-| Legal & Administrative | Company registration, licenses, permits, and initial legal consultation | €15,000 |
-| Facilities | Office setup at Kálmán Imre utca 1, Budapest (deposit, initial rent, furnishing) | €45,000 |
-| Equipment & Technology | Workstations, servers, development tools, software licenses | €75,000 |
-| Marketing & Branding | Website development, branding materials, initial marketing campaigns | €35,000 |
-| Personnel | Initial team salaries (3 months runway) | €120,000 |
-| Working Capital | Operating expenses buffer (6 months) | €210,000 |
-| **Total Startup Costs** | | **€500,000** |
+| Legal & Administrative | Company registration, licenses, permits, legal consultation | €8,000 |
+| Co-working & Virtual Office | Virtual office address, occasional meeting space, co-working passes | €6,000 |
+| Equipment & Technology | Laptops for team (5), cloud infrastructure, software licenses | €25,000 |
+| Marketing & Branding | Website, branding materials, initial digital marketing | €15,000 |
+| Personnel | Initial team salaries (3 months runway for 5 people) | €75,000 |
+| Working Capital | Operating expenses buffer (3 months) | €45,000 |
+| Remote Work Stipends | Home office setup allowance for team (€500 x 5) | €2,500 |
+| **Total Startup Costs** | | **€176,500** |
 
 ## Funding Requirements
-- **Initial Seed Funding:** €1.5 million
+- **Initial Seed Funding:** €500,000
 - **Funding Stages:**
-  - Seed Round: €1.5 million (Q2 2026)
-  - Series A: €5 million (Q4 2027)
-  - Series B: €12 million (Q2 2029)
-- **Use of Funds:**
-  - 40% - Product Development (CheckMet enhancement, Traquiva platform, AI research)
-  - 25% - Team Expansion (technical and sales talent)
-  - 20% - Market Expansion (European growth initiatives)
-  - 15% - Operations & Infrastructure
+  - Pre-Seed/Bootstrap: €100,000 (Founder + Revenue - Current)
+  - Seed Round: €500,000 (Q2 2026)
+  - Series A: €3 million (Q4 2027)
+- **Use of Funds (€500K Seed):**
+  - 45% - Product Development (CheckMet, Traquiva, AI features)
+  - 25% - Team Expansion (key technical hires)
+  - 20% - Sales & Marketing (customer acquisition)
+  - 10% - Operations & Contingency
 
 ## Sources of Funding
 | Source | Amount | Percentage | Terms | Timeline |
 |--------|--------|------------|-------|----------|
-| Founder Investment | €300,000 | 20% | Equity | Already secured |
-| Angel Investors | €450,000 | 30% | Equity | Q2 2026 |
-| EU Innovation Grants | €250,000 | 16.7% | Non-dilutive | Application in process |
-| Venture Capital | €500,000 | 33.3% | Equity with standard terms | Q4 2026 |
-| **Total Funding** | **€1,500,000** | **100%** | | |
+| Founder Investment | €50,000 | 10% | Sweat equity + cash | Already invested |
+| Revenue (Bootstrapping) | €50,000 | 10% | Reinvested profits | Ongoing |
+| Angel Investors | €150,000 | 30% | Equity (SAFE notes) | Q2 2026 |
+| EU Innovation Grants | €100,000 | 20% | Non-dilutive | Application submitted |
+| Venture Capital (Seed) | €150,000 | 30% | Equity | Q3 2026 |
+| **Total Funding** | **€500,000** | **100%** | | |
 
 ## Break-even Analysis
-- **Monthly Fixed Costs:** €150,000
-- **Variable Cost per Unit:** €500
-- **Average Revenue per Unit:** €1,500
-- **Contribution Margin per Unit:** €1,000
-- **Break-even Point (Units):** 150 units
-- **Break-even Point (Revenue):** €225,000
-- **Estimated Time to Break-even:** 6 months
+- **Monthly Fixed Costs:** €45,000 (remote-first model)
+- **Variable Cost per Unit:** €300
+- **Average Revenue per Unit:** €1,200
+- **Contribution Margin per Unit:** €900
+- **Break-even Point (Units):** 50 units/month
+- **Break-even Point (Revenue):** €60,000/month (€720,000/year)
+- **Estimated Time to Break-even:** 18 months
 
 ## Revenue Projections (3 years - Conservative)
 
@@ -59,37 +64,38 @@ title: "Financial Plan"
 
 *Note: CheckMet pricing at €1-2/user/month. See [Financial Projections](/docs/supporting/financial-projections) for detailed breakdown.*
 
-## Profit and Loss Projections (Conservative)
+## Profit and Loss Projections (Conservative - Remote-First)
 
 | Category | Year 1 (2026) | Year 2 (2027) | Year 3 (2028) |
 |----------|---------------|---------------|---------------|
 | **Revenue** | €1.06M | €2.50M | €5.93M |
-| **Cost of Goods Sold** | €472K | €1.05M | €2.25M |
-| **Gross Profit** | €593K | €1.45M | €3.68M |
-| **Gross Margin** | 56% | 58% | 62% |
+| **Cost of Goods Sold** | €424K | €875K | €1.78M |
+| **Gross Profit** | €641K | €1.63M | €4.15M |
+| **Gross Margin** | 60% | 65% | 70% |
 | **Operating Expenses** |  |  |  |
-| Sales & Marketing | €320,000 | €500,000 | €800,000 |
-| Research & Development | €400,000 | €550,000 | €700,000 |
-| General & Administrative | €250,000 | €350,000 | €500,000 |
-| **Total Operating Expenses** | €970K | €1.40M | €2.00M |
-| **EBITDA** | -€377K | €53K | €1.68M |
-| **EBITDA Margin** | -35% | 2% | 28% |
+| Sales & Marketing | €200,000 | €400,000 | €700,000 |
+| Research & Development | €350,000 | €500,000 | €650,000 |
+| General & Administrative | €150,000 | €250,000 | €400,000 |
+| **Total Operating Expenses** | €700K | €1.15M | €1.75M |
+| **EBITDA** | -€59K | €480K | €2.40M |
+| **EBITDA Margin** | -6% | 19% | 40% |
 
 ## Cash Flow Projections (Conservative)
 
 | Category | Year 1 (2026) | Year 2 (2027) | Year 3 (2028) |
 |----------|---------------|---------------|---------------|
-| **Beginning Cash Balance** | €1.5M | €0.64M | €0.08M |
+| **Beginning Cash Balance** | €500K | €323K | €376K |
 | **Cash Inflows** |  |  |  |
-| Revenue | €1.11M | €2.73M | €7.33M |
+| Revenue | €1.06M | €2.50M | €5.93M |
+| Series A Funding | - | €3.0M | - |
 | **Cash Outflows** |  |  |  |
-| Operating Expenses | €1.87M | €3.08M | €5.32M |
-| Capital Expenditures | €150K | €200K | €300K |
-| **Total Cash Outflows** | €2.02M | €3.28M | €5.62M |
-| **Net Cash Flow** | -€0.91M | -€0.55M | €1.71M |
-| **Ending Cash Balance** | €0.64M | €0.08M | €1.79M |
+| Operating Expenses | €1.19M | €2.40M | €4.25M |
+| Capital Expenditures | €50K | €75K | €100K |
+| **Total Cash Outflows** | €1.24M | €2.48M | €4.35M |
+| **Net Cash Flow** | -€177K | €3.02M | €1.58M |
+| **Ending Cash Balance** | €323K | €3.35M | €4.93M |
 
-*Note: Runway of ~18-22 months with €1.5M seed. Series A timing (Q4 2027) provides bridge to profitability.*
+*Note: Lean operations with €500K seed provides 18+ months runway. Series A (Q4 2027) accelerates growth to profitability.*
 
 ## Balance Sheet Projections
 
@@ -189,11 +195,12 @@ title: "Financial Plan"
 - CheckMet user base grows from 5,000 to 250,000 over five years
 - SkyMirror Academy student enrollment increases from 200 to 2,500 annually
 
-### Capital Expenditure Assumptions
-- Initial office setup: €45,000
-- Technology infrastructure: 5-8% of annual revenue
-- New office establishment: €150,000-€250,000 per location
-- Equipment refresh cycle: 3 years
+### Capital Expenditure Assumptions (Remote-First)
+- Virtual office & co-working: €6,000/year
+- Technology infrastructure (cloud): 3-5% of annual revenue
+- Equipment (laptops, monitors): €5,000 per new hire
+- Equipment refresh cycle: 4 years
+- No physical office establishment costs
 
 ---
 

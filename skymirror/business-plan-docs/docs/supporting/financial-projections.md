@@ -238,20 +238,20 @@ This document presents financial projections incorporating:
 |-----------|--------|--------|--------|
 | **Revenue** | €1,064,750 | €2,500,250 | €5,925,500 |
 | **Cost of Goods Sold** | | | |
-| - CheckMet COGS (35%) | €47,163 | €129,588 | €288,925 |
-| - Traquiva COGS (25%) | €37,500 | €150,000 | €600,000 |
-| - Software COGS (45%) | €243,000 | €450,000 | €783,000 |
-| - Academy COGS (60%) | €144,000 | €318,000 | €576,000 |
-| **Total COGS** | €471,663 | €1,047,588 | €2,247,925 |
-| **Gross Profit** | €593,087 | €1,452,662 | €3,677,575 |
-| **Gross Margin** | 56% | 58% | 62% |
-| **Operating Expenses** | | | |
-| - Sales & Marketing | €320,000 | €500,000 | €800,000 |
-| - Research & Development | €400,000 | €550,000 | €700,000 |
-| - General & Administrative | €250,000 | €350,000 | €500,000 |
-| **Total OpEx** | €970,000 | €1,400,000 | €2,000,000 |
-| **EBITDA** | -€376,913 | €52,662 | €1,677,575 |
-| **EBITDA Margin** | -35% | 2% | 28% |
+| - CheckMet COGS (30%) | €40,425 | €111,075 | €247,650 |
+| - Traquiva COGS (20%) | €30,000 | €120,000 | €480,000 |
+| - Software COGS (40%) | €216,000 | €400,000 | €696,000 |
+| - Academy COGS (55%) | €132,000 | €291,500 | €528,000 |
+| **Total COGS** | €418,425 | €922,575 | €1,951,650 |
+| **Gross Profit** | €646,325 | €1,577,675 | €3,973,850 |
+| **Gross Margin** | 61% | 63% | 67% |
+| **Operating Expenses (Remote-First)** | | | |
+| - Sales & Marketing | €200,000 | €400,000 | €700,000 |
+| - Research & Development | €300,000 | €450,000 | €600,000 |
+| - General & Administrative | €120,000 | €200,000 | €350,000 |
+| **Total OpEx** | €620,000 | €1,050,000 | €1,650,000 |
+| **EBITDA** | €26,325 | €527,675 | €2,323,850 |
+| **EBITDA Margin** | 2% | 21% | 39% |
 
 ---
 
@@ -261,26 +261,26 @@ This document presents financial projections incorporating:
 
 | Item | Year 1 | Year 2 | Year 3 |
 |------|--------|--------|--------|
-| **Beginning Cash** | €1,500,000 | €973,087 | €875,749 |
+| **Beginning Cash** | €500,000 | €476,325 | €954,000 |
 | **Operating Activities** | | | |
-| EBITDA | -€376,913 | €52,662 | €1,677,575 |
-| Working Capital Changes | -€50,000 | -€100,000 | -€200,000 |
-| **Cash from Operations** | -€426,913 | -€47,338 | €1,477,575 |
+| EBITDA | €26,325 | €527,675 | €2,323,850 |
+| Working Capital Changes | -€30,000 | -€50,000 | -€100,000 |
+| **Cash from Operations** | -€3,675 | €477,675 | €2,223,850 |
 | **Investing Activities** | | | |
-| CapEx | -€100,000 | -€150,000 | -€250,000 |
-| **Cash from Investing** | -€100,000 | -€150,000 | -€250,000 |
+| CapEx (Remote-First) | -€20,000 | -€40,000 | -€75,000 |
+| **Cash from Investing** | -€20,000 | -€40,000 | -€75,000 |
 | **Financing Activities** | | | |
-| Equity Raised | €0 | €100,000 | €0 |
-| **Cash from Financing** | €0 | €100,000 | €0 |
-| **Net Cash Flow** | -€526,913 | -€97,338 | €1,227,575 |
-| **Ending Cash** | €973,087 | €875,749 | €2,103,324 |
+| Series A Funding | €0 | €0 | €0 |
+| **Cash from Financing** | €0 | €0 | €0 |
+| **Net Cash Flow** | -€23,675 | €437,675 | €2,148,850 |
+| **Ending Cash** | €476,325 | €914,000 | €3,062,850 |
 
 ### Runway Analysis
 
 | Metric | Year 1 | Year 2 | Year 3 |
 |--------|--------|--------|--------|
-| Monthly Burn | €43,909 | €8,112 | - |
-| Runway (months) | 22 | 108+ | Profitable |
+| Monthly Burn | €1,973 | - | - |
+| Runway (months) | 241+ | Profitable | Profitable |
 
 ---
 
@@ -325,37 +325,47 @@ This document presents financial projections incorporating:
 | **Base Case** | €1,064,750 | €2,500,250 | €5,925,500 |
 | **Optimistic (+20%)** | €1,277,700 | €3,000,300 | €7,110,600 |
 
-### EBITDA Scenarios
+### EBITDA Scenarios (Remote-First Model)
 
 | Scenario | Year 1 | Year 2 | Year 3 |
 |----------|--------|--------|--------|
-| **Conservative** | -€590,130 | -€184,288 | €929,495 |
-| **Base Case** | -€376,913 | €52,662 | €1,677,575 |
-| **Optimistic** | -€163,696 | €289,612 | €2,425,655 |
+| **Conservative** | -€116,335 | €277,675 | €1,573,850 |
+| **Base Case** | €26,325 | €527,675 | €2,323,850 |
+| **Optimistic** | €168,985 | €777,675 | €3,073,850 |
 
 ---
 
 ## Funding Requirements
 
-### Use of Funds (€1.5M Seed)
+### Use of Funds (€500K Seed - Remote-First Model)
 
 | Category | Amount | % |
 |----------|--------|---|
-| Product Development | €525,000 | 35% |
-| Sales & Marketing | €375,000 | 25% |
-| Team Expansion | €300,000 | 20% |
-| Operations | €225,000 | 15% |
-| Contingency | €75,000 | 5% |
-| **Total** | **€1,500,000** | **100%** |
+| Product Development | €225,000 | 45% |
+| Team Expansion (Key Hires) | €125,000 | 25% |
+| Sales & Marketing | €100,000 | 20% |
+| Operations & Contingency | €50,000 | 10% |
+| **Total** | **€500,000** | **100%** |
+
+### Sources of Funding
+
+| Source | Amount | % | Terms |
+|--------|--------|---|-------|
+| Founder Investment | €50,000 | 10% | Sweat equity + cash |
+| Revenue (Bootstrapping) | €50,000 | 10% | Reinvested profits |
+| Angel Investors | €150,000 | 30% | SAFE notes |
+| EU Innovation Grants | €100,000 | 20% | Non-dilutive |
+| Venture Capital (Seed) | €150,000 | 30% | Equity |
+| **Total** | **€500,000** | **100%** | |
 
 ### Milestones for Series A
 
 | Milestone | Target | Timeline |
 |-----------|--------|----------|
-| ARR | €500,000 | Q4 2026 |
-| Customers | 100+ | Q4 2026 |
+| ARR | €400,000 | Q4 2026 |
+| Customers | 75+ | Q4 2026 |
 | Gross Margin | Over 60% | Q4 2026 |
-| Team Size | 25+ | Q4 2026 |
+| Team Size | 12-15 | Q4 2026 |
 
 ---
 
