@@ -9,6 +9,16 @@ title: "Week 1-2: Legal & Founder Agreements"
 ### Overview
 This document provides the detailed implementation plan for completing all founder agreements and legal documentation during Weeks 1-2 of the SkyMirror documentation enhancement project.
 
+### Company Registration Details
+| Detail | Information |
+|--------|-------------|
+| **Legal Name** | SkyMirror Kft. |
+| **Company Registration Number** | 01-09-430617 |
+| **Tax Number (Tax ID)** | 32559950-2-42 |
+| **Country of Incorporation** | Hungary |
+| **Legal Form** | Korlátolt Felelősségű Társaság (Kft.) |
+| **Registered Office** | Kálmán Imre utca 1, 1054 Budapest, Hungary |
+
 ---
 
 ## Week 1: Founder Agreements

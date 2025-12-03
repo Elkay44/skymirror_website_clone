@@ -13,7 +13,17 @@ In its formative years, SkyMirror focused on establishing core competencies in s
 Today, SkyMirror operates across multiple continents, serving clients ranging from startups to established enterprises while simultaneously empowering communities through educational programs designed to bridge the global digital divide.
 
 ## Legal Structure
-SkyMirror is incorporated as a Private Limited Company with a corporate structure designed to facilitate global operations while maintaining agility and innovation. The company has established regional subsidiaries in key markets to ensure compliance with local regulations and optimize service delivery.
+SkyMirror is incorporated as a Private Limited Company (Korlátolt Felelősségű Társaság - Kft.) in Hungary with a corporate structure designed to facilitate global operations while maintaining agility and innovation.
+
+### Company Registration Details
+| Detail | Information |
+|--------|-------------|
+| **Legal Name** | SkyMirror Kft. |
+| **Company Registration Number** | 01-09-430617 |
+| **Tax Number (Tax ID)** | 32559950-2-42 |
+| **Country of Incorporation** | Hungary |
+| **Legal Form** | Korlátolt Felelősségű Társaság (Kft.) |
+| **Registered Office** | Kálmán Imre utca 1, 1054 Budapest, Hungary |
 
 ## Location and Facilities
 ### Current Headquarters
