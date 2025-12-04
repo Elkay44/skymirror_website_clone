@@ -13,6 +13,83 @@ This playbook defines the operational processes, customer success strategies, an
 **Scope:** Customer success, delivery, support, operations  
 **Last Updated:** December 2024
 
+:::tip Tooling Reference
+For detailed tool configurations and integrations, see the [Workflow & Tooling Guide](./workflow-tooling-guide.md).
+:::
+
+---
+
+## Operations Tool Stack
+
+| Tool | Purpose | When to Use |
+|------|---------|-------------|
+| **Jira** | Project delivery, support tickets | Software Solutions, customer support |
+| **Trello** | HR tasks, onboarding, simple workflows | Employee lifecycle, operations tasks |
+| **Notion** | Documentation, SOPs | Processes, knowledge base |
+| **Slack** | Team communication | Daily coordination |
+
+### Jira Support Workflow
+
+```
+┌──────────┐   ┌──────────┐   ┌─────────────┐   ┌──────────┐
+│   New    │──▶│   Open   │──▶│ In Progress │──▶│ Resolved │
+└──────────┘   └──────────┘   └─────────────┘   └──────────┘
+     │                             │                    │
+     ▼                             ▼                    ▼
+┌──────────┐                  ┌──────────┐         ┌──────────┐
+│ Escalated│                  │ On Hold  │         │  Closed  │
+└──────────┘                  └──────────┘         └──────────┘
+```
+
+### Trello HR Workflow
+
+```
+┌───────────┬───────────┬───────────┬───────────┬───────────┐
+│ Candidates│  Offers   │ Onboarding│  Active   │ Offboarded│
+├───────────┼───────────┼───────────┼───────────┼───────────┤
+│ New       │ Pending   │ Week 1    │ Current   │ Alumni    │
+│ applicants│ acceptance│ setup     │ employees │           │
+└───────────┴───────────┴───────────┴───────────┴───────────┘
+```
+
+### Slack Channels for Operations
+
+| Channel | Purpose |
+|---------|---------|
+| `#team-operations` | Operations team discussions |
+| `#customer-success` | CS team coordination |
+| `#jira-support` | Jira support ticket notifications |
+| `#hr-updates` | HR announcements |
+| `#onboarding` | New hire onboarding |
+
+### Daily Operations Workflow
+
+```
+08:30 - Review team status (Slack)
+09:00 - Operations standup
+09:30 - Process improvements
+12:00 - Lunch
+13:00 - Cross-team coordination
+15:00 - HR matters (Trello)
+16:00 - Documentation updates (Notion)
+```
+
+### Weekly Operations Rituals
+
+| Day | Activity | Tool |
+|-----|----------|------|
+| Monday | Leadership sync | Slack/Meet |
+| Tuesday | All-hands preparation | Notion |
+| Wednesday | Process review | Notion |
+| Friday | Operational metrics review | Jira/Notion |
+
+### Integrations
+
+- **Jira → Slack**: New support ticket alerts to `#jira-support`
+- **Jira → Slack**: Project updates to `#team-operations`
+- **Trello → Slack**: HR updates to `#hr-updates`
+- **Trello → Slack**: Onboarding progress to `#onboarding`
+
 ---
 
 ## Team Structure
@@ -453,22 +530,22 @@ Best,
 
 | Tool | Purpose | Owner |
 |------|---------|-------|
-| HubSpot | CRM, customer data | CS Manager |
-| Intercom | Support, chat | Support Lead |
-| Jira | Project management | Delivery Manager |
-| Notion | Documentation | Operations Manager |
+| Jira | Support tickets, project delivery | Support Lead |
+| Trello | HR tasks, onboarding | Operations Manager |
+| Notion | Documentation, customer data | Operations Manager |
+| Slack | Team communication | All |
 | Calendly | Scheduling | All |
 | Loom | Video updates | All |
 
 ### Automation
 
 | Process | Tool | Trigger |
-|---------|------|---------|
-| Onboarding emails | HubSpot | Contract signed |
-| Health score alerts | HubSpot | Score change |
-| Renewal reminders | HubSpot | 90 days before |
-| NPS surveys | Intercom | Post-milestone |
-| Support escalations | Intercom | SLA breach |
+|---------|------|--------|
+| Onboarding emails | Slack | Contract signed |
+| Support alerts | Jira → Slack | New ticket |
+| Renewal reminders | Trello | 90 days before |
+| NPS surveys | Notion | Post-milestone |
+| Support escalations | Jira → Slack | SLA breach |
 
 ---
 
@@ -519,7 +596,70 @@ Best,
 
 ---
 
-*Document Version: 1.0*  
+## Jira Support Best Practices
+
+### Ticket Management
+
+1. **Respond** within SLA (see response time targets)
+2. **Categorize** tickets accurately for reporting
+3. **Escalate** promptly when needed
+4. **Document** resolution for knowledge base
+5. **Follow up** after resolution for CSAT
+
+### Support SLAs
+
+| Priority | First Response | Resolution |
+|----------|----------------|------------|
+| Critical | 1 hour | 4 hours |
+| High | 4 hours | 24 hours |
+| Medium | 8 hours | 48 hours |
+| Low | 24 hours | 5 days |
+
+### Knowledge Base Maintenance
+
+| Task | Frequency | Owner |
+|------|-----------|-------|
+| Review top tickets | Weekly | Support Lead |
+| Update FAQs | Bi-weekly | Support Team |
+| Create new articles | As needed | Support Team |
+| Archive outdated content | Monthly | Support Lead |
+
+---
+
+## Trello HR Best Practices
+
+### Employee Onboarding Checklist (Trello Card)
+
+- [ ] Set up Zoho Mail account (@skymirror.eu)
+- [ ] Add to Slack workspace
+- [ ] Grant Notion access
+- [ ] Assign tool access (Linear/Jira/Trello)
+- [ ] Schedule orientation meetings
+- [ ] Assign onboarding buddy
+- [ ] Complete Week 1 training
+- [ ] Move card to "Active" when complete
+
+### Leave Management (Trello Board)
+
+| List | Purpose |
+|------|--------|
+| Leave Requests | New requests pending approval |
+| Approved | Approved leave |
+| In Progress | Currently on leave |
+| Completed | Returned from leave |
+
+### Leave Types
+
+| Leave Type | Days/Year | Approval |
+|------------|-----------|----------|
+| Annual Leave | 25 | Manager |
+| Sick Leave | 10 | Auto (with note) |
+| Personal Leave | 3 | Manager |
+| Parental Leave | Per law | HR |
+
+---
+
+*Document Version: 1.1*  
 *Last Updated: December 2024*  
 *Owner: COO (Dr. Loveday)*  
 *Review Cycle: Quarterly*

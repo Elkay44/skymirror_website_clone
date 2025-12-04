@@ -13,6 +13,105 @@ This playbook defines the sales and marketing processes, strategies, and best pr
 **Scope:** All sales and marketing activities  
 **Last Updated:** December 2024
 
+:::tip Tooling Reference
+For detailed tool configurations and integrations, see the [Workflow & Tooling Guide](./workflow-tooling-guide.md).
+:::
+
+---
+
+## Sales & Marketing Tool Stack
+
+| Tool | Purpose | When to Use |
+|------|---------|-------------|
+| **Trello** | Sales pipeline, content calendar | Lead tracking, content planning |
+| **Jira** | Complex sales projects | Enterprise deals |
+| **Slack** | Team communication | Daily coordination |
+| **Notion** | Sales playbooks, templates | Documentation, proposals |
+| **LinkedIn Sales Navigator** | Prospecting | Outbound sales |
+
+### Trello Sales Pipeline
+
+```
+┌───────────┬───────────┬───────────┬───────────┬───────────┬───────────┐
+│   Leads   │ Qualified │ Proposal  │ Negotiation│    Won    │   Lost    │
+├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
+│ New       │ Discovery │ Sent      │ Contract   │ Closed    │ Did not   │
+│ inquiries │ completed │ proposals │ review     │ deals     │ proceed   │
+└───────────┴───────────┴───────────┴───────────┴───────────┴───────────┘
+```
+
+**Required Card Fields (Custom Fields):**
+- Deal Name, Company, Amount
+- Product (CheckMet/Traquiva/Solutions/Academy)
+- Close Date, Lead Source
+
+### Trello Marketing Board
+
+```
+┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
+│  Backlog    │  This Week  │  Creating   │   Review    │  Published  │
+├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+│ Blog ideas  │ CheckMet    │ Traquiva    │ Academy     │ CheckMet    │
+│             │ case study  │ launch post │ testimonial │ launch      │
+│ Social      │             │             │             │ (Nov 2024)  │
+│ campaigns   │ LinkedIn    │ Product     │             │             │
+│             │ series      │ demo video  │             │             │
+└─────────────┴─────────────┴─────────────┴─────────────┴─────────────┘
+```
+
+### Slack Channels for Sales & Marketing
+
+| Channel | Purpose |
+|---------|---------|
+| `#team-sales` | Sales team coordination |
+| `#team-marketing` | Marketing discussions |
+| `#trello-deals` | Sales pipeline notifications |
+| `#wins` | Celebrate closed deals |
+| `#product-feedback` | Customer feedback |
+
+### Daily Sales Workflow
+
+```
+08:30 - Review pipeline (Trello Sales Board)
+09:00 - Team sync (Slack)
+09:30 - Outreach: calls, emails
+12:00 - Lunch
+13:00 - Client meetings
+15:00 - Proposal work (Notion templates)
+16:00 - Update Trello cards, log activities
+17:00 - Plan tomorrow's outreach
+```
+
+### Weekly Sales Rituals
+
+| Day | Activity | Tool |
+|-----|----------|------|
+| Monday | Pipeline review | Trello |
+| Wednesday | Sales training | Notion |
+| Thursday | Forecast update | Trello |
+| Friday | Win/loss analysis | Notion |
+
+### Daily Marketing Workflow
+
+```
+09:00 - Check analytics, social mentions
+09:30 - Content creation
+11:00 - Campaign management
+12:00 - Lunch
+13:00 - Design reviews, approvals
+15:00 - Social media scheduling
+16:00 - Update Trello, plan ahead
+```
+
+### Weekly Marketing Rituals
+
+| Day | Activity | Tool |
+|-----|----------|------|
+| Monday | Week planning | Trello |
+| Tuesday | Content review | Notion |
+| Wednesday | Campaign analysis | Notion |
+| Friday | Content publishing | Trello |
+
 ---
 
 ## Team Structure
@@ -500,21 +599,21 @@ What do we need to create?
 
 | Tool | Purpose | Owner |
 |------|---------|-------|
-| HubSpot CRM | Pipeline management | Sales Ops |
+| Trello | Pipeline management | Sales Ops |
 | LinkedIn Sales Navigator | Prospecting | SDRs |
 | Calendly | Meeting scheduling | All |
 | DocuSign | Contract signing | AEs |
-| Gong/Chorus | Call recording | Sales Manager |
+| Slack | Team communication | All |
 
 ### Marketing Stack
 
 | Tool | Purpose | Owner |
 |------|---------|-------|
-| HubSpot Marketing | Automation, email | Marketing Manager |
+| Trello | Content calendar, campaigns | Marketing Manager |
 | Google Analytics | Website analytics | Digital Marketing |
 | SEMrush | SEO, competitive | Content Manager |
 | Canva/Figma | Design | Brand Lead |
-| Hootsuite | Social management | Social Media |
+| Notion | Content documentation | Content Manager |
 
 ---
 
@@ -525,7 +624,7 @@ What do we need to create?
 | Week | Focus | Activities |
 |------|-------|------------|
 | 1 | Company & Product | Culture, product training |
-| 2 | Process & Tools | CRM, methodology |
+| 2 | Process & Tools | Trello, methodology |
 | 3 | Shadowing | Observe calls, demos |
 | 4 | Practice | Role plays, first calls |
 
@@ -540,7 +639,45 @@ What do we need to create?
 
 ---
 
-*Document Version: 1.0*  
+## Trello Sales Best Practices
+
+### Lead Management
+
+1. **Log all activities** in card comments within 24 hours
+2. **Move cards** immediately when stage changes
+3. **Add notes** after every client interaction
+4. **Set due date** for next action
+5. **Use labels** for products (CheckMet, Traquiva, Solutions, Academy)
+
+### Deal Hygiene
+
+| Check | Frequency | Owner |
+|-------|-----------|-------|
+| Update close dates | Weekly | AE |
+| Archive stale leads | Weekly | SDR |
+| Verify amounts | Before forecast | AE |
+| Review lost deals | Monthly | Sales Manager |
+
+### Trello Labels for Sales
+
+| Label | Color | Meaning |
+|-------|-------|--------|
+| CheckMet | Blue | CheckMet product |
+| Traquiva | Green | Traquiva product |
+| Solutions | Purple | Software Solutions |
+| Academy | Orange | Academy programs |
+| Hot | Red | High priority deal |
+| Enterprise | Yellow | Large deal |
+
+### Integrations
+
+- **Trello → Slack**: Deal won notifications to `#wins`
+- **Trello → Slack**: Pipeline updates to `#trello-deals`
+- **Trello → Notion**: Update client database on close
+
+---
+
+*Document Version: 1.1*  
 *Last Updated: December 2024*  
 *Owner: CMO (Jerone Lebadie)*  
 *Review Cycle: Quarterly*

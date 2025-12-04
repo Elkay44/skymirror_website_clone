@@ -13,6 +13,92 @@ This playbook defines the standards, processes, and best practices for SkyMirror
 **Scope:** All engineering activities across CheckMet, Traquiva, Software Solutions  
 **Last Updated:** December 2024
 
+:::tip Tooling Reference
+For detailed tool configurations and integrations, see the [Workflow & Tooling Guide](./workflow-tooling-guide.md).
+:::
+
+---
+
+## Engineering Tool Stack
+
+| Tool | Purpose | When to Use |
+|------|---------|-------------|
+| **Linear** | Sprint management, product issues | CheckMet, Traquiva, Platform work |
+| **Jira** | Client project management | Software Solutions client work |
+| **GitHub** | Code repository, CI/CD, PRs | All code-related work |
+| **Slack** | Communication, alerts | Daily communication, incidents |
+| **Notion** | Documentation, specs, ADRs | Technical documentation |
+
+### Linear Workflow for Product Teams
+
+```
+┌─────────┐   ┌──────┐   ┌─────────────┐   ┌───────────┐   ┌──────┐
+│ Backlog │──▶│ Todo │──▶│ In Progress │──▶│ In Review │──▶│ Done │
+└─────────┘   └──────┘   └─────────────┘   └───────────┘   └──────┘
+```
+
+**Issue Naming Convention:**
+```
+[Type] Brief description
+
+Examples:
+- [Feature] Add facial recognition for CheckMet
+- [Bug] Fix login timeout on Traquiva
+- [Chore] Update dependencies
+```
+
+**Labels to Use:**
+- `frontend`, `backend`, `api`, `ml`, `infra`, `docs`
+- `urgent`, `high`, `medium`, `low`
+- `xs`, `s`, `m`, `l`, `xl` (size)
+
+### Jira Workflow for Client Projects
+
+```
+┌─────────┐   ┌──────────┐   ┌─────────────┐   ┌────────┐   ┌──────┐
+│ Backlog │──▶│ Selected │──▶│ In Progress │──▶│ Review │──▶│ Done │
+└─────────┘   └──────────┘   └─────────────┘   └────────┘   └──────┘
+```
+
+**Required Fields:**
+- Client name
+- Billable hours (for time tracking)
+- Story points
+- Sprint assignment
+
+### GitHub Integration
+
+**Branch Naming (linked to Linear/Jira):**
+```
+feature/SKY-123-add-user-authentication
+bugfix/CLIENT-456-fix-payment-flow
+hotfix/SKY-789-critical-security-patch
+```
+
+**Commit Messages (auto-link to issues):**
+```
+feat(auth): add OAuth2 login support SKY-123
+fix(payment): resolve timeout issue CLIENT-456
+```
+
+**PR Auto-Transitions:**
+- PR opened → Issue moves to "In Review"
+- PR merged to develop → Issue stays "In Review" (QA)
+- PR merged to main → Issue moves to "Done"
+
+### Slack Channels for Engineering
+
+| Channel | Purpose |
+|---------|--------|
+| `#team-engineering` | General engineering discussions |
+| `#product-checkmet` | CheckMet development |
+| `#product-traquiva` | Traquiva development |
+| `#product-solutions` | Software Solutions |
+| `#github-activity` | GitHub notifications |
+| `#linear-updates` | Linear sprint updates |
+| `#alerts-production` | Production alerts |
+| `#alerts-security` | Security notifications |
+
 ---
 
 ## Team Structure
@@ -61,13 +147,13 @@ CTO (Eric)
 
 We follow Scrum with 2-week sprints:
 
-| Event | When | Duration | Purpose |
-|-------|------|----------|---------|
-| Sprint Planning | Day 1 | 2 hours | Plan sprint work |
-| Daily Standup | Daily | 15 min | Sync, blockers |
-| Sprint Review | Day 10 | 1 hour | Demo to stakeholders |
-| Retrospective | Day 10 | 1 hour | Process improvement |
-| Backlog Refinement | Mid-sprint | 1 hour | Prepare future work |
+| Event | When | Duration | Purpose | Tool |
+|-------|------|----------|--------|------|
+| Sprint Planning | Day 1 | 2 hours | Plan sprint work | Linear/Jira |
+| Daily Standup | Daily | 15 min | Sync, blockers | Slack Huddle |
+| Sprint Review | Day 10 | 1 hour | Demo to stakeholders | Meet + Linear |
+| Retrospective | Day 10 | 1 hour | Process improvement | Notion |
+| Backlog Refinement | Mid-sprint | 1 hour | Prepare future work | Linear/Jira |
 
 ### Sprint Workflow
 
@@ -594,7 +680,34 @@ What we learned and how to prevent recurrence.
 
 ---
 
-*Document Version: 1.0*  
+---
+
+## Daily Engineering Workflow
+
+```
+09:00 - Check Linear/Jira for sprint priorities
+09:15 - Daily standup (Slack huddle)
+09:30 - Deep work: coding, reviews
+12:00 - Lunch
+13:00 - Meetings, collaboration
+15:00 - Code reviews (GitHub)
+16:00 - Documentation (Notion)
+17:00 - Update Linear/Jira, plan tomorrow
+```
+
+### Weekly Engineering Rituals
+
+| Day | Activity | Tool |
+|-----|----------|------|
+| Monday | Sprint planning | Linear/Jira |
+| Wednesday | Tech talk | Notion + Slack |
+| Friday | Retrospective | Notion |
+| Friday | Backlog refinement | Linear/Jira |
+| Friday | Update engineering docs | Notion |
+
+---
+
+*Document Version: 1.1*  
 *Last Updated: December 2024*  
 *Owner: CTO (Eric)*  
 *Review Cycle: Quarterly*

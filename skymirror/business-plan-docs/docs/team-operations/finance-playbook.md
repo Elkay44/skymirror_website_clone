@@ -13,6 +13,76 @@ This playbook defines the financial management, reporting, and administrative pr
 **Scope:** Financial planning, accounting, compliance, administration  
 **Last Updated:** December 2024
 
+:::tip Tooling Reference
+For detailed tool configurations and integrations, see the [Workflow & Tooling Guide](./workflow-tooling-guide.md).
+:::
+
+---
+
+## Finance Tool Stack
+
+| Tool | Purpose | When to Use |
+|------|---------|-------------|
+| **Trello** | Expense approvals, finance tasks, invoicing workflow | Workflow management |
+| **Notion** | Financial documentation, reporting, tracking | Policies, procedures, dashboards |
+| **Slack** | Team communication | Daily coordination |
+
+### Trello Finance Workflow
+
+```
+┌───────────┬───────────┬───────────┬───────────┬───────────┐
+│   Draft   │   Sent    │  Pending  │   Paid    │  Overdue  │
+├───────────┼───────────┼───────────┼───────────┼───────────┤
+│ New       │ Invoices  │ Awaiting  │ Completed │ Follow-up │
+│ invoices  │ sent      │ payment   │ payments  │ needed    │
+└───────────┴───────────┴───────────┴───────────┴───────────┘
+```
+
+### Chart of Accounts (Notion Database)
+
+| Category | Accounts |
+|----------|----------|
+| **Revenue** | Software Solutions, CheckMet SaaS, Traquiva, Academy |
+| **COGS** | Cloud Infrastructure, Third-party APIs, Hardware |
+| **Operating** | Salaries, Marketing, Software Subscriptions |
+| **Admin** | Legal, Accounting, Office |
+
+### Slack Channels for Finance
+
+| Channel | Purpose |
+|---------|---------|
+| `#team-finance` | Finance team discussions |
+| `#expense-approvals` | Expense approval requests |
+| `#invoices` | Invoice notifications |
+| `#leadership` | Executive financial updates |
+
+### Daily Finance Workflow
+
+```
+09:00 - Review cash position (Notion)
+09:30 - Process invoices, payments (Trello)
+11:00 - Expense approvals (Trello)
+12:00 - Lunch
+13:00 - Financial analysis (Notion)
+15:00 - Vendor management
+16:00 - Update financial reports (Notion)
+```
+
+### Weekly Finance Rituals
+
+| Day | Activity | Tool |
+|-----|----------|------|
+| Monday | Cash flow review | Notion |
+| Wednesday | Budget vs actual review | Notion |
+| Thursday | Invoice follow-ups | Trello |
+| Friday | Weekly financial summary | Notion |
+
+### Integrations
+
+- **Trello → Slack**: Invoice overdue alerts to `#invoices`
+- **Trello → Slack**: Expense approval notifications
+- **Jira → Trello**: Billable hours for client projects
+
 ---
 
 ## Team Structure
@@ -498,11 +568,11 @@ Invoice Received → Coded → Approved → Scheduled → Paid
 
 | Tool | Purpose | Owner |
 |------|---------|-------|
-| QuickBooks/Xero | Accounting | Accounting Manager |
-| Excel/Sheets | Modeling | FP&A |
+| Trello | Invoice tracking, expense approvals | Finance Team |
+| Notion | Financial documentation, reporting | FP&A |
+| Excel/Sheets | Modeling, analysis | FP&A |
 | Stripe | Payments | Finance |
-| Expensify | Expense management | All |
-| Carta | Cap table | CFO |
+| Slack | Team communication | All |
 
 ---
 
@@ -529,7 +599,39 @@ Invoice Received → Coded → Approved → Scheduled → Paid
 
 ---
 
-*Document Version: 1.0*  
+## Invoice Best Practices
+
+### Invoice Management (Trello)
+
+1. **Create invoice cards** within 24 hours of service delivery
+2. **Set payment terms** consistently (Net 30 default)
+3. **Move to Overdue** and send reminders at 7, 14, and 21 days
+4. **Escalate** to CFO at 30+ days overdue
+5. **Update Notion** with payment records weekly
+
+### Expense Management
+
+| Expense Type | Approval Required | Limit |
+|--------------|-------------------|-------|
+| Software subscriptions | Manager | €100/month |
+| Travel | CFO | €500/trip |
+| Equipment | CFO | €1,000 |
+| Training | Manager | €500 |
+| Client entertainment | CFO | €200 |
+
+### Monthly Close Checklist
+
+- [ ] Reconcile all bank accounts (Notion)
+- [ ] Review accounts receivable aging
+- [ ] Process all expense reports
+- [ ] Accrue for unbilled revenue
+- [ ] Generate P&L and Balance Sheet
+- [ ] Update cash flow forecast
+- [ ] Prepare management report (Notion)
+
+---
+
+*Document Version: 1.1*  
 *Last Updated: December 2024*  
 *Owner: CFO (Abdulwahab A)*  
 *Review Cycle: Quarterly*
