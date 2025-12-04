@@ -53,8 +53,8 @@
             <!-- Success Metrics - Interactive -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6 border-t border-gray-200">
               <div class="group text-center p-3 rounded-xl hover:bg-primary/5 transition-all duration-300 cursor-pointer hover-lift">
-                <div class="text-2xl md:text-3xl font-black text-primary mb-1 group-hover:scale-110 transition-transform duration-300">50+</div>
-                <div class="text-xs font-medium text-gray-600 uppercase tracking-wide group-hover:text-primary transition-colors">Projects Delivered</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-1 group-hover:scale-110 transition-transform duration-300">4</div>
+                <div class="text-xs font-medium text-gray-600 uppercase tracking-wide group-hover:text-primary transition-colors">Live Products</div>
               </div>
               <div class="group text-center p-3 rounded-xl hover:bg-accent1/5 transition-all duration-300 cursor-pointer hover-lift">
                 <div class="text-2xl md:text-3xl font-black text-accent1 mb-1 group-hover:scale-110 transition-transform duration-300">95%</div>
@@ -129,7 +129,7 @@
                         <div class="bg-gradient-to-r from-primary to-accent1 h-2 rounded-full w-4/5"></div>
                       </div>
                       <div class="flex justify-between text-xs text-gray-500 mt-1">
-                        <span>50+ Projects</span>
+                        <span>4 Products</span>
                         <span>Global Reach</span>
                       </div>
                     </div>
@@ -479,8 +479,8 @@
             </div>
             <div class="p-6">
               <div class="flex items-center gap-4 mb-4">
-                <div class="text-2xl font-black text-accent2">50+</div>
-                <div class="text-sm text-gray-600">Projects</div>
+                <div class="text-2xl font-black text-accent2">Enterprise</div>
+                <div class="text-sm text-gray-600">Solutions</div>
               </div>
               <router-link to="/software-solutions" class="group/link inline-flex items-center text-accent2 font-semibold hover:text-accent2-dark transition-colors">
                 View Portfolio

@@ -39,8 +39,8 @@
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Reach</div>
               </div>
               <div class="text-center">
-                <div class="text-2xl md:text-3xl font-black text-primary mb-2">50+</div>
-                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">4</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Products</div>
               </div>
               <div class="text-center">
                 <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">∞</div>
@@ -78,7 +78,7 @@
                     <div class="w-6 h-6 bg-primary rounded-full"></div>
                   </div>
                   <div>
-                    <h3 class="text-2xl font-bold text-primary">2020</h3>
+                    <h3 class="text-2xl font-bold text-primary">2024</h3>
                     <p class="text-sm text-gray-600 uppercase tracking-wide">The Beginning</p>
                   </div>
                 </div>

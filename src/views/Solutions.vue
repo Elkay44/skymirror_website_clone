@@ -39,8 +39,8 @@
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Support</div>
               </div>
               <div class="text-center">
-                <div class="text-2xl md:text-3xl font-black text-primary mb-2">50+</div>
-                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">4</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Products</div>
               </div>
               <div class="text-center">
                 <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">∞</div>

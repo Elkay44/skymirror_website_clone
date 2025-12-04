@@ -31,8 +31,8 @@
             <!-- Success Stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-5xl mx-auto">
               <div class="text-center">
-                <div class="text-2xl md:text-3xl font-black text-primary mb-2">50+</div>
-                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Projects</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">4</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Products</div>
               </div>
               <div class="text-center">
                 <div class="text-2xl md:text-3xl font-black text-accent2 mb-2">95%</div>
