@@ -94,10 +94,12 @@ const sidebars: SidebarsConfig = {
       label: '👥 Team Operations',
       collapsed: true,
       items: [
+        'team-operations/workflow-tooling-guide',
         'team-operations/engineering-playbook',
         'team-operations/sales-playbook',
         'team-operations/operations-playbook',
         'team-operations/finance-playbook',
+        'team-operations/academy-playbook',
       ],
     },
     {
