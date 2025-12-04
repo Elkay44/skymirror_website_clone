@@ -31,7 +31,7 @@
             <!-- Key stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-5xl mx-auto">
               <div class="text-center">
-                <div class="text-2xl md:text-3xl font-black text-primary mb-2">2020</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">2024</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Founded</div>
               </div>
               <div class="text-center">

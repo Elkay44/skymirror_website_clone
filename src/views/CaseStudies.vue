@@ -251,7 +251,7 @@
         <!-- Our Commitment Stats -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 max-w-4xl mx-auto">
           <div class="text-center">
-            <div class="text-3xl md:text-4xl font-black text-primary mb-2">2020</div>
+            <div class="text-3xl md:text-4xl font-black text-primary mb-2">2024</div>
             <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Founded</div>
           </div>
           <div class="text-center">

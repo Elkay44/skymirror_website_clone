@@ -1,7 +1,7 @@
 # Company Description
 
 ## Company History
-Founded in 2020, SkyMirror emerged from a vision to transform how businesses and communities across the globe leverage technology. What began as a small team of passionate technologists has rapidly evolved into a dynamic global enterprise. The founders identified critical gaps in technology access, particularly in emerging markets, and recognized the transformative potential of combining cutting-edge software development, AI applications, and educational initiatives under one cohesive brand.
+Founded in 2024, SkyMirror emerged from a vision to transform how businesses and communities across the globe leverage technology. What began as a small team of passionate technologists has rapidly evolved into a dynamic global enterprise. The founders identified critical gaps in technology access, particularly in emerging markets, and recognized the transformative potential of combining cutting-edge software development, AI applications, and educational initiatives under one cohesive brand.
 
 In its formative years, SkyMirror focused on establishing core competencies in software development and AI applications. The development and launch of CheckMet, our flagship AI-powered attendance management system, marked a significant milestone that demonstrated our technical capabilities and market viability. Following this success, we launched Traquiva (www.traquiva.com), our AI-powered learning platform that transforms how people learn to code. These early successes provided the foundation for expansion into technology transfer services and the establishment of SkyMirror Academy.
 

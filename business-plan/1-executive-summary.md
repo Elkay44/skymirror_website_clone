@@ -2,7 +2,7 @@
 
 ## Company Overview
 
-SkyMirror is a technology company building an integrated ecosystem for enterprise workforce management and education. Founded in 2023 and headquartered in Budapest, Hungary, SkyMirror delivers:
+SkyMirror is a technology company building an integrated ecosystem for enterprise workforce management and education. Founded in 2024 and headquartered in Budapest, Hungary, SkyMirror delivers:
 
 - **CheckMet** - AI-powered attendance management with facial recognition
 - **Traquiva** - AI-powered learning platform (www.traquiva.com)
