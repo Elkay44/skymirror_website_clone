@@ -7,10 +7,6 @@ const config: Config = {
   tagline: 'Software, AI, and Education for a Connected, Sustainable World',
   favicon: 'img/favicon.ico',
 
-  future: {
-    v4: true,
-  },
-
   url: 'https://internal.skymirror.eu',
   baseUrl: '/',
 
