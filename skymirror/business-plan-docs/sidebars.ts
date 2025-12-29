@@ -69,6 +69,19 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: '🎓 Internship Program',
+      collapsed: true,
+      items: [
+        'team-operations/internship-program-overview',
+        'team-operations/internship-roadmap',
+        'team-operations/internship-playbook',
+        'team-operations/internship-coding-standards',
+        'team-operations/internship-mentorship',
+        'team-operations/academy-instructor-compensation',
+      ],
+    },
+    {
+      type: 'category',
       label: '📄 Supporting Documents',
       collapsed: true,
       items: [
@@ -100,19 +113,6 @@ const sidebars: SidebarsConfig = {
         'team-operations/operations-playbook',
         'team-operations/finance-playbook',
         'team-operations/academy-playbook',
-        {
-          type: 'category',
-          label: '🎓 Internship Program',
-          collapsed: true,
-          items: [
-            'team-operations/internship-program-overview',
-            'team-operations/internship-roadmap',
-            'team-operations/internship-playbook',
-            'team-operations/internship-coding-standards',
-            'team-operations/internship-mentorship',
-            'team-operations/academy-instructor-compensation',
-          ],
-        },
       ],
     },
     {

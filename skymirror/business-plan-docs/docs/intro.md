@@ -62,6 +62,7 @@ This business plan is organized into the following sections:
 2. **[Strategic Documents](/docs/strategic/technology-roadmap)** - Technology roadmap, sustainability, competitive analysis, exit strategy, and more
 3. **[Operational Playbooks](/docs/playbooks/okr-kpi-framework)** - Detailed guides for hiring, customer acquisition, investor relations, and operations
 4. **[Implementation Roadmap](/docs/implementation/week1-2-legal)** - Week-by-week execution plans
+5. **[Internship Program](/docs/team-operations/internship-program-overview)** - 6-month professional development program, roadmap, playbook, coding standards, mentorship framework, and instructor compensation
 
 ## Quick Links
 
