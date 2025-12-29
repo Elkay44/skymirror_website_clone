@@ -111,8 +111,6 @@ const sidebars: SidebarsConfig = {
             'team-operations/internship-coding-standards',
             'team-operations/internship-mentorship',
             'team-operations/academy-instructor-compensation',
-            'team-operations/documentation-gap-analysis',
-            'team-operations/internship-documentation-audit',
           ],
         },
       ],
