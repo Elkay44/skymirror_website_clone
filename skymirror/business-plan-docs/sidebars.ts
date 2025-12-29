@@ -113,6 +113,7 @@ const sidebars: SidebarsConfig = {
         'team-operations/operations-playbook',
         'team-operations/finance-playbook',
         'team-operations/academy-playbook',
+        'team-operations/university-ambassador-guide',
       ],
     },
     {
@@ -129,6 +130,7 @@ const sidebars: SidebarsConfig = {
         'contracts/data-processing-agreement',
         'contracts/academy-enrollment-agreement',
         'contracts/internship-agreement',
+        'contracts/ambassador-agreement',
       ],
     },
   ],

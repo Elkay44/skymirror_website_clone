@@ -301,6 +301,33 @@ Inquiry → Application → Enrollment → Onboarding → Learning → Graduatio
 
 ---
 
+## Sales Channels & Community Growth
+
+To scale enrollment, Skymirror Academy utilizes a multi-channel sales strategy focused on community-led growth and strategic partnerships.
+
+### 1. University Ambassador Program
+Turn student leaders into "Campus CEOs" to drive organic growth within university ecosystems.
+- **Key Document:** [University Ambassador Guide](./university-ambassador-guide.md)
+- **Primary Goal:** Peer-to-peer trust and local community building.
+- **Tracking:** Unique referral links and custom landing pages.
+
+### 2. Channel Sales Partners
+Partner with organizations that have existing relationships with our target audience.
+- **Academic Consultants:** Professional career advisors and study abroad agencies.
+- **Tech Communities:** Hackathon organizers, co-working spaces, and local tech hubs.
+- **Corporate HR:** Upskilling partners for enterprises and recruitment agencies.
+
+### 3. Lead Generation Sources (Updated)
+
+| Source | Strategy | Management |
+|-------|----------|------------|
+| **Ambassadors** | Campus workshops, student groups | Ambassador Lead |
+| **Channel Partners** | B2B referrals, joint webinars | Channel Manager |
+| **Digital (Direct)** | SEO, LinkedIn Ads, Traquiva | Marketing Team |
+| **Events** | Hackathons, Career Fairs | Event Coordinator |
+
+---
+
 ## Trello for Academy Enrollment
 
 ### Lead Sources (Labels)

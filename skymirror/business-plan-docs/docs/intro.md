@@ -63,6 +63,7 @@ This business plan is organized into the following sections:
 3. **[Operational Playbooks](/docs/playbooks/okr-kpi-framework)** - Detailed guides for hiring, customer acquisition, investor relations, and operations
 4. **[Implementation Roadmap](/docs/implementation/week1-2-legal)** - Week-by-week execution plans
 5. **[Internship Program](/docs/team-operations/internship-program-overview)** - 6-month professional development program, roadmap, playbook, coding standards, mentorship framework, and instructor compensation
+6. **[Ambassador Program](/docs/team-operations/university-ambassador-guide)** - University Ambassador "Campus CEO" guide and growth strategy
 
 ## Quick Links
 
