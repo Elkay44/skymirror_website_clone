@@ -318,7 +318,7 @@ Interns are evaluated on:
 
 ### 8.4 Performance Improvement Plan
 
-If performance falls below expectations (rating <3):
+If performance falls below expectations (rating less than 3):
 - Formal improvement plan created within 5 business days
 - Specific goals and timeline defined
 - Additional support and resources provided

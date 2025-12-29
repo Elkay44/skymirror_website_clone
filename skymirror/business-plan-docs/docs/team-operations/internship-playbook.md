@@ -152,7 +152,7 @@ Checklist:
 
 ✅ **Do:**
 - Update cards in real-time
-- Break large tasks into <2 hour chunks
+- Break large tasks into under 2-hour chunks
 - Use labels consistently
 - Add due dates for time-sensitive items
 - Comment on blockers immediately
@@ -284,14 +284,14 @@ As a [user type], I want to [action] so that [benefit].
 
 | Points | Effort | Time | Complexity |
 |--------|--------|------|------------|
-| **1** | Trivial | <2 hours | Very simple, well-known |
+| **1** | Trivial | under 2-hours | Very simple, well-known |
 | **2** | Small | 2-4 hours | Simple, clear path |
 | **3** | Medium | 4-8 hours | Some complexity |
 | **5** | Large | 1-2 days | Complex, multiple parts |
 | **8** | Very Large | 2-3 days | Very complex, break down |
-| **13+** | Too Large | >3 days | Must be split into smaller stories |
+| **13+** | Too Large | Greater than 3 days | Must be split into smaller stories |
 
-**Intern Rule:** If you estimate >5 points, discuss with mentor about breaking it down.
+**Intern Rule:** If you estimate Greater than 5 points, discuss with mentor about breaking it down.
 
 ---
 
@@ -437,7 +437,7 @@ Any questions or context for reviewers.
 
 ✅ **Do:**
 - Commit frequently with clear messages
-- Keep PRs small (<400 lines)
+- Keep PRs small (fewer than 400 lines)
 - Write descriptive PR descriptions
 - Respond to reviews promptly
 - Test before creating PR
@@ -445,7 +445,7 @@ Any questions or context for reviewers.
 
 ❌ **Don't:**
 - Commit directly to main/master
-- Create massive PRs (>500 lines)
+- Create massive PRs (Greater than 500 lines)
 - Ignore CI/CD failures
 - Force push after review starts
 - Leave unresolved comments
@@ -476,10 +476,10 @@ Slack is your primary communication tool for team coordination, questions, and u
 
 | Priority | Response Time | Example |
 |----------|---------------|---------|
-| 🔴 **Urgent** | <30 minutes | Production down, blocker |
-| 🟠 **High** | <2 hours | PR review needed, question |
-| 🟡 **Normal** | <4 hours | General question |
-| 🟢 **Low** | <24 hours | FYI, nice-to-know |
+| 🔴 **Urgent** | under 30 minutes | Production down, blocker |
+| 🟠 **High** | under 2-hours | PR review needed, question |
+| 🟡 **Normal** | under 4 hours | General question |
+| 🟢 **Low** | under 24 hours | FYI, nice-to-know |
 
 #### Asking Good Questions
 

@@ -231,19 +231,19 @@ Inquiry → Application → Enrollment → Onboarding → Learning → Graduatio
 
 | Metric | Target | Measurement |
 |--------|--------|-------------|
-| Completion Rate | >85% | Students completing program |
-| NPS Score | >50 | Post-program survey |
-| Job Placement Rate | >80% | Within 6 months of graduation |
+| Completion Rate | Greater than 85% | Students completing program |
+| NPS Score | Greater than 50 | Post-program survey |
+| Job Placement Rate | Greater than 80% | Within 6 months of graduation |
 | Time to First Job | Under 90 days | From graduation |
-| Student Satisfaction | >4.5/5 | Course ratings |
+| Student Satisfaction | Greater than 4.5/5 | Course ratings |
 
 ### Operational KPIs
 
 | Metric | Target | Measurement |
 |--------|--------|-------------|
-| Enrollment Conversion | >15% | Inquiries to enrolled |
-| Instructor Rating | >4.5/5 | Student feedback |
-| Content Quality | >4.5/5 | Student ratings |
+| Enrollment Conversion | Greater than 15% | Inquiries to enrolled |
+| Instructor Rating | Greater than 4.5/5 | Student feedback |
+| Content Quality | Greater than 4.5/5 | Student ratings |
 | Support Response Time | Under 4 hours | Inquiry response |
 
 ---

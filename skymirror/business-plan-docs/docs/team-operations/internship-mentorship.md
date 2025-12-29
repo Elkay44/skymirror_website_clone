@@ -65,7 +65,7 @@ This framework defines the mentorship model, evaluation criteria, and feedback m
 - Approve when ready (don't nitpick)
 
 **Technical Support:**
-- Answer questions (response time: <2 hours)
+- Answer questions (response time: under 2-hours)
 - Help debug complex issues
 - Explain architectural decisions
 - Share best practices

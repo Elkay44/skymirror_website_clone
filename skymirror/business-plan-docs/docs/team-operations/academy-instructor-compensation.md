@@ -180,8 +180,8 @@ This framework defines the compensation structure, requirements, and career prog
 - Major curriculum update: Up to 3 hours paid
 
 **Grading & Feedback:**
-- Included in session rate for <20 students
-- Additional compensation per student for >20 students
+- Included in session rate for fewer than 20 students
+- Additional compensation per student for more than 20 students
 
 ---
 
@@ -208,7 +208,7 @@ This framework defines the compensation structure, requirements, and career prog
 **Quality Standards:**
 - Peer review required
 - Academy Lead approval
-- Student feedback >4/5
+- Student feedback Greater than 4/5
 - Regular updates (quarterly)
 
 ---
@@ -250,7 +250,7 @@ This framework defines the compensation structure, requirements, and career prog
 - Customized curriculum
 - Professional presentation
 - Follow-up materials
-- Client satisfaction >4.5/5
+- Client satisfaction Greater than 4.5/5
 
 **2. Conference Speaking**
 
@@ -576,9 +576,9 @@ This framework defines the compensation structure, requirements, and career prog
 - Instructor knowledge
 
 **Action:**
-- <4.0: Immediate review and support
+- Less than 4.0: Immediate review and support
 - 4.0-4.5: Continuous improvement
-- >4.5: Best practices sharing
+- Greater than 4.5: Best practices sharing
 
 ### Peer Review
 

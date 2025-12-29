@@ -1237,7 +1237,7 @@ chore/<ticket-id>-<brief-description>
 - Single responsibility
 - Reviewable in 15-30 minutes
 
-**If PR is large (>500 lines):**
+**If PR is large (Greater than 500 lines):**
 - Break into smaller PRs
 - Or: Add detailed description and walkthrough
 
@@ -1568,7 +1568,7 @@ claude
 ### Universal
 
 ❌ Committing secrets
-❌ Large PRs (>500 lines)
+❌ Large PRs (Greater than 500 lines)
 ❌ Vague commit messages
 ❌ No tests
 ❌ Copy-pasting without understanding

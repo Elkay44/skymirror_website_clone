@@ -199,7 +199,7 @@ Partner sets own rates for implementation services.
 ### 7.3 Quality Standards
 Partner shall:
 - (a) Follow SkyMirror implementation methodology
-- (b) Maintain customer satisfaction scores >4.0/5
+- (b) Maintain customer satisfaction scores Greater than 4.0/5
 - (c) Resolve escalations within SLA
 
 ### 7.4 Referral Fees

@@ -175,7 +175,7 @@ A story is ready for sprint when:
 
 A story is done when:
 - [ ] Code complete and follows standards
-- [ ] Unit tests written (>80% coverage)
+- [ ] Unit tests written (Greater than 80% coverage)
 - [ ] Code reviewed and approved
 - [ ] Integration tests passing
 - [ ] Documentation updated

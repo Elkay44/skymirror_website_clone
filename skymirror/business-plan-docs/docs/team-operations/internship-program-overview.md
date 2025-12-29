@@ -207,7 +207,7 @@ Interns choose one of two production-grade stacks based on project needs and car
 
 **Trello** - Personal Productivity
 - Update daily (morning planning, end-of-day review)
-- Break tasks into <2 hour chunks
+- Break tasks into under 2-hour chunks
 - Move cards through workflow honestly
 
 **Jira** - Professional Work
@@ -222,7 +222,7 @@ Interns choose one of two production-grade stacks based on project needs and car
 - Update if plans change
 
 **Slack** - Communication
-- Response time: <2 hours during work hours
+- Response time: under 2-hours during work hours
 - Use threads for discussions
 - Ask questions in public channels (helps everyone learn)
 
@@ -241,7 +241,7 @@ Interns choose one of two production-grade stacks based on project needs and car
 | **Learning Progress** | 80+ lectures completed | Trello Academy board |
 | **Teaching Contribution** | 5+ sessions (Months 5-6) | Academy schedule |
 | **Mentoring** | 1+ junior intern mentored | Peer feedback |
-| **Time Management** | <10% overtime | Time tracking data |
+| **Time Management** | less than 10% overtime | Time tracking data |
 | **Mentor Feedback** | 4/5 rating | Bi-weekly 1:1 reviews |
 
 ### Program Success Indicators
