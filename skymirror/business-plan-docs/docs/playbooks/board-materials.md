@@ -404,7 +404,7 @@ ACTION ITEMS FROM LAST MEETING
 ### Email Format
 
 ```
-Subject: SkyMirror Monthly Update - [Month] 2026
+Subject: Skymirror Monthly Update - [Month] 2026
 
 Dear Investors,
 
@@ -448,7 +448,7 @@ Thank you for your continued support.
 
 Best regards,
 Lukman Ibrahim
-CEO, SkyMirror
+CEO, Skymirror
 ```
 
 ---
@@ -458,7 +458,7 @@ CEO, SkyMirror
 ### Folder Organization
 
 ```
-📁 SkyMirror Data Room
+📁 Skymirror Data Room
 ├── 📁 1. Company Overview
 │   ├── Executive Summary.pdf
 │   ├── Company Pitch Deck.pdf

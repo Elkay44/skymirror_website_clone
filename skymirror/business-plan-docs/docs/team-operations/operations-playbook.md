@@ -7,7 +7,7 @@ title: "Operations & Customer Success Playbook"
 
 ## Overview
 
-This playbook defines the operational processes, customer success strategies, and delivery standards for SkyMirror's operations team.
+This playbook defines the operational processes, customer success strategies, and delivery standards for Skymirror's operations team.
 
 **Team Lead:** COO (Dr. Loveday)  
 **Scope:** Customer success, delivery, support, operations  
@@ -451,11 +451,11 @@ Plan → Do → Check → Act → Repeat
 #### Onboarding Welcome Email
 
 ```
-Subject: Welcome to SkyMirror! Let's get started 🚀
+Subject: Welcome to Skymirror! Let's get started 🚀
 
 Hi [First Name],
 
-Welcome to SkyMirror! We're thrilled to have [Company Name] on board.
+Welcome to Skymirror! We're thrilled to have [Company Name] on board.
 
 I'm [CSM Name], your Customer Success Manager. I'll be your main point of contact throughout your journey with us.
 
@@ -519,7 +519,7 @@ Best,
 
 ### Attendees
 - [Customer contacts]
-- [SkyMirror contacts]
+- [Skymirror contacts]
 ```
 
 ---

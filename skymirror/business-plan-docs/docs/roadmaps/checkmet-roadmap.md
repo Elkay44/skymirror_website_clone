@@ -7,7 +7,7 @@ title: "CheckMet Product Roadmap"
 
 ## Executive Overview
 
-CheckMet is SkyMirror's flagship AI-powered attendance management platform. This roadmap outlines the strategic milestones, quarterly objectives, and team accountability required to achieve market leadership in the European workforce management space.
+CheckMet is Skymirror's flagship AI-powered attendance management platform. This roadmap outlines the strategic milestones, quarterly objectives, and team accountability required to achieve market leadership in the European workforce management space.
 
 **Product Vision:** Become the #1 AI-powered attendance and workforce management platform in Europe by 2028, serving 500,000+ users across 1,000+ organizations.
 

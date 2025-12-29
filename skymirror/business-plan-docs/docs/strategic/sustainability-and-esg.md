@@ -7,7 +7,7 @@ title: "Sustainability & ESG"
 
 ## Overview
 
-SkyMirror is committed to operating as a responsible corporate citizen, integrating environmental, social, and governance (ESG) considerations into our business strategy and operations. This framework outlines our approach to sustainability and ESG, detailing specific initiatives, metrics, and goals that align with our mission to connect and sustain the world through technology.
+Skymirror is committed to operating as a responsible corporate citizen, integrating environmental, social, and governance (ESG) considerations into our business strategy and operations. This framework outlines our approach to sustainability and ESG, detailing specific initiatives, metrics, and goals that align with our mission to connect and sustain the world through technology.
 
 ## Environmental Responsibility
 
@@ -50,7 +50,7 @@ SkyMirror is committed to operating as a responsible corporate citizen, integrat
 ### Community Engagement
 | Initiative | Timeline | Targets | Measurement Approach |
 |------------|----------|---------|---------------------|
-| SkyMirror Academy Scholarships | Year 1 | 20% of Academy seats reserved for underserved communities | Scholarship recipient tracking, demographic analysis |
+| Skymirror Academy Scholarships | Year 1 | 20% of Academy seats reserved for underserved communities | Scholarship recipient tracking, demographic analysis |
 | Technology Access Programs | Year 2 | Donation of technology and expertise to 10+ NGOs annually | Partner organization impact reports, technology value |
 | STEM Education Support | Year 1-2 | Engagement with 5+ educational institutions in Hungary | Student participation, educational outcome metrics |
 | Employee Volunteering | Year 1 | 16 hours of paid volunteer time per employee annually | Volunteer hours tracking, community impact assessment |
@@ -70,7 +70,7 @@ SkyMirror is committed to operating as a responsible corporate citizen, integrat
 - **Tech Education:** Provide technology education to 10,000+ individuals from underrepresented groups by 2030
 - **Workplace Excellence:** Achieve recognition as a top employer in Hungary by 2026
 - **Community Impact:** Demonstrate measurable positive impact in communities where we operate
-- **Ethical Technology:** Establish SkyMirror as a leader in ethical technology development
+- **Ethical Technology:** Establish Skymirror as a leader in ethical technology development
 
 ## Governance Framework
 
@@ -106,7 +106,7 @@ SkyMirror is committed to operating as a responsible corporate citizen, integrat
 - **Transparency:** Achieve recognition for transparency and disclosure excellence by 2027
 - **Stakeholder Trust:** Build strong trust relationships with all key stakeholder groups
 - **Compliance Excellence:** Maintain exemplary compliance record across all jurisdictions
-- **Ethical Leadership:** Establish SkyMirror as an ethical business leader in the technology sector
+- **Ethical Leadership:** Establish Skymirror as an ethical business leader in the technology sector
 
 ## ESG Metrics and Reporting
 
@@ -182,4 +182,4 @@ SkyMirror is committed to operating as a responsible corporate citizen, integrat
 - **Open Innovation:** Sharing of sustainable technology approaches
 - **Standards Development:** Participation in ESG standards development for tech sector
 
-This comprehensive sustainability and ESG framework demonstrates SkyMirror's commitment to responsible business practices and creating positive environmental and social impact alongside financial success. By integrating these considerations into our core strategy and operations, we position SkyMirror for long-term sustainable growth while contributing to a more equitable and environmentally sustainable future.
+This comprehensive sustainability and ESG framework demonstrates Skymirror's commitment to responsible business practices and creating positive environmental and social impact alongside financial success. By integrating these considerations into our core strategy and operations, we position Skymirror for long-term sustainable growth while contributing to a more equitable and environmentally sustainable future.

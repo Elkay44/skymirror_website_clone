@@ -3,11 +3,11 @@ sidebar_position: 1
 title: "Organizational Structure"
 ---
 
-# SkyMirror Organizational Structure
+# Skymirror Organizational Structure
 
 ## Executive Summary
 
-This document outlines SkyMirror's organizational hierarchy, reporting lines, and communication structure. Our flat, agile structure enables rapid decision-making while maintaining clear accountability.
+This document outlines Skymirror's organizational hierarchy, reporting lines, and communication structure. Our flat, agile structure enables rapid decision-making while maintaining clear accountability.
 
 **Document Owner:** CEO (Lukman Ibrahim)  
 **Last Updated:** December 2024
@@ -65,7 +65,7 @@ This document outlines SkyMirror's organizational hierarchy, reporting lines, an
                             │       HUZAIFA           │
                             │    Academy Lead         │
                             │                         │
-                            │  • SkyMirror Academy    │
+                            │  • Skymirror Academy    │
                             │  • Training Programs    │
                             │  • Curriculum           │
                             │                         │
@@ -137,7 +137,7 @@ This document outlines SkyMirror's organizational hierarchy, reporting lines, an
 │                     │                     │                                         │
 ├─────────────────────┼─────────────────────┼─────────────────────────────────────────┤
 │                     │                     │                                         │
-│  SkyMirror Academy  │   Huzaifa           │         Lukman Ibrahim                  │
+│  Skymirror Academy  │   Huzaifa           │         Lukman Ibrahim                  │
 │  (Education)        │   (Academy Lead)    │         (CEO)                           │
 │                     │                     │                                         │
 ├─────────────────────┼─────────────────────┼─────────────────────────────────────────┤
@@ -245,7 +245,7 @@ This document outlines SkyMirror's organizational hierarchy, reporting lines, an
                         ┌─────────────────────┐
                         │      HUZAIFA        │
                         │    Academy Lead     │
-                        │  SkyMirror Academy  │
+                        │  Skymirror Academy  │
                         │       Owner         │
                         └──────────┬──────────┘
                                    │
@@ -457,7 +457,7 @@ Level 4: Board of Directors
 | **COO** | Dr. Loveday | Operations, Delivery, HR |
 | **CFO** | Abdulwahab A | Finance, Legal, CheckMet |
 | **CMO** | Jerone Lebadie | Marketing, Sales, Brand |
-| **Academy Lead** | Huzaifa | SkyMirror Academy |
+| **Academy Lead** | Huzaifa | Skymirror Academy |
 
 ---
 

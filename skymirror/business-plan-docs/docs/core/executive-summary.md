@@ -7,12 +7,12 @@ title: "Executive Summary"
 
 ## Company Overview
 
-SkyMirror is a technology company building an integrated ecosystem for enterprise workforce management and education. Founded in 2024 and headquartered in Budapest, Hungary, SkyMirror delivers:
+Skymirror is a technology company building an integrated ecosystem for enterprise workforce management and education. Founded in 2024 and headquartered in Budapest, Hungary, Skymirror delivers:
 
 - **CheckMet** - AI-powered attendance management with facial recognition
 - **Traquiva** - AI-powered learning platform (www.traquiva.com)
 - **Software Solutions** - Custom enterprise software development
-- **SkyMirror Academy** - Technology education and corporate training
+- **Skymirror Academy** - Technology education and corporate training
 
 Our mission integrates environmental and social responsibility with cutting-edge technology development.
 
@@ -26,18 +26,18 @@ To skyrocket global innovation by connecting people, businesses, and ideas throu
 1. **Short-term (1-2 years):**
    - Expand CheckMet's market penetration by 200% across enterprise clients in Europe
    - Scale Traquiva to 5,000+ active learners with 90%+ completion rates
-   - Launch SkyMirror Academy in 5 new emerging markets with 1,000+ students enrolled
+   - Launch Skymirror Academy in 5 new emerging markets with 1,000+ students enrolled
    - Achieve 95% client satisfaction rating across all software development projects
 
 2. **Medium-term (3-5 years):**
-   - Establish SkyMirror as the leading AI application provider in at least 20 countries
+   - Establish Skymirror as the leading AI application provider in at least 20 countries
    - Scale Traquiva to 50,000+ learners with enterprise training partnerships
-   - Scale SkyMirror Academy to reach 10,000+ students annually through global partnerships
+   - Scale Skymirror Academy to reach 10,000+ students annually through global partnerships
    - Develop and launch 3 new AI-powered products complementing the CheckMet and Traquiva ecosystem
 
 3. **Long-term (5+ years):**
    - Transform 1,000+ businesses through comprehensive technology transfer programs
-   - Create a global network of SkyMirror innovation hubs in 50+ countries
+   - Create a global network of Skymirror innovation hubs in 50+ countries
    - Achieve carbon-neutral operations while helping clients reduce their environmental impact by 30%
 
 ## Keys to Success
@@ -70,25 +70,25 @@ To skyrocket global innovation by connecting people, businesses, and ideas throu
 
 ### Investment Opportunity
 
-SkyMirror offers investors the opportunity to participate in the rapidly growing technology sector with a company that combines software development, AI applications, and educational services in an integrated ecosystem. Our focus on the European market, starting with Hungary and expanding regionally, provides access to a skilled talent pool and growing demand for technology solutions.
+Skymirror offers investors the opportunity to participate in the rapidly growing technology sector with a company that combines software development, AI applications, and educational services in an integrated ecosystem. Our focus on the European market, starting with Hungary and expanding regionally, provides access to a skilled talent pool and growing demand for technology solutions.
 
-The company's diversified revenue streams across software solutions, AI applications, and educational services provide stability while allowing for significant growth potential. With a clear path to profitability and a scalable business model, SkyMirror represents an attractive investment opportunity in the European technology landscape.
+The company's diversified revenue streams across software solutions, AI applications, and educational services provide stability while allowing for significant growth potential. With a clear path to profitability and a scalable business model, Skymirror represents an attractive investment opportunity in the European technology landscape.
 
 ## Business Plan Highlights
 
-This comprehensive business plan includes several distinctive components that demonstrate SkyMirror's thorough approach to business planning and strategic development:
+This comprehensive business plan includes several distinctive components that demonstrate Skymirror's thorough approach to business planning and strategic development:
 
-1. **Detailed Implementation Plan:** A structured framework for executing SkyMirror's business strategy with clear milestones, timelines, and accountability measures
+1. **Detailed Implementation Plan:** A structured framework for executing Skymirror's business strategy with clear milestones, timelines, and accountability measures
 
 2. **Technology Roadmap:** A forward-looking plan for product and technology evolution over the next five years, including core technology platforms and research initiatives
 
-3. **Sustainability and ESG Framework:** A comprehensive approach to environmental responsibility, social impact, and governance that positions SkyMirror as a responsible corporate citizen
+3. **Sustainability and ESG Framework:** A comprehensive approach to environmental responsibility, social impact, and governance that positions Skymirror as a responsible corporate citizen
 
-4. **Competitive Analysis Matrix:** Detailed comparison of SkyMirror's offerings against key competitors across all business units, highlighting our unique value proposition and competitive advantages
+4. **Competitive Analysis Matrix:** Detailed comparison of Skymirror's offerings against key competitors across all business units, highlighting our unique value proposition and competitive advantages
 
 5. **Scenario Analysis:** Multi-dimensional planning across conservative, base case, and optimistic scenarios to ensure adaptability and resilience in changing market conditions
 
-These elements collectively demonstrate SkyMirror's commitment to building a sustainable, competitive, and responsible technology business with strong growth potential and clear strategic direction.
+These elements collectively demonstrate Skymirror's commitment to building a sustainable, competitive, and responsible technology business with strong growth potential and clear strategic direction.
 
 ---
 

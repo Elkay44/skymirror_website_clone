@@ -3,11 +3,11 @@ sidebar_position: 11
 title: "Community & International Guide"
 ---
 
-# SkyMirror Community & International Expansion Guide
+# Skymirror Community & International Expansion Guide
 
 ## Executive Summary
 
-This guide establishes SkyMirror's approach to building user communities, expanding internationally, and developing scalable leadership structures across all products: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **SkyMirror Academy**.
+This guide establishes Skymirror's approach to building user communities, expanding internationally, and developing scalable leadership structures across all products: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **Skymirror Academy**.
 
 ---
 
@@ -16,7 +16,7 @@ This guide establishes SkyMirror's approach to building user communities, expand
 ### 1.1 Community Strategy
 
 #### Community Vision
-Build a thriving ecosystem of CheckMet users, Traquiva learners, HR professionals, developers, and technology enthusiasts who share knowledge, provide feedback, and advocate for SkyMirror.
+Build a thriving ecosystem of CheckMet users, Traquiva learners, HR professionals, developers, and technology enthusiasts who share knowledge, provide feedback, and advocate for Skymirror.
 
 #### Community Goals
 
@@ -679,7 +679,7 @@ CEO
 - **Minimum Commitment:** [If any]
 
 ### Responsibilities
-**SkyMirror:**
+**Skymirror:**
 - Product and support
 - Training and enablement
 - Marketing materials

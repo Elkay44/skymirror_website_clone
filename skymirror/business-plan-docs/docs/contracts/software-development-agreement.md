@@ -15,11 +15,11 @@ This Master Software Development Agreement ("Agreement") is entered into as of [
 
 **BETWEEN:**
 
-**SkyMirror Kft.**  
+**Skymirror Kft.**  
 A company incorporated in Hungary  
 Registered Address: Kálmán Imre utca 1, 1054 Budapest, Hungary  
 Registration Number: [NUMBER]  
-("SkyMirror" or "Developer")
+("Skymirror" or "Developer")
 
 **AND:**
 
@@ -35,13 +35,13 @@ Each a "Party" and collectively the "Parties"
 
 ## 1. DEFINITIONS
 
-**1.1** "Deliverables" means the software, documentation, and other materials to be delivered by SkyMirror as specified in a Statement of Work.
+**1.1** "Deliverables" means the software, documentation, and other materials to be delivered by Skymirror as specified in a Statement of Work.
 
 **1.2** "Intellectual Property Rights" means patents, copyrights, trademarks, trade secrets, and other intellectual property rights.
 
 **1.3** "Project" means a software development engagement governed by a Statement of Work.
 
-**1.4** "Services" means the software development, consulting, and related services provided by SkyMirror.
+**1.4** "Services" means the software development, consulting, and related services provided by Skymirror.
 
 **1.5** "Specifications" means the functional and technical requirements for the Deliverables as set forth in a Statement of Work.
 
@@ -52,7 +52,7 @@ Each a "Party" and collectively the "Parties"
 ## 2. SERVICES
 
 ### 2.1 Engagement
-SkyMirror agrees to perform the Services and deliver the Deliverables as specified in each Statement of Work executed by the Parties.
+Skymirror agrees to perform the Services and deliver the Deliverables as specified in each Statement of Work executed by the Parties.
 
 ### 2.2 Statements of Work
 Each SOW shall include:
@@ -63,14 +63,14 @@ Each SOW shall include:
 - (e) Client responsibilities
 
 ### 2.3 Performance Standards
-SkyMirror shall perform the Services:
+Skymirror shall perform the Services:
 - (a) In a professional and workmanlike manner
 - (b) In accordance with the Specifications
 - (c) Using qualified personnel
 - (d) In compliance with applicable laws
 
 ### 2.4 Project Management
-SkyMirror shall:
+Skymirror shall:
 - (a) Assign a Project Manager as primary contact
 - (b) Provide regular progress reports
 - (c) Conduct status meetings as agreed
@@ -91,7 +91,7 @@ Client shall:
 Client shall provide all materials, data, and content required for the Project ("Client Materials"). Client represents that it has the right to provide such materials.
 
 ### 3.3 Delays
-If Client delays are material, SkyMirror may:
+If Client delays are material, Skymirror may:
 - (a) Adjust the project timeline
 - (b) Invoice for additional costs incurred
 - (c) Suspend work until delays are resolved
@@ -107,7 +107,7 @@ Either Party may request changes to a SOW by submitting a written Change Request
 - (c) Impact on fees
 
 ### 4.2 Evaluation
-SkyMirror shall evaluate Change Requests within 5 business days and provide:
+Skymirror shall evaluate Change Requests within 5 business days and provide:
 - (a) Feasibility assessment
 - (b) Revised timeline
 - (c) Additional fees (if any)
@@ -116,14 +116,14 @@ SkyMirror shall evaluate Change Requests within 5 business days and provide:
 No change shall be effective until both Parties sign a Change Order. Work on changes shall not commence until approval.
 
 ### 4.4 Out-of-Scope Work
-If SkyMirror identifies work that is out of scope, SkyMirror shall notify Client and submit a Change Request before proceeding.
+If Skymirror identifies work that is out of scope, Skymirror shall notify Client and submit a Change Request before proceeding.
 
 ---
 
 ## 5. ACCEPTANCE
 
 ### 5.1 Delivery
-SkyMirror shall deliver Deliverables in accordance with the timeline specified in the SOW.
+Skymirror shall deliver Deliverables in accordance with the timeline specified in the SOW.
 
 ### 5.2 Acceptance Testing
 Upon delivery, Client shall have [10] business days to test Deliverables against the acceptance criteria ("Acceptance Period").
@@ -135,7 +135,7 @@ Within the Acceptance Period, Client shall:
 
 ### 5.4 Deficiency Correction
 If Client rejects Deliverables:
-- (a) SkyMirror shall correct deficiencies within [10] business days
+- (a) Skymirror shall correct deficiencies within [10] business days
 - (b) Client shall have [5] business days to re-test
 - (c) Process repeats until acceptance or termination
 
@@ -174,7 +174,7 @@ Pre-approved expenses shall be reimbursed at cost plus [10]% administrative fee.
 - (c) Payment due within 30 days of invoice
 
 ### 6.5 Late Payment
-Overdue amounts shall accrue interest at 1.5% per month. SkyMirror may suspend work if payment is overdue by more than 30 days.
+Overdue amounts shall accrue interest at 1.5% per month. Skymirror may suspend work if payment is overdue by more than 30 days.
 
 ### 6.6 Taxes
 All fees are exclusive of applicable taxes, which shall be paid by Client.
@@ -184,28 +184,28 @@ All fees are exclusive of applicable taxes, which shall be paid by Client.
 ## 7. INTELLECTUAL PROPERTY
 
 ### 7.1 Client Materials
-Client retains all rights in Client Materials provided to SkyMirror.
+Client retains all rights in Client Materials provided to Skymirror.
 
 ### 7.2 Pre-Existing IP
 Each Party retains all rights in its pre-existing intellectual property.
 
 ### 7.3 Deliverables
 Upon full payment, Client shall own all rights in the Deliverables, except:
-- (a) SkyMirror Pre-Existing IP
+- (a) Skymirror Pre-Existing IP
 - (b) Third-party components
 - (c) General knowledge and skills
 
 ### 7.4 License to Pre-Existing IP
-SkyMirror grants Client a perpetual, non-exclusive license to use SkyMirror Pre-Existing IP incorporated in the Deliverables.
+Skymirror grants Client a perpetual, non-exclusive license to use Skymirror Pre-Existing IP incorporated in the Deliverables.
 
 ### 7.5 Third-Party Components
-Deliverables may include third-party components subject to separate licenses. SkyMirror shall identify such components and ensure Client has appropriate rights.
+Deliverables may include third-party components subject to separate licenses. Skymirror shall identify such components and ensure Client has appropriate rights.
 
 ### 7.6 Open Source
-SkyMirror shall identify any open source components and ensure compliance with applicable licenses.
+Skymirror shall identify any open source components and ensure compliance with applicable licenses.
 
 ### 7.7 Work Product Assignment
-SkyMirror hereby assigns to Client all rights in work product created specifically for Client under this Agreement.
+Skymirror hereby assigns to Client all rights in work product created specifically for Client under this Agreement.
 
 ---
 
@@ -239,12 +239,12 @@ Upon termination, each Party shall return or destroy Confidential Information up
 
 ## 9. WARRANTIES
 
-### 9.1 SkyMirror Warranties
-SkyMirror warrants that:
+### 9.1 Skymirror Warranties
+Skymirror warrants that:
 - (a) Services will be performed professionally
 - (b) Deliverables will conform to Specifications
 - (c) Deliverables will be free of material defects for [90] days
-- (d) SkyMirror has the right to perform Services
+- (d) Skymirror has the right to perform Services
 - (e) Deliverables will not infringe third-party IP rights
 
 ### 9.2 Client Warranties
@@ -254,7 +254,7 @@ Client warrants that:
 - (c) Client will use Deliverables lawfully
 
 ### 9.3 Warranty Remedies
-For warranty breaches, SkyMirror shall, at its option:
+For warranty breaches, Skymirror shall, at its option:
 - (a) Repair or replace defective Deliverables
 - (b) Re-perform defective Services
 - (c) Refund fees for defective work
@@ -285,11 +285,11 @@ Limitations do not apply to:
 
 ## 11. INDEMNIFICATION
 
-### 11.1 SkyMirror Indemnification
-SkyMirror shall indemnify Client against claims that Deliverables infringe third-party IP rights.
+### 11.1 Skymirror Indemnification
+Skymirror shall indemnify Client against claims that Deliverables infringe third-party IP rights.
 
 ### 11.2 Client Indemnification
-Client shall indemnify SkyMirror against claims arising from:
+Client shall indemnify Skymirror against claims arising from:
 - (a) Client Materials
 - (b) Client's use of Deliverables
 - (c) Client's breach of this Agreement
@@ -320,7 +320,7 @@ Either Party may terminate immediately if:
 ### 12.4 Effect of Termination
 Upon termination:
 - (a) Client shall pay for all work completed
-- (b) SkyMirror shall deliver all completed work
+- (b) Skymirror shall deliver all completed work
 - (c) Each Party shall return Confidential Information
 - (d) Sections 7, 8, 9, 10, 11, and 13 survive
 
@@ -338,7 +338,7 @@ Disputes shall be resolved by:
 - (c) Binding arbitration in Budapest
 
 ### 13.3 Independent Contractor
-SkyMirror is an independent contractor. Nothing creates an employment or agency relationship.
+Skymirror is an independent contractor. Nothing creates an employment or agency relationship.
 
 ### 13.4 Non-Solicitation
 During the term and for 12 months after, neither Party shall solicit the other's employees who worked on a Project.
@@ -483,7 +483,7 @@ Budget cap: €[X] (requires Change Order to exceed)
 
 **ACCEPTED AND AGREED:**
 
-**SkyMirror Kft.** | **[Client Name]**
+**Skymirror Kft.** | **[Client Name]**
 
 Signature: _____________ | Signature: _____________
 

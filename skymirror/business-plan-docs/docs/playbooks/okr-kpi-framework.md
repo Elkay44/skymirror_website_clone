@@ -3,11 +3,11 @@ sidebar_position: 2
 title: "OKR & KPI Framework"
 ---
 
-# SkyMirror OKR & KPI Framework
+# Skymirror OKR & KPI Framework
 
 ## Executive Summary
 
-This document establishes SkyMirror's Objectives and Key Results (OKR) framework and Key Performance Indicators (KPIs). It provides the methodology, templates, and governance for setting, tracking, and achieving company goals across all business units: **Software Solutions**, **AI Applications (CheckMet, Traquiva)**, and **SkyMirror Academy**.
+This document establishes Skymirror's Objectives and Key Results (OKR) framework and Key Performance Indicators (KPIs). It provides the methodology, templates, and governance for setting, tracking, and achieving company goals across all business units: **Software Solutions**, **AI Applications (CheckMet, Traquiva)**, and **Skymirror Academy**.
 
 ---
 
@@ -19,7 +19,7 @@ This document establishes SkyMirror's Objectives and Key Results (OKR) framework
 - **Objectives**: Qualitative, inspiring goals that define what we want to achieve
 - **Key Results**: Quantitative, measurable outcomes that indicate progress toward objectives
 
-**OKR Principles at SkyMirror:**
+**OKR Principles at Skymirror:**
 1. **Ambitious**: Objectives should stretch the team (70% achievement = success)
 2. **Aligned**: All OKRs cascade from company objectives
 3. **Transparent**: All OKRs visible to entire organization
@@ -198,7 +198,7 @@ Individual OKRs (Quarterly)
 
 ---
 
-### SkyMirror Academy - Q1 2025
+### Skymirror Academy - Q1 2025
 
 **OBJECTIVE: Launch Scalable Education Platform**
 

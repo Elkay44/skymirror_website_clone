@@ -3,11 +3,11 @@ sidebar_position: 10
 title: "Revenue & Scaling Framework"
 ---
 
-# SkyMirror Revenue & Scaling Framework
+# Skymirror Revenue & Scaling Framework
 
 ## Executive Summary
 
-This framework establishes SkyMirror's approach to building sustainable revenue, validating business models, and scaling operations. It covers revenue model validation, predictable revenue engines, and new revenue stream exploration across all products: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **SkyMirror Academy**.
+This framework establishes Skymirror's approach to building sustainable revenue, validating business models, and scaling operations. It covers revenue model validation, predictable revenue engines, and new revenue stream exploration across all products: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **Skymirror Academy**.
 
 ---
 
@@ -22,7 +22,7 @@ This framework establishes SkyMirror's approach to building sustainable revenue,
 | CheckMet SaaS | Subscription | €1-2/user/month | 45% | 65% |
 | Traquiva Platform | Subscription + Course Fees | €15-50/learner/month | 15% | 70% |
 | Enterprise Software | Project + T&M | €60-120K/project | 25% | 45% |
-| SkyMirror Academy | Per-participant | €1,800-2,500/person | 15% | 55% |
+| Skymirror Academy | Per-participant | €1,800-2,500/person | 15% | 55% |
 
 #### Unit Economics
 

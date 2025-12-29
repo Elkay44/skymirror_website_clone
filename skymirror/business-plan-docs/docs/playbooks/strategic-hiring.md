@@ -3,11 +3,11 @@ sidebar_position: 3
 title: "Strategic Hiring Playbook"
 ---
 
-# SkyMirror Strategic Hiring & Team Development Playbook
+# Skymirror Strategic Hiring & Team Development Playbook
 
 ## Executive Summary
 
-This playbook establishes SkyMirror's approach to strategic hiring, team development, and organizational culture. It covers the complete employee lifecycle from hiring to development to retention across all business units: **Software Solutions**, **AI Applications (CheckMet, Traquiva)**, and **SkyMirror Academy**.
+This playbook establishes Skymirror's approach to strategic hiring, team development, and organizational culture. It covers the complete employee lifecycle from hiring to development to retention across all business units: **Software Solutions**, **AI Applications (CheckMet, Traquiva)**, and **Skymirror Academy**.
 
 ---
 
@@ -116,7 +116,7 @@ This playbook establishes SkyMirror's approach to strategic hiring, team develop
 
 #### Senior Full-Stack Developer
 
-**Mission:** Build and maintain SkyMirror's core products with exceptional code quality and user experience.
+**Mission:** Build and maintain Skymirror's core products with exceptional code quality and user experience.
 
 **Success Criteria:**
 | Timeframe | Criteria | Measurement |
@@ -150,7 +150,7 @@ This playbook establishes SkyMirror's approach to strategic hiring, team develop
 
 #### Customer Success Manager
 
-**Mission:** Ensure customers achieve their desired outcomes and become advocates for SkyMirror.
+**Mission:** Ensure customers achieve their desired outcomes and become advocates for Skymirror.
 
 **Success Criteria:**
 | Timeframe | Criteria | Measurement |
@@ -256,7 +256,7 @@ candidates  screened   interviewed offered   hired
 
 Dear [Candidate Name],
 
-We are thrilled to offer you the position of [Job Title] at SkyMirror! 
+We are thrilled to offer you the position of [Job Title] at Skymirror! 
 
 After meeting with our team, we are confident that your skills and experience will be a valuable addition to our mission of transforming enterprises through innovative technology.
 
@@ -297,7 +297,7 @@ Warm regards,
 
 [CEO Name]
 Chief Executive Officer
-SkyMirror
+Skymirror
 
 ---
 
@@ -351,7 +351,7 @@ Date: _______________________
 ### Days 1-30: Learn
 
 **Objectives:**
-- Understand SkyMirror's products, customers, and market
+- Understand Skymirror's products, customers, and market
 - Build relationships with key team members
 - Complete all required training
 
@@ -592,7 +592,7 @@ Manager: _________________ Date: _______
 
 ## Part 7: Team Culture
 
-### 7.1 SkyMirror Values
+### 7.1 Skymirror Values
 
 | Value | Definition | Behaviors |
 |-------|------------|-----------|
@@ -651,7 +651,7 @@ Conduct stay interviews quarterly with high performers:
 
 1. What do you look forward to when you come to work each day?
 2. What are you learning here? What do you want to learn?
-3. Why do you stay at SkyMirror?
+3. Why do you stay at Skymirror?
 4. When was the last time you thought about leaving? What prompted it?
 5. What can I do to make your experience better?
 6. What might tempt you to leave?
@@ -696,7 +696,7 @@ Conduct stay interviews quarterly with high performers:
 
 2. What could we have done to keep you?
 
-3. How would you describe the culture at SkyMirror?
+3. How would you describe the culture at Skymirror?
 
 4. Did you feel your work was recognized and valued?
 
@@ -708,7 +708,7 @@ Conduct stay interviews quarterly with high performers:
 
 8. What did you like least?
 
-9. Would you recommend SkyMirror as a place to work?
+9. Would you recommend Skymirror as a place to work?
 
 10. Any other feedback?
 

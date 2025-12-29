@@ -7,13 +7,13 @@ title: "Intellectual Property"
 
 ## Overview
 
-SkyMirror's intellectual property (IP) strategy is designed to protect our innovations, create sustainable competitive advantages, and build long-term enterprise value. This comprehensive approach covers patents, trademarks, copyrights, trade secrets, and other forms of IP across all business units and geographical markets.
+Skymirror's intellectual property (IP) strategy is designed to protect our innovations, create sustainable competitive advantages, and build long-term enterprise value. This comprehensive approach covers patents, trademarks, copyrights, trade secrets, and other forms of IP across all business units and geographical markets.
 
 ## Strategic Objectives
 
-1. **Competitive Differentiation:** Protect core technologies that differentiate SkyMirror in the marketplace
+1. **Competitive Differentiation:** Protect core technologies that differentiate Skymirror in the marketplace
 2. **Value Creation:** Build a valuable IP portfolio that enhances company valuation
-3. **Freedom to Operate:** Ensure SkyMirror can develop and market products without IP constraints
+3. **Freedom to Operate:** Ensure Skymirror can develop and market products without IP constraints
 4. **Revenue Generation:** Create opportunities for licensing and technology transfer
 5. **Defensive Protection:** Mitigate risks of IP infringement claims from competitors
 6. **Innovation Culture:** Support and incentivize continued innovation throughout the organization
@@ -24,9 +24,9 @@ SkyMirror's intellectual property (IP) strategy is designed to protect our innov
 
 | Asset Type | Description | Status | Protection Level |
 |------------|-------------|--------|------------------|
-| **Trademark** | SkyMirror™ (word mark) | Registered in Hungary, EU application filed | Medium |
+| **Trademark** | Skymirror™ (word mark) | Registered in Hungary, EU application filed | Medium |
 | **Trademark** | CheckMet™ (word mark) | Registered in Hungary, EU application filed | Medium |
-| **Trademark** | SkyMirror Academy™ (word mark) | Registered in Hungary, EU application filed | Medium |
+| **Trademark** | Skymirror Academy™ (word mark) | Registered in Hungary, EU application filed | Medium |
 | **Copyright** | Software code for core platforms | Automatic protection, documentation in progress | Medium |
 | **Trade Secret** | AI algorithms for facial recognition | Internal protection measures implemented | High |
 | **Patent** | Facial recognition optimization method | Provisional application filed | Medium |
@@ -104,7 +104,7 @@ SkyMirror's intellectual property (IP) strategy is designed to protect our innov
 - Securing IP rights while maintaining ethical AI development principles
 - Creating barriers to entry through comprehensive IP coverage
 
-### SkyMirror Academy
+### Skymirror Academy
 
 #### Key IP Assets
 - Curriculum design and educational methodologies
@@ -150,9 +150,9 @@ SkyMirror's intellectual property (IP) strategy is designed to protect our innov
 ## Trademark Strategy
 
 ### Brand Architecture
-- **Corporate Brand:** SkyMirror™ as master brand
+- **Corporate Brand:** Skymirror™ as master brand
 - **Product Brands:** CheckMet™, other product-specific brands
-- **Service Brand:** SkyMirror Academy™
+- **Service Brand:** Skymirror Academy™
 - **Sub-brands:** Feature and module-specific branding as needed
 
 ### Geographic Coverage
@@ -170,9 +170,9 @@ SkyMirror's intellectual property (IP) strategy is designed to protect our innov
 ## Copyright Strategy
 
 ### Protected Works
-- **Software Code:** All proprietary software developed by SkyMirror
+- **Software Code:** All proprietary software developed by Skymirror
 - **Documentation:** Technical, user, and marketing documentation
-- **Educational Materials:** All SkyMirror Academy curriculum and content
+- **Educational Materials:** All Skymirror Academy curriculum and content
 - **Marketing Content:** Website, promotional materials, and media
 
 ### Management Approach
@@ -212,7 +212,7 @@ SkyMirror's intellectual property (IP) strategy is designed to protect our innov
 ### Open Source Governance
 - **Approval Process:** Structured review for open source component adoption
 - **Inventory Management:** Comprehensive tracking of all open source components
-- **License Compatibility:** Ensuring alignment with SkyMirror's business model
+- **License Compatibility:** Ensuring alignment with Skymirror's business model
 - **Contribution Review:** Oversight of employee open source contributions
 
 ## IP Operations and Governance
@@ -242,7 +242,7 @@ SkyMirror's intellectual property (IP) strategy is designed to protect our innov
 
 ### Key Risk Areas
 1. **Infringement Risks:** Potential infringement of third-party IP
-2. **Enforcement Challenges:** Difficulties in protecting SkyMirror IP
+2. **Enforcement Challenges:** Difficulties in protecting Skymirror IP
 3. **Open Source Risks:** Compliance issues with open source licenses
 4. **Employee IP Issues:** Disputes over ownership or invention rights
 5. **Partner/Vendor Risks:** IP complications in collaborative development
@@ -263,7 +263,7 @@ SkyMirror's intellectual property (IP) strategy is designed to protect our innov
 - **Market Positioning:** Using IP portfolio for thought leadership and credibility
 
 ### Monetization Opportunities
-- **Core Business Protection:** Primary focus on supporting SkyMirror products
+- **Core Business Protection:** Primary focus on supporting Skymirror products
 - **Selective Licensing:** Strategic licensing to non-competitive applications
 - **Joint Ventures:** IP-based collaborations in adjacent markets
 - **Technology Transfer:** Structured approach to commercializing non-core innovations
@@ -284,6 +284,6 @@ SkyMirror's intellectual property (IP) strategy is designed to protect our innov
 
 ## Conclusion
 
-SkyMirror's intellectual property strategy provides a comprehensive framework for protecting innovations, creating competitive advantages, and building long-term value. By taking a strategic approach to IP development and management, we ensure that our technological and business innovations are properly protected while supporting our overall business objectives.
+Skymirror's intellectual property strategy provides a comprehensive framework for protecting innovations, creating competitive advantages, and building long-term value. By taking a strategic approach to IP development and management, we ensure that our technological and business innovations are properly protected while supporting our overall business objectives.
 
 This strategy will be reviewed annually and adjusted based on business developments, competitive landscape changes, and evolving IP best practices. The flexible framework allows us to adapt our approach while maintaining consistent protection for our most valuable intellectual assets.

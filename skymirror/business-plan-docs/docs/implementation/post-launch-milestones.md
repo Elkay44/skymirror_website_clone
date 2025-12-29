@@ -7,7 +7,7 @@ title: Post-Launch Milestones
 
 **Product Launch Date: January 2026**
 
-This document outlines the key milestones and objectives following the official launch of SkyMirror's product portfolio in January 2026.
+This document outlines the key milestones and objectives following the official launch of Skymirror's product portfolio in January 2026.
 
 ---
 
@@ -62,7 +62,7 @@ This document outlines the key milestones and objectives following the official 
 - [ ] AI tutor improvements
 - [ ] Community features
 
-#### SkyMirror Academy
+#### Skymirror Academy
 - [ ] 3 new bootcamp cohorts
 - [ ] Corporate training contracts (5+)
 - [ ] International expansion (2 countries)

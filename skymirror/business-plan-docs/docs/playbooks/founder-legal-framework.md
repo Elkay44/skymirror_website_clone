@@ -3,11 +3,11 @@ sidebar_position: 7
 title: "Founder & Legal Framework"
 ---
 
-# SkyMirror Founder & Legal Framework
+# Skymirror Founder & Legal Framework
 
 ## Executive Summary
 
-This framework establishes SkyMirror's founder agreements, equity structure, and legal compliance foundations. It provides templates, checklists, and governance for founder relationships and legal operations across SkyMirror's core business units: **Software Solutions**, **AI Applications (CheckMet, Traquiva)**, and **SkyMirror Academy**.
+This framework establishes Skymirror's founder agreements, equity structure, and legal compliance foundations. It provides templates, checklists, and governance for founder relationships and legal operations across Skymirror's core business units: **Software Solutions**, **AI Applications (CheckMet, Traquiva)**, and **Skymirror Academy**.
 
 ---
 
@@ -206,7 +206,7 @@ This framework establishes SkyMirror's founder agreements, equity structure, and
 
 #### Current Ownership Structure
 
-SkyMirror maintains a founder-led ownership structure that ensures strategic continuity and aligned decision-making. The company is majority-owned by the founding team, with equity pools reserved for employees and strategic advisors.
+Skymirror maintains a founder-led ownership structure that ensures strategic continuity and aligned decision-making. The company is majority-owned by the founding team, with equity pools reserved for employees and strategic advisors.
 
 | Shareholder | Type | Role |
 |-------------|------|------|
@@ -298,7 +298,7 @@ SkyMirror maintains a founder-led ownership structure that ensures strategic con
 
 | Attribute | Details |
 |-----------|---------|
-| **Legal Name** | SkyMirror Kft. |
+| **Legal Name** | Skymirror Kft. |
 | **Jurisdiction** | Hungary |
 | **Registration Number** | [Number] |
 | **Registered Address** | Kálmán Imre utca 1, 1054 Budapest |
@@ -309,10 +309,10 @@ SkyMirror maintains a founder-led ownership structure that ensures strategic con
 #### Subsidiary Structure (Future)
 
 ```
-SkyMirror Kft. (Hungary - Parent)
-├── SkyMirror GmbH (Germany - Planned)
-├── SkyMirror Ltd (UK - Planned)
-└── SkyMirror Inc (US - Planned)
+Skymirror Kft. (Hungary - Parent)
+├── Skymirror GmbH (Germany - Planned)
+├── Skymirror Ltd (UK - Planned)
+└── Skymirror Inc (US - Planned)
 ```
 
 ### 3.2 Legal Compliance Checklist

@@ -3,16 +3,16 @@ sidebar_position: 1
 title: "Week 1-2: Legal & Founder Agreements"
 ---
 
-# SkyMirror Implementation: Week 1-2
+# Skymirror Implementation: Week 1-2
 ## Founder Agreements & Legal Documentation
 
 ### Overview
-This document provides the detailed implementation plan for completing all founder agreements and legal documentation during Weeks 1-2 of the SkyMirror documentation enhancement project.
+This document provides the detailed implementation plan for completing all founder agreements and legal documentation during Weeks 1-2 of the Skymirror documentation enhancement project.
 
 ### Company Registration Details
 | Detail | Information |
 |--------|-------------|
-| **Legal Name** | SkyMirror Kft. |
+| **Legal Name** | Skymirror Kft. |
 | **Company Registration Number** | 01-09-430617 |
 | **Tax Number (Tax ID)** | 32559950-2-42 |
 | **Country of Incorporation** | Hungary |
@@ -209,7 +209,7 @@ This document provides the detailed implementation plan for completing all found
 
 ### Parties
 - **Assignor:** [Founder Name]
-- **Assignee:** SkyMirror Kft.
+- **Assignee:** Skymirror Kft.
 
 ### Assignment
 The Assignor hereby assigns to the Assignee all right, title, and interest in:
@@ -245,7 +245,7 @@ This assignment is made in consideration of employment and equity grants.
 #### Corporate Structure Checklist
 
 - [ ] **Company Registration**
-  - [ ] SkyMirror Kft. registered in Hungary
+  - [ ] Skymirror Kft. registered in Hungary
   - [ ] Registration number documented
   - [ ] Articles of Association filed
   - [ ] Shareholders registered
@@ -317,7 +317,7 @@ This assignment is made in consideration of employment and equity grants.
 ## SaaS Subscription Agreement
 
 ### 1. Services
-SkyMirror will provide access to [CheckMet/Traquiva] platform as described in 
+Skymirror will provide access to [CheckMet/Traquiva] platform as described in 
 the Order Form.
 
 ### 2. Subscription Term
@@ -337,11 +337,11 @@ the Order Form.
 
 ### 5. Data Protection
 - Customer is Data Controller
-- SkyMirror is Data Processor
+- Skymirror is Data Processor
 - Data Processing Agreement attached
 
 ### 6. Intellectual Property
-- SkyMirror retains all IP in the platform
+- Skymirror retains all IP in the platform
 - Customer retains all IP in their data
 
 ### 7. Limitation of Liability
@@ -359,7 +359,7 @@ the Order Form.
 ## Software Development Agreement
 
 ### 1. Services
-SkyMirror will develop custom software as described in the Statement of Work.
+Skymirror will develop custom software as described in the Statement of Work.
 
 ### 2. Project Scope
 - **Deliverables:** [As per SOW]
@@ -373,7 +373,7 @@ SkyMirror will develop custom software as described in the Statement of Work.
 
 ### 4. Intellectual Property
 - **Option A:** Customer owns all deliverables
-- **Option B:** SkyMirror retains platform, customer licenses
+- **Option B:** Skymirror retains platform, customer licenses
 
 ### 5. Warranties
 - Deliverables will conform to specifications

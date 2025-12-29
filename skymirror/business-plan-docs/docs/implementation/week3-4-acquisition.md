@@ -3,7 +3,7 @@ sidebar_position: 2
 title: "Week 3-4: Customer Acquisition"
 ---
 
-# SkyMirror Implementation: Week 3-4
+# Skymirror Implementation: Week 3-4
 ## Customer Acquisition Tracking & Investor Data Room
 
 ### Overview
@@ -164,7 +164,7 @@ This document provides the detailed implementation plan for setting up customer 
 #### Data Room Organization
 
 ```
-📁 SkyMirror Data Room
+📁 Skymirror Data Room
 ├── 📁 1. Company Overview
 │   ├── Executive Summary.pdf
 │   ├── Pitch Deck.pdf
@@ -238,7 +238,7 @@ This document provides the detailed implementation plan for setting up customer 
 
 | Slide | Content |
 |-------|---------|
-| 1. Cover | SkyMirror logo, tagline, contact |
+| 1. Cover | Skymirror logo, tagline, contact |
 | 2. Problem | Workforce management pain points |
 | 3. Solution | CheckMet, Traquiva, Software, Academy |
 | 4. Product | Screenshots, key features |

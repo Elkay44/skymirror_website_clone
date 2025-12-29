@@ -7,11 +7,11 @@ title: "International Expansion"
 
 ## Overview
 
-This section outlines SkyMirror's strategic approach to international expansion, detailing our market entry priorities, localization strategy, and operational model for global growth. As a company founded in Hungary with European roots, our expansion strategy leverages our regional strengths while systematically addressing new markets based on opportunity, fit, and resource requirements.
+This section outlines Skymirror's strategic approach to international expansion, detailing our market entry priorities, localization strategy, and operational model for global growth. As a company founded in Hungary with European roots, our expansion strategy leverages our regional strengths while systematically addressing new markets based on opportunity, fit, and resource requirements.
 
 ## Expansion Philosophy
 
-SkyMirror's international expansion is guided by the following principles:
+Skymirror's international expansion is guided by the following principles:
 
 1. **Deliberate Sequencing:** Methodical expansion with proper market validation before significant investment
 2. **Local Relevance:** Adaptation of offerings to meet specific regional needs and cultural contexts
@@ -22,7 +22,7 @@ SkyMirror's international expansion is guided by the following principles:
 
 ## Market Prioritization Framework
 
-SkyMirror evaluates potential markets using a comprehensive scoring model that considers:
+Skymirror evaluates potential markets using a comprehensive scoring model that considers:
 
 | Criterion | Weight | Assessment Factors |
 |-----------|--------|---------------------|
@@ -75,7 +75,7 @@ Each market receives a composite score that guides prioritization and resource a
 
 ## Market Entry Models
 
-SkyMirror will employ different market entry strategies based on market characteristics, opportunity size, and resource requirements:
+Skymirror will employ different market entry strategies based on market characteristics, opportunity size, and resource requirements:
 
 ### Direct Entry Model
 - **Application:** Primary markets with significant revenue potential
@@ -149,7 +149,7 @@ SkyMirror will employ different market entry strategies based on market characte
 - **Leadership Approach:** Blend of expatriate and local leadership
 - **Hiring Philosophy:** Local talent for customer-facing roles, global talent for specialized technical positions
 - **Development Programs:** Cross-regional experience for high-potential employees
-- **Cultural Integration:** Structured onboarding to SkyMirror culture while embracing local diversity
+- **Cultural Integration:** Structured onboarding to Skymirror culture while embracing local diversity
 
 ### Technology Infrastructure
 - **Cloud Architecture:** Regionally distributed infrastructure meeting local requirements
@@ -217,6 +217,6 @@ SkyMirror will employ different market entry strategies based on market characte
 
 ## Conclusion
 
-SkyMirror's international expansion strategy provides a structured framework for sustainable global growth while managing risks and resource requirements. By taking a deliberate, phased approach to market entry and expansion, we can build a truly global company while maintaining our commitment to quality, innovation, and customer success.
+Skymirror's international expansion strategy provides a structured framework for sustainable global growth while managing risks and resource requirements. By taking a deliberate, phased approach to market entry and expansion, we can build a truly global company while maintaining our commitment to quality, innovation, and customer success.
 
 This strategy will be reviewed annually and adjusted based on market developments, company performance, and evolving strategic priorities. The flexible framework allows us to accelerate or decelerate expansion based on results and opportunities, ensuring optimal resource allocation and maximizing growth potential across global markets.

@@ -3,11 +3,11 @@ sidebar_position: 6
 title: "User Feedback Framework"
 ---
 
-# SkyMirror User Feedback & Product Development Framework
+# Skymirror User Feedback & Product Development Framework
 
 ## Executive Summary
 
-This framework establishes SkyMirror's approach to collecting, analyzing, and acting on user feedback to drive product development. It covers the complete feedback loop from collection to implementation across all SkyMirror products: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **SkyMirror Academy**.
+This framework establishes Skymirror's approach to collecting, analyzing, and acting on user feedback to drive product development. It covers the complete feedback loop from collection to implementation across all Skymirror products: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **Skymirror Academy**.
 
 ---
 

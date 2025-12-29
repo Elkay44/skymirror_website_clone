@@ -3,11 +3,11 @@ sidebar_position: 4
 title: "Customer Acquisition Playbook"
 ---
 
-# SkyMirror Customer Acquisition & Retention Playbook
+# Skymirror Customer Acquisition & Retention Playbook
 
 ## Executive Summary
 
-This playbook establishes SkyMirror's customer acquisition, retention, and growth strategies. It provides frameworks, processes, and metrics for building repeatable, scalable customer acquisition channels across all products: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **SkyMirror Academy**.
+This playbook establishes Skymirror's customer acquisition, retention, and growth strategies. It provides frameworks, processes, and metrics for building repeatable, scalable customer acquisition channels across all products: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **Skymirror Academy**.
 
 ---
 

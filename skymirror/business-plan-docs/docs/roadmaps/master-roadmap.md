@@ -3,11 +3,11 @@ sidebar_position: 0
 title: "Master Roadmap Overview"
 ---
 
-# SkyMirror Master Roadmap 2025-2028
+# Skymirror Master Roadmap 2025-2028
 
 ## Executive Summary
 
-This master roadmap provides a consolidated view of all SkyMirror product and business milestones, enabling leadership to track progress across the entire organization and ensure alignment between teams.
+This master roadmap provides a consolidated view of all Skymirror product and business milestones, enabling leadership to track progress across the entire organization and ensure alignment between teams.
 
 **Vision:** Build an integrated ecosystem of AI-powered workforce management, education technology, and software solutions that transforms how businesses operate and people learn.
 
@@ -21,7 +21,7 @@ This master roadmap provides a consolidated view of all SkyMirror product and bu
 |---------|---------------|----------------|---------------------|
 | **CheckMet** | Abdulwahab A (CFO) | Lukman Ibrahim (CEO) | €836,750 |
 | **Traquiva** | Lukman Ibrahim (CEO) | Lukman Ibrahim (CEO) | €2,400,000 |
-| **SkyMirror Academy** | Huzaifa | Lukman Ibrahim (CEO) | €960,000 |
+| **Skymirror Academy** | Huzaifa | Lukman Ibrahim (CEO) | €960,000 |
 | **Software Solutions** | Eric (CTO) | Lukman Ibrahim (CEO) | €1,740,000 |
 
 ---

@@ -15,11 +15,11 @@ This Master Subscription Agreement ("Agreement") is entered into as of [DATE] ("
 
 **BETWEEN:**
 
-**SkyMirror Kft.**  
+**Skymirror Kft.**  
 A company incorporated in Hungary  
 Registered Address: Kálmán Imre utca 1, 1054 Budapest, Hungary  
 Registration Number: [NUMBER]  
-("SkyMirror" or "Provider")
+("Skymirror" or "Provider")
 
 **AND:**
 
@@ -39,11 +39,11 @@ Each a "Party" and collectively the "Parties"
 
 **1.2** "Customer Data" means all data, information, and materials submitted by Customer or Authorized Users to the Services.
 
-**1.3** "Documentation" means the user guides, help files, and other documentation provided by SkyMirror for the Services.
+**1.3** "Documentation" means the user guides, help files, and other documentation provided by Skymirror for the Services.
 
 **1.4** "Order Form" means the ordering document specifying the Services, fees, and other terms agreed between the Parties.
 
-**1.5** "Services" means the SkyMirror software-as-a-service products specified in the Order Form, including CheckMet and/or Traquiva.
+**1.5** "Services" means the Skymirror software-as-a-service products specified in the Order Form, including CheckMet and/or Traquiva.
 
 **1.6** "Subscription Term" means the period during which Customer has access to the Services as specified in the Order Form.
 
@@ -54,7 +54,7 @@ Each a "Party" and collectively the "Parties"
 ## 2. SERVICES AND ACCESS
 
 ### 2.1 Grant of Access
-Subject to the terms of this Agreement and payment of applicable fees, SkyMirror grants Customer a non-exclusive, non-transferable right to access and use the Services during the Subscription Term for Customer's internal business purposes.
+Subject to the terms of this Agreement and payment of applicable fees, Skymirror grants Customer a non-exclusive, non-transferable right to access and use the Services during the Subscription Term for Customer's internal business purposes.
 
 ### 2.2 Authorized Users
 Customer may permit Authorized Users to access the Services up to the number specified in the Order Form. Customer is responsible for:
@@ -72,30 +72,30 @@ Customer shall not:
 - (f) Transmit malicious code or interfere with the Services
 
 ### 2.4 Service Modifications
-SkyMirror may update the Services from time to time. SkyMirror will provide reasonable notice of material changes that adversely affect Customer's use.
+Skymirror may update the Services from time to time. Skymirror will provide reasonable notice of material changes that adversely affect Customer's use.
 
 ---
 
 ## 3. CUSTOMER DATA
 
 ### 3.1 Ownership
-Customer retains all rights, title, and interest in Customer Data. Customer grants SkyMirror a limited license to use Customer Data solely to provide the Services.
+Customer retains all rights, title, and interest in Customer Data. Customer grants Skymirror a limited license to use Customer Data solely to provide the Services.
 
 ### 3.2 Data Protection
-SkyMirror will process Customer Data in accordance with:
+Skymirror will process Customer Data in accordance with:
 - (a) The Data Processing Agreement attached as Schedule B
 - (b) Applicable data protection laws, including GDPR
-- (c) SkyMirror's Privacy Policy
+- (c) Skymirror's Privacy Policy
 
 ### 3.3 Data Security
-SkyMirror will implement and maintain appropriate technical and organizational measures to protect Customer Data, including:
+Skymirror will implement and maintain appropriate technical and organizational measures to protect Customer Data, including:
 - (a) Encryption of data in transit and at rest
 - (b) Access controls and authentication
 - (c) Regular security assessments
 - (d) Incident response procedures
 
 ### 3.4 Data Portability
-Upon termination, Customer may request export of Customer Data in a standard format. SkyMirror will provide such export within 30 days of request.
+Upon termination, Customer may request export of Customer Data in a standard format. Skymirror will provide such export within 30 days of request.
 
 ---
 
@@ -113,13 +113,13 @@ Customer shall pay the fees specified in the Order Form. Unless otherwise stated
 - (c) Overdue amounts accrue interest at 1.5% per month
 
 ### 4.3 Fee Increases
-SkyMirror may increase fees upon renewal by providing 60 days' written notice. Increases shall not exceed 10% per year unless due to changes in scope.
+Skymirror may increase fees upon renewal by providing 60 days' written notice. Increases shall not exceed 10% per year unless due to changes in scope.
 
 ### 4.4 Taxes
-Customer is responsible for all taxes, levies, and duties, excluding taxes based on SkyMirror's income.
+Customer is responsible for all taxes, levies, and duties, excluding taxes based on Skymirror's income.
 
 ### 4.5 Suspension
-SkyMirror may suspend access to the Services if:
+Skymirror may suspend access to the Services if:
 - (a) Payment is overdue by more than 30 days
 - (b) Customer breaches this Agreement
 - (c) Required by law or to prevent harm
@@ -175,11 +175,11 @@ Confidential Information does not include information that:
 
 ## 7. INTELLECTUAL PROPERTY
 
-### 7.1 SkyMirror IP
-SkyMirror retains all rights, title, and interest in the Services, Documentation, and all related intellectual property. No rights are granted except as expressly stated.
+### 7.1 Skymirror IP
+Skymirror retains all rights, title, and interest in the Services, Documentation, and all related intellectual property. No rights are granted except as expressly stated.
 
 ### 7.2 Feedback
-If Customer provides suggestions or feedback regarding the Services, SkyMirror may use such feedback without obligation to Customer.
+If Customer provides suggestions or feedback regarding the Services, Skymirror may use such feedback without obligation to Customer.
 
 ### 7.3 Customer IP
 Customer retains all rights in Customer Data and any materials provided by Customer.
@@ -188,10 +188,10 @@ Customer retains all rights in Customer Data and any materials provided by Custo
 
 ## 8. WARRANTIES AND DISCLAIMERS
 
-### 8.1 SkyMirror Warranties
-SkyMirror warrants that:
+### 8.1 Skymirror Warranties
+Skymirror warrants that:
 - (a) The Services will perform materially in accordance with the Documentation
-- (b) SkyMirror has the right to provide the Services
+- (b) Skymirror has the right to provide the Services
 - (c) The Services will comply with applicable laws
 
 ### 8.2 Customer Warranties
@@ -224,14 +224,14 @@ The limitations in this Section 9 do not apply to:
 
 ## 10. INDEMNIFICATION
 
-### 10.1 SkyMirror Indemnification
-SkyMirror shall defend, indemnify, and hold harmless Customer from claims that the Services infringe third-party intellectual property rights, provided Customer:
-- (a) Promptly notifies SkyMirror of the claim
-- (b) Gives SkyMirror sole control of the defense
+### 10.1 Skymirror Indemnification
+Skymirror shall defend, indemnify, and hold harmless Customer from claims that the Services infringe third-party intellectual property rights, provided Customer:
+- (a) Promptly notifies Skymirror of the claim
+- (b) Gives Skymirror sole control of the defense
 - (c) Provides reasonable cooperation
 
 ### 10.2 Customer Indemnification
-Customer shall defend, indemnify, and hold harmless SkyMirror from claims arising from:
+Customer shall defend, indemnify, and hold harmless Skymirror from claims arising from:
 - (a) Customer Data
 - (b) Customer's breach of this Agreement
 - (c) Customer's violation of applicable laws
@@ -367,7 +367,7 @@ Date: _________________________
 
 **ACCEPTED AND AGREED:**
 
-**SkyMirror Kft.** | **[Customer Name]**
+**Skymirror Kft.** | **[Customer Name]**
 
 Signature: _____________ | Signature: _____________
 

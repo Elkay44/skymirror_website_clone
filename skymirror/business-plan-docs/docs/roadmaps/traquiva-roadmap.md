@@ -7,7 +7,7 @@ title: "Traquiva Product Roadmap"
 
 ## Executive Overview
 
-Traquiva (www.traquiva.com) is SkyMirror's AI-powered learning platform that transforms how people learn to code and technology skills. This roadmap outlines the strategic path to becoming a leading EdTech platform in Europe and emerging markets.
+Traquiva (www.traquiva.com) is Skymirror's AI-powered learning platform that transforms how people learn to code and technology skills. This roadmap outlines the strategic path to becoming a leading EdTech platform in Europe and emerging markets.
 
 **Product Vision:** Democratize technology education globally by providing AI-powered, personalized learning experiences that achieve 95%+ completion rates and 85%+ job placement success.
 

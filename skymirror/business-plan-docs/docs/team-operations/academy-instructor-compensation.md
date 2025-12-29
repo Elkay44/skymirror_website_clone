@@ -7,7 +7,7 @@ title: "Academy Instructor Compensation Framework"
 
 ## Overview
 
-This framework defines the compensation structure, requirements, and career progression for SkyMirror Academy instructors, with special focus on the intern-to-instructor pipeline.
+This framework defines the compensation structure, requirements, and career progression for Skymirror Academy instructors, with special focus on the intern-to-instructor pipeline.
 
 **Target Audience:** Former interns, external instructors, curriculum developers  
 **Last Updated:** December 2024
@@ -79,7 +79,7 @@ This framework defines the compensation structure, requirements, and career prog
 ### 3. Part-Time Academy Instructors (Post-Internship)
 
 **Eligibility:**
-- Completed SkyMirror internship (6+ months)
+- Completed Skymirror internship (6+ months)
 - Strong teaching evaluations
 - Subject matter expertise
 - Available for regular schedule
@@ -552,7 +552,7 @@ This framework defines the compensation structure, requirements, and career prog
 **Case Study 3: Maria - Freelance Instructor**
 - Completed: 6-month internship
 - Hired: External company as engineer
-- Teaching: 6 sessions/month at SkyMirror
+- Teaching: 6 sessions/month at Skymirror
 - **Teaching Income:** Significant monthly teaching income
 - **Total:** Full-time job + substantial side income
 

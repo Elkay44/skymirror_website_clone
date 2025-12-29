@@ -7,7 +7,7 @@ title: "Mentorship & Evaluation Framework"
 
 ## Overview
 
-This framework defines the mentorship model, evaluation criteria, and feedback mechanisms for the SkyMirror internship program. It ensures consistent, high-quality mentorship and fair, transparent evaluation of intern performance.
+This framework defines the mentorship model, evaluation criteria, and feedback mechanisms for the Skymirror internship program. It ensures consistent, high-quality mentorship and fair, transparent evaluation of intern performance.
 
 **Audience:** Mentors, Interns, Program Lead  
 **Last Updated:** December 2024

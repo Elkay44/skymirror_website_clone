@@ -15,7 +15,7 @@ This Employment Agreement ("Agreement") is entered into as of [DATE] ("Effective
 
 **BETWEEN:**
 
-**SkyMirror Kft.**  
+**Skymirror Kft.**  
 A company incorporated in Hungary  
 Registered Address: Kálmán Imre utca 1, 1054 Budapest, Hungary  
 Registration Number: [NUMBER]  

@@ -3,23 +3,23 @@ sidebar_position: 5
 title: "Investor Relations Guide"
 ---
 
-# SkyMirror Investor Relations & Fundraising Guide
+# Skymirror Investor Relations & Fundraising Guide
 
 ## Executive Summary
 
-This guide establishes SkyMirror's investor relations strategy and fundraising execution plan. It provides frameworks for building investor relationships, preparing materials, and executing successful fundraises for SkyMirror's integrated technology ecosystem: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **SkyMirror Academy**.
+This guide establishes Skymirror's investor relations strategy and fundraising execution plan. It provides frameworks for building investor relationships, preparing materials, and executing successful fundraises for Skymirror's integrated technology ecosystem: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **Skymirror Academy**.
 
 ---
 
 ## Part 1: Investor Story & Narrative
 
-### 1.1 The SkyMirror Investment Thesis
+### 1.1 The Skymirror Investment Thesis
 
 **One-Liner:**
-> SkyMirror is building an integrated technology ecosystem for enterprise workforce management and education, powered by AI applications (CheckMet, Traquiva), custom software solutions, and SkyMirror Academy.
+> Skymirror is building an integrated technology ecosystem for enterprise workforce management and education, powered by AI applications (CheckMet, Traquiva), custom software solutions, and Skymirror Academy.
 
 **Elevator Pitch (30 seconds):**
-> Every year, enterprises lose billions to time fraud, manual errors, and compliance failures in workforce management, while facing critical skills gaps. SkyMirror addresses both with CheckMet (AI attendance), Traquiva (AI learning platform), custom software solutions, and SkyMirror Academy. We're already deployed with paying customers across Europe, growing 100%+ quarter-over-quarter, with a clear path to €5M ARR. We're raising €5M to accelerate product development and expand across Europe.
+> Every year, enterprises lose billions to time fraud, manual errors, and compliance failures in workforce management, while facing critical skills gaps. Skymirror addresses both with CheckMet (AI attendance), Traquiva (AI learning platform), custom software solutions, and Skymirror Academy. We're already deployed with paying customers across Europe, growing 100%+ quarter-over-quarter, with a clear path to €5M ARR. We're raising €5M to accelerate product development and expand across Europe.
 
 **Full Pitch (2 minutes):**
 
@@ -189,7 +189,7 @@ Raising €5M Series A to:
 ### 3.2 One-Pager Template
 
 ```markdown
-# SkyMirror - Investment Overview
+# Skymirror - Investment Overview
 
 ## Company
 AI-powered workforce management platform for enterprises
@@ -314,7 +314,7 @@ lukman@skymirror.eu | +36 XX XXX XXXX
 ### 4.2 Data Room Organization
 
 ```
-📁 SkyMirror Data Room
+📁 Skymirror Data Room
 ├── 📁 1. Corporate
 │   ├── 1.1 Incorporation Documents
 │   ├── 1.2 Shareholder Agreements
@@ -373,9 +373,9 @@ Hi [Connection Name],
 
 I hope you're doing well!
 
-I'm reaching out because we're raising our Series A for SkyMirror, and I noticed you're connected to [Partner Name] at [VC Firm].
+I'm reaching out because we're raising our Series A for Skymirror, and I noticed you're connected to [Partner Name] at [VC Firm].
 
-Quick context: SkyMirror is building AI-powered workforce management for enterprises. We're at €183K ARR with 8 enterprise customers and 100%+ QoQ growth. We're raising €5M to accelerate our European expansion.
+Quick context: Skymirror is building AI-powered workforce management for enterprises. We're at €183K ARR with 8 enterprise customers and 100%+ QoQ growth. We're raising €5M to accelerate our European expansion.
 
 [VC Firm] seems like a great fit given their focus on [relevant focus area] and investments in [relevant portfolio companies].
 
@@ -392,7 +392,7 @@ Best,
 
 Hi [Partner Name],
 
-I wanted to introduce you to [Your Name], CEO of SkyMirror. They're building AI-powered workforce management for enterprises and are raising their Series A.
+I wanted to introduce you to [Your Name], CEO of Skymirror. They're building AI-powered workforce management for enterprises and are raising their Series A.
 
 Key highlights:
 - €183K ARR, 8 enterprise customers
@@ -409,11 +409,11 @@ Best,
 #### Cold Outreach Template
 
 ```
-Subject: SkyMirror - AI workforce management, €183K ARR
+Subject: Skymirror - AI workforce management, €183K ARR
 
 Hi [Partner Name],
 
-I'm the CEO of SkyMirror. We're building AI-powered workforce management for enterprises, and I think we'd be a good fit for [VC Firm] given your investments in [relevant portfolio companies].
+I'm the CEO of Skymirror. We're building AI-powered workforce management for enterprises, and I think we'd be a good fit for [VC Firm] given your investments in [relevant portfolio companies].
 
 Quick highlights:
 - €183K ARR with 8 enterprise customers
@@ -427,7 +427,7 @@ Would you have 20 minutes this week or next to learn more?
 
 Best,
 [Your Name]
-CEO, SkyMirror
+CEO, Skymirror
 
 P.S. Here's our deck: [Link]
 ```
@@ -648,7 +648,7 @@ P.S. Here's our deck: [Link]
 ### 8.2 Monthly Investor Update Template
 
 ```markdown
-# SkyMirror Investor Update - [Month Year]
+# Skymirror Investor Update - [Month Year]
 
 ## TL;DR
 [3-4 bullet summary of the month]

@@ -1,13 +1,13 @@
 ---
 sidebar_position: 5
-title: "SkyMirror Academy Playbook"
+title: "Skymirror Academy Playbook"
 ---
 
-# SkyMirror Academy Playbook
+# Skymirror Academy Playbook
 
 ## Overview
 
-This playbook defines the operational processes, curriculum development, and delivery standards for SkyMirror Academy's educational programs.
+This playbook defines the operational processes, curriculum development, and delivery standards for Skymirror Academy's educational programs.
 
 **Team Lead:** Academy Lead (Huzaifa)  
 **Scope:** Bootcamps, corporate training, curriculum development  
@@ -258,7 +258,7 @@ Inquiry → Application → Enrollment → Onboarding → Learning → Graduatio
 | Quality | 1080p minimum |
 | Audio | Clear, no background noise |
 | Captions | Required for all videos |
-| Branding | SkyMirror Academy intro/outro |
+| Branding | Skymirror Academy intro/outro |
 
 ### Written Content
 

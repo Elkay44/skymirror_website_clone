@@ -3,11 +3,11 @@ sidebar_position: 0
 title: "Workflow & Tooling Guide"
 ---
 
-# SkyMirror Workflow & Tooling Guide
+# Skymirror Workflow & Tooling Guide
 
 ## Overview
 
-This document defines SkyMirror's world-class workflow system using our integrated tooling stack. Every team follows standardized processes while maintaining flexibility for their specific needs.
+This document defines Skymirror's world-class workflow system using our integrated tooling stack. Every team follows standardized processes while maintaining flexibility for their specific needs.
 
 **Effective Date:** December 2024  
 **Owner:** CEO (Lukman Ibrahim)  
@@ -130,7 +130,7 @@ This document defines SkyMirror's world-class workflow system using our integrat
 ### Workspace Structure
 
 ```
-SkyMirror (Workspace)
+Skymirror (Workspace)
 ├── CheckMet (Team)
 │   ├── Backlog
 │   ├── Current Sprint
@@ -259,7 +259,7 @@ Software Solutions (Project)
 
 ### Board Structure
 
-#### SkyMirror Academy Board
+#### Skymirror Academy Board
 
 ```
 ┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
@@ -311,10 +311,10 @@ Software Solutions (Project)
 ### Top-Level Structure
 
 ```
-SkyMirror Workspace
+Skymirror Workspace
 ├── 🏠 Home (Dashboard)
 ├── 📚 Company Wiki
-│   ├── About SkyMirror
+│   ├── About Skymirror
 │   ├── Culture & Values
 │   ├── Policies
 │   └── Benefits

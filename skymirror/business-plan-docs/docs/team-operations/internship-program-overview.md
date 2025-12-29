@@ -3,11 +3,11 @@ sidebar_position: 6
 title: "Internship Program Overview"
 ---
 
-# SkyMirror Internship Program
+# Skymirror Internship Program
 
 ## Executive Overview
 
-The SkyMirror Internship Program is a comprehensive 6-month professional development initiative designed to transform talented individuals into production-ready software engineers and future Academy instructors. Our program combines hands-on product development, structured learning, mentorship, and teaching opportunities to deliver real business value while building long-term career paths within SkyMirror.
+The Skymirror Internship Program is a comprehensive 6-month professional development initiative designed to transform talented individuals into production-ready software engineers and future Academy instructors. Our program combines hands-on product development, structured learning, mentorship, and teaching opportunities to deliver real business value while building long-term career paths within Skymirror.
 
 **Program Lead:** CTO (Eric)  
 **Scope:** Engineering internships across all product lines  
@@ -355,7 +355,7 @@ Interns choose one of two production-grade stacks based on project needs and car
    - Project-based engagement
    - Competitive hourly rates
    - Flexible working arrangements
-   - Ongoing relationship with SkyMirror
+   - Ongoing relationship with Skymirror
 
 **All Paths Include:**
 - Strong recommendation letters

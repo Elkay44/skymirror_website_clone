@@ -4,17 +4,17 @@ slug: /
 title: Welcome
 ---
 
-# SkyMirror Business Plan
+# Skymirror Business Plan
 
 **Software, AI, and Education for a Connected, Sustainable World**
 
-Welcome to the comprehensive business plan documentation for SkyMirror, a technology company pioneering digital transformation through innovative software solutions, AI applications, and educational initiatives.
+Welcome to the comprehensive business plan documentation for Skymirror, a technology company pioneering digital transformation through innovative software solutions, AI applications, and educational initiatives.
 
 ## Company Overview
 
 | Attribute | Details |
 |-----------|---------|
-| **Company** | SkyMirror |
+| **Company** | Skymirror |
 | **Website** | [www.skymirror.eu](https://www.skymirror.eu) |
 | **Location** | Budapest, Hungary |
 | **Founded** | 2024 |
@@ -31,7 +31,7 @@ AI-powered learning platform that transforms how people learn to code with 30% f
 ### 💻 Software Solutions
 Full-stack development, technology consulting, and enterprise applications for businesses worldwide. [Learn More →](https://www.skymirror.eu/full-stack-development)
 
-### 🎓 SkyMirror Academy
+### 🎓 Skymirror Academy
 Educational programs, bootcamps, and corporate training developing the next generation of tech talent. [Visit Academy →](https://skymirror.academy)
 
 ## Leadership Team
@@ -43,7 +43,7 @@ Educational programs, bootcamps, and corporate training developing the next gene
 | COO | Dr. Loveday | Operations & Delivery |
 | CFO | Abdulwahab A | Finance & Investor Relations, CheckMet |
 | CMO | Jerone Lebadie | Marketing & Brand |
-| Academy Lead | Huzaifa | SkyMirror Academy |
+| Academy Lead | Huzaifa | Skymirror Academy |
 
 ## Product Ownership
 
@@ -51,7 +51,7 @@ Educational programs, bootcamps, and corporate training developing the next gene
 |---------|-------|---------------------|
 | CheckMet | Abdulwahab A | €837K |
 | Traquiva | Lukman Ibrahim | €2.4M |
-| SkyMirror Academy | Huzaifa | €960K |
+| Skymirror Academy | Huzaifa | €960K |
 | Software Solutions | Eric | €1.74M |
 
 ## Documentation Structure

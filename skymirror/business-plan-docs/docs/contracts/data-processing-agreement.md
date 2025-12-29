@@ -21,9 +21,9 @@ Address: [ADDRESS]
 
 **AND:**
 
-**SkyMirror Kft.**  
+**Skymirror Kft.**  
 Registered Address: Kálmán Imre utca 1, 1054 Budapest, Hungary  
-("Processor" or "SkyMirror")
+("Processor" or "Skymirror")
 
 ---
 

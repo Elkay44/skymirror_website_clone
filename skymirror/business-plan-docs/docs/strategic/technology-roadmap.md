@@ -7,7 +7,7 @@ title: "Technology Roadmap"
 
 ## Strategic Technology Vision
 
-SkyMirror's technology roadmap outlines our planned evolution across product lines, technical capabilities, and infrastructure over the next five years. This roadmap aligns technological development with business objectives while maintaining flexibility to adapt to emerging technologies and market demands.
+Skymirror's technology roadmap outlines our planned evolution across product lines, technical capabilities, and infrastructure over the next five years. This roadmap aligns technological development with business objectives while maintaining flexibility to adapt to emerging technologies and market demands.
 
 ## Core Technology Platforms
 
@@ -80,7 +80,7 @@ SkyMirror's technology roadmap outlines our planned evolution across product lin
 | v3.5 | Q3 2027 | Certification programs, industry partnerships | Credential verification, employer API |
 | v4.0 | Q1 2028 | Career matching, job placement integration | ML-based matching, employer network |
 
-### SkyMirror Academy Platform
+### Skymirror Academy Platform
 | Release | Timeline | Key Features | Technical Foundations |
 |---------|----------|--------------|----------------------|
 | v1.0 | Q3 2025 | Learning management system, content repository | Educational content platform, user management |
@@ -170,4 +170,4 @@ SkyMirror's technology roadmap outlines our planned evolution across product lin
 - **Year 4:** Quantum computing concepts, green technology
 - **Year 5:** Emerging technologies based on market evolution
 
-This technology roadmap provides a structured framework for SkyMirror's technical evolution while maintaining flexibility to adapt to emerging technologies and changing market demands. Regular review and refinement of this roadmap will ensure alignment with business objectives and optimal resource allocation for technological advancement.
+This technology roadmap provides a structured framework for Skymirror's technical evolution while maintaining flexibility to adapt to emerging technologies and changing market demands. Regular review and refinement of this roadmap will ensure alignment with business objectives and optimal resource allocation for technological advancement.

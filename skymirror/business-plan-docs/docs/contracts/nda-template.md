@@ -15,9 +15,9 @@ This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of [DATE] 
 
 **BETWEEN:**
 
-**SkyMirror Kft.**  
+**Skymirror Kft.**  
 Registered Address: Kálmán Imre utca 1, 1054 Budapest, Hungary  
-("SkyMirror")
+("Skymirror")
 
 **AND:**
 
@@ -150,13 +150,13 @@ Date: _________________________
 
 ## ONE-WAY NON-DISCLOSURE AGREEMENT
 
-**(SkyMirror as Disclosing Party)**
+**(Skymirror as Disclosing Party)**
 
 This Non-Disclosure Agreement ("Agreement") is entered into as of [DATE]
 
 **BETWEEN:**
 
-**SkyMirror Kft.** ("Disclosing Party")
+**Skymirror Kft.** ("Disclosing Party")
 
 **AND:**
 
@@ -259,7 +259,7 @@ Date: _________________________
 
 **(For Internal Use)**
 
-I, [NAME], acknowledge that during my engagement with SkyMirror Kft., I may have access to Confidential Information.
+I, [NAME], acknowledge that during my engagement with Skymirror Kft., I may have access to Confidential Information.
 
 ### I AGREE TO:
 
@@ -303,8 +303,8 @@ Witness: _________________________
 |-----------|----------|
 | Partnership discussions | Mutual NDA |
 | Investor meetings | Mutual NDA |
-| Vendor evaluations | One-Way (SkyMirror disclosing) |
-| Customer demos | One-Way (SkyMirror disclosing) |
+| Vendor evaluations | One-Way (Skymirror disclosing) |
+| Customer demos | One-Way (Skymirror disclosing) |
 | New employees | Employee Confidentiality |
 | Contractors | Contractor Agreement (includes NDA) |
 

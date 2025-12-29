@@ -7,7 +7,7 @@ title: "Sales & Marketing Playbook"
 
 ## Overview
 
-This playbook defines the sales and marketing processes, strategies, and best practices for SkyMirror's go-to-market activities across all product lines.
+This playbook defines the sales and marketing processes, strategies, and best practices for Skymirror's go-to-market activities across all product lines.
 
 **Team Lead:** CMO (Jerone Lebadie)  
 **Scope:** All sales and marketing activities  
@@ -411,7 +411,7 @@ Best,
    - Payment terms
    - ROI analysis
 
-4. **Why SkyMirror** (1 page)
+4. **Why Skymirror** (1 page)
    - Company overview
    - Relevant case studies
    - Team credentials

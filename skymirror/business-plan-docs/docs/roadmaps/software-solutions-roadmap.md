@@ -7,7 +7,7 @@ title: "Software Solutions Roadmap"
 
 ## Executive Overview
 
-Software Solutions is SkyMirror's custom enterprise software development and technology consulting division. This roadmap outlines the strategic path to becoming a trusted technology partner for mid-market and enterprise clients across Europe.
+Software Solutions is Skymirror's custom enterprise software development and technology consulting division. This roadmap outlines the strategic path to becoming a trusted technology partner for mid-market and enterprise clients across Europe.
 
 **Business Vision:** Deliver exceptional custom software solutions that drive digital transformation for 100+ enterprise clients by 2028, with a reputation for technical excellence and reliable delivery.
 
@@ -349,7 +349,7 @@ Software Solutions is SkyMirror's custom enterprise software development and tec
 6. Team & Resources
 7. Investment & Payment Terms
 8. Terms & Conditions
-9. About SkyMirror
+9. About Skymirror
 
 ---
 

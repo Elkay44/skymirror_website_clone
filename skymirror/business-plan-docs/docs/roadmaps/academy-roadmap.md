@@ -1,15 +1,15 @@
 ---
 sidebar_position: 3
-title: "SkyMirror Academy Roadmap"
+title: "Skymirror Academy Roadmap"
 ---
 
-# SkyMirror Academy Roadmap 2025-2028
+# Skymirror Academy Roadmap 2025-2028
 
 ## Executive Overview
 
-SkyMirror Academy is our technology education and corporate training division, delivering intensive bootcamps, professional development programs, and enterprise training solutions. This roadmap outlines the path to becoming a premier technology education provider in Europe and emerging markets.
+Skymirror Academy is our technology education and corporate training division, delivering intensive bootcamps, professional development programs, and enterprise training solutions. This roadmap outlines the path to becoming a premier technology education provider in Europe and emerging markets.
 
-**Product Vision:** Transform 10,000+ careers annually through world-class technology education, achieving 90%+ job placement rates and establishing SkyMirror Academy as the top choice for tech career transitions in Europe.
+**Product Vision:** Transform 10,000+ careers annually through world-class technology education, achieving 90%+ job placement rates and establishing Skymirror Academy as the top choice for tech career transitions in Europe.
 
 **Product Owner:** Huzaifa  
 **Business Owner:** CEO (Lukman Ibrahim)  
@@ -385,7 +385,7 @@ SkyMirror Academy is our technology education and corporate training division, d
 ### Funding Sources
 - Corporate sponsors
 - EU training grants
-- SkyMirror social impact fund
+- Skymirror social impact fund
 - Alumni donations
 
 ---

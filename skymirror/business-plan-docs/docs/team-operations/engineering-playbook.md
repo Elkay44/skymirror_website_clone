@@ -7,7 +7,7 @@ title: "Engineering Team Playbook"
 
 ## Overview
 
-This playbook defines the standards, processes, and best practices for SkyMirror's engineering team. It ensures consistency, quality, and efficiency across all product development efforts.
+This playbook defines the standards, processes, and best practices for Skymirror's engineering team. It ensures consistency, quality, and efficiency across all product development efforts.
 
 **Team Lead:** CTO (Eric)  
 **Scope:** All engineering activities across CheckMet, Traquiva, Software Solutions  

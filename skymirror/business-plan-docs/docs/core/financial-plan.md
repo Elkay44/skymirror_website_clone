@@ -7,7 +7,7 @@ title: "Financial Plan"
 
 ## Startup Costs (Remote-First Model)
 
-SkyMirror operates as a remote-first company, significantly reducing overhead costs while attracting global talent.
+Skymirror operates as a remote-first company, significantly reducing overhead costs while attracting global talent.
 
 | Category | Description | Amount |
 |----------|-------------|--------|
@@ -58,7 +58,7 @@ SkyMirror operates as a remote-first company, significantly reducing overhead co
 | CheckMet (SaaS + Hardware + Services) | €134,750 | €370,250 | €825,500 |
 | Traquiva (Platform) | €150,000 | €600,000 | €2,400,000 |
 | Software Solutions | €540,000 | €1,000,000 | €1,740,000 |
-| SkyMirror Academy | €240,000 | €530,000 | €960,000 |
+| Skymirror Academy | €240,000 | €530,000 | €960,000 |
 | **Total Revenue** | **€1.06M** | **€2.50M** | **€5.93M** |
 | **YoY Growth** | **-** | **135%** | **137%** |
 
@@ -179,7 +179,7 @@ SkyMirror operates as a remote-first company, significantly reducing overhead co
 - Software Solutions: Average project value of €75,000 in Year 1, growing to €120,000 by Year 5
 - CheckMet: Tiered pricing at €1-2 per user per month (Starter €2.00, Professional €1.50, Enterprise €1.20, Enterprise Plus €1.00)
 - Traquiva: B2C subscriptions €19-39/month, B2B/Enterprise custom pricing
-- SkyMirror Academy: Average program fee of €4,000 per bootcamp student, €800 per corporate participant
+- Skymirror Academy: Average program fee of €4,000 per bootcamp student, €800 per corporate participant
 - Customer acquisition increases 85-100% year-over-year for first three years
 - Retention rate of 85-90% for subscription services
 
@@ -193,7 +193,7 @@ SkyMirror operates as a remote-first company, significantly reducing overhead co
 - European market penetration grows from 5% to 25% over five years
 - Entry into 2-3 new geographic markets annually from Year 3
 - CheckMet user base grows from 5,000 to 250,000 over five years
-- SkyMirror Academy student enrollment increases from 200 to 2,500 annually
+- Skymirror Academy student enrollment increases from 200 to 2,500 annually
 
 ### Capital Expenditure Assumptions (Remote-First)
 - Virtual office & co-working: €6,000/year

@@ -3,18 +3,18 @@ sidebar_position: 2
 title: "Company Pitch"
 ---
 
-# SkyMirror: Pioneering the Future of Digital Enterprise
+# Skymirror: Pioneering the Future of Digital Enterprise
 
 **Tagline:** "Transforming Enterprises, Empowering Innovation"
 
 ## The Power Play (30-second version)
 
-In an era where AI drives enterprise value, SkyMirror emerges as the architect of digital transformation. We're revolutionizing how enterprises operate through our integrated ecosystem: **CheckMet** for AI-powered workforce management, **Traquiva** for AI-powered learning (www.traquiva.com), enterprise software solutions, and SkyMirror Academy. With a $500B+ addressable market and strong growth trajectory, we're not just participating in the future – we're creating it. Our AI products deliver unprecedented results: CheckMet with 99.9% facial recognition accuracy, and Traquiva with 95% course completion rates.
+In an era where AI drives enterprise value, Skymirror emerges as the architect of digital transformation. We're revolutionizing how enterprises operate through our integrated ecosystem: **CheckMet** for AI-powered workforce management, **Traquiva** for AI-powered learning (www.traquiva.com), enterprise software solutions, and Skymirror Academy. With a $500B+ addressable market and strong growth trajectory, we're not just participating in the future – we're creating it. Our AI products deliver unprecedented results: CheckMet with 99.9% facial recognition accuracy, and Traquiva with 95% course completion rates.
 
 ## The Executive Pitch (2-minute version)
 
 ### Revolutionary Market Position
-In an era defined by AI and digital transformation, SkyMirror stands as the cornerstone of enterprise evolution. While others offer point solutions, we deliver a comprehensive ecosystem that drives exponential value through three synergistic business units. Our unique position at the intersection of AI, enterprise software, and education creates a flywheel effect that's unprecedented in the industry:
+In an era defined by AI and digital transformation, Skymirror stands as the cornerstone of enterprise evolution. While others offer point solutions, we deliver a comprehensive ecosystem that drives exponential value through three synergistic business units. Our unique position at the intersection of AI, enterprise software, and education creates a flywheel effect that's unprecedented in the industry:
 
 1. **CheckMet - AI-Powered Attendance**
    - Pioneering facial recognition technology revolutionizing workforce management
@@ -34,7 +34,7 @@ In an era defined by AI and digital transformation, SkyMirror stands as the corn
    - 99.9% uptime guarantee
    - Agile delivery methodology
 
-4. **SkyMirror Academy**
+4. **Skymirror Academy**
    - Next-generation technology education programs
    - 94% graduate employment rate
    - Corporate training partnerships
@@ -103,18 +103,18 @@ Founder-led with aligned incentives:
 
 ## The Close
 
-SkyMirror represents a compelling opportunity to reshape the enterprise technology landscape. We're building an integrated ecosystem with CheckMet, Traquiva, enterprise software, and SkyMirror Academy that creates a self-reinforcing flywheel. Our founder-led structure ensures long-term strategic alignment and commitment.
+Skymirror represents a compelling opportunity to reshape the enterprise technology landscape. We're building an integrated ecosystem with CheckMet, Traquiva, enterprise software, and Skymirror Academy that creates a self-reinforcing flywheel. Our founder-led structure ensures long-term strategic alignment and commitment.
 
 With proven unit economics, industry-leading margins, and a clear path to $100M ARR, we offer a compelling combination of growth and profitability. Our technology moat, network effects, and ecosystem approach create sustainable competitive advantages that will drive long-term value creation.
 
 The future of enterprise technology is being written today. Join us in leading this transformation.
 
-SkyMirror: Transforming Enterprises, Empowering Innovation.
+Skymirror: Transforming Enterprises, Empowering Innovation.
 
 ---
 
 **Contact:**
 Lukman Ibrahim
-CEO, SkyMirror
+CEO, Skymirror
 info@skymirror.eu
 www.skymirror.eu

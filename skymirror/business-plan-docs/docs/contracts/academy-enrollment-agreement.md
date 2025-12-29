@@ -3,7 +3,7 @@ sidebar_position: 8
 title: "Academy Enrollment Agreement"
 ---
 
-# SkyMirror Academy Enrollment Agreement
+# Skymirror Academy Enrollment Agreement
 
 **For Bootcamp and Training Program Participants**
 
@@ -15,9 +15,9 @@ This Enrollment Agreement ("Agreement") is entered into as of [DATE]
 
 **BETWEEN:**
 
-**SkyMirror Kft.** (operating as "SkyMirror Academy")  
+**Skymirror Kft.** (operating as "Skymirror Academy")  
 Registered Address: Kálmán Imre utca 1, 1054 Budapest, Hungary  
-("Academy" or "SkyMirror")
+("Academy" or "Skymirror")
 
 **AND:**
 

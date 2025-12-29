@@ -3,11 +3,11 @@ sidebar_position: 9
 title: "Internship Agreement"
 ---
 
-# SkyMirror Internship Agreement
+# Skymirror Internship Agreement
 
 ## Agreement Overview
 
-This Internship Agreement ("Agreement") is entered into between SkyMirror ("Company") and the Intern ("Intern") for a structured professional development program.
+This Internship Agreement ("Agreement") is entered into between Skymirror ("Company") and the Intern ("Intern") for a structured professional development program.
 
 **Agreement Type:** Fixed-Term Internship Contract  
 **Duration:** 6 months (with optional 6-month extension)  
@@ -22,7 +22,7 @@ This is a template agreement. All internship contracts must be reviewed by legal
 ## 1. PARTIES TO THE AGREEMENT
 
 **COMPANY:**  
-SkyMirror Kft.  
+Skymirror Kft.  
 Company Registration Number: 01-09-430617  
 Tax Number: 32559950-2-42  
 Registered Office: Kálmán Imre utca 1, 1054 Budapest, Hungary  

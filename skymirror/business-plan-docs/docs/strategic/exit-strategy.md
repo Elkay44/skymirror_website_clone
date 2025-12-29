@@ -7,7 +7,7 @@ title: "Exit Strategy"
 
 ## Overview
 
-This section outlines SkyMirror's potential exit strategies, providing investors with a clear understanding of how they might realize returns on their investment. While SkyMirror is focused on building a sustainable, long-term business, we recognize the importance of planning for eventual liquidity events that would benefit our investors and stakeholders.
+This section outlines Skymirror's potential exit strategies, providing investors with a clear understanding of how they might realize returns on their investment. While Skymirror is focused on building a sustainable, long-term business, we recognize the importance of planning for eventual liquidity events that would benefit our investors and stakeholders.
 
 ## Potential Exit Scenarios
 
@@ -17,8 +17,8 @@ This section outlines SkyMirror's potential exit strategies, providing investors
 1. **Large Technology Corporations**
    - **Profile:** Global technology companies seeking to expand their AI capabilities, European presence, or educational technology portfolio
    - **Examples:** Microsoft, Google, Oracle, SAP, Salesforce
-   - **Strategic Value:** Access to SkyMirror's AI technology, European market presence, and integrated education model
-   - **Timeline:** Potential interest in Years 4-6 as SkyMirror establishes market leadership
+   - **Strategic Value:** Access to Skymirror's AI technology, European market presence, and integrated education model
+   - **Timeline:** Potential interest in Years 4-6 as Skymirror establishes market leadership
 
 2. **Enterprise Software Providers**
    - **Profile:** Companies specializing in enterprise software seeking to enhance their AI capabilities
@@ -29,14 +29,14 @@ This section outlines SkyMirror's potential exit strategies, providing investors
 3. **Educational Technology Companies**
    - **Profile:** EdTech companies looking to expand their technical training offerings
    - **Examples:** Coursera, Udacity, 2U, Pluralsight
-   - **Strategic Value:** SkyMirror Academy's curriculum, methodology, and European presence
-   - **Timeline:** Potential interest in Years 3-5 as SkyMirror Academy establishes reputation
+   - **Strategic Value:** Skymirror Academy's curriculum, methodology, and European presence
+   - **Timeline:** Potential interest in Years 3-5 as Skymirror Academy establishes reputation
 
 4. **European Technology Leaders**
    - **Profile:** European technology companies seeking to consolidate regional market position
    - **Examples:** SAP, Atos, Capgemini, Amadeus IT Group
    - **Strategic Value:** Regional expertise, complementary technology offerings, cultural alignment
-   - **Timeline:** Potential interest in Years 3-6 as SkyMirror establishes regional presence
+   - **Timeline:** Potential interest in Years 3-6 as Skymirror establishes regional presence
 
 #### Acquisition Valuation Drivers
 - **Revenue Growth:** Sustained annual growth rate of 40%+ for at least 2-3 years
@@ -122,7 +122,7 @@ This section outlines SkyMirror's potential exit strategies, providing investors
 2. **EBITDA Multiple Method**
    - **Technology Services:** 10-15x EBITDA
    - **Software Products:** 15-20x EBITDA
-   - **Blended SkyMirror Model:** 12-18x EBITDA depending on business mix
+   - **Blended Skymirror Model:** 12-18x EBITDA depending on business mix
 
 3. **Discounted Cash Flow Analysis**
    - **Projection Period:** 5-year detailed projections with terminal value
@@ -142,7 +142,7 @@ This section outlines SkyMirror's potential exit strategies, providing investors
 
 ### Value Enhancement Strategy
 
-To maximize valuation at exit, SkyMirror will focus on the following value drivers:
+To maximize valuation at exit, Skymirror will focus on the following value drivers:
 
 1. **Revenue Growth**
    - **Target:** Maintain 40%+ annual growth rate
@@ -231,8 +231,8 @@ To maximize valuation at exit, SkyMirror will focus on the following value drive
 
 ## Conclusion
 
-SkyMirror's exit strategy is designed to provide attractive returns to investors while ensuring the company's long-term vision and impact can continue to grow. By building a valuable, sustainable business with multiple potential exit paths, we maximize the likelihood of a successful liquidity event that benefits all stakeholders.
+Skymirror's exit strategy is designed to provide attractive returns to investors while ensuring the company's long-term vision and impact can continue to grow. By building a valuable, sustainable business with multiple potential exit paths, we maximize the likelihood of a successful liquidity event that benefits all stakeholders.
 
 The management team will review this exit strategy annually, adjusting as needed based on company performance, market conditions, and evolving strategic opportunities. While focused on building long-term value, we maintain awareness of potential exit opportunities and will be prepared to execute when optimal conditions align.
 
-This balanced approach—building for the long term while preparing for eventual exit—ensures that SkyMirror can deliver both significant impact and attractive financial returns.
+This balanced approach—building for the long term while preparing for eventual exit—ensures that Skymirror can deliver both significant impact and attractive financial returns.

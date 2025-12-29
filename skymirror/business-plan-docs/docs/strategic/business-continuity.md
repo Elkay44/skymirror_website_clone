@@ -7,7 +7,7 @@ title: "Business Continuity & Disaster Recovery"
 
 ## Executive Summary
 
-This Business Continuity Plan (BCP) and Disaster Recovery Plan (DRP) ensures SkyMirror can maintain critical business operations and recover from disruptions. This document follows ISO 22301 standards and is essential for enterprise customers and investor due diligence.
+This Business Continuity Plan (BCP) and Disaster Recovery Plan (DRP) ensures Skymirror can maintain critical business operations and recover from disruptions. This document follows ISO 22301 standards and is essential for enterprise customers and investor due diligence.
 
 **Plan Owner:** COO (Dr. Loveday)  
 **Technical Owner:** CTO (Eric)  

@@ -3,11 +3,11 @@ sidebar_position: 9
 title: "Operations & Systems Playbook"
 ---
 
-# SkyMirror Operations & Systems Playbook
+# Skymirror Operations & Systems Playbook
 
 ## Executive Summary
 
-This playbook establishes SkyMirror's operational systems, processes, and infrastructure. It covers dashboards, tools, meeting rhythms, and process documentation for smooth operations at scale across all business units: **Software Solutions**, **AI Applications (CheckMet, Traquiva)**, and **SkyMirror Academy**.
+This playbook establishes Skymirror's operational systems, processes, and infrastructure. It covers dashboards, tools, meeting rhythms, and process documentation for smooth operations at scale across all business units: **Software Solutions**, **AI Applications (CheckMet, Traquiva)**, and **Skymirror Academy**.
 
 ---
 

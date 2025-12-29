@@ -3,11 +3,11 @@ sidebar_position: 8
 title: "Customer Discovery Playbook"
 ---
 
-# SkyMirror Customer Discovery & Validation Playbook
+# Skymirror Customer Discovery & Validation Playbook
 
 ## Executive Summary
 
-This playbook establishes SkyMirror's approach to customer discovery, problem validation, and market testing. It provides frameworks for validating assumptions, testing willingness to pay, and refining messaging based on customer evidence for all SkyMirror products: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **SkyMirror Academy**.
+This playbook establishes Skymirror's approach to customer discovery, problem validation, and market testing. It provides frameworks for validating assumptions, testing willingness to pay, and refining messaging based on customer evidence for all Skymirror products: **CheckMet** (AI attendance), **Traquiva** (AI learning platform), **Software Solutions**, and **Skymirror Academy**.
 
 ---
 
@@ -302,7 +302,7 @@ Pricing directly impacts unit economics and viability
 #### Template
 > For [target customer] who [statement of need], [product name] is a [product category] that [key benefit]. Unlike [competition], our product [key differentiator].
 
-#### SkyMirror Value Proposition
+#### Skymirror Value Proposition
 > For enterprise HR and Operations leaders who struggle with inaccurate, time-consuming attendance management, CheckMet is an AI-powered attendance platform that eliminates 95% of administrative burden while achieving 99.9% accuracy. Unlike traditional time clocks and badge systems, CheckMet uses facial recognition AI that prevents fraud, integrates seamlessly with existing HRIS, and provides real-time workforce analytics.
 
 ### 3.3 Value Proposition Testing
@@ -589,7 +589,7 @@ Serviceable Obtainable Market (SOM)
 ## CheckMet Pilot Agreement
 
 ### Parties
-- SkyMirror Kft. ("Provider")
+- Skymirror Kft. ("Provider")
 - [Company Name] ("Customer")
 
 ### Pilot Scope

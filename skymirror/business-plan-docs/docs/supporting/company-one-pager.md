@@ -3,10 +3,10 @@ sidebar_position: 1
 title: "Company One-Pager"
 ---
 
-# SkyMirror: The Future of Enterprise Digital Transformation
+# Skymirror: The Future of Enterprise Digital Transformation
 
 ## Company Overview
-SkyMirror is a pioneering technology enterprise delivering AI-powered solutions, enterprise software, and technology education. Founded in 2024 and headquartered in Budapest, Hungary, we're building an integrated technology ecosystem for enterprise workforce management and education.
+Skymirror is a pioneering technology enterprise delivering AI-powered solutions, enterprise software, and technology education. Founded in 2024 and headquartered in Budapest, Hungary, we're building an integrated technology ecosystem for enterprise workforce management and education.
 
 ## Our Solutions
 
@@ -28,7 +28,7 @@ SkyMirror is a pioneering technology enterprise delivering AI-powered solutions,
 - 99.9% uptime guarantee
 - Agile delivery methodology
 
-### 🎓 SkyMirror Academy
+### 🎓 Skymirror Academy
 - 94% graduate employment rate
 - Industry-aligned curriculum
 - Hybrid learning model
@@ -83,6 +83,6 @@ SkyMirror is a pioneering technology enterprise delivering AI-powered solutions,
 - **Website:** www.skymirror.eu
 - **Email:** info@skymirror.eu
 - **Location:** Budapest, Hungary
-- **Social:** @SkyMirrorAI
+- **Social:** @SkymirrorAI
 
 *Transforming Enterprises, Empowering Innovation*

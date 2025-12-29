@@ -7,10 +7,10 @@ title: "Organization & Management"
 
 ## Organizational Structure
 
-SkyMirror employs a matrix organizational structure that balances functional expertise with business unit focus, enabling efficient resource allocation while maintaining specialized knowledge centers.
+Skymirror employs a matrix organizational structure that balances functional expertise with business unit focus, enabling efficient resource allocation while maintaining specialized knowledge centers.
 
 ### Current Leadership Team
-SkyMirror is led by a lean, agile leadership team based at our Budapest headquarters:
+Skymirror is led by a lean, agile leadership team based at our Budapest headquarters:
 
 | Role | Name | Responsibilities |
 |------|------|------------------|
@@ -27,13 +27,13 @@ As the company grows, we plan to expand our leadership team to include:
 - **Chief Revenue Officer (CRO)** - Year 3
 
 ### Business Unit Structure
-SkyMirror currently organizes its operations into four core business units, each with dedicated product ownership:
+Skymirror currently organizes its operations into four core business units, each with dedicated product ownership:
 
 | Business Unit | Product Owner | Responsibilities |
 |---------------|---------------|------------------|
 | **CheckMet** | Abdulwahab A (CFO) | AI-powered attendance management platform |
 | **Traquiva** | Lukman Ibrahim (CEO) | AI-powered learning platform (www.traquiva.com) |
-| **SkyMirror Academy** | Huzaifa | Technology education and corporate training |
+| **Skymirror Academy** | Huzaifa | Technology education and corporate training |
 | **Software Solutions** | Eric (CTO) | Custom enterprise software development |
 
 #### Software Solutions Unit
@@ -57,7 +57,7 @@ SkyMirror currently organizes its operations into four core business units, each
   - AI Research (1-2 specialists)
   - Content Development (1-2 specialists)
 
-#### SkyMirror Academy Unit
+#### Skymirror Academy Unit
 - **Product Owner:** Huzaifa
 - **Current Team Structure:**
   - Curriculum Development (2-3 specialists)
@@ -68,7 +68,7 @@ SkyMirror currently organizes its operations into four core business units, each
 As we execute our growth strategy, each business unit will expand with additional specialized roles and increased team sizes to support our scaling operations.
 
 ### Functional Support Areas
-SkyMirror currently operates with streamlined functional support areas that provide essential services across all business units:
+Skymirror currently operates with streamlined functional support areas that provide essential services across all business units:
 
 #### Technology Infrastructure
 - **Lead:** IT Manager - Abdulrahim
@@ -93,7 +93,7 @@ SkyMirror currently operates with streamlined functional support areas that prov
 - **Responsibilities:** Recruitment, employee relations, training, and organizational development
 
 ### Outsourced Services
-To maintain operational efficiency while ensuring access to specialized expertise, SkyMirror currently outsources certain functions:
+To maintain operational efficiency while ensuring access to specialized expertise, Skymirror currently outsources certain functions:
 
 - Legal Services
 - Advanced Cybersecurity
@@ -101,7 +101,7 @@ To maintain operational efficiency while ensuring access to specialized expertis
 - Accounting and Tax Services
 
 ### Current Market Focus
-SkyMirror currently focuses on serving clients primarily in the European market from our Budapest headquarters, with plans for phased expansion:
+Skymirror currently focuses on serving clients primarily in the European market from our Budapest headquarters, with plans for phased expansion:
 
 #### European Market (Current)
 - **Market Lead:** Software Development Manager - Ismail
@@ -116,7 +116,7 @@ As part of our growth strategy, we plan to establish regional presence in the fo
 - **Phase 3 (Year 5):** Expansion into Asia-Pacific and North American markets
 
 ### Regional Structure
-SkyMirror maintains a regional organization to ensure effective local market presence:
+Skymirror maintains a regional organization to ensure effective local market presence:
 
 - **Americas Region:** Headquartered in Silicon Valley, California
 - **Europe Region:** Headquartered in Berlin, Germany
@@ -126,12 +126,12 @@ SkyMirror maintains a regional organization to ensure effective local market pre
 Each regional office is led by a Regional Director who coordinates activities across all business units within their geographic area.
 
 ### Matrix Reporting Relationships
-SkyMirror's matrix structure creates dual reporting relationships:
+Skymirror's matrix structure creates dual reporting relationships:
 
 - **Primary Reporting Line:** Employees report to functional managers who oversee professional development, standards, and methodologies
 - **Secondary Reporting Line:** For project or client work, employees report to business unit leaders or project managers
 
-This structure enables SkyMirror to maintain deep functional expertise while deploying cross-functional teams to address specific client needs or projects.
+This structure enables Skymirror to maintain deep functional expertise while deploying cross-functional teams to address specific client needs or projects.
 
 ## Human Resources Strategy
 
@@ -241,7 +241,7 @@ This structure enables SkyMirror to maintain deep functional expertise while dep
 
 ### Senior Vice President, Education
 - **Responsibilities:**
-  - Leading the SkyMirror Academy business
+  - Leading the Skymirror Academy business
   - Ensuring educational quality and student success
   - Driving curriculum development and innovation
   - Managing faculty and educational resources
@@ -259,7 +259,7 @@ This structure enables SkyMirror to maintain deep functional expertise while dep
 
 ## Advisory Board
 
-SkyMirror has established an advisory board of industry experts who provide strategic guidance and valuable connections. The current advisory board consists of three members:
+Skymirror has established an advisory board of industry experts who provide strategic guidance and valuable connections. The current advisory board consists of three members:
 
 - **Technology Advisor:** Industry expert with extensive experience in AI and software development
 - **Business Strategy Advisor:** Experienced entrepreneur with background in scaling technology startups
@@ -269,11 +269,11 @@ As the company grows, we plan to expand the advisory board to include additional
 
 ## Board of Directors
 
-SkyMirror's Board of Directors provides strategic guidance, governance oversight, and industry connections. The board consists of seven members with diverse backgrounds and expertise:
+Skymirror's Board of Directors provides strategic guidance, governance oversight, and industry connections. The board consists of seven members with diverse backgrounds and expertise:
 
 ### Board Composition
 - **Chairperson:** Technology industry veteran with prior CEO experience
-- **CEO:** SkyMirror's Chief Executive Officer (ex-officio member)
+- **CEO:** Skymirror's Chief Executive Officer (ex-officio member)
 - **Independent Director:** AI and machine learning expert from academia
 - **Independent Director:** Former CIO of a Fortune 500 company
 - **Independent Director:** Education technology entrepreneur
@@ -301,7 +301,7 @@ SkyMirror's Board of Directors provides strategic guidance, governance oversight
 
 ## External Resources and Services
 
-SkyMirror leverages external resources and services to enhance capabilities, maintain flexibility, and optimize operational efficiency:
+Skymirror leverages external resources and services to enhance capabilities, maintain flexibility, and optimize operational efficiency:
 
 ### Strategic Partnerships
 - **Technology Partners:** Cloud service providers, AI technology platforms
@@ -325,7 +325,7 @@ As we execute our growth plan, we will develop additional strategic partnerships
 ### Implementation Partners
 - **System Integrators:** Partners for enterprise client implementations
 - **Regional Implementation Specialists:** Local experts for international deployments
-- **Educational Delivery Partners:** Organizations delivering SkyMirror Academy programs
+- **Educational Delivery Partners:** Organizations delivering Skymirror Academy programs
 - **Technology Transfer Facilitators:** Local partners supporting transfer initiatives
 - **Industry Specialists:** Experts in vertical-specific implementations
 
@@ -338,14 +338,14 @@ As we execute our growth plan, we will develop additional strategic partnerships
 
 ## Human Resources Strategy
 
-SkyMirror's human resources strategy is designed to attract, develop, and retain top talent while building a culture that supports innovation, collaboration, and global impact:
+Skymirror's human resources strategy is designed to attract, develop, and retain top talent while building a culture that supports innovation, collaboration, and global impact:
 
 ### Talent Acquisition
 - **Strategic Workforce Planning:** Proactive identification of talent needs aligned with business strategy
-- **Employer Brand Development:** Positioning SkyMirror as an employer of choice in the technology sector
+- **Employer Brand Development:** Positioning Skymirror as an employer of choice in the technology sector
 - **Global Talent Sourcing:** Diverse recruitment channels spanning multiple geographies and backgrounds
 - **Campus Recruitment:** Partnerships with top universities for early career talent
-- **SkyMirror Academy Pipeline:** Identifying exceptional graduates for employment opportunities
+- **Skymirror Academy Pipeline:** Identifying exceptional graduates for employment opportunities
 - **Referral Program:** Leveraging employee networks to identify qualified candidates
 - **Selection Process:** Rigorous, structured assessment focusing on technical skills, cultural fit, and growth potential
 
@@ -505,7 +505,7 @@ SkyMirror's human resources strategy is designed to attract, develop, and retain
 - Optimize organizational design for maximum agility
 - Implement industry-leading talent management
 - Develop innovative approaches to engagement and retention
-- Establish SkyMirror as an employer of choice globally
+- Establish Skymirror as an employer of choice globally
 - Create sustainable leadership pipeline for long-term growth
 
-This comprehensive organization and management plan provides the framework for building and developing the team that will execute SkyMirror's ambitious vision, ensuring the right capabilities, leadership, and culture to drive sustainable success.
+This comprehensive organization and management plan provides the framework for building and developing the team that will execute Skymirror's ambitious vision, ensuring the right capabilities, leadership, and culture to drive sustainable success.

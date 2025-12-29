@@ -3,7 +3,7 @@ sidebar_position: 3
 title: "Financial Projections"
 ---
 
-# SkyMirror Financial Projections (Conservative 3-Year)
+# Skymirror Financial Projections (Conservative 3-Year)
 
 ## Executive Summary
 
@@ -53,7 +53,7 @@ This document presents financial projections incorporating:
 | - Consulting | €56,000 | €90,000 | €128,000 |
 | - Managed Services | €34,000 | €110,000 | €252,000 |
 | **Software Solutions Total** | **€540,000** | **€1,000,000** | **€1,740,000** |
-| **SkyMirror Academy** | | | |
+| **Skymirror Academy** | | | |
 | - Bootcamps | €160,000 | €294,000 | €440,000 |
 | - Corporate Training | €60,000 | €135,000 | €250,000 |
 | - Short Courses | €20,000 | €52,500 | €110,000 |
@@ -197,7 +197,7 @@ This document presents financial projections incorporating:
 
 ---
 
-## SkyMirror Academy Detailed Projections
+## Skymirror Academy Detailed Projections
 
 ### Enrollment Numbers
 

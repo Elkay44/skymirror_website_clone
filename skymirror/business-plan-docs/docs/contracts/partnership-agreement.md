@@ -15,9 +15,9 @@ This Partnership Agreement ("Agreement") is entered into as of [DATE] ("Effectiv
 
 **BETWEEN:**
 
-**SkyMirror Kft.**  
+**Skymirror Kft.**  
 Registered Address: Kálmán Imre utca 1, 1054 Budapest, Hungary  
-("SkyMirror")
+("Skymirror")
 
 **AND:**
 
@@ -31,13 +31,13 @@ Each a "Party" and collectively the "Parties"
 
 ## 1. DEFINITIONS
 
-**1.1** "Products" means SkyMirror's software products, including CheckMet, Traquiva, and related services.
+**1.1** "Products" means Skymirror's software products, including CheckMet, Traquiva, and related services.
 
 **1.2** "Territory" means [GEOGRAPHIC REGION].
 
 **1.3** "End Customer" means a third party that purchases or uses Products.
 
-**1.4** "Partner Program" means SkyMirror's partner program as described in Schedule A.
+**1.4** "Partner Program" means Skymirror's partner program as described in Schedule A.
 
 **1.5** "Commission" means the fees payable to Partner as specified in Schedule B.
 
@@ -46,17 +46,17 @@ Each a "Party" and collectively the "Parties"
 ## 2. APPOINTMENT
 
 ### 2.1 Appointment
-SkyMirror appoints Partner as a [non-exclusive / exclusive] [Referral Partner / Reseller / Implementation Partner] for the Products in the Territory.
+Skymirror appoints Partner as a [non-exclusive / exclusive] [Referral Partner / Reseller / Implementation Partner] for the Products in the Territory.
 
 ### 2.2 Partner Type
 
-- [ ] **Referral Partner:** Refers leads to SkyMirror; SkyMirror handles sales and delivery
+- [ ] **Referral Partner:** Refers leads to Skymirror; Skymirror handles sales and delivery
 - [ ] **Reseller:** Sells Products directly to End Customers
 - [ ] **Implementation Partner:** Provides implementation and support services
 - [ ] **Technology Partner:** Integrates Products with Partner's solutions
 
 ### 2.3 Non-Exclusivity
-Unless otherwise specified, this appointment is non-exclusive. SkyMirror may appoint other partners and sell directly in the Territory.
+Unless otherwise specified, this appointment is non-exclusive. Skymirror may appoint other partners and sell directly in the Territory.
 
 ---
 
@@ -66,7 +66,7 @@ Unless otherwise specified, this appointment is non-exclusive. SkyMirror may app
 Partner shall:
 - (a) Actively promote Products in the Territory
 - (b) Maintain qualified personnel to support Products
-- (c) Comply with SkyMirror's partner guidelines
+- (c) Comply with Skymirror's partner guidelines
 - (d) Provide accurate information about Products
 - (e) Not make unauthorized representations or warranties
 
@@ -102,7 +102,7 @@ Partner shall comply with:
 ## 4. SKYMIRROR OBLIGATIONS
 
 ### 4.1 Support
-SkyMirror shall provide:
+Skymirror shall provide:
 - (a) Partner portal access
 - (b) Sales and technical training
 - (c) Marketing materials and co-branding guidelines
@@ -110,13 +110,13 @@ SkyMirror shall provide:
 - (e) Regular product updates and roadmap information
 
 ### 4.2 Lead Registration
-SkyMirror shall:
+Skymirror shall:
 - (a) Provide lead registration system
 - (b) Protect registered leads for [90] days
 - (c) Notify Partner of lead status
 
 ### 4.3 Marketing Support
-SkyMirror shall provide:
+Skymirror shall provide:
 - (a) Marketing collateral and templates
 - (b) Co-marketing opportunities
 - (c) Market Development Funds (if applicable): €[X] per year
@@ -129,8 +129,8 @@ SkyMirror shall provide:
 
 ### 5.1 Lead Referral Process
 1. Partner submits lead via partner portal
-2. SkyMirror acknowledges within [2] business days
-3. SkyMirror qualifies and pursues opportunity
+2. Skymirror acknowledges within [2] business days
+3. Skymirror qualifies and pursues opportunity
 4. Partner receives commission upon deal closure
 
 ### 5.2 Referral Commission
@@ -155,7 +155,7 @@ SkyMirror shall provide:
 ### 6.1 Reseller Rights
 Partner may:
 - (a) Market and sell Products to End Customers
-- (b) Use SkyMirror trademarks per guidelines
+- (b) Use Skymirror trademarks per guidelines
 - (c) Set End Customer pricing (subject to minimums)
 
 ### 6.2 Pricing
@@ -170,12 +170,12 @@ Partner shall not sell below [70]% of list price without approval.
 
 ### 6.4 Order Process
 1. Partner submits order via partner portal
-2. SkyMirror provisions customer account
+2. Skymirror provisions customer account
 3. Partner invoices End Customer
-4. Partner pays SkyMirror within [30] days
+4. Partner pays Skymirror within [30] days
 
 ### 6.5 End Customer Agreements
-Partner shall ensure End Customers agree to SkyMirror's:
+Partner shall ensure End Customers agree to Skymirror's:
 - (a) Terms of Service
 - (b) Privacy Policy
 - (c) Acceptable Use Policy
@@ -198,23 +198,23 @@ Partner sets own rates for implementation services.
 
 ### 7.3 Quality Standards
 Partner shall:
-- (a) Follow SkyMirror implementation methodology
+- (a) Follow Skymirror implementation methodology
 - (b) Maintain customer satisfaction scores Greater than 4.0/5
 - (c) Resolve escalations within SLA
 
 ### 7.4 Referral Fees
-For implementation projects referred by SkyMirror:
-- Partner pays [10]% referral fee to SkyMirror
+For implementation projects referred by Skymirror:
+- Partner pays [10]% referral fee to Skymirror
 
 ---
 
 ## 8. INTELLECTUAL PROPERTY
 
 ### 8.1 Ownership
-SkyMirror retains all rights in Products, trademarks, and intellectual property.
+Skymirror retains all rights in Products, trademarks, and intellectual property.
 
 ### 8.2 Trademark License
-SkyMirror grants Partner a limited, non-exclusive license to use SkyMirror trademarks solely for marketing Products per brand guidelines.
+Skymirror grants Partner a limited, non-exclusive license to use Skymirror trademarks solely for marketing Products per brand guidelines.
 
 ### 8.3 Restrictions
 Partner shall not:
@@ -253,11 +253,11 @@ Both Parties shall comply with GDPR and applicable data protection laws.
 Partner shall:
 - (a) Process customer data only as necessary
 - (b) Implement appropriate security measures
-- (c) Notify SkyMirror of data breaches
+- (c) Notify Skymirror of data breaches
 - (d) Assist with data subject requests
 
 ### 10.3 Data Processing Agreement
-If Partner processes personal data on behalf of SkyMirror, Parties shall execute a Data Processing Agreement.
+If Partner processes personal data on behalf of Skymirror, Parties shall execute a Data Processing Agreement.
 
 ---
 
@@ -278,13 +278,13 @@ Either Party may terminate immediately if:
 ### 11.4 Effect of Termination
 Upon termination:
 - (a) Partner rights to sell Products cease
-- (b) Partner shall cease using SkyMirror trademarks
+- (b) Partner shall cease using Skymirror trademarks
 - (c) Existing customer contracts continue
 - (d) Accrued commissions remain payable
 - (e) Confidentiality obligations survive
 
 ### 11.5 Transition
-Partner shall cooperate in transitioning customers to SkyMirror or another partner.
+Partner shall cooperate in transitioning customers to Skymirror or another partner.
 
 ---
 
@@ -296,8 +296,8 @@ Each Party represents that:
 - (b) It will comply with applicable laws
 - (c) It will perform obligations professionally
 
-### 12.2 SkyMirror Warranties
-SkyMirror warrants that Products will perform materially as documented.
+### 12.2 Skymirror Warranties
+Skymirror warrants that Products will perform materially as documented.
 
 ### 12.3 Disclaimer
 EXCEPT AS STATED, PRODUCTS ARE PROVIDED "AS IS."
@@ -318,11 +318,11 @@ EACH PARTY'S LIABILITY SHALL NOT EXCEED THE GREATER OF:
 
 ## 14. INDEMNIFICATION
 
-### 14.1 SkyMirror Indemnification
-SkyMirror shall indemnify Partner against claims that Products infringe third-party IP rights.
+### 14.1 Skymirror Indemnification
+Skymirror shall indemnify Partner against claims that Products infringe third-party IP rights.
 
 ### 14.2 Partner Indemnification
-Partner shall indemnify SkyMirror against claims arising from:
+Partner shall indemnify Skymirror against claims arising from:
 - (a) Partner's breach of this Agreement
 - (b) Partner's negligence or misconduct
 - (c) Partner's unauthorized representations

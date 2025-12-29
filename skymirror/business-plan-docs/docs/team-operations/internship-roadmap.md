@@ -836,7 +836,7 @@ The Leadership phase focuses on teaching, mentoring, advanced projects, and tran
 
 #### Overview
 
-**Focus:** Begin teaching at SkyMirror Academy, mentor junior interns, and lead advanced features
+**Focus:** Begin teaching at Skymirror Academy, mentor junior interns, and lead advanced features
 
 **Key Activities:**
 - **Academy Teaching:** Lead 2-3 beginner sessions per week

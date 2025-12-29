@@ -3,7 +3,7 @@ sidebar_position: 4
 title: "Week 7-8: Customer Discovery"
 ---
 
-# SkyMirror Implementation: Week 7-8
+# Skymirror Implementation: Week 7-8
 ## Customer Discovery Interviews & Assumption Validation
 
 ### Overview
@@ -51,7 +51,7 @@ This document provides the detailed implementation plan for executing customer d
 ## CheckMet Customer Interview
 
 ### Introduction (5 min)
-"Thank you for taking the time. I'm [Name] from SkyMirror. We're always looking 
+"Thank you for taking the time. I'm [Name] from Skymirror. We're always looking 
 to improve CheckMet and I'd love to hear about your experience."
 
 ### Current Usage (10 min)
@@ -75,7 +75,7 @@ to improve CheckMet and I'd love to hear about your experience."
 ### Expansion (10 min)
 13. Are there other departments that could benefit from CheckMet?
 14. What would make you expand your usage?
-15. Are there other SkyMirror products you'd be interested in? (Traquiva, Software)
+15. Are there other Skymirror products you'd be interested in? (Traquiva, Software)
 
 ### Wrap-up (5 min)
 16. Is there anything else you'd like to share?
@@ -129,7 +129,7 @@ attendance and workforce tracking. I'm not here to sell - just to understand."
 ## Traquiva User Interview
 
 ### Introduction (5 min)
-"Thank you for speaking with me. I'm [Name] from SkyMirror. We're always 
+"Thank you for speaking with me. I'm [Name] from Skymirror. We're always 
 looking to improve Traquiva and I'd love to hear about your learning experience."
 
 ### Background (5 min)

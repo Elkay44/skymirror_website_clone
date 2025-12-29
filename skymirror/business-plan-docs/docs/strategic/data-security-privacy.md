@@ -7,7 +7,7 @@ title: "Data Security & Privacy"
 
 ## Overview
 
-SkyMirror's data security and privacy framework establishes comprehensive policies, procedures, and technical controls to protect sensitive information, ensure regulatory compliance, and build trust with customers, partners, and employees. This framework addresses the unique challenges of operating in the European market with AI-powered solutions while maintaining the highest standards of data protection and privacy.
+Skymirror's data security and privacy framework establishes comprehensive policies, procedures, and technical controls to protect sensitive information, ensure regulatory compliance, and build trust with customers, partners, and employees. This framework addresses the unique challenges of operating in the European market with AI-powered solutions while maintaining the highest standards of data protection and privacy.
 
 ## Strategic Principles
 
@@ -23,7 +23,7 @@ SkyMirror's data security and privacy framework establishes comprehensive polici
 
 ### Primary Regulatory Requirements
 
-| Regulation | Scope | Key Requirements | SkyMirror Approach |
+| Regulation | Scope | Key Requirements | Skymirror Approach |
 |------------|-------|------------------|---------------------|
 | **GDPR (EU)** | All personal data of EU residents | Lawful basis, data subject rights, DPIAs, breach notification | Comprehensive GDPR compliance program with regular audits |
 | **AI Act (EU)** | AI systems and applications | Risk-based requirements, transparency, human oversight | Proactive implementation of requirements ahead of enforcement |
@@ -384,6 +384,6 @@ SkyMirror's data security and privacy framework establishes comprehensive polici
 
 ## Conclusion
 
-SkyMirror's data security and privacy framework provides a comprehensive approach to protecting sensitive information, ensuring regulatory compliance, and building trust with all stakeholders. By implementing this framework, we establish a strong foundation for secure and privacy-respecting operations while enabling the innovative use of technology and data.
+Skymirror's data security and privacy framework provides a comprehensive approach to protecting sensitive information, ensuring regulatory compliance, and building trust with all stakeholders. By implementing this framework, we establish a strong foundation for secure and privacy-respecting operations while enabling the innovative use of technology and data.
 
 This framework will be reviewed annually and updated based on evolving threats, regulatory requirements, and business needs. The structured yet flexible approach allows us to adapt to changing circumstances while maintaining consistent protection for our most valuable data assets and respecting the privacy rights of individuals.

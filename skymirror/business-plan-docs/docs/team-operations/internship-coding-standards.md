@@ -7,7 +7,7 @@ title: "Coding Standards & Technical Setup"
 
 ## Overview
 
-This guide defines the technical standards, coding conventions, and development environment setup for SkyMirror interns. Following these standards ensures code quality, consistency, and professional-grade deliverables.
+This guide defines the technical standards, coding conventions, and development environment setup for Skymirror interns. Following these standards ensures code quality, consistency, and professional-grade deliverables.
 
 **Audience:** Interns, Mentors, Technical Reviewers  
 **Last Updated:** December 2024
@@ -32,7 +32,7 @@ Interns work with one of two production-grade stacks based on project needs and 
 | **Performance** | ⚡ Extremely fast (top benchmarks) | Very fast for Python, mature ecosystem |
 | **Learning Curve** | Moderate (TypeScript everywhere) | Moderate (Python + AI tools) |
 | **Industry Demand** | High (modern startups) | Very High (AI/ML roles) |
-| **SkyMirror Projects** | CheckMet API, Traquiva features | AI features, data processing |
+| **Skymirror Projects** | CheckMet API, Traquiva features | AI features, data processing |
 
 ---
 

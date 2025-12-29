@@ -3,7 +3,7 @@ sidebar_position: 3
 title: "Week 5-6: OKR & Dashboards"
 ---
 
-# SkyMirror Implementation: Week 5-6
+# Skymirror Implementation: Week 5-6
 ## OKR Framework & Operational Dashboards
 
 ### Overview
@@ -97,7 +97,7 @@ This document provides the detailed implementation plan for deploying the OKR fr
 | Document 3 solution templates | 3 | Tech Lead | ⬜ |
 | Reduce delivery time by 15% | -15% | PM Lead | ⬜ |
 
-#### SkyMirror Academy - Q1 2025
+#### Skymirror Academy - Q1 2025
 
 **OBJECTIVE: Launch Scalable Education**
 *Owner: Academy Director*

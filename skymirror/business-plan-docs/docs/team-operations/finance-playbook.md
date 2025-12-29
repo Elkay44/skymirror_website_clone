@@ -7,7 +7,7 @@ title: "Finance & Administration Playbook"
 
 ## Overview
 
-This playbook defines the financial management, reporting, and administrative processes for SkyMirror's finance team.
+This playbook defines the financial management, reporting, and administrative processes for Skymirror's finance team.
 
 **Team Lead:** CFO (Abdulwahab A)  
 **Scope:** Financial planning, accounting, compliance, administration  
