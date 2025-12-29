@@ -323,7 +323,7 @@ If performance falls below expectations (rating less than 3):
 - Specific goals and timeline defined
 - Additional support and resources provided
 - Weekly progress reviews
-- Re-evaluation after 4 weeks
+- Re-evaluation after 2 months
 
 ### 8.5 Impact on Compensation
 
@@ -355,10 +355,10 @@ The Company may terminate with 2 weeks' written notice for any reason.
 
 ### 9.2 Termination by Intern
 
-The Intern may terminate with 4 weeks' written notice.
+The Intern may terminate with 2 weeks' written notice.
 
 **Early Termination:**  
-If Intern terminates with less than 4 weeks' notice:
+If Intern terminates with less than 2 weeks' notice:
 - Final stipend prorated to last day worked
 - No quarterly bonus eligibility
 - Equipment must be returned immediately

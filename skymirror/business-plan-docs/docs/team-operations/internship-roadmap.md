@@ -1,16 +1,17 @@
 ---
 sidebar_position: 7
-title: "Internship Roadmap (Weeks 1-4)"
+title: "Internship Roadmap (6 Months)"
 ---
 
-# Internship Roadmap: Week-by-Week Execution Plan
+# Internship Roadmap: Month-by-Month Execution Plan
 
 ## Overview
 
-This roadmap provides a detailed, day-by-day breakdown of the 4-week internship program. Each week has clear themes, objectives, deliverables, and success criteria to ensure structured progression from onboarding to production deployment.
+This roadmap provides a detailed breakdown of the 6-month internship program (extendable to 12 months). Each phase has clear themes, objectives, deliverables, and success criteria to ensure structured progression from onboarding to production deployment and potential teaching opportunities.
 
-**Program Duration:** 4 weeks (20 working days)  
+**Program Duration:** 6 months (26 weeks, ~130 working days) - Extendable to 12 months  
 **Work Schedule:** Monday-Friday, 9:00 AM - 5:00 PM  
+**Start Date:** January 2025  
 **Last Updated:** December 2024
 
 :::tip Navigation
@@ -25,40 +26,44 @@ This roadmap provides a detailed, day-by-day breakdown of the 4-week internship 
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    4-WEEK PROGRESSION                            │
+│                    6-MONTH PROGRESSION                           │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                  │
-│  WEEK 1: ONBOARDING & FOUNDATIONS                               │
-│  Theme: Orientation, tools, and context                         │
-│  Goal: First contribution + full setup                          │
-│  Learning: 50% | Product: 40% | Growth: 10%                     │
+│  PHASE 1: FOUNDATION (Months 1-2)                               │
+│  Theme: Onboarding, tools, and core skills                      │
+│  Goal: First contributions + technical proficiency              │
+│  Learning: 60% | Product: 30% | Growth: 10%                     │
 │                                                                  │
-│  WEEK 2: GUIDED EXECUTION                                       │
-│  Theme: Learning by doing                                       │
-│  Goal: Complete tasks with mentor guidance                      │
+│  PHASE 2: MASTERY (Months 3-4)                                  │
+│  Theme: Independent execution and ownership                     │
+│  Goal: Complete features with minimal guidance                  │
 │  Learning: 30% | Product: 60% | Growth: 10%                     │
 │                                                                  │
-│  WEEK 3: OWNERSHIP & IMPACT                                     │
-│  Theme: Responsibility and confidence                           │
-│  Goal: Independently deliver complete feature                   │
-│  Learning: 20% | Product: 70% | Growth: 10%                     │
+│  PHASE 3: LEADERSHIP (Months 5-6)                               │
+│  Theme: Teaching, mentoring, and advanced projects              │
+│  Goal: Lead features + begin teaching at Academy                │
+│  Learning: 20% | Product: 50% | Growth: 30%                     │
 │                                                                  │
-│  WEEK 4: REFINEMENT & SHOWCASE                                  │
-│  Theme: Quality, reflection, and presentation                   │
-│  Goal: Demonstrate growth and measurable impact                 │
-│  Learning: 15% | Product: 75% | Growth: 10%                     │
+│  OPTIONAL EXTENSION (Months 7-12)                               │
+│  Theme: Specialization and advanced teaching                    │
+│  Goal: Senior developer + Academy instructor role               │
+│  Learning: 10% | Product: 40% | Growth: 50%                     │
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Week 1: Onboarding & Foundations
+## Phase 1: Foundation (Months 1-2)
+**January - February 2025**
 
-### Theme: Orientation, Tools, and Context
-**Primary Goal:** Interns are fully set up, understand expectations, and make their first contribution.
+### Overview
+The Foundation phase focuses on onboarding, technical skill development, and making first contributions. Interns learn the tools, processes, and codebase while completing guided tasks.
 
-### Week 1 Overview
+### Month 1: Onboarding & First Contributions
+**Weeks 1-4 | January 2025**
+
+#### Week 1 Overview
 
 | Day | Focus | Key Activities |
 |-----|-------|----------------|
@@ -297,12 +302,21 @@ This roadmap provides a detailed, day-by-day breakdown of the 4-week internship 
 
 ---
 
-## Week 2: Guided Execution
+#### Week 2-4: Building Momentum
+**Focus:** Guided task completion, sprint participation, and skill development
 
-### Theme: Learning by Doing
-**Primary Goal:** Interns complete tasks with mentor guidance and join active sprint.
+**Key Milestones:**
+- Complete 4-6 small to medium tasks
+- Participate in 3 sprint cycles
+- Attend all stand-ups and retrospectives
+- Complete Academy lectures on fundamentals
 
-### Week 2 Overview
+---
+
+### Month 2: Skill Development & Ownership
+**Weeks 5-8 | February 2025**
+
+#### Overview
 
 | Day | Focus | Key Activities |
 |-----|-------|----------------|
@@ -529,12 +543,33 @@ This roadmap provides a detailed, day-by-day breakdown of the 4-week internship 
 
 ---
 
-## Week 3: Ownership & Impact
+**Focus:** Taking ownership of features, working more independently, and improving code quality
 
-### Theme: Responsibility and Confidence
-**Primary Goal:** Interns independently deliver a complete feature end-to-end.
+**Key Milestones:**
+- Own and complete 2-3 medium-sized features
+- Reduce mentor dependency by 50%
+- Improve code review feedback scores
+- Begin peer code reviews
 
-### Week 3 Overview
+**Phase 1 Success Criteria:**
+- ✅ 8-12 PRs merged
+- ✅ Dev environment mastery
+- ✅ Understanding of full development workflow
+- ✅ First feature shipped to production
+- ✅ Positive mentor feedback
+
+---
+
+## Phase 2: Mastery (Months 3-4)
+**March - April 2025**
+
+### Overview
+The Mastery phase focuses on independent execution, advanced technical skills, and taking ownership of complete features with minimal guidance.
+
+### Month 3: Independent Execution
+**Weeks 9-12 | March 2025**
+
+#### Overview
 
 | Day | Focus | Key Activities |
 |-----|-------|----------------|
@@ -759,257 +794,157 @@ This roadmap provides a detailed, day-by-day breakdown of the 4-week internship 
 
 ---
 
-## Week 4: Refinement & Showcase
+**Focus:** Complex features, architectural decisions, and quality improvements
 
-### Theme: Quality, Reflection, and Presentation
-**Primary Goal:** Demonstrate growth, measurable impact, and professional readiness.
-
-### Week 4 Overview
-
-| Day | Focus | Key Activities |
-|-----|-------|----------------|
-| **Monday** | Polish & Quality | Refine existing work, address feedback |
-| **Tuesday** | Additional Features | Complete remaining sprint tasks |
-| **Wednesday** | Documentation | Technical writing, knowledge transfer |
-| **Thursday** | Final Demo Prep | Polish presentation, gather metrics |
-| **Friday** | Program Conclusion | Final demo, evaluation, celebration |
+**Key Milestones:**
+- Lead 2-3 complex features end-to-end
+- Participate in architectural discussions
+- Mentor newer interns (if applicable)
+- Contribute to technical documentation
 
 ---
 
-### Monday: Polish & Refinement
+### Month 4: Advanced Development
+**Weeks 13-16 | April 2025**
 
-**Schedule:**
+#### Overview
+**Focus:** Performance optimization, testing excellence, and preparing for leadership phase
 
-```
-09:00 - 10:00  Sprint Planning (Final Week)
-10:00 - 10:30  Break
-10:30 - 12:00  Address Outstanding PR Feedback
-12:00 - 13:00  Lunch
-13:00 - 14:30  Code Quality Improvements
-14:30 - 15:00  Break
-15:00 - 16:30  Bug Fixes & Edge Cases
-16:30 - 17:00  Daily Wrap-up
-```
+**Key Milestones:**
+- Implement performance optimizations
+- Achieve 90%+ test coverage on owned features
+- Present technical deep-dive to team
+- Begin exploring teaching opportunities
 
-**Learning (Academy - Trello):**
-- [ ] Lecture: "Career Paths in Tech"
-- [ ] Lecture: "Building Your Portfolio"
-- [ ] Lecture: "Technical Interview Prep"
-
-**Product (Jira):**
-- [ ] Review all previous work
-- [ ] Address any outstanding feedback
-- [ ] Fix bugs or issues
-- [ ] Improve code quality
-- [ ] Update documentation
-
-**Personal Growth (Trello):**
-- [ ] Start final reflection document
-- [ ] Gather metrics and achievements
-- [ ] Plan portfolio updates
-
-**Deliverables:**
-- ✅ All PRs reviewed and polished
-- ✅ Outstanding issues resolved
-- ✅ Code quality at highest level
-- ✅ Documentation updated
+**Phase 2 Success Criteria:**
+- ✅ 15-20 total PRs merged
+- ✅ 3-5 complete features shipped
+- ✅ Code quality rating 4.5/5+
+- ✅ Independent problem-solving demonstrated
+- ✅ Technical presentation delivered
 
 ---
 
-### Tuesday: Additional Contributions
+## Phase 3: Leadership (Months 5-6)
+**May - June 2025**
 
-**Schedule:**
+### Overview
+The Leadership phase focuses on teaching, mentoring, advanced projects, and transitioning to Academy instructor role.
 
-```
-09:00 - 09:15  Daily Stand-up
-09:15 - 10:30  Complete Sprint Tasks
-10:30 - 11:00  Break
-11:00 - 12:00  Testing & QA
-12:00 - 13:00  Lunch
-13:00 - 14:30  Code Reviews for Others
-14:30 - 15:00  Break
-15:00 - 16:30  Knowledge Sharing Session
-16:30 - 17:00  Daily Wrap-up
-```
+### Month 5: Teaching & Mentoring
+**Weeks 17-20 | May 2025**
 
-**Learning (Academy - Trello):**
-- [ ] Lecture: "Next Steps After Internship"
-- [ ] Lecture: "Continuous Learning Strategies"
-- [ ] Complete all remaining lectures
+#### Overview
 
-**Product (Jira):**
-- [ ] Complete any remaining tasks
-- [ ] Participate in code reviews
-- [ ] Help other interns if possible
-- [ ] Contribute to team discussions
+**Focus:** Begin teaching at SkyMirror Academy, mentor junior interns, and lead advanced features
 
-**Personal Growth (Trello):**
-- [ ] Document skills gained
-- [ ] Update resume/LinkedIn
-- [ ] Prepare questions for career discussion
+**Key Activities:**
+- **Academy Teaching:** Lead 2-3 beginner sessions per week
+- **Mentoring:** Guide 1-2 newer interns
+- **Advanced Development:** Own complex, high-impact features
+- **Knowledge Sharing:** Create technical documentation and guides
 
-**Deliverables:**
-- ✅ All sprint tasks completed
-- ✅ Code reviews provided
-- ✅ Knowledge shared with team
-- ✅ Portfolio updated
+**Key Milestones:**
+- Deliver first Academy teaching session
+- Successfully mentor junior intern
+- Lead architectural design discussion
+- Ship high-impact feature
 
 ---
 
-### Wednesday: Documentation & Knowledge Transfer
+### Month 6: Advanced Teaching & Transition
+**Weeks 21-24 | June 2025**
 
-**Schedule:**
+#### Overview
+**Focus:** Expand teaching role, prepare for post-internship career path, and complete program showcase
 
-```
-09:00 - 09:15  Daily Stand-up
-09:15 - 10:30  Write Technical Documentation
-10:30 - 11:00  Break
-11:00 - 12:00  Create Internship Summary Report
-12:00 - 13:00  Lunch
-13:00 - 14:30  Knowledge Transfer Session
-14:30 - 15:00  Break
-15:00 - 16:30  Update Team Wiki/Docs
-16:30 - 17:00  Daily Wrap-up
-```
+**Key Activities:**
+- **Increased Teaching:** 4-6 Academy sessions per week
+- **Curriculum Development:** Create teaching materials
+- **Advanced Projects:** Lead innovation initiatives
+- **Career Planning:** Define post-internship path
 
-**Learning (Academy - Trello):**
-- [ ] Complete all Academy tasks
-- [ ] Final learning reflection
-- [ ] Identify future learning goals
+**Key Milestones:**
+- Teach 15+ Academy sessions
+- Develop original teaching content
+- Complete capstone project
+- Present final program showcase
+- Receive post-internship offer
 
-**Product (Jira):**
-- [ ] Document all features built
-- [ ] Write handover notes
-- [ ] Update README files
-- [ ] Create architecture diagrams (if applicable)
-
-**Personal Growth (Trello):**
-- [ ] Write comprehensive internship summary:
-  - Features shipped
-  - Skills gained
-  - Challenges overcome
-  - Key learnings
-  - Impact metrics
-
-**Deliverables:**
-- ✅ Technical documentation complete
-- ✅ Internship summary written
-- ✅ Knowledge transfer completed
-- ✅ Team wiki updated
+**Phase 3 Success Criteria:**
+- ✅ 25+ total PRs merged
+- ✅ 6-10 complete features shipped
+- ✅ 15+ Academy teaching sessions delivered
+- ✅ Positive student feedback (4.5/5+)
+- ✅ Mentored 1-2 junior interns successfully
+- ✅ Capstone project completed and presented
 
 ---
 
-### Thursday: Final Demo Preparation
+## Optional Extension: Months 7-12
+**July 2025 - December 2025**
 
-**Schedule:**
+### Overview
+For high-performing interns, the program can extend to 12 months with increased focus on teaching, specialization, and leadership.
 
-```
-09:00 - 09:15  Daily Stand-up
-09:15 - 10:30  Gather Metrics & Achievements
-10:30 - 11:00  Break
-11:00 - 12:00  Create Demo Presentation
-12:00 - 13:00  Lunch
-13:00 - 14:30  Practice Demo
-14:30 - 15:00  Break
-15:00 - 16:00  Final Mentor 1:1
-16:00 - 17:00  Demo Rehearsal
-```
+### Focus Areas
 
-**Learning (Academy - Trello):**
-- [ ] All lectures completed ✅
-- [ ] All assignments done ✅
-- [ ] Final self-assessment
+**Teaching Excellence (40% time)**
+- Lead 8-12 Academy sessions per week
+- Develop comprehensive course modules
+- Mentor multiple junior interns
+- Contribute to curriculum design
 
-**Product (Jira):**
-- [ ] All tasks completed or handed over
-- [ ] Final sprint board cleanup
-- [ ] Metrics collected:
-  - PRs merged
-  - Lines of code
-  - Features shipped
-  - Tests written
+**Advanced Development (40% time)**
+- Architect and lead major features
+- Technical leadership on projects
+- Innovation and R&D initiatives
+- Cross-product collaboration
 
-**Personal Growth (Trello):**
-- [ ] Create demo presentation
-- [ ] Practice presenting
-- [ ] Prepare for Q&A
-- [ ] Final reflection
+**Professional Growth (20% time)**
+- Conference presentations
+- Technical blog posts
+- Open source contributions
+- Industry certifications
 
-**Deliverables:**
-- ✅ Demo presentation ready
-- ✅ Metrics compiled
-- ✅ All work completed
-- ✅ Ready for final day
+### Career Paths After Extension
 
----
+**Path 1: Full-Time Engineering**
+- Senior Developer role
+- Continue product development
+- Technical leadership opportunities
 
-### Friday: Program Conclusion & Celebration
+**Path 2: Academy Instructor**
+- Full-time teaching position
+- Curriculum development
+- Student mentorship
 
-**Schedule:**
+**Path 3: Hybrid Role**
+- 50% Engineering / 50% Teaching
+- Best of both worlds
+- Unique career trajectory
 
-```
-09:00 - 09:15  Final Stand-up
-09:15 - 10:30  Last-Minute Preparations
-10:30 - 11:00  Break
-11:00 - 12:00  Final Demo Presentation
-12:00 - 13:00  Lunch (Team Celebration)
-13:00 - 14:00  Program Retrospective
-14:00 - 15:00  Final Evaluation & Feedback
-15:00 - 16:00  Career Discussion & Next Steps
-16:00 - 17:00  Closing Ceremony & Certificates
-```
-
-**Learning (Academy - Trello):**
-- [ ] Program completion ✅
-- [ ] Receive certificate
-- [ ] Get learning recommendations
-
-**Product (Jira):**
-- [ ] Final demo delivered
-- [ ] All work documented
-- [ ] Access permissions updated
-- [ ] Handover complete
-
-**Personal Growth (Trello):**
-- [ ] Final evaluation received
-- [ ] Career path discussed
-- [ ] Next steps planned
-- [ ] Celebration! 🎉
-
-**Deliverables:**
-- ✅ **Final demo presented**
-- ✅ **Program completed**
-- ✅ **Evaluation received**
-- ✅ **Next steps defined**
-
----
-
-### Week 4 Success Criteria
-
-| Metric | Target | Actual |
-|--------|--------|--------|
-| All Tasks Completed | 100% | ___ |
-| Documentation | Complete | ___ |
-| Final Demo | Delivered | ___ |
-| Internship Summary | Written | ___ |
-| Program Satisfaction | 4.5/5 | ___ |
-| Career Plan | Defined | ___ |
+**Path 4: Freelance/Consulting**
+- Project-based work
+- Flexible schedule
+- Multiple client engagements
 
 ---
 
 ## Overall Program Metrics
 
-### 4-Week Cumulative Targets
+### 6-Month Cumulative Targets
 
 | Metric | Target | Measurement Method |
 |--------|--------|-------------------|
-| **Features Shipped** | 2-3 complete features | Jira + Production |
-| **PRs Merged** | 8-12 PRs | GitHub |
-| **Code Quality** | 4/5 average | PR reviews |
-| **Test Coverage** | 80%+ | Code coverage tools |
-| **Lectures Completed** | 25-30 lectures | Trello Academy |
-| **Stand-ups Attended** | 18-20 / 20 | Attendance |
-| **Mentor 1:1s** | 4-5 sessions | Calendar |
+| **Features Shipped** | 6-10 complete features | Jira + Production |
+| **PRs Merged** | 25+ PRs | GitHub |
+| **Code Quality** | 4.5/5 average | PR reviews |
+| **Test Coverage** | 85%+ | Code coverage tools |
+| **Lectures Completed** | 60-80 lectures | Trello Academy |
+| **Stand-ups Attended** | 115-120 / 130 | Attendance |
+| **Mentor 1:1s** | 12-15 sessions | Calendar |
+| **Teaching Sessions** | 15+ sessions | Academy tracking |
 | **Documentation** | Complete | Review |
 
 ---
