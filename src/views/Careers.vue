@@ -1,26 +1,58 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-16 overflow-hidden">
-        <!-- Global background applied here -->
-      <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto">
-          <div class="text-center mb-8">
-            <span class="text-primary-dark font-semibold inline-block mb-2">Join Our Team</span>
-            <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">Join the Journey of Skyrocketing Global Innovation</h1>
-            <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-              At Skymirror, we're not just building technology—we're shaping a connected, sustainable world. As leaders in software development, AI applications, technology transfer, and global education, we're looking for passionate innovators to join our mission.
+    <section class="relative pt-28 pb-10 overflow-hidden ">
+      <!-- Dynamic background -->
+      <div class="absolute inset-0 bg-gradient-to-br from-accent1/5 via-transparent to-primary/5"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-accent1/10 to-primary/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float delay-1000"></div>
+      
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center max-w-6xl mx-auto">
+          <div class="space-y-4">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20">
+              <div class="w-2 h-2 bg-accent1 rounded-full animate-float"></div>
+              <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Join Our Team</span>
+            </div>
+            
+            <!-- Main heading -->
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
+              <span class="text-gray-900">Join the Journey of</span><br/>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent1 via-accent1 to-primary">Skyrocketing</span><br/>
+              <span class="text-primary">Global Innovation</span>
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+              At Skymirror, we're not just building technology—we're <span class="text-accent1 font-semibold">shaping a connected, sustainable world</span>. As leaders in software development, AI applications, and global education, we're looking for <span class="text-primary font-semibold">passionate innovators</span> to join our mission.
             </p>
+            
+            <!-- Career Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
+              <div class="text-center">
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">Remote</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">First Culture</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Global</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Opportunities</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">Growth</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Focused</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Why Skymirror Section -->
-    <section class="py-16 bg-white">
+    <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <div class="glass-card rounded-xl p-8 shadow-xl">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-8 shadow-xl">
             <h2 class="text-3xl font-heading font-bold mb-6 text-primary">Why Skymirror?</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
@@ -69,10 +101,10 @@
     </section>
 
     <!-- Opportunities Section -->
-    <section class="py-16 bg-neutral-50">
+    <section class="py-12 bg-neutral-50">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <div class="glass-card rounded-xl p-8 shadow-xl">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-8 shadow-xl">
             <h2 class="text-3xl font-heading font-bold mb-6 text-primary">Opportunities Coming Soon</h2>
             <p class="text-gray-700 mb-6">
               We're gearing up to launch exciting roles in:
@@ -102,12 +134,12 @@
     </section>
 
     <!-- Call to Action Section -->
-    <section class="py-16 bg-white">
+    <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <div class="glass-card rounded-xl p-12 text-center shadow-xl">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-8 text-center shadow-xl">
             <h2 class="text-3xl font-heading font-bold mb-6 text-primary">Stay Connected</h2>
-            <p class="text-gray-700 mb-8 max-w-2xl mx-auto">
+            <p class="text-gray-700 mb-6 max-w-2xl mx-auto">
               Can't wait to soar with us? Reach out to <a href="mailto:careers@skymirror.eu" class="text-primary hover:underline">careers@skymirror.eu</a> to express your interest, and we'll notify you when opportunities open. Together, let's build a sustainable future through innovation.
             </p>
             

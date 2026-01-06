@@ -1,23 +1,55 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-20 overflow-hidden">
-        <!-- Global background applied here -->
-      <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto">
-          <div class="text-center mb-12">
-            <span class="text-primary-dark font-semibold inline-block mb-2">Enterprise Solutions</span>
-            <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">Quantum Technology for Enterprise Excellence</h1>
-            <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-              Transform your enterprise with sovereign quantum technology solutions tailored to your business challenges.
+    <section class="relative pt-28 pb-10 overflow-hidden ">
+      <!-- Dynamic background -->
+      <div class="absolute inset-0 bg-gradient-to-br from-accent2/5 via-transparent to-primary/5"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-accent2/10 to-primary/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-primary/10 to-accent2/10 rounded-full blur-3xl animate-float delay-1000"></div>
+      
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center max-w-6xl mx-auto">
+          <div class="space-y-4">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent2/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent2/20">
+              <div class="w-2 h-2 bg-accent2 rounded-full animate-float"></div>
+              <span class="text-accent2 font-semibold text-sm tracking-wide uppercase">Enterprise Solutions</span>
+            </div>
+            
+            <!-- Main heading -->
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent2 via-accent2 to-primary">Enterprise</span><br/>
+              <span class="text-gray-900">Technology</span><br/>
+              <span class="text-primary">Excellence</span>
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+              Transform your enterprise with <span class="text-accent2 font-semibold">cutting-edge technology solutions</span> tailored to your <span class="text-primary font-semibold">business challenges</span>.
             </p>
+            
+            <!-- Enterprise Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
+              <div class="text-center">
+                <div class="text-2xl md:text-3xl font-black text-accent2 mb-2">Enterprise</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Grade Solutions</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Scalable</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Architecture</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl md:text-3xl font-black text-accent2 mb-2">24/7</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Support</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Enterprise Benefits Section -->
-    <section class="py-16 bg-white">
+    <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
           <h2 class="text-3xl font-heading font-bold mb-4">Enterprise-Grade Quantum Solutions</h2>
@@ -28,7 +60,7 @@
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Benefit Card 1 -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-lg mb-4">
               <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
@@ -41,7 +73,7 @@
           </div>
           
           <!-- Benefit Card 2 -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="w-14 h-14 bg-accent1/10 flex items-center justify-center rounded-lg mb-4">
               <svg class="w-8 h-8 text-accent1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path>
@@ -54,7 +86,7 @@
           </div>
           
           <!-- Benefit Card 3 -->
-          <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+          <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="w-14 h-14 bg-accent2/10 flex items-center justify-center rounded-lg mb-4">
               <svg class="w-8 h-8 text-accent2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M6.625 2.655A9 9 0 0119 11a1 1 0 11-2 0 7 7 0 00-9.625-6.492 1 1 0 11-.75-1.853zM4.662 4.959A1 1 0 014.75 6.37 6.97 6.97 0 003 11a1 1 0 11-2 0 8.97 8.97 0 012.25-5.953 1 1 0 011.412-.088z" clip-rule="evenodd"></path>
@@ -71,9 +103,9 @@
     </section>
 
     <!-- Industry Solutions Section -->
-    <section class="py-16 bg-neutral-50">
+    <section class="py-12 bg-neutral-50">
       <div class="container mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="text-center max-w-3xl mx-auto mb-8">
           <h2 class="text-3xl font-heading font-bold mb-4">Industry-Specific Solutions</h2>
           <p class="text-gray-700">
             Quantum technology tailored to the unique challenges of your industry.
@@ -265,10 +297,10 @@
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">Ready to Transform Your Enterprise?</h2>
-          <p class="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
+          <p class="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
             Schedule a consultation with our quantum experts to discover how Skymirror's solutions can drive your business forward.
           </p>
-          <router-link to="/consultation" class="px-8 py-4 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <router-link to="/consultation" class="px-6 py-3 bg-white text-primary font-semibold rounded-full shadow-lg ripple hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
             Request a Consultation
           </router-link>
         </div>

@@ -18,6 +18,11 @@ import TermsOfService from '../views/TermsOfService.vue'
 import PrivacyPolicy from '../views/PrivacyPolicy.vue'
 import CookiePolicy from '../views/CookiePolicy.vue'
 import Privacy from '../views/Privacy.vue'
+// Case Study Pages
+import CaseStudyFintechStartup from '../views/CaseStudyFintechStartup.vue'
+import CaseStudyTechnologyTransfer from '../views/CaseStudyTechnologyTransfer.vue'
+import CaseStudyProcessAutomation from '../views/CaseStudyProcessAutomation.vue'
+import CaseStudyCybersecurityTraining from '../views/CaseStudyCybersecurityTraining.vue'
 
 const routes = [
   {
@@ -71,6 +76,27 @@ const routes = [
     path: '/case-studies',
     name: 'CaseStudies',
     component: CaseStudies
+  },
+  // Individual Case Study Pages
+  {
+    path: '/case-studies/fintech-startup',
+    name: 'CaseStudyFintechStartup',
+    component: CaseStudyFintechStartup
+  },
+  {
+    path: '/case-studies/technology-transfer',
+    name: 'CaseStudyTechnologyTransfer',
+    component: CaseStudyTechnologyTransfer
+  },
+  {
+    path: '/case-studies/process-automation',
+    name: 'CaseStudyProcessAutomation',
+    component: CaseStudyProcessAutomation
+  },
+  {
+    path: '/case-studies/cybersecurity-training',
+    name: 'CaseStudyCybersecurityTraining',
+    component: CaseStudyCybersecurityTraining
   },
   
   // Company Information

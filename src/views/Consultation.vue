@@ -1,32 +1,64 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative pt-28 pb-3 overflow-hidden">
-        <!-- Global background applied here -->
-      <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto">
-          <div class="text-center mb-12">
-            <span class="text-primary-dark font-semibold inline-block mb-2">Talk to an expert</span>
-            <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">Expert Guidance for Your Business</h1>
-            <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-              Discover how Skymirror's solutions can address your most complex business challenges.
+    <section class="relative pt-28 pb-10 overflow-hidden ">
+      <!-- Dynamic background -->
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 animate-gradient"></div>
+      <div class="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-20 left-20 w-72 h-72 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-float delay-1000"></div>
+      
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center max-w-6xl mx-auto">
+          <div class="space-y-4">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
+              <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
+              <span class="text-primary font-semibold text-sm tracking-wide uppercase">Talk to an Expert</span>
+            </div>
+            
+            <!-- Main heading -->
+            <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.9]">
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent1">Expert Guidance</span><br/>
+              <span class="text-gray-900">for Your</span><br/>
+              <span class="text-accent1">Business</span>
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+              Discover how <span class="text-primary font-semibold">Skymirror's solutions</span> can address your most <span class="text-accent1 font-semibold">complex business challenges</span>.
             </p>
+            
+            <!-- Trust indicators -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 max-w-4xl mx-auto">
+              <div class="text-center">
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Free</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Consultation</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl md:text-3xl font-black text-accent1 mb-2">24h</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Response Time</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">Expert</div>
+                <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Guidance</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Consultation Form Section -->
-    <section class="py-16 bg-white">
+    <section class="py-12 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
               <h2 class="text-3xl font-heading font-bold mb-4">Request a Consultation</h2>
               <p class="text-gray-700 mb-6">
                 Fill out the form to schedule a consultation with our experts. We'll analyze your business needs and recommend the most suitable solutions.
               </p>
-              <div class="space-y-4 mb-8">
+              <div class="space-y-4 mb-6">
                 <div class="flex items-center gap-3">
                   <div class="w-10 h-10 bg-primary/10 flex items-center justify-center rounded-full flex-shrink-0">
                     <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -75,8 +107,8 @@
                 </ul>
               </div>
             </div>
-            <div class="glass-card rounded-xl p-8">
-              <form class="space-y-6" @submit.prevent="submitForm">
+            <div class="glass-card interactive-card hover-lift rounded-xl p-8">
+              <form class="space-y-4" @submit.prevent="submitForm">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
@@ -189,7 +221,7 @@
         <div class="max-w-5xl mx-auto">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Step 1 -->
-            <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+            <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
               <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-full mb-4">
                 <span class="text-primary font-bold text-xl">01</span>
               </div>
@@ -200,7 +232,7 @@
             </div>
             
             <!-- Step 2 -->
-            <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+            <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
               <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-full mb-4">
                 <span class="text-primary font-bold text-xl">02</span>
               </div>
@@ -211,7 +243,7 @@
             </div>
             
             <!-- Step 3 -->
-            <div class="glass-card rounded-xl p-6 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+            <div class="glass-card interactive-card hover-lift rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
               <div class="w-14 h-14 bg-primary/10 flex items-center justify-center rounded-full mb-4">
                 <span class="text-primary font-bold text-xl">03</span>
               </div>
