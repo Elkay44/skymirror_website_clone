@@ -31,7 +31,7 @@
             <!-- Success Stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 max-w-5xl mx-auto">
               <div class="text-center">
-                <div class="text-2xl md:text-3xl font-black text-primary mb-2">4</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-2">6</div>
                 <div class="text-sm font-medium text-gray-600 uppercase tracking-wide">Products</div>
               </div>
               <div class="text-center">
@@ -80,7 +80,13 @@
             </div>
             <div class="bg-gradient-to-br from-primary/90 to-primary-dark/90 relative">
               <div class="aspect-video w-full h-full flex items-center justify-center p-8">
-                <img src="https://via.placeholder.com/300x200.png?text=fintech-startup-case-study.jpg" alt="Fintech Startup" class="rounded-lg shadow-lg max-h-full object-cover" />
+                <svg viewBox="0 0 300 200" class="rounded-lg shadow-lg max-h-full" role="img" aria-label="Fintech platform illustration">
+                  <rect width="300" height="200" rx="12" fill="rgba(255,255,255,0.08)"/>
+                  <line x1="20" y1="160" x2="280" y2="160" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+                  <polyline points="20,140 65,120 110,130 155,90 200,100 245,60 280,70" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="245" cy="60" r="5" fill="#fff"/>
+                  <text x="150" y="40" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="14" font-weight="bold" font-family="sans-serif">FINTECH PLATFORM</text>
+                </svg>
               </div>
               <div class="absolute bottom-4 right-4 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg text-white text-sm">
                 <div class="flex items-center gap-2">
@@ -99,7 +105,13 @@
           <!-- Case Study 1 -->
           <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="aspect-video w-full bg-gradient-to-br from-accent1/90 to-accent1-dark/90 relative">
-              <img src="https://via.placeholder.com/300x200.png?text=case-study-pharma.jpg" alt="Pharmaceutical Research" class="w-full h-full object-cover mix-blend-overlay" />
+              <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice" class="w-full h-full" role="img" aria-label="Technology transfer illustration">
+                <rect width="300" height="200" fill="rgba(255,255,255,0.05)"/>
+                <rect x="60" y="70" width="80" height="60" rx="6" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2"/>
+                <rect x="160" y="70" width="80" height="60" rx="6" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2"/>
+                <path d="M145 100 h10 m0 0 l-4 -4 m4 4 l-4 4" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2"/>
+                <text x="150" y="155" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13" font-weight="bold" font-family="sans-serif">TECH TRANSFER</text>
+              </svg>
               <div class="absolute inset-0 flex items-center justify-center">
                 <span class="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg text-white text-sm font-medium">
                   Technology Transfer
@@ -127,7 +139,15 @@
           <!-- Case Study 2 -->
           <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="aspect-video w-full bg-gradient-to-br from-accent2/90 to-accent2-dark/90 relative">
-              <img src="https://via.placeholder.com/300x200.png?text=case-study-logistics.jpg" alt="Logistics Optimization" class="w-full h-full object-cover mix-blend-overlay" />
+              <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice" class="w-full h-full" role="img" aria-label="Process automation illustration">
+                <rect width="300" height="200" fill="rgba(255,255,255,0.05)"/>
+                <circle cx="90" cy="100" r="22" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+                <circle cx="210" cy="100" r="22" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+                <path d="M112 100 h76 m0 0 l-6 -6 m6 6 l-6 6" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2"/>
+                <circle cx="90" cy="100" r="8" fill="rgba(255,255,255,0.5)"/>
+                <circle cx="210" cy="100" r="8" fill="rgba(255,255,255,0.5)"/>
+                <text x="150" y="45" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13" font-weight="bold" font-family="sans-serif">AI AUTOMATION</text>
+              </svg>
               <div class="absolute inset-0 flex items-center justify-center">
                 <span class="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg text-white text-sm font-medium">
                   AI-Powered Process Automation
@@ -155,7 +175,12 @@
           <!-- Case Study 3 -->
           <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105">
             <div class="aspect-video w-full bg-gradient-to-br from-primary/90 to-primary-dark/90 relative">
-              <img src="https://via.placeholder.com/300x200.png?text=case-study-cybersecurity.jpg" alt="Cybersecurity" class="w-full h-full object-cover mix-blend-overlay" />
+              <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice" class="w-full h-full" role="img" aria-label="Cybersecurity illustration">
+                <rect width="300" height="200" fill="rgba(255,255,255,0.05)"/>
+                <path d="M150 55 l40 15 v35 c0 28 -18 45 -40 55 c-22 -10 -40 -27 -40 -55 v-35 z" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="2.5"/>
+                <path d="M135 105 l12 12 25 -25" fill="none" stroke="rgba(255,255,255,0.95)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <text x="150" y="40" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="13" font-weight="bold" font-family="sans-serif">CYBERSECURITY</text>
+              </svg>
               <div class="absolute inset-0 flex items-center justify-center">
                 <span class="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg text-white text-sm font-medium">
                   Cybersecurity Training
@@ -242,7 +267,7 @@
               </div>
               <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-accent2 transition-colors">Global Innovation</h3>
               <p class="text-gray-600 leading-relaxed">
-                Based in Budapest with a global perspective, we bring international best practices to every project while understanding local market needs.
+                Headquartered in Budapest with offices in Bauchi and Kano, we bring international best practices to every project while understanding local market needs.
               </p>
             </div>
           </div>

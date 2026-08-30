@@ -7,9 +7,9 @@
     
     <div class="container mx-auto px-8 relative z-10">
       <!-- Main Footer Content -->
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-10">
         <!-- Brand Column -->
-        <div class="md:col-span-1">
+        <div class="lg:col-span-1 lg:row-span-1">
           <router-link to="/" class="inline-block mb-8" aria-label="Skymirror Home">
             <div class="flex items-center gap-3">
               <div class="relative">
@@ -70,7 +70,7 @@
           <ul class="space-y-4">
             <li><a href="https://www.traquiva.com" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
               <div class="w-1.5 h-1.5 bg-accent1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              Traquiva Learning Platform
+              Traquiva
               <svg class="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
                 <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
@@ -78,12 +78,43 @@
             </a></li>
             <li><a href="https://checkmet.eu/" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
               <div class="w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              Checkmet Attendance System
+              Checkmet
               <svg class="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
                 <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
               </svg>
             </a></li>
+            <li><a href="https://polmirror.com/" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
+              <div class="w-1.5 h-1.5 bg-accent2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              PolMirror
+              <svg class="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
+                <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
+              </svg>
+            </a></li>
+            <li><a href="https://askmeso.io/" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
+              <div class="w-1.5 h-1.5 bg-accent2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              AskMeso Olympiad Mentor
+              <svg class="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
+                <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
+              </svg>
+            </a></li>
+            <li><a href="https://maplens.io/" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
+              <div class="w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              Maplens
+              <svg class="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
+                <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
+              </svg>
+            </a></li>
+          </ul>
+        </div>
+
+        <!-- Company Column -->
+        <div class="md:col-span-1">
+          <h3 class="text-xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-accent2 to-accent1">Company</h3>
+          <ul class="space-y-4">
             <li><router-link to="/about" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
               <div class="w-1.5 h-1.5 bg-accent2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               About Us
@@ -92,9 +123,25 @@
               <div class="w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               Case Studies
             </router-link></li>
+            <li><router-link to="/industry-solutions" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
+              <div class="w-1.5 h-1.5 bg-accent1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              Industry Solutions
+            </router-link></li>
+            <li><router-link to="/careers" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
+              <div class="w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              Careers
+            </router-link></li>
+            <li><router-link to="/partners" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
+              <div class="w-1.5 h-1.5 bg-accent2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              Partners
+            </router-link></li>
+            <li><router-link to="/faq" class="group flex items-center gap-2 text-gray-400 hover:text-white hover:translate-x-2 transition-all duration-300">
+              <div class="w-1.5 h-1.5 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              FAQ
+            </router-link></li>
           </ul>
         </div>
-        
+
         <!-- Contact Column -->
         <div class="md:col-span-1">
           <h3 class="text-xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-accent2 to-primary">Contact</h3>
@@ -126,13 +173,28 @@
               </a>
             </div>
             
-            <div class="p-4 bg-gradient-to-br from-white/5 to-white/10 rounded-xl border border-white/10">
-              <address class="text-gray-300 not-italic text-sm leading-relaxed">
-                <div class="font-medium text-white mb-1">Budapest Office</div>
-                Kálmán Imre utca 1<br>
-                Budapest President centre, 1054<br>
-                Budapest, Hungary
-              </address>
+            <!-- Office locations (single source of truth: src/data/locations.js) -->
+            <div class="space-y-3">
+              <a
+                v-for="office in offices"
+                :key="office.id"
+                :href="office.mapsUrl"
+                target="_blank"
+                rel="noopener"
+                class="block p-4 bg-gradient-to-br from-white/5 to-white/10 rounded-xl border border-white/10 hover:border-white/30 transition-all duration-300 group"
+                :aria-label="`Get directions to our ${office.name}`"
+              >
+                <div class="flex items-center justify-between gap-2 mb-1">
+                  <span class="font-medium text-white text-sm">{{ office.name }}</span>
+                  <svg class="w-4 h-4 text-primary opacity-60 group-hover:opacity-100 group-hover:-translate-y-0.5 transition-all shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 001.039.573l.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <address class="text-gray-300 not-italic text-sm leading-relaxed">
+                  <div v-for="(line, i) in office.lines" :key="i">{{ line }}</div>
+                  <span class="inline-block text-xs text-primary/80 mt-1.5 group-hover:text-primary transition-colors">Get Directions</span>
+                </address>
+              </a>
             </div>
             
             <router-link to="/consultation" class="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary/20 to-accent1/20 hover:from-primary/30 hover:to-accent1/30 text-white font-semibold rounded-xl border border-white/20 transition-all duration-300 transform hover:-translate-y-1">
@@ -161,15 +223,15 @@
           
           <div class="flex items-center gap-8">
             <div class="flex gap-6">
-              <router-link to="/legal/terms-conditions" class="group text-gray-400 hover:text-white transition-all duration-300 text-sm flex items-center gap-1">
+              <router-link to="/terms-of-service" class="group text-gray-400 hover:text-white transition-all duration-300 text-sm flex items-center gap-1">
                 <div class="w-1 h-1 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 Terms
               </router-link>
-              <router-link to="/legal/privacy-policy" class="group text-gray-400 hover:text-white transition-all duration-300 text-sm flex items-center gap-1">
+              <router-link to="/privacy-policy" class="group text-gray-400 hover:text-white transition-all duration-300 text-sm flex items-center gap-1">
                 <div class="w-1 h-1 bg-accent1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 Privacy
               </router-link>
-              <router-link to="/legal/cookie-policy" class="group text-gray-400 hover:text-white transition-all duration-300 text-sm flex items-center gap-1">
+              <router-link to="/cookie-policy" class="group text-gray-400 hover:text-white transition-all duration-300 text-sm flex items-center gap-1">
                 <div class="w-1 h-1 bg-accent2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 Cookies
               </router-link>
@@ -188,5 +250,7 @@
 </template>
 
 <script setup>
-// No additional scripts needed for the footer
+import { OFFICES } from '../../data/locations'
+
+const offices = OFFICES
 </script>

@@ -17,7 +17,6 @@ import Consultation from '../views/Consultation.vue'
 import TermsOfService from '../views/TermsOfService.vue'
 import PrivacyPolicy from '../views/PrivacyPolicy.vue'
 import CookiePolicy from '../views/CookiePolicy.vue'
-import Privacy from '../views/Privacy.vue'
 // Case Study Pages
 import CaseStudyFintechStartup from '../views/CaseStudyFintechStartup.vue'
 import CaseStudyTechnologyTransfer from '../views/CaseStudyTechnologyTransfer.vue'
@@ -146,8 +145,7 @@ const routes = [
   },
   {
     path: '/privacy',
-    name: 'Privacy',
-    component: Privacy
+    redirect: '/privacy-policy'
   },
 
   {
@@ -156,11 +154,8 @@ const routes = [
   }
 ]
 
-// Add this as the last route in your routes array
-
-
 const router = createRouter({
-  history: createWebHistory(),  // Remove the 'm' parameter
+  history: createWebHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {

@@ -53,7 +53,7 @@
             <!-- Success Metrics - Interactive -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6 border-t border-gray-200">
               <div class="group text-center p-3 rounded-xl hover:bg-primary/5 transition-all duration-300 cursor-pointer hover-lift">
-                <div class="text-2xl md:text-3xl font-black text-primary mb-1 group-hover:scale-110 transition-transform duration-300">4</div>
+                <div class="text-2xl md:text-3xl font-black text-primary mb-1 group-hover:scale-110 transition-transform duration-300">6</div>
                 <div class="text-xs font-medium text-gray-600 uppercase tracking-wide group-hover:text-primary transition-colors">Live Products</div>
               </div>
               <div class="group text-center p-3 rounded-xl hover:bg-accent1/5 transition-all duration-300 cursor-pointer hover-lift">
@@ -129,7 +129,7 @@
                         <div class="bg-gradient-to-r from-primary to-accent1 h-2 rounded-full w-4/5"></div>
                       </div>
                       <div class="flex justify-between text-xs text-gray-500 mt-1">
-                        <span>4 Products</span>
+                        <span>6 Products</span>
                         <span>Global Reach</span>
                       </div>
                     </div>

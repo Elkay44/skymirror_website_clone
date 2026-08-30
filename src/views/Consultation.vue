@@ -77,6 +77,35 @@
                   <span class="text-gray-700">info@skymirror.eu</span>
                 </div>
               </div>
+              <!-- Office locations (single source of truth: src/data/locations.js) -->
+              <div class="mb-6">
+                <h3 class="text-xl font-semibold mb-3">Visit Our Offices</h3>
+                <div class="space-y-3">
+                  <a
+                    v-for="office in offices"
+                    :key="office.id"
+                    :href="office.mapsUrl"
+                    target="_blank"
+                    rel="noopener"
+                    class="flex items-start gap-3 p-4 bg-neutral-50 rounded-xl hover:bg-primary/5 transition-colors group"
+                    :aria-label="`Get directions to our ${office.name}`"
+                  >
+                    <div class="w-10 h-10 bg-primary/10 flex items-center justify-center rounded-full flex-shrink-0">
+                      <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 001.039.573l.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" clip-rule="evenodd"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="flex items-center gap-2">
+                        <span class="font-medium text-gray-900 group-hover:text-primary transition-colors">{{ office.name }}</span>
+                        <span v-if="office.badge" class="text-[10px] font-semibold uppercase tracking-wide px-2 py-0.5 rounded-full bg-primary/10 text-primary">{{ office.badge }}</span>
+                      </div>
+                      <div class="text-sm text-gray-600">{{ office.lines.join(', ') }}</div>
+                      <div class="text-xs text-primary mt-1">Get directions</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
               <div class="p-6 bg-neutral-50 rounded-xl">
                 <h3 class="text-xl font-semibold mb-3">What to Expect</h3>
                 <ul class="space-y-3">
@@ -198,8 +227,9 @@
                   </p>
                 </div>
               </form>
-              <p v-if="responseMessage" :class="responseMessage.includes('Error') ? 'text-red-600' : 'text-green-600'" class="mt-4 text-center">
+              <p v-if="responseMessage" :class="isError ? 'text-red-600' : 'text-green-600'" class="mt-4 text-center font-medium" role="status">
                 {{ responseMessage }}
+                <a v-if="isError && mailtoHref" :href="mailtoHref" class="text-primary underline">Email us instead</a>
               </p>
             </div>
             
@@ -266,9 +296,14 @@
 </template>
 
 <script>
+import { OFFICES } from '../data/locations'
+
+const INQUIRY_EMAIL = 'info@skymirror.eu'
+
 export default {
   data() {
     return {
+      offices: OFFICES,
       form: {
         firstName: '',
         lastName: '',
@@ -278,6 +313,8 @@ export default {
         message: ''
       },
       responseMessage: '',
+      isError: false,
+      mailtoHref: '',
       isSubmitting: false
     };
   },
@@ -285,29 +322,52 @@ export default {
     async submitForm() {
       this.isSubmitting = true;
       this.responseMessage = '';
+      this.isError = false;
       try {
-        // Simple form submission without Google Apps Script
-        console.log('Form data:', this.form);
-        
-        // Show success message
-        this.responseMessage = 'Thank you for your submission! We will get back to you soon.';
-        
-        // Reset the form
-        this.form = { 
-          firstName: '', 
-          lastName: '', 
-          email: '', 
-          company: '', 
-          industry: '', 
-          message: '' 
-        };
+        // Send the inquiry to info@skymirror.eu via FormSubmit (no backend required)
+        const response = await fetch(`https://formsubmit.co/ajax/${INQUIRY_EMAIL}`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            name: `${this.form.firstName} ${this.form.lastName}`.trim(),
+            email: this.form.email,
+            company: this.form.company || 'Not specified',
+            industry: this.form.industry,
+            message: this.form.message,
+            _subject: `New Consultation Request: ${this.form.firstName} ${this.form.lastName} (${this.form.industry})`,
+            _template: 'table',
+            _replyto: this.form.email,
+            _captcha: 'false'
+          })
+        });
 
-        // Show alert
-        alert('Thank you for your submission! Our team will contact you shortly.');
+        const result = await response.json().catch(() => ({}));
+
+        if (!response.ok || result.success === 'false') {
+          throw new Error(result.message || `Request failed (${response.status})`);
+        }
+
+        // Show success message
+        this.responseMessage = `Thank you, ${this.form.firstName}! Your inquiry has been sent to our team — we will get back to you soon.`;
+
+        // Reset the form
+        this.form = {
+          firstName: '',
+          lastName: '',
+          email: '',
+          company: '',
+          industry: '',
+          message: ''
+        };
 
       } catch (error) {
         console.error('Error submitting form:', error);
-        this.responseMessage = 'There was an error submitting your form. Please try again or contact us directly at info@skymirror.eu';
+        this.isError = true;
+        this.responseMessage = `There was an error submitting your form. Please try again or email us directly at ${INQUIRY_EMAIL}.`;
+        this.mailtoHref = `mailto:${INQUIRY_EMAIL}?subject=${encodeURIComponent('Consultation Inquiry')}&body=${encodeURIComponent(`${this.form.firstName} ${this.form.lastName} <${this.form.email}>\nCompany: ${this.form.company || 'Not specified'}\nIndustry: ${this.form.industry}\n\n${this.form.message}`)}`;
       } finally {
         this.isSubmitting = false;
       }
