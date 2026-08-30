@@ -46,9 +46,9 @@ export default {
         },
       },
       fontFamily: {
-        heading: ['"GT Walpurgis"', 'sans-serif'],
-        body: ['Inter', 'sans-serif'],
-        space: ['"Space Grotesk"', 'sans-serif'],
+        heading: ['"GT Walpurgis"', '"Space Grotesk"', 'Inter', 'system-ui', 'sans-serif'],
+        body: ['Inter', 'system-ui', 'sans-serif'],
+        space: ['"Space Grotesk"', 'Inter', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         'sm': '0.25rem',

@@ -1,85 +1,70 @@
 <template>
-  <div>
-    <!-- Hero Section -->
-    <section id="main-content" class="relative pt-28 pb-12 overflow-hidden particles-bg" role="main" aria-label="Main content">
-      <!-- Animated background elements -->
+  <div class="text-neutral-800">
+
+    <!-- ===================== HERO ===================== -->
+    <section id="main-content" aria-label="Introduction" class="relative pt-28 pb-12 overflow-hidden particles-bg">
+      <!-- Dynamic background (matches the rest of the site) -->
       <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 animate-gradient"></div>
-      <div class="absolute top-20 right-20 w-72 h-72 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
-      <div class="absolute bottom-20 left-20 w-96 h-96 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-float-delayed"></div>
-      <div class="absolute top-1/2 left-1/2 w-64 h-64 bg-gradient-to-br from-accent1/5 to-primary/5 rounded-full blur-2xl animate-float"></div>
-      
+      <div class="absolute top-20 right-16 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-16 left-16 w-72 h-72 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-3xl animate-float-delayed"></div>
+
       <div class="container mx-auto px-4 relative z-10">
-        <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
-          <div class="lg:w-1/2 space-y-4">
-            <div class="space-y-4">
-              <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
-                <div class="w-2 h-2 bg-accent1 rounded-full animate-float"></div>
-                <span class="text-primary font-semibold text-xs tracking-wide uppercase">Skyrocketing Global Innovation</span>
-              </div>
-              
-              <h1 class="text-3xl md:text-4xl xl:text-5xl font-heading font-black leading-[0.95] text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent1">
-                Software, AI,<br/>
-                <span class="text-accent1">& Education</span><br/>
-                <span class="text-gray-900">for Tomorrow</span>
-              </h1>
-              
-              <p class="text-base md:text-lg text-gray-700 max-w-2xl leading-relaxed font-medium">
-                Accelerate your business growth with <span class="text-primary font-semibold">cutting-edge software development</span>, <span class="text-accent1 font-semibold">AI applications</span>, and expert technology transfer
-              </p>
+        <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-12">
+          <!-- Left: message -->
+          <div class="lg:w-1/2 space-y-6" data-reveal>
+            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
+              <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
+              <span class="text-primary font-semibold text-xs sm:text-sm tracking-wide uppercase">Skyrocketing Global Innovation</span>
             </div>
 
-            <!-- CTA Buttons -->
+            <h1 class="font-heading font-black leading-[1.02] text-[2.4rem] sm:text-5xl xl:text-6xl">
+              <span class="text-gray-900">Your idea.</span><br />
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Built, shipped,</span><br />
+              <span class="text-accent1">working.</span>
+            </h1>
+
+            <p class="text-base md:text-lg text-gray-700 max-w-xl leading-relaxed font-medium">
+              Skymirror is a software studio. We turn ambitious ideas into live
+              products — our own, our clients', and our partners' — running across
+              Europe and Africa.
+            </p>
+
             <div class="flex flex-col sm:flex-row gap-4">
-              <router-link to="/ai-applications" class="group ripple px-6 py-3 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl ripple hover:shadow-2xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-3">
-                <span class="relative z-10 flex items-center gap-2">
-                  Explore Our AI Solutions
-                  <svg class="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                  </svg>
-                </span>
+              <router-link
+                to="/consultation"
+                class="group ripple inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-bold rounded-full shadow-xl hover:shadow-2xl hover-glow transition-all duration-300 transform hover:-translate-y-1 hover:scale-105"
+              >
+                Start your project
+                <svg class="w-5 h-5 transition-transform group-hover:translate-x-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
               </router-link>
-              
-              <router-link to="/software-solutions" class="group ripple px-6 py-3 bg-white hover:bg-primary/5 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center justify-center gap-3">
-                <span class="relative z-10 flex items-center gap-2">
-                  View Our Work
-                  <svg class="w-5 h-5 group-hover:rotate-12 group-hover:scale-125 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
-                  </svg>
-                </span>
+              <router-link
+                to="/case-studies"
+                class="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-white hover:bg-primary/5 text-primary font-bold rounded-full border-2 border-primary shadow-lg hover:shadow-xl hover-glow transition-all duration-300 transform hover:-translate-y-1 hover:scale-105"
+              >
+                See what we've shipped
               </router-link>
             </div>
 
-            <!-- Success Metrics - Interactive -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6 border-t border-gray-200">
-              <div class="group text-center p-3 rounded-xl hover:bg-primary/5 transition-all duration-300 cursor-pointer hover-lift">
-                <div class="text-2xl md:text-3xl font-black text-primary mb-1 group-hover:scale-110 transition-transform duration-300">6</div>
-                <div class="text-xs font-medium text-gray-600 uppercase tracking-wide group-hover:text-primary transition-colors">Live Products</div>
-              </div>
-              <div class="group text-center p-3 rounded-xl hover:bg-accent1/5 transition-all duration-300 cursor-pointer hover-lift">
-                <div class="text-2xl md:text-3xl font-black text-accent1 mb-1 group-hover:scale-110 transition-transform duration-300">95%</div>
-                <div class="text-xs font-medium text-gray-600 uppercase tracking-wide group-hover:text-accent1 transition-colors">Client Satisfaction</div>
-              </div>
-              <div class="group text-center p-3 rounded-xl hover:bg-primary/5 transition-all duration-300 cursor-pointer hover-lift">
-                <div class="text-2xl md:text-3xl font-black text-primary mb-1 group-hover:scale-110 transition-transform duration-300">24/7</div>
-                <div class="text-xs font-medium text-gray-600 uppercase tracking-wide group-hover:text-primary transition-colors">AI Support</div>
-              </div>
-              <div class="group text-center p-3 rounded-xl hover:bg-accent1/5 transition-all duration-300 cursor-pointer hover-lift">
-                <div class="text-2xl md:text-3xl font-black text-accent1 mb-1 group-hover:scale-110 transition-transform duration-300">Global</div>
-                <div class="text-xs font-medium text-gray-600 uppercase tracking-wide group-hover:text-accent1 transition-colors">Reach</div>
-              </div>
-            </div>
+            <p class="text-xs sm:text-sm text-gray-500 flex flex-wrap items-center gap-x-4 gap-y-1">
+              <span v-for="item in proof" :key="item" class="inline-flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-accent1" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                {{ item }}
+              </span>
+            </p>
           </div>
-          
-          <div class="lg:w-1/2">
+
+          <!-- Right: live visual -->
+          <div class="lg:w-1/2 w-full" data-reveal>
             <div class="relative animate-float">
-              <!-- Modern Hero Visual -->
               <div class="relative group">
-                <!-- Main showcase card -->
                 <div class="glass-card interactive-card hover-lift p-8 rounded-3xl shadow-2xl relative overflow-hidden border border-primary/20 bg-gradient-to-br from-white via-primary/5 to-accent1/10 transition-all duration-500 group-hover:shadow-[0_20px_60px_rgba(0,163,157,0.2)] group-hover:border-primary/40">
                   <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-accent1/20 to-primary/20 rounded-full blur-2xl"></div>
                   <div class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-primary/20 to-accent1/20 rounded-full blur-xl"></div>
-                  
+
                   <div class="relative z-10 space-y-4">
                     <!-- Header -->
                     <div class="flex items-center justify-between">
@@ -89,10 +74,9 @@
                       </div>
                       <div class="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded-full">Real-time</div>
                     </div>
-                    
+
                     <!-- Featured Projects Grid -->
                     <div class="grid grid-cols-2 gap-4">
-                      <!-- Traquiva Card -->
                       <div class="bg-gradient-to-br from-accent1/10 to-accent1/20 p-4 rounded-xl border border-accent1/30">
                         <div class="flex items-center gap-2 mb-2">
                           <div class="w-2 h-2 bg-accent1 rounded-full"></div>
@@ -104,8 +88,7 @@
                           <div class="text-xs text-gray-500">Success Rate</div>
                         </div>
                       </div>
-                      
-                      <!-- Checkmet Card -->
+
                       <div class="bg-gradient-to-br from-primary/10 to-primary/20 p-4 rounded-xl border border-primary/30">
                         <div class="flex items-center gap-2 mb-2">
                           <div class="w-2 h-2 bg-primary rounded-full"></div>
@@ -118,7 +101,7 @@
                         </div>
                       </div>
                     </div>
-                    
+
                     <!-- Performance Indicator -->
                     <div class="bg-white/50 backdrop-blur-sm p-4 rounded-xl border border-gray-200">
                       <div class="flex items-center justify-between mb-2">
@@ -135,425 +118,282 @@
                     </div>
                   </div>
                 </div>
-                
-                <!-- Floating elements -->
-                <div class="absolute -top-4 -right-4 w-8 h-8 bg-accent1 rounded-full opacity-20 animate-bounce"></div>
-                <div class="absolute -bottom-2 -left-2 w-6 h-6 bg-primary rounded-full opacity-30 animate-float delay-500"></div>
+
+                <!-- Floating accents -->
+                <div class="absolute -top-4 -right-4 w-8 h-8 bg-accent1 rounded-full opacity-20 animate-float"></div>
+                <div class="absolute -bottom-2 -left-2 w-6 h-6 bg-primary rounded-full opacity-30 animate-float-delayed"></div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Traquiva Highlight Section -->
-    <section class="py-20 bg-gradient-to-br from-accent1/5 to-primary/5">
-      <div class="container mx-auto px-4">
-        <div class="max-w-6xl mx-auto">
-          <div class="flex flex-col lg:flex-row items-center gap-8">
-            <div class="lg:w-1/2">
-              <div class="inline-flex items-center gap-2 bg-accent1/10 text-accent1 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-                </svg>
-                Featured Product
-              </div>
-              <h2 class="text-2xl md:text-3xl font-heading font-bold mb-6">
-                Meet <span class="text-accent1">Traquiva</span>
-              </h2>
-              <p class="text-xl text-gray-700 mb-6">
-                Our revolutionary AI-powered learning platform that transforms how people learn to code. From zero to industry-ready in months, not years.
-              </p>
-              <div class="grid grid-cols-2 gap-4 mb-6">
-                <div class="flex items-center gap-3">
-                  <div class="w-8 h-8 bg-accent1/10 text-accent1 rounded-full flex items-center justify-center">
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                    </svg>
-                  </div>
-                  <span class="font-medium">AI Mentorship 24/7</span>
-                </div>
-                <div class="flex items-center gap-3">
-                  <div class="w-8 h-8 bg-accent1/10 text-accent1 rounded-full flex items-center justify-center">
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                    </svg>
-                  </div>
-                  <span class="font-medium">Real-World Projects</span>
-                </div>
-                <div class="flex items-center gap-3">
-                  <div class="w-8 h-8 bg-accent1/10 text-accent1 rounded-full flex items-center justify-center">
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                    </svg>
-                  </div>
-                  <span class="font-medium">95% Success Rate</span>
-                </div>
-                <div class="flex items-center gap-3">
-                  <div class="w-8 h-8 bg-accent1/10 text-accent1 rounded-full flex items-center justify-center">
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                    </svg>
-                  </div>
-                  <span class="font-medium">Expert Mentors</span>
-                </div>
-              </div>
-              <div class="flex flex-wrap gap-4">
-                <a href="https://www.traquiva.com" target="_blank" class="px-6 py-3 bg-accent1 hover:bg-accent1-dark text-white font-semibold rounded-full shadow-md transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 flex items-center gap-2">
-                  Explore Traquiva
-                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
-                    <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
-                  </svg>
-                </a>
-                <a href="https://www.traquiva.com" target="_blank" class="px-6 py-3 bg-white hover:bg-gray-50 text-accent1 font-semibold rounded-full border-2 border-accent1 shadow-md transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
-                  Start Learning Free
-                </a>
-              </div>
-            </div>
-            
-            <div class="lg:w-1/2">
-              <div class="glass-card interactive-card hover-lift p-8 rounded-2xl shadow-xl bg-white/80 backdrop-blur-sm">
-                <div class="text-center mb-6">
-                  <h3 class="text-2xl font-semibold text-accent1 mb-2">Learning Journey</h3>
-                  <p class="text-gray-600">From Beginner to Job-Ready Developer</p>
-                </div>
-                
-                <!-- Learning Path Visualization -->
-                <div class="space-y-4">
-                  <div class="flex items-center gap-4 p-4 bg-accent1/5 rounded-lg">
-                    <div class="w-8 h-8 bg-accent1 text-white rounded-full flex items-center justify-center text-sm font-semibold">1</div>
-                    <div>
-                      <div class="font-medium">Choose Your Path</div>
-                      <div class="text-sm text-gray-600">AI creates personalized curriculum</div>
-                    </div>
-                  </div>
-                  
-                  <div class="flex items-center gap-4 p-4 bg-primary/5 rounded-lg">
-                    <div class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-semibold">2</div>
-                    <div>
-                      <div class="font-medium">Build Real Projects</div>
-                      <div class="text-sm text-gray-600">Portfolio-ready applications</div>
-                    </div>
-                  </div>
-                  
-                  <div class="flex items-center gap-4 p-4 bg-accent2/5 rounded-lg">
-                    <div class="w-8 h-8 bg-accent2 text-white rounded-full flex items-center justify-center text-sm font-semibold">3</div>
-                    <div>
-                      <div class="font-medium">Get Hired</div>
-                      <div class="text-sm text-gray-600">Land your dream tech job</div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="mt-6 p-4 bg-gradient-to-r from-accent1/10 to-primary/10 rounded-lg text-center">
-                  <div class="text-2xl font-bold text-accent1">3-6 Months</div>
-                  <div class="text-sm text-gray-600">Average time to job placement</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Features Section -->
-    <section class="py-20 bg-white">
-      <div class="container mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-8">
-          <span class="text-primary-dark font-semibold inline-block mb-2">Software Solutions</span>
-          <h2 class="text-2xl md:text-3xl font-heading font-bold mb-4">
-            Transform Your Business with <span class="text-primary">Software Solutions</span>
-          </h2>
-          <p class="text-lg text-gray-700">
-            Experience cutting-edge software development and AI applications with our comprehensive suite of solutions.
-          </p>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-          <!-- Solution Card 1 -->
-          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105 border border-accent1/30 bg-white">
-            <div class="p-6">
-              <div class="flex justify-between items-start mb-4">
-                <div class="bg-primary/10 p-3 rounded-lg text-primary">
-                  <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                  </svg>
-                </div>
-                <span class="bg-primary/10 text-primary text-xs font-semibold px-2 py-1 rounded-full">Software</span>
-              </div>
-              <h3 class="text-xl font-semibold mb-2">Software Solutions</h3>
-              <p class="text-gray-600 mb-4">
-                End-to-end software solutions from UI/UX design to backend infrastructure and deployment.
-              </p>
-              <router-link to="/full-stack-development" class="inline-flex items-center text-primary font-medium">
-                Learn more
-                <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                </svg>
-              </router-link>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-          
-          <!-- Solution Card 2 -->
-          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105 border border-accent1/30 bg-white">
-            <div class="p-6">
-              <div class="flex justify-between items-start mb-4">
-                <div class="bg-accent1/10 p-3 rounded-lg text-accent1">
-                  <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M6.672 1.911a1 1 0 10-1.932.518l.259.966a1 1 0 001.932-.518l-.26-.966zM2.429 4.74a1 1 0 10-.517 1.932l.966.259a1 1 0 00.517-1.932l-.966-.26zm8.814-.569a1 1 0 00-1.415-1.414l-.707.707a1 1 0 101.415 1.415l.707-.708zm-7.071 7.072l.707-.707A1 1 0 003.465 9.12l-.708.707a1 1 0 001.415 1.415zm3.2-5.171a1 1 0 00-1.3 1.3l4 10a1 1 0 001.823.075l1.38-2.759 3.018 3.02a1 1 0 001.414-1.415l-3.019-3.02 2.76-1.379a1 1 0 00-.076-1.822l-10-4z" clip-rule="evenodd"></path>
-                  </svg>
-                </div>
-                <span class="bg-accent1/10 text-accent1 text-xs font-semibold px-2 py-1 rounded-full">AI</span>
-              </div>
-              <h3 class="text-xl font-semibold mb-2">AI Applications</h3>
-              <p class="text-gray-600 mb-4">
-                Integrated AI solutions like Traquiva learning platform, Checkmet attendance system, and facial recognition.
-              </p>
-              <router-link to="/ai-applications" class="inline-flex items-center text-accent1 font-medium">
-                Learn more
-                <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                </svg>
-              </router-link>
-            </div>
-          </div>
-          
-          <!-- Solution Card 3 -->
-          <div class="glass-card interactive-card hover-lift rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover-glow transform hover:-translate-y-2 hover:scale-105 border border-accent1/30 bg-white">
-            <div class="p-6">
-              <div class="flex justify-between items-start mb-4">
-                <div class="bg-accent2/10 p-3 rounded-lg text-accent2">
-                  <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                  </svg>
-                </div>
-                <span class="bg-accent2/10 text-accent2 text-xs font-semibold px-2 py-1 rounded-full">Blockchain</span>
-              </div>
-              <h3 class="text-xl font-semibold mb-2">Technology Transfer</h3>
-              <p class="text-gray-600 mb-4">
-                Complete transfer solutions including product replication, machinery transfer, and franchising models.
-              </p>
-              <router-link to="/technology-transfer" class="inline-flex items-center text-accent2 font-medium">
-                Learn more
-                <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                </svg>
-              </router-link>
-            </div>
-
-
-
-
-
-            
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Project Showcase Gallery -->
-    <section class="py-12 bg-gradient-to-b from-gray-50 to-white">
-      <div class="container mx-auto px-4">
-        <div class="text-center mb-8">
-          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-accent1/10 to-primary/10 backdrop-blur-sm px-6 py-3 rounded-full border border-accent1/20 mb-6">
-            <div class="w-2 h-2 bg-accent1 rounded-full animate-float"></div>
-            <span class="text-accent1 font-semibold text-sm tracking-wide uppercase">Project Showcase</span>
-          </div>
-          
-          <h2 class="text-2xl md:text-3xl font-heading font-black mb-6">
-            <span class="text-gray-900">Innovation</span><br/>
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Gallery</span>
-          </h2>
-          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-            From cutting-edge AI platforms to enterprise solutions, explore our world-class projects
-          </p>
-        </div>
-
-        <!-- Project Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          <!-- Traquiva Project -->
-          <div class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-            <div class="aspect-video bg-gradient-to-br from-accent1/20 to-accent1/40 relative overflow-hidden particles-bg">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-              <div class="absolute top-4 left-4">
-                <span class="bg-accent1 text-white text-xs font-bold px-3 py-1 rounded-full">AI Platform</span>
-              </div>
-              <div class="absolute bottom-4 left-4 right-4">
-                <h3 class="text-white font-bold text-xl mb-1">Traquiva</h3>
-                <p class="text-white/80 text-sm">AI-Powered Learning Platform</p>
-              </div>
-              <!-- Floating elements -->
-              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20 group-hover:opacity-40 transition-opacity">
-                <div class="w-16 h-16 border-2 border-white rounded-full animate-float"></div>
-              </div>
-            </div>
-            <div class="p-6">
-              <div class="flex items-center gap-4 mb-4">
-                <div class="text-2xl font-black text-accent1">95%</div>
-                <div class="text-sm text-gray-600">Success Rate</div>
-              </div>
-              <a href="https://www.traquiva.com" target="_blank" class="group/link inline-flex items-center text-accent1 font-semibold hover:text-accent1-dark transition-colors">
-                Explore Platform
-                <svg class="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
-                  <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
-                </svg>
+        <!-- in production now -->
+        <div class="mt-16 max-w-4xl mx-auto" data-reveal>
+          <div class="glass-card float-gentle px-6 py-8 sm:px-12 relative">
+            <div class="hidden lg:block pointer-events-none absolute -top-3 -left-3 w-6 h-6 rounded-full bg-accent1/25 animate-float"></div>
+            <p class="text-center text-xs font-semibold uppercase tracking-[0.22em] text-gray-400 mb-6">
+              In production now
+            </p>
+            <div class="flex flex-wrap items-center justify-center gap-x-9 gap-y-3">
+              <a
+                v-for="p in shipped"
+                :key="p.name"
+                :href="p.url"
+                target="_blank"
+                rel="noopener"
+                class="font-heading font-bold text-base sm:text-lg text-gray-500 hover:text-accent1 transition-colors"
+              >
+                {{ p.name }}
               </a>
             </div>
           </div>
-
-          <!-- Checkmet Project -->
-          <div class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-            <div class="aspect-video bg-gradient-to-br from-primary/20 to-primary/40 relative overflow-hidden particles-bg">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-              <div class="absolute top-4 left-4">
-                <span class="bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">AI System</span>
-              </div>
-              <div class="absolute bottom-4 left-4 right-4">
-                <h3 class="text-white font-bold text-xl mb-1">Checkmet</h3>
-                <p class="text-white/80 text-sm">Smart Attendance Management</p>
-              </div>
-              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20 group-hover:opacity-40 transition-opacity">
-                <div class="w-12 h-12 border-2 border-white rounded-lg animate-float"></div>
-              </div>
-            </div>
-            <div class="p-6">
-              <div class="flex items-center gap-4 mb-4">
-                <div class="text-2xl font-black text-primary">24/7</div>
-                <div class="text-sm text-gray-600">Monitoring</div>
-              </div>
-              <a href="https://checkmet.eu/" target="_blank" class="group/link inline-flex items-center text-primary font-semibold hover:text-primary-dark transition-colors">
-                View System
-                <svg class="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd"></path>
-                  <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Enterprise Solutions -->
-          <div class="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-            <div class="aspect-video bg-gradient-to-br from-accent2/20 to-accent2/40 relative overflow-hidden particles-bg">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-              <div class="absolute top-4 left-4">
-                <span class="bg-accent2 text-white text-xs font-bold px-3 py-1 rounded-full">Enterprise</span>
-              </div>
-              <div class="absolute bottom-4 left-4 right-4">
-                <h3 class="text-white font-bold text-xl mb-1">Custom Solutions</h3>
-                <p class="text-white/80 text-sm">Tailored Business Applications</p>
-              </div>
-              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20 group-hover:opacity-40 transition-opacity">
-                <div class="w-20 h-12 border-2 border-white rounded-md animate-float"></div>
-              </div>
-            </div>
-            <div class="p-6">
-              <div class="flex items-center gap-4 mb-4">
-                <div class="text-2xl font-black text-accent2">Enterprise</div>
-                <div class="text-sm text-gray-600">Solutions</div>
-              </div>
-              <router-link to="/software-solutions" class="group/link inline-flex items-center text-accent2 font-semibold hover:text-accent2-dark transition-colors">
-                View Portfolio
-                <svg class="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                </svg>
-              </router-link>
-            </div>
-          </div>
         </div>
       </div>
     </section>
-    
-    <!-- CTA Section -->
-    <section class="py-12 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 relative overflow-hidden particles-bg">
-      <!-- Animated background elements -->
-      <div class="absolute top-10 right-10 w-64 h-64 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
-      <div class="absolute bottom-10 left-10 w-48 h-48 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-2xl animate-float delay-1000"></div>
-      
+
+    <!-- ===================== MANIFESTO ===================== -->
+    <section class="relative py-16 sm:py-24 overflow-hidden bg-gradient-to-br from-accent1/5 to-primary/5">
+      <div class="absolute top-10 -right-24 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
       <div class="container mx-auto px-4 relative z-10">
-        <div class="max-w-5xl mx-auto text-center">
-          <!-- Premium CTA Card -->
-          <div class="bg-white/80 backdrop-blur-lg p-10 rounded-3xl shadow-2xl border border-white/20 relative overflow-hidden particles-bg">
-            <!-- Gradient overlay -->
-            <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent1/5 rounded-3xl"></div>
-            
-            <div class="relative z-10 space-y-4">
-              <!-- Badge -->
+        <div class="max-w-4xl mx-auto text-center" data-reveal>
+          <h2 class="font-heading font-black leading-[1.1] text-2xl sm:text-3xl lg:text-4xl">
+            <span class="text-gray-900">Anyone can hand you a roadmap.</span><br class="hidden sm:block" />
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">We hand you the running app.</span>
+          </h2>
+          <p class="mt-6 text-lg text-gray-700 max-w-2xl mx-auto">
+            No slideware, no theatre. A working build in your hands from week one —
+            and software that's still running years later.
+          </p>
+
+          <div class="mt-12 grid sm:grid-cols-3 gap-x-6 gap-y-8 max-w-3xl mx-auto text-left sm:text-center">
+            <div v-for="pt in manifestoPoints" :key="pt" class="flex sm:block items-start gap-3">
+              <svg class="w-5 h-5 text-accent1 mt-0.5 sm:mx-auto sm:mb-3 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-gray-700 font-medium">{{ pt }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURED: TRAQUIVA ===================== -->
+    <section class="relative overflow-hidden py-16 sm:py-24">
+      <div class="absolute top-10 right-0 w-96 h-96 bg-gradient-to-br from-accent1/10 to-primary/10 rounded-full blur-3xl animate-float"></div>
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div data-reveal>
+            <div class="inline-flex items-center gap-2 bg-accent1/10 text-accent1 px-4 py-2 rounded-full text-sm font-semibold mb-6">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
+              </svg>
+              Featured product
+            </div>
+            <h2 class="font-heading font-black text-3xl sm:text-4xl leading-[1.05]">
+              Meet <span class="text-accent1">Traquiva</span>
+            </h2>
+            <p class="mt-6 text-lg text-gray-700 leading-relaxed">
+              An AI mentor that teaches you to build software. A path shaped around
+              how you learn, real projects instead of lectures, and feedback the
+              moment you're stuck.
+            </p>
+
+            <ul class="mt-8 space-y-3">
+              <li v-for="f in traquivaPoints" :key="f" class="flex items-start gap-3">
+                <div class="w-8 h-8 bg-accent1/10 text-accent1 rounded-full flex items-center justify-center shrink-0">
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+                <span class="text-gray-700 font-medium mt-1">{{ f }}</span>
+              </li>
+            </ul>
+
+            <div class="mt-10 flex flex-wrap gap-4">
+              <a
+                href="https://www.traquiva.com"
+                target="_blank"
+                rel="noopener"
+                class="group inline-flex items-center gap-2 px-7 py-3.5 bg-accent1 hover:bg-accent1-dark text-white font-semibold rounded-full shadow-md transition-all duration-300 transform hover:-translate-y-1 hover:scale-105"
+              >
+                Explore Traquiva
+                <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd" />
+                  <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div data-reveal class="relative">
+            <div class="hidden lg:block pointer-events-none absolute -top-4 -right-4 w-7 h-7 rounded-full bg-accent1/30 animate-float"></div>
+            <div class="glass-card animate-float p-8">
+              <div class="text-center mb-6">
+                <h3 class="text-2xl font-semibold text-accent1 mb-1">Learning journey</h3>
+                <p class="text-gray-600">From beginner to job-ready developer</p>
+              </div>
+              <ol class="space-y-4">
+                <li v-for="(step, i) in traquivaPath" :key="step.title" class="flex items-start gap-4 p-4 rounded-lg" :class="i === 1 ? 'bg-primary/5' : 'bg-accent1/5'">
+                  <span class="shrink-0 w-8 h-8 rounded-full text-white text-sm font-bold flex items-center justify-center" :class="i === 1 ? 'bg-primary' : 'bg-accent1'">{{ i + 1 }}</span>
+                  <div>
+                    <p class="font-semibold text-gray-900">{{ step.title }}</p>
+                    <p class="text-sm text-gray-600">{{ step.text }}</p>
+                  </div>
+                </li>
+              </ol>
+              <div class="mt-6 p-4 bg-gradient-to-r from-accent1/10 to-primary/10 rounded-lg text-center">
+                <div class="text-2xl font-bold text-accent1">3–6 months</div>
+                <div class="text-sm text-gray-600">a typical run to job placement</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SELECTED WORK ===================== -->
+    <section class="relative overflow-hidden py-16 sm:py-24 bg-gradient-to-b from-white to-gray-50">
+      <div class="absolute -top-10 left-1/3 w-80 h-80 bg-accent1/10 rounded-full blur-3xl animate-float-delayed"></div>
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-3xl mb-12" data-reveal>
+          <div class="inline-flex items-center gap-2 bg-accent1/10 text-accent1 px-4 py-2 rounded-full text-sm font-semibold mb-4">Selected work</div>
+          <h2 class="font-heading font-black text-3xl sm:text-4xl leading-[1.1]">
+            Products people <span class="text-accent1">use every day.</span>
+          </h2>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl">
+          <a
+            v-for="w in work"
+            :key="w.name"
+            :href="w.url"
+            target="_blank"
+            rel="noopener"
+            class="group glass-card interactive-card hover-lift flex flex-col p-7"
+            data-reveal
+          >
+            <span class="text-xs font-semibold uppercase tracking-wide text-gray-400">{{ w.tag }}</span>
+            <h3 class="mt-3 font-heading font-bold text-xl text-gray-900">{{ w.name }}</h3>
+            <p class="mt-3 text-sm text-gray-600 leading-relaxed flex-grow">{{ w.blurb }}</p>
+            <span class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent1">
+              Visit
+              <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="mt-12" data-reveal>
+          <router-link to="/case-studies" class="inline-flex items-center gap-2 font-semibold text-primary hover:text-accent1 transition-colors">
+            Read the case studies
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </router-link>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CAPABILITIES ===================== -->
+    <section class="relative overflow-hidden py-16 sm:py-24">
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-3xl mb-12" data-reveal>
+          <div class="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">What we do</div>
+          <h2 class="font-heading font-black text-3xl sm:text-4xl leading-[1.1]">
+            Whatever it takes to <span class="text-primary">get you live.</span>
+          </h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6 max-w-6xl">
+          <router-link
+            v-for="c in capabilities"
+            :key="c.title"
+            :to="c.to"
+            class="group glass-card interactive-card hover-lift p-8"
+            data-reveal
+          >
+            <h3 class="font-heading font-bold text-xl text-gray-900">{{ c.title }}</h3>
+            <p class="mt-3 text-gray-600 leading-relaxed">{{ c.text }}</p>
+            <span class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent1">
+              Learn more
+              <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </router-link>
+        </div>
+
+        <p class="mt-10 text-gray-700 max-w-2xl" data-reveal>
+          Plus <span class="font-semibold text-gray-900">Skymirror Academy</span> — a
+          training arm that turns local talent into engineers who ship.
+          <router-link to="/training" class="font-semibold text-accent1 hover:underline">Explore training →</router-link>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== HOW WE WORK ===================== -->
+    <section class="relative overflow-hidden py-16 sm:py-24 bg-gradient-to-b from-gray-50 to-white">
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-3xl mb-12" data-reveal>
+          <div class="inline-flex items-center gap-2 bg-accent1/10 text-accent1 px-4 py-2 rounded-full text-sm font-semibold mb-4">How we work</div>
+          <h2 class="font-heading font-black text-3xl sm:text-4xl leading-[1.1]">
+            Three steps. <span class="text-accent1">No black box.</span>
+          </h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl">
+          <div v-for="step in steps" :key="step.n" data-reveal class="glass-card interactive-card p-7">
+            <div class="font-heading font-black text-3xl text-accent1">{{ step.n }}</div>
+            <h3 class="mt-3 font-heading font-bold text-xl text-gray-900">{{ step.title }}</h3>
+            <p class="mt-3 text-gray-600 leading-relaxed">{{ step.text }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FINAL CTA ===================== -->
+    <section class="relative overflow-hidden py-16 sm:py-24 particles-bg">
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent1/5 animate-gradient"></div>
+      <div class="absolute top-10 right-10 w-64 h-64 bg-gradient-to-br from-primary/10 to-accent1/10 rounded-full blur-3xl animate-float"></div>
+      <div class="absolute bottom-10 left-10 w-48 h-48 bg-gradient-to-tr from-accent1/10 to-primary/10 rounded-full blur-2xl animate-float-delayed"></div>
+
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-4xl mx-auto" data-reveal>
+          <div class="glass-card p-10 sm:p-12 text-center relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent1/5"></div>
+            <div class="relative z-10 space-y-5">
               <div class="inline-flex items-center gap-3 bg-gradient-to-r from-primary/10 to-accent1/10 backdrop-blur-sm px-6 py-3 rounded-full border border-primary/20">
                 <div class="w-2 h-2 bg-primary rounded-full animate-float"></div>
-                <span class="text-primary font-semibold text-sm tracking-wide uppercase">Get Started</span>
+                <span class="text-primary font-semibold text-sm tracking-wide uppercase">Get started</span>
               </div>
-              
-              <!-- Main heading -->
-              <h2 class="text-2xl md:text-3xl font-heading font-black leading-tight">
-                <span class="text-gray-900">Ready to</span><br/>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">Transform Your Business?</span>
+
+              <h2 class="font-heading font-black leading-[1.05] text-3xl sm:text-4xl lg:text-5xl">
+                <span class="text-gray-900">You've got the idea.</span><br />
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent1">We've got the team.</span>
               </h2>
-              
-              <!-- Subtitle -->
-              <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
-                Schedule a consultation with our <span class="text-primary font-semibold">software and technology experts</span> to discover how Skymirror's solutions can <span class="text-accent1 font-semibold">drive your business forward</span>.
+              <p class="text-lg text-gray-700 max-w-2xl mx-auto font-medium">
+                Book a free consultation. We'll reply within 24 hours.
               </p>
-              
-              <!-- Enhanced CTA Button -->
-              <div class="pt-4">
-                <router-link to="/consultation" class="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105">
-                  Request a Consultation
-                  <svg class="w-6 h-6 group-hover:translate-x-2 transition-transform" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+
+              <div class="pt-2">
+                <router-link
+                  to="/consultation"
+                  class="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-bold text-lg rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105"
+                >
+                  Start your project
+                  <svg class="w-6 h-6 transition-transform group-hover:translate-x-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
                   </svg>
                 </router-link>
               </div>
-              
-              <!-- Trust indicators -->
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8 max-w-2xl mx-auto">
-                <div class="flex items-center justify-center gap-2 text-sm text-gray-600">
-                  <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                  </svg>
-                  <span class="font-medium">Free Consultation</span>
-                </div>
-                <div class="flex items-center justify-center gap-2 text-sm text-gray-600">
+
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-6 max-w-2xl mx-auto">
+                <div v-for="item in proof" :key="item" class="flex items-center justify-center gap-2 text-sm text-gray-600">
                   <svg class="w-5 h-5 text-accent1" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                   </svg>
-                  <span class="font-medium">24h Response</span>
-                </div>
-                <div class="flex items-center justify-center gap-2 text-sm text-gray-600">
-                  <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                  </svg>
-                  <span class="font-medium">Expert Team</span>
+                  <span class="font-medium">{{ item }}</span>
                 </div>
               </div>
             </div>
@@ -565,13 +405,176 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, onBeforeUnmount } from 'vue'
+
+const proof = ['Free consultation', 'Reply within 24 hours', 'NDA on request']
+
+const shipped = [
+  { name: 'Traquiva', url: 'https://www.traquiva.com' },
+  { name: 'Checkmet', url: 'https://checkmet.eu/' },
+  { name: 'Maplens', url: 'https://maplens.io/' },
+  { name: 'Polmirror', url: 'https://polmirror.com/' },
+  { name: 'AskMeso', url: 'https://askmeso.io/' },
+  { name: 'Nigerian Embassy Budapest', url: 'https://nigerianembassy.hu/' },
+]
+
+const manifestoPoints = [
+  'Live for a national embassy',
+  'Serving citizens across five countries',
+  'Built for clients on two continents',
+]
+
+const traquivaPoints = [
+  'Personalised curriculum, set by AI',
+  'Portfolio projects, not toy exercises',
+  '24/7 mentorship that never sleeps',
+]
+
+const traquivaPath = [
+  { title: 'Pick a goal', text: 'The AI builds a learning path around it.' },
+  { title: 'Build real projects', text: 'Ship portfolio-ready applications as you go.' },
+  { title: 'Get hired', text: 'Walk into interviews with proof, not promises.' },
+]
+
+const work = [
+  {
+    name: 'Checkmet',
+    tag: 'Computer vision',
+    url: 'https://checkmet.eu/',
+    blurb: 'Facial-recognition attendance with contactless, sub-second check-in — built for teams working across many locations.',
+  },
+  {
+    name: 'Maplens',
+    tag: 'AI marketplace',
+    url: 'https://maplens.io/',
+    blurb: 'An AI property marketplace for Nigeria. Every listing human-verified, every price checked against its street in real time.',
+  },
+  {
+    name: 'Polmirror',
+    tag: 'Intelligence platform',
+    url: 'https://polmirror.com/',
+    blurb: 'Real-time political intelligence and field operations — mapping, analytics and mobilisation for campaigns and organisations.',
+  },
+  {
+    name: 'AskMeso',
+    tag: 'AI mentor',
+    url: 'https://askmeso.io/',
+    blurb: 'An AI mentor for Mathematics Olympiad competitors, built to widen access to advanced STEM — especially for women and girls.',
+  },
+  {
+    name: 'Nigerian Embassy Budapest',
+    tag: 'Government portal',
+    url: 'https://nigerianembassy.hu/',
+    blurb: 'The official embassy website and citizen portal, digitising consular services for Nigerians across five countries.',
+  },
+  {
+    name: 'Traquiva',
+    tag: 'AI learning platform',
+    url: 'https://www.traquiva.com',
+    blurb: 'An AI mentor that takes people from their first line of code to a job in tech, with a path shaped around how they learn.',
+  },
+]
+
+const capabilities = [
+  {
+    title: 'Software development',
+    to: '/full-stack-development',
+    text: 'Web, mobile, cloud. Design through deployment, one team the whole way.',
+  },
+  {
+    title: 'AI applications',
+    to: '/ai-applications',
+    text: 'Computer vision, language models, automation — running in production, not stuck in a demo.',
+  },
+  {
+    title: 'Technology transfer',
+    to: '/technology-transfer',
+    text: 'We build it, then hand you the code, the docs and the know-how to run it yourself.',
+  },
+]
+
+const steps = [
+  { n: '01', title: 'Talk it through', text: 'A free consultation where we pressure-test the idea and map the shortest path to live.' },
+  { n: '02', title: 'Build in the open', text: 'A working build every week. No black box, no surprises at the end.' },
+  { n: '03', title: 'Ship and support', text: 'Your product goes live in production — and stays there, with us or your own team at the wheel.' },
+]
+
+let observer = null
 
 onMounted(() => {
-  // Any client-side initialization can go here
-  // This is where you would set up animations or interactions
+  const els = document.querySelectorAll('[data-reveal]')
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+  if (reduceMotion || !('IntersectionObserver' in window)) {
+    els.forEach((el) => el.classList.add('reveal-in'))
+    return
+  }
+
+  observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('reveal-in')
+          observer.unobserve(entry.target)
+        }
+      })
+    },
+    { threshold: 0.1, rootMargin: '0px 0px -8% 0px' }
+  )
+
+  els.forEach((el) => observer.observe(el))
+})
+
+onBeforeUnmount(() => {
+  if (observer) observer.disconnect()
 })
 </script>
 
 <style scoped>
-/* Using global backgrounds instead */</style>
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+[data-reveal].reveal-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* frosted surfaces on this page share one radius */
+.glass-card {
+  border-radius: 1.5rem;
+}
+
+/* a calmer drift than the global 6s / 20px float, for interactive cards */
+.float-gentle {
+  animation: floatGentle 7s ease-in-out infinite;
+}
+
+@keyframes floatGentle {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .animate-float,
+  .animate-float-delayed,
+  .float-gentle {
+    animation: none;
+  }
+}
+</style>
